@@ -1,0 +1,17 @@
+﻿  Automatic MOC for target LibProjectiveGeometry
+  Building Custom Rule C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/LibProjectiveGeometry/CMakeLists.txt
+  ProjectionMatrix.cpp
+  SingularValueDecomposition.cpp
+  SourceDetectorGeometry.cpp
+  EstimateProjectionMatrix.cpp
+  mocs_compilation_Release.cpp
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibProjectiveGeometry\SingularValueDecomposition.cpp(2,10): error C1083: Cannot open include file: 'Eigen/SVD': No such file or directory
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibProjectiveGeometry\ProjectiveGeometry.hxx(6,10): error C1083: Cannot open include file: 'Eigen/Core': No such file or directory
+  (compiling source file '../../code/LibProjectiveGeometry/ProjectionMatrix.cpp')
+  
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibProjectiveGeometry\ProjectiveGeometry.hxx(6,10): error C1083: Cannot open include file: 'Eigen/Core': No such file or directory
+  (compiling source file '../../code/LibProjectiveGeometry/SourceDetectorGeometry.cpp')
+  
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibProjectiveGeometry\ProjectiveGeometry.hxx(6,10): error C1083: Cannot open include file: 'Eigen/Core': No such file or directory
+  (compiling source file '../../code/LibProjectiveGeometry/EstimateProjectionMatrix.cpp')
+  

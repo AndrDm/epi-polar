@@ -1,0 +1,7 @@
+﻿  Automatic MOC for target GLAD
+  Building Custom Rule C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/LibSimple/CMakeLists.txt
+  glad.c
+  mocs_compilation_Release.cpp
+  Auto build dll exports
+     Creating library C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibSimple/Release/GLAD.lib and object C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibSimple/Release/GLAD.exp
+  GLAD.vcxproj -> C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\bin\Release\GLAD.dll

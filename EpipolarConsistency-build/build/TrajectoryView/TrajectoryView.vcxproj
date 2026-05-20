@@ -129,7 +129,7 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
     <Link>
-      <AdditionalDependencies>..\LibProjectiveGeometry\Debug\LibProjectiveGeometryd.lib;..\LibUtilsQt\Debug\LibUtilsQtd.lib;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\build\GetSet\Debug\GetSetd.lib;GetSetGui-NOTFOUND;C:\Qt\6.10.2\lib\Qt6Guid.lib;C:\Qt\6.10.2\lib\Qt6Svgd.lib;C:\Qt\6.10.2\lib\Qt6OpenGLd.lib;C:\Qt\6.10.2\lib\Qt6PrintSupportd.lib;C:\Qt\6.10.2\lib\Qt6Widgetsd.lib;opengl32.lib;d3d11.lib;dxgi.lib;dxguid.lib;d3d12.lib;C:\Qt\6.10.2\lib\Qt6Cored.lib;mpr.lib;userenv.lib;comdlg32.lib;winspool.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\LibProjectiveGeometry\Debug\LibProjectiveGeometryd.lib;..\LibUtilsQt\Debug\LibUtilsQtd.lib;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\build\GetSet\Debug\GetSetd.lib;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\build\GetSetGui\Debug\GetSetGuid.lib;C:\Qt\6.10.2\lib\Qt6Guid.lib;C:\Qt\6.10.2\lib\Qt6Svgd.lib;C:\Qt\6.10.2\lib\Qt6OpenGLd.lib;C:\Qt\6.10.2\lib\Qt6PrintSupportd.lib;C:\Qt\6.10.2\lib\Qt6Widgetsd.lib;opengl32.lib;d3d11.lib;dxgi.lib;dxguid.lib;d3d12.lib;C:\Qt\6.10.2\lib\Qt6Cored.lib;mpr.lib;userenv.lib;comdlg32.lib;winspool.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <DataExecutionPrevention></DataExecutionPrevention>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -222,7 +222,7 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
     <Link>
-      <AdditionalDependencies>..\LibProjectiveGeometry\Release\LibProjectiveGeometry.lib;..\LibUtilsQt\Release\LibUtilsQt.lib;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\build\GetSet\Release\GetSet.lib;GetSetGui-NOTFOUND;C:\Qt\6.10.2\lib\Qt6Gui.lib;C:\Qt\6.10.2\lib\Qt6Svg.lib;C:\Qt\6.10.2\lib\Qt6OpenGL.lib;C:\Qt\6.10.2\lib\Qt6PrintSupport.lib;C:\Qt\6.10.2\lib\Qt6Widgets.lib;opengl32.lib;d3d11.lib;dxgi.lib;dxguid.lib;d3d12.lib;C:\Qt\6.10.2\lib\Qt6Core.lib;mpr.lib;userenv.lib;comdlg32.lib;winspool.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\LibProjectiveGeometry\Release\LibProjectiveGeometry.lib;..\LibUtilsQt\Release\LibUtilsQt.lib;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\build\GetSet\Release\GetSet.lib;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\build\GetSetGui\Release\GetSetGui.lib;C:\Qt\6.10.2\lib\Qt6Gui.lib;C:\Qt\6.10.2\lib\Qt6Svg.lib;C:\Qt\6.10.2\lib\Qt6OpenGL.lib;C:\Qt\6.10.2\lib\Qt6PrintSupport.lib;C:\Qt\6.10.2\lib\Qt6Widgets.lib;opengl32.lib;d3d11.lib;dxgi.lib;dxguid.lib;d3d12.lib;C:\Qt\6.10.2\lib\Qt6Core.lib;mpr.lib;userenv.lib;comdlg32.lib;winspool.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <DataExecutionPrevention></DataExecutionPrevention>
       <GenerateDebugInformation>false</GenerateDebugInformation>

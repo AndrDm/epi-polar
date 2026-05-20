@@ -121,6 +121,16 @@ set_target_properties(GetSet PROPERTIES
     IMPORTED_IMPLIB_DEBUG     "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/GetSet/Debug/GetSetd.lib"
 )
 
+# ???
+set_target_properties(GetSetGui PROPERTIES
+    IMPORTED_LOCATION_RELEASE "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/GetSetGui/Release/GetSetGui.lib"
+    IMPORTED_IMPLIB_RELEASE   "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/GetSetGui/Release/GetSetGui.lib"
+
+    IMPORTED_LOCATION_DEBUG   "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/GetSetGui/Debug/GetSetGuid.lib"
+    IMPORTED_IMPLIB_DEBUG     "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/GetSetGui/Debug/GetSetGuid.lib"
+)
+
+
 ########################
 # Libraries "./code"
 ########################
