@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/cmake_install.cmake",
+		"C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/GetSet/cmake_install.cmake",
+		"C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/GetSetGui/cmake_install.cmake",
+		"C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/Apps/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

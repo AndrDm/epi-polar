@@ -1,0 +1,40 @@
+﻿  Automatic MOC for target ExampleAdvanced
+  Building Custom Rule C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/Apps/CMakeLists.txt
+  advanced.cpp
+  mocs_compilation_Release.cpp
+C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSet\StringConversion.hxx(1,1): warning C4828: The file contains a character starting at offset 0x87 that is not valid in the current source character set (codepage 65001).
+  (compiling source file '../../examples/gui/advanced.cpp')
+  
+C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSet\GetSetInternal.h(99,92): error C3878: syntax error: unexpected token '>' following 'simple-type-specifier'
+  (compiling source file '../../examples/gui/advanced.cpp')
+      C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSet\GetSetInternal.h(99,92):
+      missing one of: '(' '{' ?
+      C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSet\GetSetInternal.h(99,92):
+      the template instantiation context (the oldest one first) is
+          C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSet\GetSetInternal.h(97,8):
+          while compiling class template 'GetSetInternal::Key'
+  
+C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSet\GetSet_impl.hxx(1,1): warning C4828: The file contains a character starting at offset 0x87 that is not valid in the current source character set (codepage 65001).
+  (compiling source file '../../examples/gui/advanced.cpp')
+  
+C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSet\GetSetIO.h(1,1): warning C4828: The file contains a character starting at offset 0x87 that is not valid in the current source character set (codepage 65001).
+  (compiling source file '../../examples/gui/advanced.cpp')
+  
+C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSetGui\GetSetGui.h(1,1): warning C4828: The file contains a character starting at offset 0x87 that is not valid in the current source character set (codepage 65001).
+  (compiling source file '../../examples/gui/advanced.cpp')
+  
+C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSet\GetSetCmdLine.hxx(1,1): warning C4828: The file contains a character starting at offset 0x87 that is not valid in the current source character set (codepage 65001).
+  (compiling source file '../../examples/gui/advanced.cpp')
+  
+C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSet\StringUtil.hxx(1,1): warning C4828: The file contains a character starting at offset 0x87 that is not valid in the current source character set (codepage 65001).
+  (compiling source file '../../examples/gui/advanced.cpp')
+  
+C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSetGui\GetSetTabWidget.h(1,1): warning C4828: The file contains a character starting at offset 0x87 that is not valid in the current source character set (codepage 65001).
+  (compiling source file '../../examples/gui/advanced.cpp')
+  
+C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSetGui\GetSetWidget.h(1,1): warning C4828: The file contains a character starting at offset 0x87 that is not valid in the current source character set (codepage 65001).
+  (compiling source file '../../examples/gui/advanced.cpp')
+  
+C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSet\GetSetScripting.h(1,1): warning C4828: The file contains a character starting at offset 0x87 that is not valid in the current source character set (codepage 65001).
+  (compiling source file '../../examples/gui/advanced.cpp')
+  

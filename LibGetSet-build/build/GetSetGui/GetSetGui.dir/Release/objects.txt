@@ -1,0 +1,7 @@
+C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/GetSetGui/GetSetGui.dir/Release/mocs_compilation_Release.obj
+C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/GetSetGui/GetSetGui.dir/Release/GetSetGui.obj
+C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/GetSetGui/GetSetGui.dir/Release/GetSetWidget.obj
+C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/GetSetGui/GetSetGui.dir/Release/GetSetTabWidget.obj
+C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/GetSetGui/GetSetGui.dir/Release/GetSetProgressWindow.obj
+C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/GetSetGui/GetSetGui.dir/Release/GetSetScriptEdit.obj
+C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/GetSetGui/GetSetGui.dir/Release/GetSetModalDialog.obj

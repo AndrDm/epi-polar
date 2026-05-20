@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Solution>
+	<Configurations>
+		<BuildType Name="Debug"/>
+		<BuildType Name="Release"/>
+		<Platform Name="x64"/>
+	</Configurations>
+	<Project Path="FDCTCalibrationCorrection/FDCTCalibrationCorrection.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="5349ae70-b99a-33f3-8b68-2e3c843a3f9f">
+		<BuildDependency Project="LibEpipolarConsistency/LibEpipolarConsistency.vcxproj"/>
+		<BuildDependency Project="LibProjectiveGeometry/LibProjectiveGeometry.vcxproj"/>
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="FDCTMotionCorrection/FDCTMotionCorrection.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="5587eef3-1509-329a-84c1-290db8bd9a86">
+		<BuildDependency Project="LibEpipolarConsistency/LibEpipolarConsistency.vcxproj"/>
+		<BuildDependency Project="LibProjectiveGeometry/LibProjectiveGeometry.vcxproj"/>
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="LibSimple/GLAD.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="c4b3de0c-2103-3c41-b128-b0cafdf9282f">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="LibSimple/LibSimple.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="6c1eb077-dcac-3874-a36a-4240ce4696a7">
+		<BuildDependency Project="LibSimple/GLAD.vcxproj"/>
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Folder Name="/CMakePredefinedTargets/">
+		<Project Path="ALL_BUILD.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="ba69823e-02a1-3a50-b2b6-e2e8fd8008cf" DefaultStartup="true">
+			<BuildDependency Project="LibGeometryCalibration/CalibPDS2.vcxproj"/>
+			<BuildDependency Project="FDCTCalibrationCorrection/FDCTCalibrationCorrection.vcxproj"/>
+			<BuildDependency Project="FDCTMotionCorrection/FDCTMotionCorrection.vcxproj"/>
+			<BuildDependency Project="FluoroTracking/FluoroTracking.vcxproj"/>
+			<BuildDependency Project="LibSimple/GLAD.vcxproj"/>
+			<BuildDependency Project="LibEpipolarConsistency/LibEpipolarConsistency.vcxproj"/>
+			<BuildDependency Project="LibEpipolarConsistency/LibEpipolarConsistencyGui.vcxproj"/>
+			<BuildDependency Project="LibGeometryCalibration/LibGeometryCalibration.vcxproj"/>
+			<BuildDependency Project="LibProjectiveGeometry/LibProjectiveGeometry.vcxproj"/>
+			<BuildDependency Project="LibRayCastBackproject/LibRayCastBackproject.vcxproj"/>
+			<BuildDependency Project="LibSimple/LibSimple.vcxproj"/>
+			<BuildDependency Project="LibUtilsQt/LibUtilsQt.vcxproj"/>
+			<BuildDependency Project="TrajectoryView/TrajectoryView.vcxproj"/>
+			<BuildDependency Project="VolumeRendering/VolumeRendering.vcxproj"/>
+			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+			<BuildDependency Project="nrrdView/nrrdView.vcxproj"/>
+		</Project>
+		<Project Path="INSTALL.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="da936289-579b-3c9d-a548-77abeae0277e">
+			<BuildDependency Project="ALL_BUILD.vcxproj"/>
+			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+			<Build Solution="Debug|*" Project="false"/>
+			<Build Solution="Release|*" Project="false"/>
+		</Project>
+		<Project Path="ZERO_CHECK.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="9e5389e0-b518-395b-bfdd-4ad6e53e1997"/>
+	</Folder>
+	<Folder Name="/Calibration/">
+		<Project Path="LibGeometryCalibration/CalibPDS2.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="17eb6f9e-e3ec-3054-a205-d4eddb3c8395">
+			<BuildDependency Project="LibEpipolarConsistency/LibEpipolarConsistency.vcxproj"/>
+			<BuildDependency Project="LibEpipolarConsistency/LibEpipolarConsistencyGui.vcxproj"/>
+			<BuildDependency Project="LibGeometryCalibration/LibGeometryCalibration.vcxproj"/>
+			<BuildDependency Project="LibProjectiveGeometry/LibProjectiveGeometry.vcxproj"/>
+			<BuildDependency Project="LibRayCastBackproject/LibRayCastBackproject.vcxproj"/>
+			<BuildDependency Project="LibUtilsQt/LibUtilsQt.vcxproj"/>
+			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		</Project>
+		<Project Path="LibGeometryCalibration/LibGeometryCalibration.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="8c1759ae-1de2-3118-982f-8893a9512c72">
+			<BuildDependency Project="LibProjectiveGeometry/LibProjectiveGeometry.vcxproj"/>
+			<BuildDependency Project="LibRayCastBackproject/LibRayCastBackproject.vcxproj"/>
+			<BuildDependency Project="LibUtilsQt/LibUtilsQt.vcxproj"/>
+			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		</Project>
+	</Folder>
+	<Folder Name="/EpipolarConsistency/">
+		<Project Path="FluoroTracking/FluoroTracking.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="9f3bd27c-a8ca-39e3-a911-8002d877c4ee">
+			<BuildDependency Project="LibEpipolarConsistency/LibEpipolarConsistency.vcxproj"/>
+			<BuildDependency Project="LibEpipolarConsistency/LibEpipolarConsistencyGui.vcxproj"/>
+			<BuildDependency Project="LibProjectiveGeometry/LibProjectiveGeometry.vcxproj"/>
+			<BuildDependency Project="LibUtilsQt/LibUtilsQt.vcxproj"/>
+			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		</Project>
+		<Project Path="LibEpipolarConsistency/LibEpipolarConsistency.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="a39301b6-55aa-33bc-9b71-ac5a36a94635">
+			<BuildDependency Project="LibProjectiveGeometry/LibProjectiveGeometry.vcxproj"/>
+			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		</Project>
+		<Project Path="LibEpipolarConsistency/LibEpipolarConsistencyGui.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="ff28f4e8-91a1-3291-a70e-d0cf0d7db54b">
+			<BuildDependency Project="LibEpipolarConsistency/LibEpipolarConsistency.vcxproj"/>
+			<BuildDependency Project="LibProjectiveGeometry/LibProjectiveGeometry.vcxproj"/>
+			<BuildDependency Project="LibUtilsQt/LibUtilsQt.vcxproj"/>
+			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		</Project>
+	</Folder>
+	<Folder Name="/Packages/">
+		<Project Path="LibProjectiveGeometry/LibProjectiveGeometry.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="3dd7ea04-df29-35d9-afb4-e1b3ea0eb2d4">
+			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		</Project>
+		<Project Path="LibRayCastBackproject/LibRayCastBackproject.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="aa5e2e6a-38b5-3db0-8602-7859abcfa0f6">
+			<BuildDependency Project="LibProjectiveGeometry/LibProjectiveGeometry.vcxproj"/>
+			<BuildDependency Project="LibUtilsQt/LibUtilsQt.vcxproj"/>
+			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		</Project>
+		<Project Path="LibUtilsQt/LibUtilsQt.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="64997f7c-fcda-3e70-bc95-e17d09675a86">
+			<BuildDependency Project="LibProjectiveGeometry/LibProjectiveGeometry.vcxproj"/>
+			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		</Project>
+	</Folder>
+	<Folder Name="/Utilities/">
+		<Project Path="TrajectoryView/TrajectoryView.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="b6b239a8-b480-3576-9126-169e2480453d">
+			<BuildDependency Project="LibProjectiveGeometry/LibProjectiveGeometry.vcxproj"/>
+			<BuildDependency Project="LibUtilsQt/LibUtilsQt.vcxproj"/>
+			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		</Project>
+		<Project Path="VolumeRendering/VolumeRendering.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="06f2ba0c-a6a9-375d-b272-cb8cc6731431">
+			<BuildDependency Project="LibProjectiveGeometry/LibProjectiveGeometry.vcxproj"/>
+			<BuildDependency Project="LibRayCastBackproject/LibRayCastBackproject.vcxproj"/>
+			<BuildDependency Project="LibUtilsQt/LibUtilsQt.vcxproj"/>
+			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		</Project>
+		<Project Path="nrrdView/nrrdView.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="5691bfb1-57ba-34d1-bbd1-93cca24314ae">
+			<BuildDependency Project="LibProjectiveGeometry/LibProjectiveGeometry.vcxproj"/>
+			<BuildDependency Project="LibUtilsQt/LibUtilsQt.vcxproj"/>
+			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		</Project>
+	</Folder>
+</Solution>

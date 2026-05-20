@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{29B1B3CB-51CF-3AFB-9EBB-0F3BC4E19EDC}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>config</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">config.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">config</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">config.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">config</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/Apps/config_autogen/include_Debug"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_MBCS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_MBCS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\build\Apps\config_autogen\include_Debug;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\build\Apps\config_autogen\include_Debug;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC for target config</Message>
+      <Command>setlocal
+cd C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\build\Apps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/Apps/CMakeFiles/config_autogen.dir/AutogenInfo.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\GetSet\Debug\GetSetd.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/Apps/Debug/config.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/bin/Debug/config.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/Apps/config_autogen/include_Release"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_MBCS;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_MBCS;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\build\Apps\config_autogen\include_Release;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\build\Apps\config_autogen\include_Release;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC for target config</Message>
+      <Command>setlocal
+cd C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\build\Apps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/Apps/CMakeFiles/config_autogen.dir/AutogenInfo.json Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\GetSet\Release\GetSet.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/Apps/Release/config.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/bin/Release/config.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\Apps\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/Apps/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Andrey/Desktop/epi-polar/LibGetSet-build -BC:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build --check-stamp-file C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/Apps/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckCXXCompilerFlag.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\Qt6Config.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\Qt6ConfigExtras.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\Qt6ConfigVersion.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\Qt6ConfigVersionImpl.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\Qt6Dependencies.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\Qt6Targets.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\Qt6VersionlessAliasTargets.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtFeature.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtFeatureCommon.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtInstallPaths.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicAndroidHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicAppleHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicCMakeEarlyPolicyHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicCMakeHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicCMakeVersionHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicDependencyHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicExternalProjectHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicFinalizerHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicFindPackageHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicGitHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicPluginHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicPluginHelpers_v2.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomAttributionHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomCommonGenerationHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomCpeHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomCycloneDXHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomDepHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomDocumentNamespaceHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomFileHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomGenerationCycloneDXHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomGenerationHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomLicenseHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomOpsHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomPurlHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomPythonHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomQtEntityHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomSystemDepHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicTargetHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicTestHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicToolHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicWalkLibsHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicWindowsHelpers.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\build\Apps\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/Apps/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Andrey/Desktop/epi-polar/LibGetSet-build -BC:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build --check-stamp-file C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/Apps/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckCXXCompilerFlag.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\Qt6Config.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\Qt6ConfigExtras.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\Qt6ConfigVersion.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\Qt6ConfigVersionImpl.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\Qt6Dependencies.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\Qt6Targets.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\Qt6VersionlessAliasTargets.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtFeature.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtFeatureCommon.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtInstallPaths.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicAndroidHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicAppleHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicCMakeEarlyPolicyHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicCMakeHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicCMakeVersionHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicDependencyHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicExternalProjectHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicFinalizerHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicFindPackageHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicGitHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicPluginHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicPluginHelpers_v2.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomAttributionHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomCommonGenerationHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomCpeHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomCycloneDXHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomDepHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomDocumentNamespaceHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomFileHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomGenerationCycloneDXHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomGenerationHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomLicenseHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomOpsHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomPurlHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomPythonHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomQtEntityHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomSystemDepHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicTargetHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicTestHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicToolHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicWalkLibsHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicWindowsHelpers.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\build\Apps\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\build\Apps\config_autogen\mocs_compilation_Debug.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\Apps\getsetconfig.cpp" />
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\build\Apps\config_autogen\mocs_compilation_Release.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\build\ZERO_CHECK.vcxproj">
+      <Project>{7852C8DE-59C5-31F7-9236-EBB65D46D194}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\build\GetSet\GetSet.vcxproj">
+      <Project>{A45A558D-FF9C-3BB6-AFAD-C56845CC62FB}</Project>
+      <Name>GetSet</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Solution>
+	<Configurations>
+		<BuildType Name="Debug"/>
+		<BuildType Name="Release"/>
+		<Platform Name="x64"/>
+	</Configurations>
+	<Project Path="Apps/ExampleAdvanced.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="2c28d622-da5b-33d0-ac57-a7316faedc17">
+		<BuildDependency Project="GetSet/GetSet.vcxproj"/>
+		<BuildDependency Project="GetSetGui/GetSetGui.vcxproj"/>
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="Apps/ExampleSimple.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="83950292-ee27-3206-a0f0-84d8bb826607">
+		<BuildDependency Project="GetSet/GetSet.vcxproj"/>
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="GetSet/GetSet.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="a45a558d-ff9c-3bb6-afad-c56845cc62fb">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="GetSetGui/GetSetGui.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="74107f3e-4ec8-339c-9e57-81b7cd4c8843">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="Apps/GetSetScript.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="4d69fe4b-cbf9-3b27-b9db-ac3ac73f7f8a">
+		<BuildDependency Project="GetSet/GetSet.vcxproj"/>
+		<BuildDependency Project="GetSetGui/GetSetGui.vcxproj"/>
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="Apps/GetSetTest.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="676e0d58-c86b-3a4f-91b5-5f559d347e28">
+		<BuildDependency Project="GetSet/GetSet.vcxproj"/>
+		<BuildDependency Project="GetSetGui/GetSetGui.vcxproj"/>
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="Apps/config.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="29b1b3cb-51cf-3afb-9ebb-0f3bc4e19edc">
+		<BuildDependency Project="GetSet/GetSet.vcxproj"/>
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Folder Name="/CMakePredefinedTargets/">
+		<Project Path="ALL_BUILD.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="a4916e29-59a1-3c27-810b-2a632a594efa" DefaultStartup="true">
+			<BuildDependency Project="Apps/ExampleAdvanced.vcxproj"/>
+			<BuildDependency Project="Apps/ExampleSimple.vcxproj"/>
+			<BuildDependency Project="GetSet/GetSet.vcxproj"/>
+			<BuildDependency Project="GetSetGui/GetSetGui.vcxproj"/>
+			<BuildDependency Project="Apps/GetSetScript.vcxproj"/>
+			<BuildDependency Project="Apps/GetSetTest.vcxproj"/>
+			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+			<BuildDependency Project="Apps/config.vcxproj"/>
+		</Project>
+		<Project Path="INSTALL.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="13b83cd1-297d-3753-86c6-56ac3be7a0ee">
+			<BuildDependency Project="ALL_BUILD.vcxproj"/>
+			<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+			<Build Solution="Debug|*" Project="false"/>
+			<Build Solution="Release|*" Project="false"/>
+		</Project>
+		<Project Path="ZERO_CHECK.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="7852c8de-59c5-31f7-9236-ebb65d46d194"/>
+	</Folder>
+</Solution>

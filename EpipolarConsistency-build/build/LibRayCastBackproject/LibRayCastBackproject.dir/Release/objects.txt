@@ -1,0 +1,13 @@
+C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibRayCastBackproject/LibRayCastBackproject.dir/Release/mocs_compilation_Release.obj
+C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibRayCastBackproject/LibRayCastBackproject.dir/Release/VolumeRendering.obj
+C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibRayCastBackproject/LibRayCastBackproject.dir/Release/VoxelData.cpp.obj
+C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibRayCastBackproject/LibRayCastBackproject.dir/Release/VoxelData.cu.obj
+C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibRayCastBackproject/LibRayCastBackproject.dir/Release/Reconstruction.cpp.obj
+C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibRayCastBackproject/LibRayCastBackproject.dir/Release/Reconstruction.cu.obj
+C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibRayCastBackproject/LibRayCastBackproject.dir/Release/vr_ray_geom_setup.obj
+C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibRayCastBackproject/LibRayCastBackproject.dir/Release/vr_raycast_drr.obj
+C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibRayCastBackproject/LibRayCastBackproject.dir/Release/vr_raycast_ea_1Dtf.obj
+C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibRayCastBackproject/LibRayCastBackproject.dir/Release/vr_raycast_iso.obj
+C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibRayCastBackproject/LibRayCastBackproject.dir/Release/vr_raycast_mip.obj
+C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibRayCastBackproject/LibRayCastBackproject.dir/Release/vr_raycast_debug.obj
+C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibRayCastBackproject/LibRayCastBackproject.dir/Release/VolumeRenderingGui.obj

@@ -1,0 +1,13 @@
+C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/CMakeFiles/INSTALL.dir
+C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/GetSet/CMakeFiles/GetSet.dir
+C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/GetSet/CMakeFiles/INSTALL.dir
+C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/GetSetGui/CMakeFiles/GetSetGui.dir
+C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/GetSetGui/CMakeFiles/INSTALL.dir
+C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/Apps/CMakeFiles/GetSetTest.dir
+C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/Apps/CMakeFiles/config.dir
+C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/Apps/CMakeFiles/GetSetScript.dir
+C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/Apps/CMakeFiles/ExampleSimple.dir
+C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/Apps/CMakeFiles/ExampleAdvanced.dir
+C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/Apps/CMakeFiles/INSTALL.dir

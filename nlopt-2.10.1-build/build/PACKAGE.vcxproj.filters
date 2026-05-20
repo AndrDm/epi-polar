@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\build\CMakeFiles\20c98e77e2a0ce8c285a08900469d83c\PACKAGE_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{0D883B63-B153-386E-A68A-54358B405DE6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

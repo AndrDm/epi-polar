@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\build\CMakeFiles\4235df17a07d1a09ca0de3b626af6c36\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{58E30A47-EA20-3013-AB32-AF20BBEBF0A8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

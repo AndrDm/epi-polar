@@ -1,0 +1,7 @@
+C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibSimple/LibSimple.dir/Release/mocs_compilation_Release.obj
+C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibSimple/LibSimple.dir/Release/SimpleOptimizer.obj
+C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibSimple/LibSimple.dir/Release/SimpleMHD.obj
+C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibSimple/LibSimple.dir/Release/SimpleGL.obj
+C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibSimple/LibSimple.dir/Release/SimpleQTGL.obj
+C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibSimple/LibSimple.dir/Release/SimpleVR.obj
+C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibSimple/LibSimple.dir/Release/SimpleRayCastPass.obj

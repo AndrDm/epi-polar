@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9F3BD27C-A8CA-39E3-A911-8002D877C4EE}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>FluoroTracking</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\CUDA 13.2.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">FluoroTracking.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">FluoroTracking</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">FluoroTracking.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">FluoroTracking</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\FluoroTracking;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\tools\FluoroTracking;\usr\include\eigen3;C:\Program Files (x86)\nlopt\include;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\include;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code\HeaderOnly;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/FluoroTracking/FluoroTracking_autogen/include_Debug" /external:I "C:/Qt/6.10.2/include/QtWidgets" /external:I "C:/Qt/6.10.2/include" /external:I "C:/Qt/6.10.2/include/QtCore" /external:I "C:/Qt/6.10.2/mkspecs/win32-msvc" /external:I "C:/Qt/6.10.2/include/QtGui" /external:I "C:/Qt/6.10.2/include/QtSvg" /external:I "C:/Qt/6.10.2/include/QtOpenGL" /external:I "C:/Qt/6.10.2/include/QtPrintSupport" /external:I "C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-build/src/api" /external:I "C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-build/build" /external:I "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.2/include" /external:I "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.2/include/cccl" -Zc:__cplusplus -utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;QT_WIDGETS_LIB;QT_CORE_LIB;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;_WIN64;UNICODE;_UNICODE;QT_GUI_LIB;QT_SVG_LIB;QT_OPENGL_LIB;QT_PRINTSUPPORT_LIB;NLOPT_DLL;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;QT_WIDGETS_LIB;QT_CORE_LIB;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;_WIN64;UNICODE;_UNICODE;QT_GUI_LIB;QT_SVG_LIB;QT_OPENGL_LIB;QT_PRINTSUPPORT_LIB;NLOPT_DLL;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\FluoroTracking;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\tools\FluoroTracking;\usr\include\eigen3;C:\Program Files (x86)\nlopt\include;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\include;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code\HeaderOnly;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\FluoroTracking\FluoroTracking_autogen\include_Debug;C:\Qt\6.10.2\include\QtWidgets;C:\Qt\6.10.2\include;C:\Qt\6.10.2\include\QtCore;C:\Qt\6.10.2\mkspecs\win32-msvc;C:\Qt\6.10.2\include\QtGui;C:\Qt\6.10.2\include\QtSvg;C:\Qt\6.10.2\include\QtOpenGL;C:\Qt\6.10.2\include\QtPrintSupport;C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\api;C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\build;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.2\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.2\include\cccl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\FluoroTracking;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\tools\FluoroTracking;\usr\include\eigen3;C:\Program Files (x86)\nlopt\include;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\include;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code\HeaderOnly;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\FluoroTracking\FluoroTracking_autogen\include_Debug;C:\Qt\6.10.2\include\QtWidgets;C:\Qt\6.10.2\include;C:\Qt\6.10.2\include\QtCore;C:\Qt\6.10.2\mkspecs\win32-msvc;C:\Qt\6.10.2\include\QtGui;C:\Qt\6.10.2\include\QtSvg;C:\Qt\6.10.2\include\QtOpenGL;C:\Qt\6.10.2\include\QtPrintSupport;C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\api;C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\build;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.2\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.2\include\cccl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC for target FluoroTracking</Message>
+      <Command>setlocal
+cd C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\FluoroTracking
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/FluoroTracking/CMakeFiles/FluoroTracking_autogen.dir/AutogenInfo.json Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Message>Deploying Qt runtime dependencies</Message>
+      <Command>setlocal
+C:\Qt\6.10.2\lib\cmake\Qt6\..\..\..\bin\windeployqt.exe --no-translations C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/bin/Debug/FluoroTracking.exe
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\LibProjectiveGeometry\Debug\LibProjectiveGeometryd.lib;..\LibEpipolarConsistency\Debug\LibEpipolarConsistencyd.lib;..\LibEpipolarConsistency\Debug\LibEpipolarConsistencyGuid.lib;..\LibUtilsQt\Debug\LibUtilsQtd.lib;LibUtilsCuda.lib;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\build\GetSet\Debug\GetSetd.lib;GetSetGui-NOTFOUND;C:\Qt\6.10.2\lib\Qt6Widgetsd.lib;C:\Qt\6.10.2\lib\Qt6Svgd.lib;C:\Qt\6.10.2\lib\Qt6OpenGLd.lib;C:\Qt\6.10.2\lib\Qt6PrintSupportd.lib;opengl32.lib;C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\build\Debug\nlopt.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.2\lib\x64\cudart.lib;C:\Qt\6.10.2\lib\Qt6Guid.lib;C:\Qt\6.10.2\lib\Qt6Cored.lib;mpr.lib;userenv.lib;d3d11.lib;dxgi.lib;dxguid.lib;d3d12.lib;comdlg32.lib;winspool.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/FluoroTracking/Debug/FluoroTracking.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/bin/Debug/FluoroTracking.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <CudaLink>
+      <AdditionalOptions>-forward-unknown-to-host-compiler -Wno-deprecated-gpu-targets </AdditionalOptions>
+      <PerformDeviceLink>false</PerformDeviceLink>
+    </CudaLink>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\FluoroTracking;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\tools\FluoroTracking;\usr\include\eigen3;C:\Program Files (x86)\nlopt\include;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\include;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code\HeaderOnly;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/FluoroTracking/FluoroTracking_autogen/include_Release" /external:I "C:/Qt/6.10.2/include/QtWidgets" /external:I "C:/Qt/6.10.2/include" /external:I "C:/Qt/6.10.2/include/QtCore" /external:I "C:/Qt/6.10.2/mkspecs/win32-msvc" /external:I "C:/Qt/6.10.2/include/QtGui" /external:I "C:/Qt/6.10.2/include/QtSvg" /external:I "C:/Qt/6.10.2/include/QtOpenGL" /external:I "C:/Qt/6.10.2/include/QtPrintSupport" /external:I "C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-build/src/api" /external:I "C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-build/build" /external:I "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.2/include" /external:I "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.2/include/cccl" -Zc:__cplusplus -utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <ConformanceMode>true</ConformanceMode>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_CORE_LIB;QT_NO_DEBUG;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;_WIN64;UNICODE;_UNICODE;QT_GUI_LIB;QT_SVG_LIB;QT_OPENGL_LIB;QT_PRINTSUPPORT_LIB;NLOPT_DLL;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_CORE_LIB;QT_NO_DEBUG;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;_WIN64;UNICODE;_UNICODE;QT_GUI_LIB;QT_SVG_LIB;QT_OPENGL_LIB;QT_PRINTSUPPORT_LIB;NLOPT_DLL;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\FluoroTracking;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\tools\FluoroTracking;\usr\include\eigen3;C:\Program Files (x86)\nlopt\include;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\include;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code\HeaderOnly;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\FluoroTracking\FluoroTracking_autogen\include_Release;C:\Qt\6.10.2\include\QtWidgets;C:\Qt\6.10.2\include;C:\Qt\6.10.2\include\QtCore;C:\Qt\6.10.2\mkspecs\win32-msvc;C:\Qt\6.10.2\include\QtGui;C:\Qt\6.10.2\include\QtSvg;C:\Qt\6.10.2\include\QtOpenGL;C:\Qt\6.10.2\include\QtPrintSupport;C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\api;C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\build;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.2\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.2\include\cccl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\FluoroTracking;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\tools\FluoroTracking;\usr\include\eigen3;C:\Program Files (x86)\nlopt\include;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\include;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code\HeaderOnly;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\FluoroTracking\FluoroTracking_autogen\include_Release;C:\Qt\6.10.2\include\QtWidgets;C:\Qt\6.10.2\include;C:\Qt\6.10.2\include\QtCore;C:\Qt\6.10.2\mkspecs\win32-msvc;C:\Qt\6.10.2\include\QtGui;C:\Qt\6.10.2\include\QtSvg;C:\Qt\6.10.2\include\QtOpenGL;C:\Qt\6.10.2\include\QtPrintSupport;C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\api;C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\build;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.2\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.2\include\cccl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message>Automatic MOC for target FluoroTracking</Message>
+      <Command>setlocal
+cd C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\FluoroTracking
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/FluoroTracking/CMakeFiles/FluoroTracking_autogen.dir/AutogenInfo.json Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <PostBuildEvent>
+      <Message>Deploying Qt runtime dependencies</Message>
+      <Command>setlocal
+C:\Qt\6.10.2\lib\cmake\Qt6\..\..\..\bin\windeployqt.exe --no-translations C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/bin/Release/FluoroTracking.exe
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\LibProjectiveGeometry\Release\LibProjectiveGeometry.lib;..\LibEpipolarConsistency\Release\LibEpipolarConsistency.lib;..\LibEpipolarConsistency\Release\LibEpipolarConsistencyGui.lib;..\LibUtilsQt\Release\LibUtilsQt.lib;LibUtilsCuda.lib;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\build\GetSet\Release\GetSet.lib;GetSetGui-NOTFOUND;C:\Qt\6.10.2\lib\Qt6Widgets.lib;C:\Qt\6.10.2\lib\Qt6Svg.lib;C:\Qt\6.10.2\lib\Qt6OpenGL.lib;C:\Qt\6.10.2\lib\Qt6PrintSupport.lib;opengl32.lib;C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\build\Release\nlopt.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.2\lib\x64\cudart.lib;C:\Qt\6.10.2\lib\Qt6Gui.lib;C:\Qt\6.10.2\lib\Qt6Core.lib;mpr.lib;userenv.lib;d3d11.lib;dxgi.lib;dxguid.lib;d3d12.lib;comdlg32.lib;winspool.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/FluoroTracking/Release/FluoroTracking.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/bin/Release/FluoroTracking.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <CudaLink>
+      <AdditionalOptions>-forward-unknown-to-host-compiler -Wno-deprecated-gpu-targets </AdditionalOptions>
+      <PerformDeviceLink>false</PerformDeviceLink>
+    </CudaLink>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\tools\FluoroTracking\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/tools/FluoroTracking/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build -BC:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build --check-stamp-file C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/FluoroTracking/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindCUDAToolkit.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\Qt6Config.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\Qt6ConfigExtras.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\Qt6ConfigVersion.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\Qt6ConfigVersionImpl.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\Qt6Dependencies.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\Qt6Targets.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\Qt6VersionlessAliasTargets.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtFeature.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtFeatureCommon.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtInstallPaths.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicAndroidHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicAppleHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicCMakeEarlyPolicyHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicCMakeHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicCMakeVersionHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicDependencyHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicExternalProjectHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicFinalizerHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicFindPackageHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicGitHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicPluginHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicPluginHelpers_v2.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomAttributionHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomCommonGenerationHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomCpeHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomCycloneDXHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomDepHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomDocumentNamespaceHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomFileHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomGenerationCycloneDXHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomGenerationHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomLicenseHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomOpsHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomPurlHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomPythonHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomQtEntityHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomSystemDepHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicTargetHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicTestHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicToolHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicWalkLibsHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicWindowsHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6PrintSupport\Qt6PrintSupportAdditionalTargetInfo.cmake;C:\Qt\6.10.2\lib\cmake\Qt6PrintSupport\Qt6PrintSupportConfig.cmake;C:\Qt\6.10.2\lib\cmake\Qt6PrintSupport\Qt6PrintSupportConfigVersion.cmake;C:\Qt\6.10.2\lib\cmake\Qt6PrintSupport\Qt6PrintSupportConfigVersionImpl.cmake;C:\Qt\6.10.2\lib\cmake\Qt6PrintSupport\Qt6PrintSupportDependencies.cmake;C:\Qt\6.10.2\lib\cmake\Qt6PrintSupport\Qt6PrintSupportPlugins.cmake;C:\Qt\6.10.2\lib\cmake\Qt6PrintSupport\Qt6PrintSupportTargets-debug.cmake;C:\Qt\6.10.2\lib\cmake\Qt6PrintSupport\Qt6PrintSupportTargets-relwithdebinfo.cmake;C:\Qt\6.10.2\lib\cmake\Qt6PrintSupport\Qt6PrintSupportTargets.cmake;C:\Qt\6.10.2\lib\cmake\Qt6PrintSupport\Qt6PrintSupportVersionlessAliasTargets.cmake;C:\Qt\6.10.2\lib\cmake\Qt6Svg\Qt6SvgAdditionalTargetInfo.cmake;C:\Qt\6.10.2\lib\cmake\Qt6Svg\Qt6SvgConfig.cmake;C:\Qt\6.10.2\lib\cmake\Qt6Svg\Qt6SvgConfigVersion.cmake;C:\Qt\6.10.2\lib\cmake\Qt6Svg\Qt6SvgConfigVersionImpl.cmake;C:\Qt\6.10.2\lib\cmake\Qt6Svg\Qt6SvgDependencies.cmake;C:\Qt\6.10.2\lib\cmake\Qt6Svg\Qt6SvgTargets-debug.cmake;C:\Qt\6.10.2\lib\cmake\Qt6Svg\Qt6SvgTargets-relwithdebinfo.cmake;C:\Qt\6.10.2\lib\cmake\Qt6Svg\Qt6SvgTargets.cmake;C:\Qt\6.10.2\lib\cmake\Qt6Svg\Qt6SvgVersionlessAliasTargets.cmake;C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\build\NLoptConfig.cmake;C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\build\NLoptConfigVersion.cmake;C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\build\NLoptLibraryDepends.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\FluoroTracking\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/tools/FluoroTracking/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build -BC:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build --check-stamp-file C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/FluoroTracking/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindCUDAToolkit.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\Qt6Config.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\Qt6ConfigExtras.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\Qt6ConfigVersion.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\Qt6ConfigVersionImpl.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\Qt6Dependencies.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\Qt6Targets.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\Qt6VersionlessAliasTargets.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtFeature.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtFeatureCommon.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtInstallPaths.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicAndroidHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicAppleHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicCMakeEarlyPolicyHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicCMakeHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicCMakeVersionHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicDependencyHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicExternalProjectHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicFinalizerHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicFindPackageHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicGitHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicPluginHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicPluginHelpers_v2.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomAttributionHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomCommonGenerationHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomCpeHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomCycloneDXHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomDepHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomDocumentNamespaceHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomFileHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomGenerationCycloneDXHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomGenerationHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomLicenseHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomOpsHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomPurlHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomPythonHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomQtEntityHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomSystemDepHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicTargetHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicTestHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicToolHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicWalkLibsHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicWindowsHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6PrintSupport\Qt6PrintSupportAdditionalTargetInfo.cmake;C:\Qt\6.10.2\lib\cmake\Qt6PrintSupport\Qt6PrintSupportConfig.cmake;C:\Qt\6.10.2\lib\cmake\Qt6PrintSupport\Qt6PrintSupportConfigVersion.cmake;C:\Qt\6.10.2\lib\cmake\Qt6PrintSupport\Qt6PrintSupportConfigVersionImpl.cmake;C:\Qt\6.10.2\lib\cmake\Qt6PrintSupport\Qt6PrintSupportDependencies.cmake;C:\Qt\6.10.2\lib\cmake\Qt6PrintSupport\Qt6PrintSupportPlugins.cmake;C:\Qt\6.10.2\lib\cmake\Qt6PrintSupport\Qt6PrintSupportTargets-debug.cmake;C:\Qt\6.10.2\lib\cmake\Qt6PrintSupport\Qt6PrintSupportTargets-relwithdebinfo.cmake;C:\Qt\6.10.2\lib\cmake\Qt6PrintSupport\Qt6PrintSupportTargets.cmake;C:\Qt\6.10.2\lib\cmake\Qt6PrintSupport\Qt6PrintSupportVersionlessAliasTargets.cmake;C:\Qt\6.10.2\lib\cmake\Qt6Svg\Qt6SvgAdditionalTargetInfo.cmake;C:\Qt\6.10.2\lib\cmake\Qt6Svg\Qt6SvgConfig.cmake;C:\Qt\6.10.2\lib\cmake\Qt6Svg\Qt6SvgConfigVersion.cmake;C:\Qt\6.10.2\lib\cmake\Qt6Svg\Qt6SvgConfigVersionImpl.cmake;C:\Qt\6.10.2\lib\cmake\Qt6Svg\Qt6SvgDependencies.cmake;C:\Qt\6.10.2\lib\cmake\Qt6Svg\Qt6SvgTargets-debug.cmake;C:\Qt\6.10.2\lib\cmake\Qt6Svg\Qt6SvgTargets-relwithdebinfo.cmake;C:\Qt\6.10.2\lib\cmake\Qt6Svg\Qt6SvgTargets.cmake;C:\Qt\6.10.2\lib\cmake\Qt6Svg\Qt6SvgVersionlessAliasTargets.cmake;C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\build\NLoptConfig.cmake;C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\build\NLoptConfigVersion.cmake;C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\build\NLoptLibraryDepends.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\FluoroTracking\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\FluoroTracking\FluoroTracking_autogen\mocs_compilation_Debug.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\tools\FluoroTracking\FluoroTracking.cpp" />
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\FluoroTracking\FluoroTracking_autogen\mocs_compilation_Release.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\ZERO_CHECK.vcxproj">
+      <Project>{9E5389E0-B518-395B-BFDD-4AD6E53E1997}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibEpipolarConsistency\LibEpipolarConsistency.vcxproj">
+      <Project>{A39301B6-55AA-33BC-9B71-AC5A36A94635}</Project>
+      <Name>LibEpipolarConsistency</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibEpipolarConsistency\LibEpipolarConsistencyGui.vcxproj">
+      <Project>{FF28F4E8-91A1-3291-A70E-D0CF0D7DB54B}</Project>
+      <Name>LibEpipolarConsistencyGui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibProjectiveGeometry\LibProjectiveGeometry.vcxproj">
+      <Project>{3DD7EA04-DF29-35D9-AFB4-E1B3EA0EB2D4}</Project>
+      <Name>LibProjectiveGeometry</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibUtilsQt\LibUtilsQt.vcxproj">
+      <Project>{64997F7C-FCDA-3E70-BC95-E17D09675A86}</Project>
+      <Name>LibUtilsQt</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\CUDA 13.2.targets" />
+  </ImportGroup>
+</Project>
