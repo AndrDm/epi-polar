@@ -1,0 +1,462 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{356427BB-6211-3F37-AC39-5FEAC1D9E818}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>all_examples</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\doc\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build/doc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build -BC:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build/build --check-stamp-file C:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build/build/doc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\doc\Doxyfile.in;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\doc\eigendoxy_footer.html.in;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\doc\eigendoxy_header.html.in;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\doc\eigendoxy_layout.xml.in;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\unsupported\doc\eigendoxy_layout.xml.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build/doc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build -BC:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build/build --check-stamp-file C:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build/build/doc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\doc\Doxyfile.in;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\doc\eigendoxy_footer.html.in;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\doc\eigendoxy_header.html.in;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\doc\eigendoxy_layout.xml.in;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\unsupported\doc\eigendoxy_layout.xml.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build/doc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build -BC:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build/build --check-stamp-file C:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build/build/doc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\doc\Doxyfile.in;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\doc\eigendoxy_footer.html.in;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\doc\eigendoxy_header.html.in;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\doc\eigendoxy_layout.xml.in;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\unsupported\doc\eigendoxy_layout.xml.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build/doc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build -BC:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build/build --check-stamp-file C:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build/build/doc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\doc\Doxyfile.in;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\doc\eigendoxy_footer.html.in;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\doc\eigendoxy_header.html.in;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\doc\eigendoxy_layout.xml.in;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\unsupported\doc\eigendoxy_layout.xml.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\ZERO_CHECK.vcxproj">
+      <Project>{E694C48D-99E7-3B9C-A894-0F70FA055B16}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\examples\CustomizingEigen_Inheritance.vcxproj">
+      <Project>{63B06CDE-0716-3B93-99F5-7D455C18A04E}</Project>
+      <Name>CustomizingEigen_Inheritance</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\examples\Cwise_erf.vcxproj">
+      <Project>{F95B7FB0-B798-3BC7-8C7C-5F61446C862C}</Project>
+      <Name>Cwise_erf</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\examples\Cwise_erfc.vcxproj">
+      <Project>{8362E449-9638-3325-930E-AFDF896036DA}</Project>
+      <Name>Cwise_erfc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\examples\Cwise_lgamma.vcxproj">
+      <Project>{DAD7C13C-14E8-37C8-BEE2-6C8BC4B20BD5}</Project>
+      <Name>Cwise_lgamma</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\examples\DenseBase_middleCols_int.vcxproj">
+      <Project>{22081FFC-5125-3257-8F11-9692667154FA}</Project>
+      <Name>DenseBase_middleCols_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\examples\DenseBase_middleRows_int.vcxproj">
+      <Project>{F3F205C3-6859-3EAF-A7A7-EC2781C9BB42}</Project>
+      <Name>DenseBase_middleRows_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\examples\DenseBase_template_int_middleCols.vcxproj">
+      <Project>{EF472BEE-6A31-3358-B262-FD58C7970CDF}</Project>
+      <Name>DenseBase_template_int_middleCols</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\examples\DenseBase_template_int_middleRows.vcxproj">
+      <Project>{87152350-2795-3926-B65B-66692826A185}</Project>
+      <Name>DenseBase_template_int_middleRows</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\examples\QuickStart_example.vcxproj">
+      <Project>{68025877-9DC2-3CCE-84FC-0314C4560B4C}</Project>
+      <Name>QuickStart_example</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\examples\QuickStart_example2_dynamic.vcxproj">
+      <Project>{EC939575-2DE2-3658-807E-4BBFB3B4C51F}</Project>
+      <Name>QuickStart_example2_dynamic</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\examples\QuickStart_example2_fixed.vcxproj">
+      <Project>{E96BEDA0-B652-36FE-A418-C5F85C65DCB6}</Project>
+      <Name>QuickStart_example2_fixed</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\examples\TemplateKeyword_flexible.vcxproj">
+      <Project>{950BC761-C0EE-3BA7-85BF-91F93DF26F85}</Project>
+      <Name>TemplateKeyword_flexible</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\examples\TemplateKeyword_simple.vcxproj">
+      <Project>{6F891628-8AA0-372B-BA15-908E5727249F}</Project>
+      <Name>TemplateKeyword_simple</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\examples\TutorialInplaceLU.vcxproj">
+      <Project>{C52558CC-FFAD-3338-81C7-6AB72BB54E5B}</Project>
+      <Name>TutorialInplaceLU</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\examples\TutorialLinAlgComputeTwice.vcxproj">
+      <Project>{AF279252-E806-383E-86F0-C0D8B65CEB4D}</Project>
+      <Name>TutorialLinAlgComputeTwice</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\examples\TutorialLinAlgExComputeSolveError.vcxproj">
+      <Project>{784D05EB-B00B-3A5B-92C2-2E6DC6ABFAA8}</Project>
+      <Name>TutorialLinAlgExComputeSolveError</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\examples\TutorialLinAlgExSolveColPivHouseholderQR.vcxproj">
+      <Project>{EBA81877-D19F-3612-800C-8199741A56FC}</Project>
+      <Name>TutorialLinAlgExSolveColPivHouseholderQR</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\examples\TutorialLinAlgExSolveLDLT.vcxproj">
+      <Project>{125C7BF6-D75A-3350-8740-B3781913D76F}</Project>
+      <Name>TutorialLinAlgExSolveLDLT</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\examples\TutorialLinAlgInverseDeterminant.vcxproj">
+      <Project>{1993D764-766B-37E0-9589-809F89C30BE4}</Project>
+      <Name>TutorialLinAlgInverseDeterminant</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\examples\TutorialLinAlgRankRevealing.vcxproj">
+      <Project>{F4CC5DDC-1733-3876-B82F-70DD66CD1E5D}</Project>
+      <Name>TutorialLinAlgRankRevealing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\examples\TutorialLinAlgSVDSolve.vcxproj">
+      <Project>{71148FFD-7DC0-35F3-AEF9-BCF275483A39}</Project>
+      <Name>TutorialLinAlgSVDSolve</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\examples\TutorialLinAlgSelfAdjointEigenSolver.vcxproj">
+      <Project>{B3C497C3-C67D-3A4B-8696-EFFC18A0A331}</Project>
+      <Name>TutorialLinAlgSelfAdjointEigenSolver</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\examples\TutorialLinAlgSetThreshold.vcxproj">
+      <Project>{DF5B8DAA-178D-3B09-A731-BDAC09E57579}</Project>
+      <Name>TutorialLinAlgSetThreshold</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\examples\Tutorial_ArrayClass_accessors.vcxproj">
+      <Project>{C03CFD50-6AA7-314D-B307-196ED9E9BE2B}</Project>
+      <Name>Tutorial_ArrayClass_accessors</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\examples\Tutorial_ArrayClass_addition.vcxproj">
+      <Project>{550C70F5-B61F-3192-9B80-EE7628A6F517}</Project>
+      <Name>Tutorial_ArrayClass_addition</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\examples\Tutorial_ArrayClass_cwise_other.vcxproj">
+      <Project>{8CD98AF3-3B85-32F7-BFEE-32814A6BAC6C}</Project>
+      <Name>Tutorial_ArrayClass_cwise_other</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\examples\Tutorial_ArrayClass_interop.vcxproj">
+      <Project>{70625B97-EA18-3692-842C-77B68E688F6A}</Project>
+      <Name>Tutorial_ArrayClass_interop</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\examples\Tutorial_ArrayClass_interop_matrix.vcxproj">
+      <Project>{9AA2918E-D5EC-3D5D-83C6-1856B04EE008}</Project>
+      <Name>Tutorial_ArrayClass_interop_matrix</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\examples\Tutorial_ArrayClass_mult.vcxproj">
+      <Project>{7CB81A24-5263-3C2A-AD08-1555A70902ED}</Project>
+      <Name>Tutorial_ArrayClass_mult</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\examples\Tutorial_BlockOperations_block_assignment.vcxproj">
+      <Project>{94B1E1DC-AEEB-3003-9806-406503955E45}</Project>
+      <Name>Tutorial_BlockOperations_block_assignment</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\examples\Tutorial_BlockOperations_colrow.vcxproj">
+      <Project>{78F68F2C-B392-3694-9368-B21CB794D8EA}</Project>
+      <Name>Tutorial_BlockOperations_colrow</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\examples\Tutorial_BlockOperations_corner.vcxproj">
+      <Project>{2E77591A-1134-3516-A1BC-5A9DC89285B5}</Project>
+      <Name>Tutorial_BlockOperations_corner</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\examples\Tutorial_BlockOperations_print_block.vcxproj">
+      <Project>{0220484F-56C4-3499-923D-02E25AAFBCE9}</Project>
+      <Name>Tutorial_BlockOperations_print_block</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\examples\Tutorial_BlockOperations_vector.vcxproj">
+      <Project>{7E74A7E0-C07C-3BFD-92BD-C3DC4E827597}</Project>
+      <Name>Tutorial_BlockOperations_vector</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\examples\Tutorial_PartialLU_solve.vcxproj">
+      <Project>{A75FB1E5-272F-372A-AD1F-99A9666648A7}</Project>
+      <Name>Tutorial_PartialLU_solve</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_broadcast_1nn.vcxproj">
+      <Project>{37D11B46-E51C-3249-982E-41D4B88B34B5}</Project>
+      <Name>Tutorial_ReductionsVisitorsBroadcasting_broadcast_1nn</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_broadcast_simple.vcxproj">
+      <Project>{DB40FFEB-C219-30B9-89E1-29A12B7D54EA}</Project>
+      <Name>Tutorial_ReductionsVisitorsBroadcasting_broadcast_simple</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_broadcast_simple_rowwise.vcxproj">
+      <Project>{F7AE3FC7-13AD-3E91-BA8A-D46984FCCEBA}</Project>
+      <Name>Tutorial_ReductionsVisitorsBroadcasting_broadcast_simple_rowwise</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_colwise.vcxproj">
+      <Project>{0F00693D-39FF-32EF-B85D-2D995B2C6D9F}</Project>
+      <Name>Tutorial_ReductionsVisitorsBroadcasting_colwise</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_maxnorm.vcxproj">
+      <Project>{CB008EEE-9E39-3F38-BA8E-FC9597FA423A}</Project>
+      <Name>Tutorial_ReductionsVisitorsBroadcasting_maxnorm</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_reductions_bool.vcxproj">
+      <Project>{48EB9786-F461-3354-B507-3035056E05F1}</Project>
+      <Name>Tutorial_ReductionsVisitorsBroadcasting_reductions_bool</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_reductions_norm.vcxproj">
+      <Project>{578EB07C-C346-38AC-8C6D-B641B56B63EF}</Project>
+      <Name>Tutorial_ReductionsVisitorsBroadcasting_reductions_norm</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_reductions_operatornorm.vcxproj">
+      <Project>{FC71667E-0F05-3545-9B64-CD398704B3DC}</Project>
+      <Name>Tutorial_ReductionsVisitorsBroadcasting_reductions_operatornorm</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_rowwise.vcxproj">
+      <Project>{51F91735-9587-3A2D-A4DA-558B96CBA117}</Project>
+      <Name>Tutorial_ReductionsVisitorsBroadcasting_rowwise</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\examples\Tutorial_ReductionsVisitorsBroadcasting_visitors.vcxproj">
+      <Project>{FEAD780F-6537-3560-A71F-801DD06B27ED}</Project>
+      <Name>Tutorial_ReductionsVisitorsBroadcasting_visitors</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\examples\Tutorial_simple_example_dynamic_size.vcxproj">
+      <Project>{44122AFD-53F4-3B18-A109-8E417899A8F2}</Project>
+      <Name>Tutorial_simple_example_dynamic_size</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\examples\Tutorial_simple_example_fixed_size.vcxproj">
+      <Project>{9D4219E0-6E92-35AD-B17D-9DE8EF32BB40}</Project>
+      <Name>Tutorial_simple_example_fixed_size</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\examples\class_Block.vcxproj">
+      <Project>{E9785C94-4C2B-3D1E-AE1D-DCA74763C7D1}</Project>
+      <Name>class_Block</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\examples\class_CwiseBinaryOp.vcxproj">
+      <Project>{A41D82C1-260A-3505-841B-5121BECAA905}</Project>
+      <Name>class_CwiseBinaryOp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\examples\class_CwiseUnaryOp.vcxproj">
+      <Project>{E11D6D74-3099-3CA1-ABBE-DBD803C19987}</Project>
+      <Name>class_CwiseUnaryOp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\examples\class_CwiseUnaryOp_ptrfun.vcxproj">
+      <Project>{249CCF25-C961-344B-A7D4-165216937B9C}</Project>
+      <Name>class_CwiseUnaryOp_ptrfun</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\examples\class_FixedBlock.vcxproj">
+      <Project>{B0C82321-AC46-3DAA-8127-6CE6EAFB3F87}</Project>
+      <Name>class_FixedBlock</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\examples\class_FixedReshaped.vcxproj">
+      <Project>{0091F2EB-6825-3A55-8A9F-1DE3EC4D8A47}</Project>
+      <Name>class_FixedReshaped</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\examples\class_FixedVectorBlock.vcxproj">
+      <Project>{5A459189-D578-3B6A-8BBE-48F07FEE22DB}</Project>
+      <Name>class_FixedVectorBlock</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\examples\class_Reshaped.vcxproj">
+      <Project>{123C6F8B-4702-3E80-9B7B-9EF6FFCBBBAE}</Project>
+      <Name>class_Reshaped</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\examples\class_VectorBlock.vcxproj">
+      <Project>{34C4C8D9-495B-3F17-86F9-AE0CFEF678C7}</Project>
+      <Name>class_VectorBlock</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\examples\function_taking_eigenbase.vcxproj">
+      <Project>{3542478A-9FA2-3098-93BE-51D40E8A7CEA}</Project>
+      <Name>function_taking_eigenbase</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\examples\function_taking_ref.vcxproj">
+      <Project>{FD4A4562-DBF1-3A76-B19A-D3AB6E76F064}</Project>
+      <Name>function_taking_ref</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\examples\make_circulant.vcxproj">
+      <Project>{8B17C752-6FB2-3156-9302-B5959EFFF936}</Project>
+      <Name>make_circulant</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\examples\make_circulant2.vcxproj">
+      <Project>{26BBCE03-543E-3D30-90E7-5C1C79EA3AB4}</Project>
+      <Name>make_circulant2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\examples\matrixfree_cg.vcxproj">
+      <Project>{661F440D-82B4-3E6E-A991-1E4DA2FC8C89}</Project>
+      <Name>matrixfree_cg</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\examples\nullary_indexing.vcxproj">
+      <Project>{6205F278-01D0-3EF9-B7E5-1E58AADC024B}</Project>
+      <Name>nullary_indexing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\special_examples\random_cpp11.vcxproj">
+      <Project>{09507DCE-8086-3983-8B75-94A8F029CFA3}</Project>
+      <Name>random_cpp11</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\examples\tut_arithmetic_add_sub.vcxproj">
+      <Project>{BF10F378-577A-3AEE-9A77-D03E3C7BE66E}</Project>
+      <Name>tut_arithmetic_add_sub</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\examples\tut_arithmetic_dot_cross.vcxproj">
+      <Project>{19D7A244-1D62-31D3-A0DD-F37E59F57632}</Project>
+      <Name>tut_arithmetic_dot_cross</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\examples\tut_arithmetic_matrix_mul.vcxproj">
+      <Project>{1399C3CF-569F-3A91-9248-32A0BFDA3C85}</Project>
+      <Name>tut_arithmetic_matrix_mul</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\examples\tut_arithmetic_redux_basic.vcxproj">
+      <Project>{2E733414-8C00-3CCE-A92C-D044A692B5B1}</Project>
+      <Name>tut_arithmetic_redux_basic</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\examples\tut_arithmetic_scalar_mul_div.vcxproj">
+      <Project>{FFFC3561-20B0-3A3A-80E0-5D26ED3F40F2}</Project>
+      <Name>tut_arithmetic_scalar_mul_div</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\examples\tut_matrix_coefficient_accessors.vcxproj">
+      <Project>{36E7FB41-4DC7-361B-9525-25DD0770CF17}</Project>
+      <Name>tut_matrix_coefficient_accessors</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\examples\tut_matrix_resize.vcxproj">
+      <Project>{C9C39828-4C39-3E36-B8D1-CE755F24AFAE}</Project>
+      <Name>tut_matrix_resize</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\examples\tut_matrix_resize_fixed_size.vcxproj">
+      <Project>{185823F1-7EBA-3E16-B72C-F9A096B8EB71}</Project>
+      <Name>tut_matrix_resize_fixed_size</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

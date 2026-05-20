@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CBF550DF-C4C5-3296-AC77-D4E420B1D2D9}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>packetmath</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\test\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build -BC:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build/build --check-stamp-file C:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build/build/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckCXXSymbolExists.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckLanguage.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindBLAS.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindCUDA.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindCUDA\select_compute_arch.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindLAPACK.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindQt4.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\MacroAddFileDependencies.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\EigenSmokeTestList.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\FindAccelerate.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\FindCHOLMOD.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\FindHWLOC.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\FindKLU.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\FindPASTIX.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\FindSPQR.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\FindSuperLU.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\FindUMFPACK.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build -BC:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build/build --check-stamp-file C:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build/build/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckCXXSymbolExists.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckLanguage.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindBLAS.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindCUDA.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindCUDA\select_compute_arch.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindLAPACK.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindQt4.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\MacroAddFileDependencies.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\EigenSmokeTestList.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\FindAccelerate.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\FindCHOLMOD.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\FindHWLOC.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\FindKLU.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\FindPASTIX.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\FindSPQR.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\FindSuperLU.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\FindUMFPACK.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build -BC:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build/build --check-stamp-file C:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build/build/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckCXXSymbolExists.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckLanguage.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindBLAS.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindCUDA.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindCUDA\select_compute_arch.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindLAPACK.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindQt4.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\MacroAddFileDependencies.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\EigenSmokeTestList.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\FindAccelerate.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\FindCHOLMOD.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\FindHWLOC.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\FindKLU.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\FindPASTIX.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\FindSPQR.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\FindSuperLU.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\FindUMFPACK.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build -BC:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build/build --check-stamp-file C:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build/build/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckCXXSymbolExists.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckLanguage.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindBLAS.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindCUDA.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindCUDA\select_compute_arch.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindLAPACK.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindQt4.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\MacroAddFileDependencies.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\EigenSmokeTestList.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\FindAccelerate.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\FindCHOLMOD.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\FindHWLOC.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\FindKLU.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\FindPASTIX.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\FindSPQR.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\FindSuperLU.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\FindUMFPACK.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\ZERO_CHECK.vcxproj">
+      <Project>{E694C48D-99E7-3B9C-A894-0F70FA055B16}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\packetmath_1.vcxproj">
+      <Project>{0FE82107-D65A-3F9B-9C94-843815B33BA0}</Project>
+      <Name>packetmath_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\packetmath_10.vcxproj">
+      <Project>{935F0308-2AE7-38F7-97AB-03151BDE3522}</Project>
+      <Name>packetmath_10</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\packetmath_11.vcxproj">
+      <Project>{966D7C64-1ED3-3CEE-9AA5-7C8D0A885ED2}</Project>
+      <Name>packetmath_11</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\packetmath_12.vcxproj">
+      <Project>{4F141266-42B3-3545-98CF-41A9EBFA4045}</Project>
+      <Name>packetmath_12</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\packetmath_13.vcxproj">
+      <Project>{1ED11540-6C86-3D09-AF32-D4BCE8E3311C}</Project>
+      <Name>packetmath_13</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\packetmath_14.vcxproj">
+      <Project>{8C936892-43FF-360A-B669-200D6A261D09}</Project>
+      <Name>packetmath_14</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\packetmath_15.vcxproj">
+      <Project>{4B5AC0AD-4C72-3886-9DFE-C19ABE18101D}</Project>
+      <Name>packetmath_15</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\packetmath_2.vcxproj">
+      <Project>{639E33C5-933B-337F-85F6-D4C75725C7BB}</Project>
+      <Name>packetmath_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\packetmath_3.vcxproj">
+      <Project>{78437E3F-26FA-3F03-92CB-983259CE665D}</Project>
+      <Name>packetmath_3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\packetmath_4.vcxproj">
+      <Project>{0C9D7DF6-0825-363A-8895-E3762704B277}</Project>
+      <Name>packetmath_4</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\packetmath_5.vcxproj">
+      <Project>{3F3CBEC3-8D87-37C0-9E41-B084B7157EEB}</Project>
+      <Name>packetmath_5</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\packetmath_6.vcxproj">
+      <Project>{4206D7E2-50E5-387E-9B59-B2ED02747EDA}</Project>
+      <Name>packetmath_6</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\packetmath_7.vcxproj">
+      <Project>{24677E91-2F41-359D-9A5B-689A03E16A40}</Project>
+      <Name>packetmath_7</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\packetmath_8.vcxproj">
+      <Project>{15A4353E-4FBA-3A0A-BF13-4B84CD716A9D}</Project>
+      <Name>packetmath_8</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\packetmath_9.vcxproj">
+      <Project>{606E0EAC-F9ED-37CF-8FEE-E34928473735}</Project>
+      <Name>packetmath_9</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

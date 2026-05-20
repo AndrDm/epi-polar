@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\CMakeFiles\a9c389bd578dc050cdb5cb4eec3ff0e0\RUN_TESTS_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{22B4FE8D-0BFF-3CEB-98A2-302F78F4EC7B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

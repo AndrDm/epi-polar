@@ -1,0 +1,25 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build/build/cmake_install.cmake",
+		"C:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build/build/test/cmake_install.cmake",
+		"C:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build/build/failtest/cmake_install.cmake",
+		"C:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build/build/unsupported/cmake_install.cmake",
+		"C:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build/build/unsupported/Eigen/cmake_install.cmake",
+		"C:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build/build/unsupported/Eigen/CXX11/cmake_install.cmake",
+		"C:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build/build/unsupported/doc/cmake_install.cmake",
+		"C:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build/build/unsupported/doc/examples/cmake_install.cmake",
+		"C:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build/build/unsupported/doc/snippets/cmake_install.cmake",
+		"C:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build/build/unsupported/test/cmake_install.cmake",
+		"C:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build/build/blas/cmake_install.cmake",
+		"C:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build/build/blas/testing/cmake_install.cmake",
+		"C:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build/build/lapack/cmake_install.cmake",
+		"C:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build/build/doc/cmake_install.cmake",
+		"C:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build/build/doc/examples/cmake_install.cmake",
+		"C:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build/build/doc/special_examples/cmake_install.cmake",
+		"C:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build/build/doc/snippets/cmake_install.cmake",
+		"C:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build/build/demos/cmake_install.cmake",
+		"C:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build/build/scripts/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

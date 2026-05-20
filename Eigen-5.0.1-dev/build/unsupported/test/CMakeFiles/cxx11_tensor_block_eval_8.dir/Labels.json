@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build/unsupported/test/cxx11_tensor_block_eval.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"BuildUnsupported"
+		],
+		"name" : "cxx11_tensor_block_eval_8"
+	}
+}

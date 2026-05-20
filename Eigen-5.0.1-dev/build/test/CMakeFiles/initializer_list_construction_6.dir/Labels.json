@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build/test/initializer_list_construction.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"BuildOfficial"
+		],
+		"name" : "initializer_list_construction_6"
+	}
+}

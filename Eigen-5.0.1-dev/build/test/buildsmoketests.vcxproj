@@ -1,0 +1,612 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{FB93AF1C-D4C1-35DA-9EA9-EBA8F8212D9E}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>buildsmoketests</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\test\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build -BC:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build/build --check-stamp-file C:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build/build/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckCXXSymbolExists.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckLanguage.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindBLAS.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindCUDA.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindCUDA\select_compute_arch.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindLAPACK.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindQt4.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\MacroAddFileDependencies.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\EigenSmokeTestList.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\FindAccelerate.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\FindCHOLMOD.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\FindHWLOC.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\FindKLU.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\FindPASTIX.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\FindSPQR.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\FindSuperLU.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\FindUMFPACK.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build -BC:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build/build --check-stamp-file C:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build/build/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckCXXSymbolExists.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckLanguage.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindBLAS.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindCUDA.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindCUDA\select_compute_arch.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindLAPACK.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindQt4.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\MacroAddFileDependencies.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\EigenSmokeTestList.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\FindAccelerate.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\FindCHOLMOD.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\FindHWLOC.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\FindKLU.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\FindPASTIX.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\FindSPQR.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\FindSuperLU.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\FindUMFPACK.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build -BC:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build/build --check-stamp-file C:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build/build/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckCXXSymbolExists.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckLanguage.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindBLAS.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindCUDA.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindCUDA\select_compute_arch.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindLAPACK.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindQt4.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\MacroAddFileDependencies.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\EigenSmokeTestList.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\FindAccelerate.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\FindCHOLMOD.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\FindHWLOC.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\FindKLU.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\FindPASTIX.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\FindSPQR.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\FindSuperLU.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\FindUMFPACK.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build/test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build -BC:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build/build --check-stamp-file C:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build/build/test/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckCXXSymbolExists.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckLanguage.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindBLAS.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindCUDA.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindCUDA\select_compute_arch.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindLAPACK.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPkgConfig.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindQt4.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\MacroAddFileDependencies.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\EigenSmokeTestList.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\FindAccelerate.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\FindCHOLMOD.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\FindHWLOC.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\FindKLU.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\FindPASTIX.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\FindSPQR.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\FindSuperLU.cmake;C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\cmake\FindUMFPACK.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\ZERO_CHECK.vcxproj">
+      <Project>{E694C48D-99E7-3B9C-A894-0F70FA055B16}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\adjoint_1.vcxproj">
+      <Project>{4926E0F6-0FAF-3F93-BE16-2DDE4900B570}</Project>
+      <Name>adjoint_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\array_cwise_7.vcxproj">
+      <Project>{1B6B0BBA-68DF-31AA-860B-D20555AA758C}</Project>
+      <Name>array_cwise_7</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\array_cwise_8.vcxproj">
+      <Project>{614B283C-A510-3896-8574-F45D34EE5D17}</Project>
+      <Name>array_cwise_8</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\array_for_matrix_1.vcxproj">
+      <Project>{4682BFC5-971C-3262-9952-710A1A1C0D98}</Project>
+      <Name>array_for_matrix_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\array_of_string.vcxproj">
+      <Project>{810C5497-CBB1-3992-A799-2069C1A87546}</Project>
+      <Name>array_of_string</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\array_replicate_1.vcxproj">
+      <Project>{B36EAAB3-066B-370B-B4F6-D517C3CFC5F3}</Project>
+      <Name>array_replicate_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\array_reverse_1.vcxproj">
+      <Project>{9A46BEE6-1249-3BF0-A5DA-0DEAD90DFF80}</Project>
+      <Name>array_reverse_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\bandmatrix.vcxproj">
+      <Project>{E77E8236-B4C5-3FDC-9D41-F2DD540FBE5C}</Project>
+      <Name>bandmatrix</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\bdcsvd_9.vcxproj">
+      <Project>{0DD14DB1-D077-3079-83C0-AEE4D2726C74}</Project>
+      <Name>bdcsvd_9</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\bfloat16_float.vcxproj">
+      <Project>{02AE88DD-F197-3431-A552-9ABA514F5E00}</Project>
+      <Name>bfloat16_float</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\blasutil_1.vcxproj">
+      <Project>{CA6AACEC-E060-364B-8AC3-41F63B85550B}</Project>
+      <Name>blasutil_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\block_5.vcxproj">
+      <Project>{B7AF40E1-4C04-346A-9AB8-CB616A9ECC55}</Project>
+      <Name>block_5</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\cholesky_1.vcxproj">
+      <Project>{4AE28F20-DDA4-3413-A16A-DFCD1176C533}</Project>
+      <Name>cholesky_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\conservative_resize_1.vcxproj">
+      <Project>{5EBEFD2F-128C-393F-A248-A89BF0E1B265}</Project>
+      <Name>conservative_resize_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\constructor_1.vcxproj">
+      <Project>{D5B08B59-8C74-3560-B0F2-60C8CD454233}</Project>
+      <Name>constructor_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\corners_1.vcxproj">
+      <Project>{4B3CC14D-2702-3257-9334-6426FD0A4276}</Project>
+      <Name>corners_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\dense_storage.vcxproj">
+      <Project>{ECE0593B-DDFF-3344-ACE6-1185385AA980}</Project>
+      <Name>dense_storage</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\determinant_1.vcxproj">
+      <Project>{7458E6E9-2E19-3892-8436-5F745BEA2B40}</Project>
+      <Name>determinant_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\diagonal_1.vcxproj">
+      <Project>{092C4E44-7D70-389B-B88F-67378898FCFF}</Project>
+      <Name>diagonal_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\diagonal_2.vcxproj">
+      <Project>{82FA8090-AAB6-3B1E-AFEE-32395A3E71CB}</Project>
+      <Name>diagonal_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\diagonalmatrices_1.vcxproj">
+      <Project>{56DF26B4-C118-38E0-9CA0-E7612D8877CF}</Project>
+      <Name>diagonalmatrices_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\dynalloc.vcxproj">
+      <Project>{FB8180AA-0B6B-3C11-B6B1-B906B77949A1}</Project>
+      <Name>dynalloc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\eigensolver_complex_1.vcxproj">
+      <Project>{CD7E6080-0256-34FE-B2AA-57CA58DAFE7E}</Project>
+      <Name>eigensolver_complex_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\eigensolver_selfadjoint_8.vcxproj">
+      <Project>{300DBCBC-EE16-3160-BCCF-F9222F5F106E}</Project>
+      <Name>eigensolver_selfadjoint_8</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\exceptions.vcxproj">
+      <Project>{E57D5ABD-9803-326E-9CB3-13A61A27F65A}</Project>
+      <Name>exceptions</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\fastmath.vcxproj">
+      <Project>{CBA5CE37-9E3F-38FC-9CE7-CA8EB5BD8CF6}</Project>
+      <Name>fastmath</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\first_aligned.vcxproj">
+      <Project>{7C30ED40-9A21-3461-9093-A8B77160DEC6}</Project>
+      <Name>first_aligned</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\geo_alignedbox_2.vcxproj">
+      <Project>{40C9FC9E-9D8D-3FF3-A897-863B94BFE40A}</Project>
+      <Name>geo_alignedbox_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\geo_eulerangles_1.vcxproj">
+      <Project>{F161C879-AA60-303C-84A1-BF1D921BC731}</Project>
+      <Name>geo_eulerangles_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\geo_homogeneous_1.vcxproj">
+      <Project>{67C4ADA5-24A7-3CB4-949B-C493DDA9E96C}</Project>
+      <Name>geo_homogeneous_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\geo_hyperplane_1.vcxproj">
+      <Project>{6F5E9D28-F87B-3396-9273-9DDC0FDED995}</Project>
+      <Name>geo_hyperplane_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\geo_orthomethods_1.vcxproj">
+      <Project>{E13041A5-ED72-3F2A-9052-DCFD5935D493}</Project>
+      <Name>geo_orthomethods_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\geo_parametrizedline_1.vcxproj">
+      <Project>{91305C53-D68C-3316-B339-D68419FDDD81}</Project>
+      <Name>geo_parametrizedline_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\geo_transformations_7.vcxproj">
+      <Project>{11802FB5-976B-3360-8AA6-02C54B0D4D38}</Project>
+      <Name>geo_transformations_7</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\half_float.vcxproj">
+      <Project>{E8908DB0-20AC-32D5-9292-9A105B48D5C5}</Project>
+      <Name>half_float</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\hessenberg_1.vcxproj">
+      <Project>{2A648527-8747-35F0-94D6-A82378E71DB1}</Project>
+      <Name>hessenberg_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\householder_8.vcxproj">
+      <Project>{5A41A0C5-4A03-3915-A467-989E2DAFBA70}</Project>
+      <Name>householder_8</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\indexed_view_1.vcxproj">
+      <Project>{2F9FDA2C-FCA5-31E1-8F0B-C0E806810A7E}</Project>
+      <Name>indexed_view_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\inplace_decomposition_1.vcxproj">
+      <Project>{F83797CC-B395-3BDA-8021-397BCC8E8C85}</Project>
+      <Name>inplace_decomposition_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\integer_types_1.vcxproj">
+      <Project>{B4EF1838-28F5-39BF-992C-2CD235A815E0}</Project>
+      <Name>integer_types_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\inverse_1.vcxproj">
+      <Project>{77B090FA-CBF4-3DF3-B4DB-C2C80E07786A}</Project>
+      <Name>inverse_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\is_same_dense.vcxproj">
+      <Project>{C7AD27E5-B94B-360D-831E-9A443E1C65B6}</Project>
+      <Name>is_same_dense</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\jacobi_1.vcxproj">
+      <Project>{0CDFFE3D-76BC-3708-BBB1-6CA40C578BB5}</Project>
+      <Name>jacobi_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\jacobisvd_1.vcxproj">
+      <Project>{1DEAC25F-D916-346A-840F-90ECB3276FDD}</Project>
+      <Name>jacobisvd_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\linearstructure_1.vcxproj">
+      <Project>{1DB8979B-26FF-3C2C-8C31-D12B62B02E66}</Project>
+      <Name>linearstructure_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\mapped_matrix_1.vcxproj">
+      <Project>{C49DC51A-BD26-3375-AC49-D9142F657AE7}</Project>
+      <Name>mapped_matrix_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\mapstaticmethods_1.vcxproj">
+      <Project>{20E9BEE5-1104-31CD-8B65-DA7A25AE79C8}</Project>
+      <Name>mapstaticmethods_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\mapstride_1.vcxproj">
+      <Project>{3003B186-B3EC-3388-ACA4-E4253EA2C0B2}</Project>
+      <Name>mapstride_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\meta.vcxproj">
+      <Project>{65409434-3322-3C4C-A3AC-E8949024D201}</Project>
+      <Name>meta</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\miscmatrices_1.vcxproj">
+      <Project>{E1937891-C538-3EDD-AD7F-79363A5F4A9A}</Project>
+      <Name>miscmatrices_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\mixingtypes_7.vcxproj">
+      <Project>{00ACB52C-B644-3EBC-AB76-BE2A9B87DD35}</Project>
+      <Name>mixingtypes_7</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\nestbyvalue.vcxproj">
+      <Project>{DC221A7C-41D4-393A-B2D6-7FD28CAD1B63}</Project>
+      <Name>nestbyvalue</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\nesting_ops_1.vcxproj">
+      <Project>{1171707E-D548-3C63-A387-4E49BD991727}</Project>
+      <Name>nesting_ops_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\nomalloc_1.vcxproj">
+      <Project>{3367BB9C-FB3C-32F0-AADC-6CDD8A6EE832}</Project>
+      <Name>nomalloc_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\nullary_1.vcxproj">
+      <Project>{D7E3E7DD-02DA-303A-AEF4-8424026CFC2E}</Project>
+      <Name>nullary_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\num_dimensions.vcxproj">
+      <Project>{85D679B4-C8CD-3013-B0D2-1A174D99AE64}</Project>
+      <Name>num_dimensions</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\numext.vcxproj">
+      <Project>{C2A316EE-B11E-3A5B-AD5C-05C7A697D6F7}</Project>
+      <Name>numext</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\packetmath.vcxproj">
+      <Project>{CBF550DF-C4C5-3296-AC77-D4E420B1D2D9}</Project>
+      <Name>packetmath</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\permutationmatrices_1.vcxproj">
+      <Project>{C2175351-7403-3AEA-B405-230C5715F2E6}</Project>
+      <Name>permutationmatrices_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\prec_inverse_4x4_1.vcxproj">
+      <Project>{CE13E879-B638-3F28-86AD-06DF7161218C}</Project>
+      <Name>prec_inverse_4x4_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\product_extra_5.vcxproj">
+      <Project>{6D0BEB10-2532-35AD-8B23-AB50FCE5FBD6}</Project>
+      <Name>product_extra_5</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\product_selfadjoint_1.vcxproj">
+      <Project>{6AA18BEC-D80A-3283-BF64-28684174AD5A}</Project>
+      <Name>product_selfadjoint_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\product_small_7.vcxproj">
+      <Project>{1BF7BA71-FB00-3C3F-8772-1F92365CCC63}</Project>
+      <Name>product_small_7</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\product_symm_1.vcxproj">
+      <Project>{A3749A51-3036-3420-B0FD-F95081D8055B}</Project>
+      <Name>product_symm_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\product_syrk_1.vcxproj">
+      <Project>{6911E747-B2D8-3F14-83BB-57B7D3B1B6E5}</Project>
+      <Name>product_syrk_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\product_trmm_1.vcxproj">
+      <Project>{7ED581E3-A8C5-3D16-80D1-F8E052CC150D}</Project>
+      <Name>product_trmm_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\product_trmv_1.vcxproj">
+      <Project>{DA1509C1-94A9-3826-BBD6-E57C9EF20141}</Project>
+      <Name>product_trmv_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\product_trsolve_5.vcxproj">
+      <Project>{CBA2839D-838B-3302-B487-D040095C1827}</Project>
+      <Name>product_trsolve_5</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\qr_1.vcxproj">
+      <Project>{01B003A6-A603-302B-A596-658B88DF8C55}</Project>
+      <Name>qr_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\qr_colpivoting_7.vcxproj">
+      <Project>{5228E65E-A85D-3E1C-A869-E4B41B3D8B28}</Project>
+      <Name>qr_colpivoting_7</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\qr_fullpivoting_4.vcxproj">
+      <Project>{3DC42440-8F2F-38F5-911B-03A30E7ABA47}</Project>
+      <Name>qr_fullpivoting_4</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\rand_1.vcxproj">
+      <Project>{490684DA-0BEB-3B3A-A2D7-97A0654E2092}</Project>
+      <Name>rand_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\real_qz_1.vcxproj">
+      <Project>{E06BD5F6-EDBB-3C10-B00B-394A956A1FBE}</Project>
+      <Name>real_qz_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\redux_1.vcxproj">
+      <Project>{4DDE02CA-7652-3845-BF82-4B2AE40FDBBB}</Project>
+      <Name>redux_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\ref_1.vcxproj">
+      <Project>{3074B0F4-49DA-3CEC-9EED-43442C5CFBEF}</Project>
+      <Name>ref_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\resize.vcxproj">
+      <Project>{5D4C05FC-FFBA-36D3-8E34-E08A546E1D57}</Project>
+      <Name>resize</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\rvalue_types_1.vcxproj">
+      <Project>{6C3FB451-0D80-3853-8374-14A05FCB3B4D}</Project>
+      <Name>rvalue_types_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\schur_complex_1.vcxproj">
+      <Project>{FE5955E7-E537-3CCE-BD6E-74A98AC40755}</Project>
+      <Name>schur_complex_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\schur_real_1.vcxproj">
+      <Project>{DC93D9BE-2D94-30E9-8F63-DC2C76B136A8}</Project>
+      <Name>schur_real_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\selfadjoint_1.vcxproj">
+      <Project>{6D5FB675-C328-34D3-90F9-422E5EA1810A}</Project>
+      <Name>selfadjoint_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\sizeof.vcxproj">
+      <Project>{E2669BC1-A6B8-3BBD-8D8B-7744D10A5118}</Project>
+      <Name>sizeof</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\sizeoverflow.vcxproj">
+      <Project>{C499116C-4795-3376-8EFB-23FBE983946A}</Project>
+      <Name>sizeoverflow</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\smallvectors.vcxproj">
+      <Project>{200A414E-C7F0-3A8D-B666-0A60EDF23E92}</Project>
+      <Name>smallvectors</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\sparse_basic_1.vcxproj">
+      <Project>{9CB8C7B6-1378-3E05-B75B-9C127E40419C}</Project>
+      <Name>sparse_basic_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\sparse_basic_3.vcxproj">
+      <Project>{1A67960F-624E-3228-986B-1BBDAE411583}</Project>
+      <Name>sparse_basic_3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\sparse_block_1.vcxproj">
+      <Project>{8FD852C0-0AA6-380D-B959-6557837BA9F9}</Project>
+      <Name>sparse_block_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\sparse_permutations_2.vcxproj">
+      <Project>{F8431720-602C-3D38-A692-DDFB94865215}</Project>
+      <Name>sparse_permutations_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\sparse_product_4.vcxproj">
+      <Project>{7F206CC0-F3B3-3015-B3E3-601558D96D73}</Project>
+      <Name>sparse_product_4</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\sparse_ref_1.vcxproj">
+      <Project>{037C3B5E-C1CF-3CCA-9A5A-B50914CDFEBD}</Project>
+      <Name>sparse_ref_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\sparse_solvers_1.vcxproj">
+      <Project>{8D0F522B-5948-3386-A74A-1E94D2BF6E77}</Project>
+      <Name>sparse_solvers_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\sparse_vector_1.vcxproj">
+      <Project>{4CC339BC-02F4-3A81-A39D-A970CA4BCC33}</Project>
+      <Name>sparse_vector_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\special_numbers_1.vcxproj">
+      <Project>{1480C284-56D8-3631-B211-5F64922590B4}</Project>
+      <Name>special_numbers_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\stable_norm_1.vcxproj">
+      <Project>{E65EFEEF-EA5E-3E4A-92EA-25FB675C69A6}</Project>
+      <Name>stable_norm_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\stddeque_1.vcxproj">
+      <Project>{097A6977-C0CD-34C3-93EC-AA4C53220B96}</Project>
+      <Name>stddeque_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\stddeque_overload_1.vcxproj">
+      <Project>{E9391E40-2D85-3201-8B0A-0B78D0B7AEF6}</Project>
+      <Name>stddeque_overload_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\stdlist_1.vcxproj">
+      <Project>{93B15052-DD17-3317-8FC0-807B64031856}</Project>
+      <Name>stdlist_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\stdlist_overload_1.vcxproj">
+      <Project>{B64E4062-F445-39A0-9EF2-BC565609F89C}</Project>
+      <Name>stdlist_overload_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\stdvector_1.vcxproj">
+      <Project>{4FEBBC8A-E2F3-3CCF-8224-8826CE797E2D}</Project>
+      <Name>stdvector_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\stdvector_overload_1.vcxproj">
+      <Project>{02BD1BF7-8A96-3698-BAC5-7389F952BE19}</Project>
+      <Name>stdvector_overload_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\stl_iterators_1.vcxproj">
+      <Project>{8065853C-0E60-369C-876B-164DDE96F1D9}</Project>
+      <Name>stl_iterators_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\swap_1.vcxproj">
+      <Project>{6891C5E7-26CA-3494-8D34-1D4D295DB6B0}</Project>
+      <Name>swap_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\symbolic_index_1.vcxproj">
+      <Project>{FAD0CD10-CF97-36D1-91BE-04E32A80B117}</Project>
+      <Name>symbolic_index_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\triangular_1.vcxproj">
+      <Project>{A26F7A02-DDC7-3E41-A24C-C190BD46B445}</Project>
+      <Name>triangular_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\umeyama_3.vcxproj">
+      <Project>{152E1A0F-F605-373E-82FC-C5B61D3D6924}</Project>
+      <Name>umeyama_3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\unalignedcount.vcxproj">
+      <Project>{676968F8-E0E9-3B42-8FD9-73B6273D5C2D}</Project>
+      <Name>unalignedcount</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\vectorization_logic_1.vcxproj">
+      <Project>{FCF5AF5E-F5EB-3AA2-B94A-9ACF58B2F897}</Project>
+      <Name>vectorization_logic_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\vectorwiseop_1.vcxproj">
+      <Project>{C1AFBF66-C87D-3F39-9C32-A27863513EB2}</Project>
+      <Name>vectorwiseop_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\test\visitor_1.vcxproj">
+      <Project>{227FAA08-661A-35D4-AB36-CF36060E1C6B}</Project>
+      <Name>visitor_1</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

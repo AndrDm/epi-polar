@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build/unsupported/test/matrix_square_root.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"BuildUnsupported"
+		],
+		"name" : "matrix_square_root_4"
+	}
+}

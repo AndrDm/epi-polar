@@ -1,0 +1,1366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C19DA26D-7B1D-333B-92FE-733472922412}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>all_snippets</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\doc\snippets\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build/doc/snippets/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build -BC:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build/build --check-stamp-file C:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build/build/doc/snippets/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\doc\snippets\compile_snippet.cpp.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build/doc/snippets/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build -BC:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build/build --check-stamp-file C:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build/build/doc/snippets/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\doc\snippets\compile_snippet.cpp.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build/doc/snippets/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build -BC:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build/build --check-stamp-file C:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build/build/doc/snippets/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\doc\snippets\compile_snippet.cpp.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build/doc/snippets/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build -BC:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build/build --check-stamp-file C:/Users/Andrey/Desktop/epi-polar/eigen-5.0.1-build/build/doc/snippets/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\doc\snippets\compile_snippet.cpp.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\ZERO_CHECK.vcxproj">
+      <Project>{E694C48D-99E7-3B9C-A894-0F70FA055B16}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_AngleAxis_mimic_euler.vcxproj">
+      <Project>{2B7FF94E-D4D4-31CA-8BFB-92D75BF66A48}</Project>
+      <Name>compile_AngleAxis_mimic_euler</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Array_initializer_list_23_cxx11.vcxproj">
+      <Project>{BF370521-92B9-35A3-81A3-ED277D320470}</Project>
+      <Name>compile_Array_initializer_list_23_cxx11</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Array_initializer_list_vector_cxx11.vcxproj">
+      <Project>{6BD2D5E3-9E10-36FC-ACD6-67DD8D0067CD}</Project>
+      <Name>compile_Array_initializer_list_vector_cxx11</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Array_variadic_ctor_cxx11.vcxproj">
+      <Project>{6263FE60-CDD8-34A7-8551-2CF68ECA69D7}</Project>
+      <Name>compile_Array_variadic_ctor_cxx11</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_BiCGSTAB_simple.vcxproj">
+      <Project>{D5E637E6-FBF9-3815-88D0-3FC8F405E082}</Project>
+      <Name>compile_BiCGSTAB_simple</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_BiCGSTAB_step_by_step.vcxproj">
+      <Project>{65FAC7A3-C65B-3ECF-A76E-E8DA8960FD77}</Project>
+      <Name>compile_BiCGSTAB_step_by_step</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_ColPivHouseholderQR_solve.vcxproj">
+      <Project>{78DA25FC-5D04-3E52-B908-BE755FD3040C}</Project>
+      <Name>compile_ColPivHouseholderQR_solve</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_ComplexEigenSolver_compute.vcxproj">
+      <Project>{05FC78B3-12C7-3902-9F67-C10116556072}</Project>
+      <Name>compile_ComplexEigenSolver_compute</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_ComplexEigenSolver_eigenvalues.vcxproj">
+      <Project>{EA3E3F6C-38A7-3BFD-B9BD-549BDA0AC3F6}</Project>
+      <Name>compile_ComplexEigenSolver_eigenvalues</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_ComplexEigenSolver_eigenvectors.vcxproj">
+      <Project>{9535923C-18B5-321E-A8A9-ED360CC5B36C}</Project>
+      <Name>compile_ComplexEigenSolver_eigenvectors</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_ComplexSchur_compute.vcxproj">
+      <Project>{E57AD026-EE22-3B26-AE74-9E5278CEEBF6}</Project>
+      <Name>compile_ComplexSchur_compute</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_ComplexSchur_matrixT.vcxproj">
+      <Project>{4AE22C1D-9DC9-364D-8C00-1939A5DB2D65}</Project>
+      <Name>compile_ComplexSchur_matrixT</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_ComplexSchur_matrixU.vcxproj">
+      <Project>{2822CEC4-48F6-300C-96C2-949DE30FD264}</Project>
+      <Name>compile_ComplexSchur_matrixU</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Cwise_abs.vcxproj">
+      <Project>{87F8C945-EBBA-37F0-9E36-96C4F98D65AB}</Project>
+      <Name>compile_Cwise_abs</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Cwise_abs2.vcxproj">
+      <Project>{7D5D422F-D510-3163-BA5A-1655492ADC1D}</Project>
+      <Name>compile_Cwise_abs2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Cwise_acos.vcxproj">
+      <Project>{052E3E86-A3E2-3520-8306-9D58A3A7980F}</Project>
+      <Name>compile_Cwise_acos</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Cwise_arg.vcxproj">
+      <Project>{8607B0FE-61C8-3FB6-BA17-DBD43DF8AA89}</Project>
+      <Name>compile_Cwise_arg</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Cwise_array_atan2_array.vcxproj">
+      <Project>{FFBC75D2-837D-3439-8894-63669085787E}</Project>
+      <Name>compile_Cwise_array_atan2_array</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Cwise_array_power_array.vcxproj">
+      <Project>{AF7F144D-8A20-34C6-A0F1-7E92866AE123}</Project>
+      <Name>compile_Cwise_array_power_array</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Cwise_asin.vcxproj">
+      <Project>{1C6AEC48-8076-381F-A296-E6D027366C32}</Project>
+      <Name>compile_Cwise_asin</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Cwise_atan.vcxproj">
+      <Project>{2BF980F0-6EB3-3A20-BFA6-EACA22CCA8D8}</Project>
+      <Name>compile_Cwise_atan</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Cwise_boolean_and.vcxproj">
+      <Project>{73D77E87-FBC8-36EF-80BC-43172017A816}</Project>
+      <Name>compile_Cwise_boolean_and</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Cwise_boolean_not.vcxproj">
+      <Project>{EAB8D311-D325-3D02-9E82-5CA60205AC5E}</Project>
+      <Name>compile_Cwise_boolean_not</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Cwise_boolean_or.vcxproj">
+      <Project>{EEB01772-DEED-3F55-AEC0-1A214B1E7F39}</Project>
+      <Name>compile_Cwise_boolean_or</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Cwise_cbrt.vcxproj">
+      <Project>{72F04702-DCE1-32B8-8593-E62509E2BF79}</Project>
+      <Name>compile_Cwise_cbrt</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Cwise_ceil.vcxproj">
+      <Project>{5EE82E65-1360-300A-9AEB-BFB785E88275}</Project>
+      <Name>compile_Cwise_ceil</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Cwise_cos.vcxproj">
+      <Project>{FE53661D-EC91-3238-A263-3631B715ECF4}</Project>
+      <Name>compile_Cwise_cos</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Cwise_cosh.vcxproj">
+      <Project>{026369B1-364C-35CD-98B9-5AAB41A10A21}</Project>
+      <Name>compile_Cwise_cosh</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Cwise_cube.vcxproj">
+      <Project>{3D857AE5-6597-3387-8E65-178473E8D068}</Project>
+      <Name>compile_Cwise_cube</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Cwise_equal_equal.vcxproj">
+      <Project>{54C3A01A-25EA-3203-88E0-40638E36ABA1}</Project>
+      <Name>compile_Cwise_equal_equal</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Cwise_exp.vcxproj">
+      <Project>{369B91F2-9493-3823-B889-C5A2C3C7C0C6}</Project>
+      <Name>compile_Cwise_exp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Cwise_floor.vcxproj">
+      <Project>{3D6666E6-1E10-3F55-A1B4-4F0242D07361}</Project>
+      <Name>compile_Cwise_floor</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Cwise_greater.vcxproj">
+      <Project>{93582DF8-437F-3E51-87AF-F3117322F495}</Project>
+      <Name>compile_Cwise_greater</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Cwise_greater_equal.vcxproj">
+      <Project>{ED572FD2-62B7-37A8-9A09-7099CF99E065}</Project>
+      <Name>compile_Cwise_greater_equal</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Cwise_inverse.vcxproj">
+      <Project>{F0D8371A-B122-3D38-A540-BC295F9F4082}</Project>
+      <Name>compile_Cwise_inverse</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Cwise_isFinite.vcxproj">
+      <Project>{097C0BDA-9640-3560-9FB4-94B6C756EE5C}</Project>
+      <Name>compile_Cwise_isFinite</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Cwise_isInf.vcxproj">
+      <Project>{85CD0342-741A-3217-9B19-14D1ED31D7EE}</Project>
+      <Name>compile_Cwise_isInf</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Cwise_isNaN.vcxproj">
+      <Project>{40758F3C-4F15-3E5E-9682-CB45E7BD8079}</Project>
+      <Name>compile_Cwise_isNaN</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Cwise_less.vcxproj">
+      <Project>{889F3361-8C4B-3252-A799-C29A191A3A6A}</Project>
+      <Name>compile_Cwise_less</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Cwise_less_equal.vcxproj">
+      <Project>{2990500E-1104-3FB4-9803-0836EF998D2D}</Project>
+      <Name>compile_Cwise_less_equal</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Cwise_log.vcxproj">
+      <Project>{54485248-140E-3EC7-9B89-7332C1ABD89E}</Project>
+      <Name>compile_Cwise_log</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Cwise_log10.vcxproj">
+      <Project>{D70540CF-C026-3090-B3F8-63629FF07CBF}</Project>
+      <Name>compile_Cwise_log10</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Cwise_max.vcxproj">
+      <Project>{AF3CAF2B-2E00-34E4-98A6-06E800D8F2B1}</Project>
+      <Name>compile_Cwise_max</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Cwise_min.vcxproj">
+      <Project>{918ADD9F-7DB3-31D6-AFDC-7C0F25506F52}</Project>
+      <Name>compile_Cwise_min</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Cwise_minus.vcxproj">
+      <Project>{3FEAC29E-8CF5-34F6-95EC-AC9A5E5FCF7F}</Project>
+      <Name>compile_Cwise_minus</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Cwise_minus_equal.vcxproj">
+      <Project>{04B33B3A-5544-316F-B28F-D42297DA95D1}</Project>
+      <Name>compile_Cwise_minus_equal</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Cwise_not_equal.vcxproj">
+      <Project>{8A23B3E2-F767-36C7-A1E9-6CCD6E068515}</Project>
+      <Name>compile_Cwise_not_equal</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Cwise_plus.vcxproj">
+      <Project>{23B87A56-7ECA-3F0B-96C5-F5E63C68845E}</Project>
+      <Name>compile_Cwise_plus</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Cwise_plus_equal.vcxproj">
+      <Project>{3947FF6A-A893-3784-895D-9C7272D9E722}</Project>
+      <Name>compile_Cwise_plus_equal</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Cwise_pow.vcxproj">
+      <Project>{3C987FA3-9E09-3979-9F0F-C04C9BD1CD8B}</Project>
+      <Name>compile_Cwise_pow</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Cwise_product.vcxproj">
+      <Project>{D781FDD5-5A35-3298-8215-B7658751DE12}</Project>
+      <Name>compile_Cwise_product</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Cwise_quotient.vcxproj">
+      <Project>{0A7F5130-276A-3689-9500-FFAC051A3B75}</Project>
+      <Name>compile_Cwise_quotient</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Cwise_rint.vcxproj">
+      <Project>{8C4DD019-6C73-33B0-9EEA-407DBD2310EF}</Project>
+      <Name>compile_Cwise_rint</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Cwise_round.vcxproj">
+      <Project>{2380083F-CF5A-3C13-99FB-F1FEE254DD0E}</Project>
+      <Name>compile_Cwise_round</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Cwise_scalar_power_array.vcxproj">
+      <Project>{F36EBC23-2741-38C5-9ECE-0556C5BAD096}</Project>
+      <Name>compile_Cwise_scalar_power_array</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Cwise_sign.vcxproj">
+      <Project>{5FE65279-813C-3469-946F-D3F5501F6604}</Project>
+      <Name>compile_Cwise_sign</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Cwise_sin.vcxproj">
+      <Project>{DFAE752A-39D9-31A7-9141-7D277D042605}</Project>
+      <Name>compile_Cwise_sin</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Cwise_sinh.vcxproj">
+      <Project>{7553027A-3FF2-3D4F-8D2C-E596D07BFBC8}</Project>
+      <Name>compile_Cwise_sinh</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Cwise_slash_equal.vcxproj">
+      <Project>{97745727-432D-35B9-ABCE-05621C52E052}</Project>
+      <Name>compile_Cwise_slash_equal</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Cwise_sqrt.vcxproj">
+      <Project>{82DD42D3-8E14-3D9D-B85F-C287EFFADCAD}</Project>
+      <Name>compile_Cwise_sqrt</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Cwise_square.vcxproj">
+      <Project>{A212C9CA-D73A-3E25-AC01-EC39B94DE6B4}</Project>
+      <Name>compile_Cwise_square</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Cwise_tan.vcxproj">
+      <Project>{0389DB8D-1232-390C-9B68-7532529CEC3E}</Project>
+      <Name>compile_Cwise_tan</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Cwise_tanh.vcxproj">
+      <Project>{00F8ACA9-0341-364F-AA01-E5045960F028}</Project>
+      <Name>compile_Cwise_tanh</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Cwise_times_equal.vcxproj">
+      <Project>{C4B98011-B562-3344-B137-C930A4AF2E5C}</Project>
+      <Name>compile_Cwise_times_equal</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Cwise_trunc.vcxproj">
+      <Project>{6C9B5B23-48F4-3B72-94C7-477226213B23}</Project>
+      <Name>compile_Cwise_trunc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_DenseBase_LinSpaced.vcxproj">
+      <Project>{71DE355D-8966-3767-94E1-AF5793F0B145}</Project>
+      <Name>compile_DenseBase_LinSpaced</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_DenseBase_LinSpacedInt.vcxproj">
+      <Project>{EE334FB1-8FA8-35C6-BE0A-520E255486E1}</Project>
+      <Name>compile_DenseBase_LinSpacedInt</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_DenseBase_LinSpaced_seq_deprecated.vcxproj">
+      <Project>{00C68EBB-4FDC-3421-9DC2-27ACD1B7111D}</Project>
+      <Name>compile_DenseBase_LinSpaced_seq_deprecated</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_DenseBase_setLinSpaced.vcxproj">
+      <Project>{FE496F83-74F9-3F24-BEDD-A28D7A6733F0}</Project>
+      <Name>compile_DenseBase_setLinSpaced</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_DirectionWise_hnormalized.vcxproj">
+      <Project>{69673C14-07B9-3AAB-8A48-321EC9EF3072}</Project>
+      <Name>compile_DirectionWise_hnormalized</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_DirectionWise_replicate.vcxproj">
+      <Project>{79671B66-1766-382F-AB84-83E57E629D9B}</Project>
+      <Name>compile_DirectionWise_replicate</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_DirectionWise_replicate_int.vcxproj">
+      <Project>{1DCB2389-2AE2-3BC6-A9AC-DD26511B30C9}</Project>
+      <Name>compile_DirectionWise_replicate_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_EigenSolver_EigenSolver_MatrixType.vcxproj">
+      <Project>{12E8F1EF-6109-3F27-904D-3B24529A552F}</Project>
+      <Name>compile_EigenSolver_EigenSolver_MatrixType</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_EigenSolver_compute.vcxproj">
+      <Project>{1D6C29F0-6BB3-3895-BC5B-832300419160}</Project>
+      <Name>compile_EigenSolver_compute</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_EigenSolver_eigenvalues.vcxproj">
+      <Project>{7A086244-CDA3-339C-B614-E0EEAC5DB7A7}</Project>
+      <Name>compile_EigenSolver_eigenvalues</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_EigenSolver_eigenvectors.vcxproj">
+      <Project>{FFE0B8E9-2807-3E53-A04A-3A16C8180C47}</Project>
+      <Name>compile_EigenSolver_eigenvectors</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_EigenSolver_pseudoEigenvectors.vcxproj">
+      <Project>{B959B220-A7C1-3CA9-BBCA-BE9A1A105FA9}</Project>
+      <Name>compile_EigenSolver_pseudoEigenvectors</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_FullPivHouseholderQR_solve.vcxproj">
+      <Project>{7A03FB07-6254-3B3D-9012-88BC4EC480BB}</Project>
+      <Name>compile_FullPivHouseholderQR_solve</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_FullPivLU_image.vcxproj">
+      <Project>{C26162B4-0392-3554-916B-938FB2924377}</Project>
+      <Name>compile_FullPivLU_image</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_FullPivLU_kernel.vcxproj">
+      <Project>{9E7CEA0B-B73A-395B-A251-7A76FE836FC5}</Project>
+      <Name>compile_FullPivLU_kernel</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_FullPivLU_solve.vcxproj">
+      <Project>{3C25ADE9-3659-3B40-B023-1669609A3635}</Project>
+      <Name>compile_FullPivLU_solve</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_GeneralizedEigenSolver.vcxproj">
+      <Project>{4DA6D7FB-8DDF-34A2-9CB5-9F7D79572437}</Project>
+      <Name>compile_GeneralizedEigenSolver</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_HessenbergDecomposition_compute.vcxproj">
+      <Project>{64C9C55B-380D-3147-8BBF-FCF6D2C10660}</Project>
+      <Name>compile_HessenbergDecomposition_compute</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_HessenbergDecomposition_matrixH.vcxproj">
+      <Project>{F3615CFC-6DBB-3247-96D4-79F7C6CA00E9}</Project>
+      <Name>compile_HessenbergDecomposition_matrixH</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_HessenbergDecomposition_packedMatrix.vcxproj">
+      <Project>{03432970-5BDF-3689-9277-37847C239186}</Project>
+      <Name>compile_HessenbergDecomposition_packedMatrix</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_HouseholderQR_householderQ.vcxproj">
+      <Project>{90DA9CAE-BC97-30E3-AFFA-054F09D78E35}</Project>
+      <Name>compile_HouseholderQR_householderQ</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_HouseholderQR_solve.vcxproj">
+      <Project>{2DB28F2B-A076-3070-AB47-B9F4861F9248}</Project>
+      <Name>compile_HouseholderQR_solve</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_HouseholderSequence_HouseholderSequence.vcxproj">
+      <Project>{71B2ADCF-05D2-3310-857A-6DDF15310C71}</Project>
+      <Name>compile_HouseholderSequence_HouseholderSequence</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_IOFormat.vcxproj">
+      <Project>{04520E27-0DCF-38AC-AED0-B319DA194D00}</Project>
+      <Name>compile_IOFormat</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_JacobiSVD_basic.vcxproj">
+      <Project>{7DA790FA-83FE-38CE-952B-4E660FB1882F}</Project>
+      <Name>compile_JacobiSVD_basic</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Jacobi_makeGivens.vcxproj">
+      <Project>{BA2875CC-8E11-37D0-8573-590745AD2344}</Project>
+      <Name>compile_Jacobi_makeGivens</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Jacobi_makeJacobi.vcxproj">
+      <Project>{35B80C2D-4194-3B87-B04C-A795C980C7B4}</Project>
+      <Name>compile_Jacobi_makeJacobi</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_LLT_example.vcxproj">
+      <Project>{2A163C22-A612-310F-A443-4321C07CD68C}</Project>
+      <Name>compile_LLT_example</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_LLT_solve.vcxproj">
+      <Project>{616C29A3-A23C-33A4-B19E-1C70E417C9D1}</Project>
+      <Name>compile_LLT_solve</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_LeastSquaresNormalEquations.vcxproj">
+      <Project>{2681C507-D6DD-3231-9452-49C0CB6AC5C9}</Project>
+      <Name>compile_LeastSquaresNormalEquations</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_LeastSquaresQR.vcxproj">
+      <Project>{6C6A058B-2BEA-30AA-A3BD-E14F0ADFDF8D}</Project>
+      <Name>compile_LeastSquaresQR</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Map_general_stride.vcxproj">
+      <Project>{CD355097-1CAB-3839-9E21-FDC7065A0A03}</Project>
+      <Name>compile_Map_general_stride</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Map_inner_stride.vcxproj">
+      <Project>{ABE7F903-E9FD-3C09-B6C3-7929AA28AE58}</Project>
+      <Name>compile_Map_inner_stride</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Map_outer_stride.vcxproj">
+      <Project>{DC915D0A-8457-3C85-B846-7DF939C3FCAC}</Project>
+      <Name>compile_Map_outer_stride</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Map_placement_new.vcxproj">
+      <Project>{789D957A-63EA-33AE-A934-337CDF59F262}</Project>
+      <Name>compile_Map_placement_new</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Map_simple.vcxproj">
+      <Project>{1C854C92-AC5D-309B-BCD4-61E05A2E20A3}</Project>
+      <Name>compile_Map_simple</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_adjoint.vcxproj">
+      <Project>{FEC4D596-480E-396E-9B7C-BCDC171BE828}</Project>
+      <Name>compile_MatrixBase_adjoint</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_all.vcxproj">
+      <Project>{1E55163B-D4FE-39A2-83DC-9E178BFA9ECA}</Project>
+      <Name>compile_MatrixBase_all</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_applyOnTheLeft.vcxproj">
+      <Project>{190B673E-CA1F-3B26-AD80-99CC090C723F}</Project>
+      <Name>compile_MatrixBase_applyOnTheLeft</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_applyOnTheRight.vcxproj">
+      <Project>{355DF201-4C3F-3811-ACDA-BA64E66062C6}</Project>
+      <Name>compile_MatrixBase_applyOnTheRight</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_array.vcxproj">
+      <Project>{26C63EE3-74B7-37DD-9D8D-43F1BAD47DC3}</Project>
+      <Name>compile_MatrixBase_array</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_array_const.vcxproj">
+      <Project>{A9017AE0-F67D-3EFC-ABE9-302B95C302BB}</Project>
+      <Name>compile_MatrixBase_array_const</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_asDiagonal.vcxproj">
+      <Project>{6D6238A8-34C4-38AC-BE71-87FCFEFB9752}</Project>
+      <Name>compile_MatrixBase_asDiagonal</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_block_int_int.vcxproj">
+      <Project>{9C9821C6-77E1-3F85-B8C1-253E17580383}</Project>
+      <Name>compile_MatrixBase_block_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_block_int_int_int_int.vcxproj">
+      <Project>{3664FC9E-F35C-3779-8114-F83D42C105C5}</Project>
+      <Name>compile_MatrixBase_block_int_int_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_bottomLeftCorner_int_int.vcxproj">
+      <Project>{2C25D675-5D36-3CA2-93AA-1853339DD766}</Project>
+      <Name>compile_MatrixBase_bottomLeftCorner_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_bottomRightCorner_int_int.vcxproj">
+      <Project>{D81379D0-5375-3BE8-91E5-12D2E65817C9}</Project>
+      <Name>compile_MatrixBase_bottomRightCorner_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_bottomRows_int.vcxproj">
+      <Project>{5CADEA32-5862-3B10-A416-6283CADC99E3}</Project>
+      <Name>compile_MatrixBase_bottomRows_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_cast.vcxproj">
+      <Project>{A6CDC320-4050-3383-A822-CE2ABF131548}</Project>
+      <Name>compile_MatrixBase_cast</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_col.vcxproj">
+      <Project>{F361910E-F149-3F36-812F-DAE16C37EE5E}</Project>
+      <Name>compile_MatrixBase_col</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_colwise.vcxproj">
+      <Project>{9DF3DD92-D8C9-306E-9826-80152E8706C7}</Project>
+      <Name>compile_MatrixBase_colwise</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_colwise_iterator_cxx11.vcxproj">
+      <Project>{8884FDD5-D783-303F-95D4-E8079251A557}</Project>
+      <Name>compile_MatrixBase_colwise_iterator_cxx11</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_computeInverseAndDetWithCheck.vcxproj">
+      <Project>{8C0865F5-1B2B-3E16-BBBC-A4951E9B1629}</Project>
+      <Name>compile_MatrixBase_computeInverseAndDetWithCheck</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_computeInverseWithCheck.vcxproj">
+      <Project>{669593B4-DA90-3CFA-A558-39B721F775F6}</Project>
+      <Name>compile_MatrixBase_computeInverseWithCheck</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_cwiseAbs.vcxproj">
+      <Project>{C025350D-B7DA-3EE6-AE4E-C1AD332481DF}</Project>
+      <Name>compile_MatrixBase_cwiseAbs</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_cwiseAbs2.vcxproj">
+      <Project>{36A97338-BAB5-370F-8D5B-72732C218AEB}</Project>
+      <Name>compile_MatrixBase_cwiseAbs2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_cwiseArg.vcxproj">
+      <Project>{44CC1E0F-D057-3CA3-BAA6-B94EA8213977}</Project>
+      <Name>compile_MatrixBase_cwiseArg</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_cwiseEqual.vcxproj">
+      <Project>{87D745AA-7F18-31FD-BB9C-796622A59C93}</Project>
+      <Name>compile_MatrixBase_cwiseEqual</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_cwiseInverse.vcxproj">
+      <Project>{7DF7436E-386A-3BDB-B7A0-2FB85ADA8C6A}</Project>
+      <Name>compile_MatrixBase_cwiseInverse</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_cwiseMax.vcxproj">
+      <Project>{DB5869DB-ADA4-371E-91F4-030596087BED}</Project>
+      <Name>compile_MatrixBase_cwiseMax</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_cwiseMin.vcxproj">
+      <Project>{3B699CFF-8366-3BF3-87AC-70398C1B0265}</Project>
+      <Name>compile_MatrixBase_cwiseMin</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_cwiseNotEqual.vcxproj">
+      <Project>{42F24F83-10B7-37FC-9CA1-D2C15CFD4EB4}</Project>
+      <Name>compile_MatrixBase_cwiseNotEqual</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_cwiseProduct.vcxproj">
+      <Project>{3377B907-8E7F-3562-A997-526CE9876132}</Project>
+      <Name>compile_MatrixBase_cwiseProduct</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_cwiseQuotient.vcxproj">
+      <Project>{459FC176-95E8-335D-9BEE-63F4EFAE63A1}</Project>
+      <Name>compile_MatrixBase_cwiseQuotient</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_cwiseSign.vcxproj">
+      <Project>{24D5AD67-84E5-3E64-9D00-7AE026409692}</Project>
+      <Name>compile_MatrixBase_cwiseSign</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_cwiseSqrt.vcxproj">
+      <Project>{C8929AAF-B84C-3A21-996E-63E96286857E}</Project>
+      <Name>compile_MatrixBase_cwiseSqrt</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_diagonal.vcxproj">
+      <Project>{88E7EB77-6230-30EB-B3B6-CA4FD8B5EC35}</Project>
+      <Name>compile_MatrixBase_diagonal</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_diagonal_int.vcxproj">
+      <Project>{07945389-FB59-38C8-BB11-06BAAA52FB84}</Project>
+      <Name>compile_MatrixBase_diagonal_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_diagonal_template_int.vcxproj">
+      <Project>{C78FBC6D-BC47-33DE-83CF-77204AA3E4CA}</Project>
+      <Name>compile_MatrixBase_diagonal_template_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_eigenvalues.vcxproj">
+      <Project>{659AD4D5-3A62-3935-99EC-6B4253FC05B7}</Project>
+      <Name>compile_MatrixBase_eigenvalues</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_end_int.vcxproj">
+      <Project>{51D1A5DD-7D05-3B86-92E8-3E10826331DC}</Project>
+      <Name>compile_MatrixBase_end_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_eval.vcxproj">
+      <Project>{81BA2A47-797B-333E-9AED-4C81407BB03E}</Project>
+      <Name>compile_MatrixBase_eval</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_fixedBlock_int_int.vcxproj">
+      <Project>{192C6FDD-2116-3284-90B5-50BB881C2E45}</Project>
+      <Name>compile_MatrixBase_fixedBlock_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_hnormalized.vcxproj">
+      <Project>{F15A8679-81FE-3900-AB24-624843D4AD42}</Project>
+      <Name>compile_MatrixBase_hnormalized</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_homogeneous.vcxproj">
+      <Project>{06468BE5-278B-3E60-A7E2-7BF3C23C1101}</Project>
+      <Name>compile_MatrixBase_homogeneous</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_identity.vcxproj">
+      <Project>{13DC0DC2-5DD1-3B32-B347-E26561273C4D}</Project>
+      <Name>compile_MatrixBase_identity</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_identity_int_int.vcxproj">
+      <Project>{25044AA5-100B-315C-A31C-4574D3FF4CBF}</Project>
+      <Name>compile_MatrixBase_identity_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_inverse.vcxproj">
+      <Project>{0B4B82FE-4950-304E-8F7A-74F4F3F2244B}</Project>
+      <Name>compile_MatrixBase_inverse</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_isDiagonal.vcxproj">
+      <Project>{426C2C7D-2781-33D6-BE05-4F6AB5A879A2}</Project>
+      <Name>compile_MatrixBase_isDiagonal</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_isIdentity.vcxproj">
+      <Project>{2B00D4F0-15B0-37A3-9A6B-CE435D98A79D}</Project>
+      <Name>compile_MatrixBase_isIdentity</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_isOnes.vcxproj">
+      <Project>{3BDFEFDB-D16A-35D6-A6B2-9D79FAF12286}</Project>
+      <Name>compile_MatrixBase_isOnes</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_isOrthogonal.vcxproj">
+      <Project>{A20E3324-98B0-30DB-8618-2A481AC7DB96}</Project>
+      <Name>compile_MatrixBase_isOrthogonal</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_isUnitary.vcxproj">
+      <Project>{07EC47D3-FFCC-34DB-A425-C02168E07D5C}</Project>
+      <Name>compile_MatrixBase_isUnitary</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_isZero.vcxproj">
+      <Project>{F884970A-5724-3AD4-908C-EDED21D30EE9}</Project>
+      <Name>compile_MatrixBase_isZero</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_leftCols_int.vcxproj">
+      <Project>{AB0DE7E4-AA0D-3B93-96EB-98B1199025DD}</Project>
+      <Name>compile_MatrixBase_leftCols_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_noalias.vcxproj">
+      <Project>{1FEBEB29-AEB8-3872-B7F4-8C52BAEAB6C9}</Project>
+      <Name>compile_MatrixBase_noalias</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_ones.vcxproj">
+      <Project>{232D7B8A-F137-381E-9952-005B56D9F397}</Project>
+      <Name>compile_MatrixBase_ones</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_ones_int.vcxproj">
+      <Project>{00A78362-129B-3C98-B36B-E3C785E008C5}</Project>
+      <Name>compile_MatrixBase_ones_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_ones_int_int.vcxproj">
+      <Project>{DA61F439-F6AE-36D6-963F-7AB57219E8FD}</Project>
+      <Name>compile_MatrixBase_ones_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_operatorNorm.vcxproj">
+      <Project>{168239E8-034A-3125-B076-08EB14BAD53D}</Project>
+      <Name>compile_MatrixBase_operatorNorm</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_prod.vcxproj">
+      <Project>{15C91A8F-4624-3CD3-A180-E73BFBE23A7A}</Project>
+      <Name>compile_MatrixBase_prod</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_random.vcxproj">
+      <Project>{6F10ECEF-F4E7-34F7-B477-8082BDE01284}</Project>
+      <Name>compile_MatrixBase_random</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_random_int.vcxproj">
+      <Project>{8A103701-EDC2-3BFE-BC28-DD5EE5B56F1D}</Project>
+      <Name>compile_MatrixBase_random_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_random_int_int.vcxproj">
+      <Project>{1B4D1D47-4834-30C5-985D-E912C20E32B3}</Project>
+      <Name>compile_MatrixBase_random_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_replicate.vcxproj">
+      <Project>{C3F917B0-2DCD-3466-9D43-F3ED2E429711}</Project>
+      <Name>compile_MatrixBase_replicate</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_replicate_int_int.vcxproj">
+      <Project>{DCE846B0-BCF1-3162-BEEC-F238EE9FAE80}</Project>
+      <Name>compile_MatrixBase_replicate_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_reshaped_auto.vcxproj">
+      <Project>{64DD3298-ECFB-3AE4-A67D-F129C1D26C87}</Project>
+      <Name>compile_MatrixBase_reshaped_auto</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_reshaped_fixed.vcxproj">
+      <Project>{1E67552A-DCB2-30DE-93F8-3A7499D6968E}</Project>
+      <Name>compile_MatrixBase_reshaped_fixed</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_reshaped_int_int.vcxproj">
+      <Project>{FEF1B49D-BC14-38E5-89CA-13DC681D3EA2}</Project>
+      <Name>compile_MatrixBase_reshaped_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_reshaped_to_vector.vcxproj">
+      <Project>{B3725FB3-820A-3D09-A7DD-C08BD983029D}</Project>
+      <Name>compile_MatrixBase_reshaped_to_vector</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_reverse.vcxproj">
+      <Project>{449DAB4B-DF02-3558-BF75-F5960AEAD372}</Project>
+      <Name>compile_MatrixBase_reverse</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_rightCols_int.vcxproj">
+      <Project>{C6FF6575-C7F5-3A09-B56C-AAD6977E1901}</Project>
+      <Name>compile_MatrixBase_rightCols_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_row.vcxproj">
+      <Project>{34C68811-0A37-3C36-B1C6-DDAE2D0F841F}</Project>
+      <Name>compile_MatrixBase_row</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_rowwise.vcxproj">
+      <Project>{939CFBB0-1508-38A5-BE51-152E4619C2B1}</Project>
+      <Name>compile_MatrixBase_rowwise</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_segment_int_int.vcxproj">
+      <Project>{2459C570-7A6D-379B-A990-9AE82A86F42A}</Project>
+      <Name>compile_MatrixBase_segment_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_select.vcxproj">
+      <Project>{A2E3819E-3B14-3B1A-BC6C-6C8425CC39D7}</Project>
+      <Name>compile_MatrixBase_select</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_selfadjointView.vcxproj">
+      <Project>{A4E20432-771E-3981-8FC8-E0D644BBD200}</Project>
+      <Name>compile_MatrixBase_selfadjointView</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_set.vcxproj">
+      <Project>{547644DD-11AA-3235-8A4A-F21F38627771}</Project>
+      <Name>compile_MatrixBase_set</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_setIdentity.vcxproj">
+      <Project>{E8ECA31F-85E4-39A4-8951-06E73F6A1371}</Project>
+      <Name>compile_MatrixBase_setIdentity</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_setOnes.vcxproj">
+      <Project>{322347C2-2D91-330F-A814-29531FAAC1C5}</Project>
+      <Name>compile_MatrixBase_setOnes</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_setRandom.vcxproj">
+      <Project>{0F5B3FCD-2EA8-3C8F-8B8A-F566208E4509}</Project>
+      <Name>compile_MatrixBase_setRandom</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_setZero.vcxproj">
+      <Project>{8F3321E9-AC77-32AE-80C4-85FAF22EFB9A}</Project>
+      <Name>compile_MatrixBase_setZero</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_start_int.vcxproj">
+      <Project>{74B2223F-BCD1-31E6-BF19-911CE6B84B2B}</Project>
+      <Name>compile_MatrixBase_start_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_template_int_bottomRows.vcxproj">
+      <Project>{316CAB73-DB86-32E6-8BF3-5917D0BF7551}</Project>
+      <Name>compile_MatrixBase_template_int_bottomRows</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_template_int_end.vcxproj">
+      <Project>{A0A968F3-1B02-3C47-AB94-4EC14E20BBC7}</Project>
+      <Name>compile_MatrixBase_template_int_end</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_template_int_int_block_int_int_int_int.vcxproj">
+      <Project>{384C453E-44A9-38F6-A73C-46A653C67A2A}</Project>
+      <Name>compile_MatrixBase_template_int_int_block_int_int_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_template_int_int_bottomLeftCorner.vcxproj">
+      <Project>{DDE8C3D7-F3E6-368E-BE45-402B02A1F4AF}</Project>
+      <Name>compile_MatrixBase_template_int_int_bottomLeftCorner</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_template_int_int_bottomLeftCorner_int_int.vcxproj">
+      <Project>{1D781D53-9CD4-3CD7-9557-E672D0519C41}</Project>
+      <Name>compile_MatrixBase_template_int_int_bottomLeftCorner_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_template_int_int_bottomRightCorner.vcxproj">
+      <Project>{CBA52107-D417-3A1B-ADAD-D7180DB05A92}</Project>
+      <Name>compile_MatrixBase_template_int_int_bottomRightCorner</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_template_int_int_bottomRightCorner_int_int.vcxproj">
+      <Project>{B446315E-8805-3BBB-9FEB-884E8D5C51F8}</Project>
+      <Name>compile_MatrixBase_template_int_int_bottomRightCorner_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_template_int_int_topLeftCorner.vcxproj">
+      <Project>{F90CCC60-D5A4-35AB-AA27-6FCD16378BC1}</Project>
+      <Name>compile_MatrixBase_template_int_int_topLeftCorner</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_template_int_int_topLeftCorner_int_int.vcxproj">
+      <Project>{DB86F172-83EA-36D5-8DCF-28652D2B1155}</Project>
+      <Name>compile_MatrixBase_template_int_int_topLeftCorner_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_template_int_int_topRightCorner.vcxproj">
+      <Project>{5B8DCADD-3422-38E6-B9F4-92BC7D9DA3B3}</Project>
+      <Name>compile_MatrixBase_template_int_int_topRightCorner</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_template_int_int_topRightCorner_int_int.vcxproj">
+      <Project>{984EB920-F5F2-3C18-9FF3-ED7D83326615}</Project>
+      <Name>compile_MatrixBase_template_int_int_topRightCorner_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_template_int_leftCols.vcxproj">
+      <Project>{F7E3F20E-FBB4-326E-937E-C328D528A2F2}</Project>
+      <Name>compile_MatrixBase_template_int_leftCols</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_template_int_rightCols.vcxproj">
+      <Project>{104A666B-02B5-3F3F-9C89-72F774D00E42}</Project>
+      <Name>compile_MatrixBase_template_int_rightCols</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_template_int_segment.vcxproj">
+      <Project>{0A996A5F-A895-336E-A055-4511AD6A5D9F}</Project>
+      <Name>compile_MatrixBase_template_int_segment</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_template_int_start.vcxproj">
+      <Project>{F356B5FA-20C6-35CA-ADE0-3B12ED3C8C43}</Project>
+      <Name>compile_MatrixBase_template_int_start</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_template_int_topRows.vcxproj">
+      <Project>{DBCD7C4E-6980-3EA3-888F-BCA3A0222249}</Project>
+      <Name>compile_MatrixBase_template_int_topRows</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_topLeftCorner_int_int.vcxproj">
+      <Project>{C0D73F3A-B4D7-3042-9053-981DA1368BA4}</Project>
+      <Name>compile_MatrixBase_topLeftCorner_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_topRightCorner_int_int.vcxproj">
+      <Project>{6A3F0F80-F1F2-31F8-8EA8-097A6435FD5F}</Project>
+      <Name>compile_MatrixBase_topRightCorner_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_topRows_int.vcxproj">
+      <Project>{2BD45FD6-788F-39E0-B357-6912137EF5B0}</Project>
+      <Name>compile_MatrixBase_topRows_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_transpose.vcxproj">
+      <Project>{FBD16ABD-850C-38C2-BE42-481FC9E5212A}</Project>
+      <Name>compile_MatrixBase_transpose</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_triangularView.vcxproj">
+      <Project>{31C507D1-CA3C-302C-A560-83EB3F05C2B3}</Project>
+      <Name>compile_MatrixBase_triangularView</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_zero.vcxproj">
+      <Project>{D3E6DD99-7D4F-3BB5-954D-6B5A5D833210}</Project>
+      <Name>compile_MatrixBase_zero</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_zero_int.vcxproj">
+      <Project>{B7B5ABC5-FE3B-3754-B67E-53436EF26FCC}</Project>
+      <Name>compile_MatrixBase_zero_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_MatrixBase_zero_int_int.vcxproj">
+      <Project>{5757185C-7AD7-3BC9-8CB4-B61B186D60E2}</Project>
+      <Name>compile_MatrixBase_zero_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Matrix_Map_stride.vcxproj">
+      <Project>{ED503B1B-FC4A-3803-A09B-4A18533AFF99}</Project>
+      <Name>compile_Matrix_Map_stride</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Matrix_initializer_list_23_cxx11.vcxproj">
+      <Project>{B5DBBCB5-BA23-32FD-A018-AF2D323D2CF0}</Project>
+      <Name>compile_Matrix_initializer_list_23_cxx11</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Matrix_initializer_list_vector_cxx11.vcxproj">
+      <Project>{E14D43A0-6278-3FEB-8212-B1519E2B4C1A}</Project>
+      <Name>compile_Matrix_initializer_list_vector_cxx11</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Matrix_resize_NoChange_int.vcxproj">
+      <Project>{2E2ABA05-5BC8-322B-BC37-7073EBC3568C}</Project>
+      <Name>compile_Matrix_resize_NoChange_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Matrix_resize_int.vcxproj">
+      <Project>{19F33F82-A772-3E07-85D5-DE98D4766255}</Project>
+      <Name>compile_Matrix_resize_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Matrix_resize_int_NoChange.vcxproj">
+      <Project>{E5435099-5886-3BF5-A98B-3224F44207D9}</Project>
+      <Name>compile_Matrix_resize_int_NoChange</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Matrix_resize_int_int.vcxproj">
+      <Project>{BF77B8AB-9C82-364F-96C8-833389C10689}</Project>
+      <Name>compile_Matrix_resize_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Matrix_setConstant_int.vcxproj">
+      <Project>{CF1E621F-40F5-32F8-BDF2-0D30A8C7A904}</Project>
+      <Name>compile_Matrix_setConstant_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Matrix_setConstant_int_int.vcxproj">
+      <Project>{0D75828C-08B8-3CDF-838B-1FEAC7972AE1}</Project>
+      <Name>compile_Matrix_setConstant_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Matrix_setIdentity_int_int.vcxproj">
+      <Project>{D3BB8962-920B-321F-96E1-C63FB200A41D}</Project>
+      <Name>compile_Matrix_setIdentity_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Matrix_setOnes_int.vcxproj">
+      <Project>{405FE931-93EE-346B-A8C4-AC268E2192E3}</Project>
+      <Name>compile_Matrix_setOnes_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Matrix_setOnes_int_int.vcxproj">
+      <Project>{449A776F-224D-37E5-A954-FBDD07FB2AC4}</Project>
+      <Name>compile_Matrix_setOnes_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Matrix_setRandom_int.vcxproj">
+      <Project>{B97A34D6-A52E-39BD-9D82-52B03DFAD068}</Project>
+      <Name>compile_Matrix_setRandom_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Matrix_setRandom_int_int.vcxproj">
+      <Project>{D6BC80FD-EAC5-317D-8B67-02891DD4C7AA}</Project>
+      <Name>compile_Matrix_setRandom_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Matrix_setZero_int.vcxproj">
+      <Project>{B274A89E-4D4C-3518-BA59-C8E35FABB21D}</Project>
+      <Name>compile_Matrix_setZero_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Matrix_setZero_int_int.vcxproj">
+      <Project>{82CFDC34-0A5E-347F-8315-5C2D5C14D13D}</Project>
+      <Name>compile_Matrix_setZero_int_int</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Matrix_variadic_ctor_cxx11.vcxproj">
+      <Project>{34840BCD-8642-3268-BE08-0EFEEA5B1042}</Project>
+      <Name>compile_Matrix_variadic_ctor_cxx11</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_PartialPivLU_solve.vcxproj">
+      <Project>{1C9194AB-1993-3D12-866B-5C34E508A44C}</Project>
+      <Name>compile_PartialPivLU_solve</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_PartialRedux_count.vcxproj">
+      <Project>{6CDA881E-4BEB-3EC5-A46F-9251E65757C9}</Project>
+      <Name>compile_PartialRedux_count</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_PartialRedux_maxCoeff.vcxproj">
+      <Project>{53AF373A-8D15-3AE9-950F-0FA3F5021362}</Project>
+      <Name>compile_PartialRedux_maxCoeff</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_PartialRedux_minCoeff.vcxproj">
+      <Project>{BA9DE999-70B9-3057-964E-F5C326783E5B}</Project>
+      <Name>compile_PartialRedux_minCoeff</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_PartialRedux_norm.vcxproj">
+      <Project>{FB8EF9B3-31F5-3B03-91C1-866C30D64984}</Project>
+      <Name>compile_PartialRedux_norm</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_PartialRedux_prod.vcxproj">
+      <Project>{508E7DE4-90C6-3482-84BE-CD1DAD55C36D}</Project>
+      <Name>compile_PartialRedux_prod</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_PartialRedux_squaredNorm.vcxproj">
+      <Project>{3E614D16-7EA1-345F-91AC-51D2CB4AD7A0}</Project>
+      <Name>compile_PartialRedux_squaredNorm</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_PartialRedux_sum.vcxproj">
+      <Project>{667A7B55-A731-39D4-8B3C-F8AD2A995F36}</Project>
+      <Name>compile_PartialRedux_sum</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_RealQZ_compute.vcxproj">
+      <Project>{5FD7A41E-61ED-33AE-A15B-3962940F0E3A}</Project>
+      <Name>compile_RealQZ_compute</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_RealSchur_RealSchur_MatrixType.vcxproj">
+      <Project>{A341E7E2-4680-3F3D-BFFA-DA81E7501A2A}</Project>
+      <Name>compile_RealSchur_RealSchur_MatrixType</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_RealSchur_compute.vcxproj">
+      <Project>{52A62B89-AAC6-3755-B732-400DD6B59216}</Project>
+      <Name>compile_RealSchur_compute</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_SelfAdjointEigenSolver_SelfAdjointEigenSolver.vcxproj">
+      <Project>{4A24E3E8-632E-34E3-BE21-A2E393A3EB28}</Project>
+      <Name>compile_SelfAdjointEigenSolver_SelfAdjointEigenSolver</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_SelfAdjointEigenSolver_SelfAdjointEigenSolver_MatrixType.vcxproj">
+      <Project>{99A84B81-B3FC-3E69-ADC0-ABDD00E8AA25}</Project>
+      <Name>compile_SelfAdjointEigenSolver_SelfAdjointEigenSolver_MatrixType</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_SelfAdjointEigenSolver_SelfAdjointEigenSolver_MatrixType2.vcxproj">
+      <Project>{8E05F9FE-A594-3701-A984-2243A2CFC4FE}</Project>
+      <Name>compile_SelfAdjointEigenSolver_SelfAdjointEigenSolver_MatrixType2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_SelfAdjointEigenSolver_compute_MatrixType.vcxproj">
+      <Project>{E0D0FC78-11EC-34CD-9648-F56CD3EEBA96}</Project>
+      <Name>compile_SelfAdjointEigenSolver_compute_MatrixType</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_SelfAdjointEigenSolver_compute_MatrixType2.vcxproj">
+      <Project>{35E74428-9B7B-384D-B11F-8F5ADDAC5194}</Project>
+      <Name>compile_SelfAdjointEigenSolver_compute_MatrixType2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_SelfAdjointEigenSolver_eigenvalues.vcxproj">
+      <Project>{50EE34DB-D7AC-3519-A757-1490F70028BB}</Project>
+      <Name>compile_SelfAdjointEigenSolver_eigenvalues</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_SelfAdjointEigenSolver_eigenvectors.vcxproj">
+      <Project>{93CA7582-FBDC-3E49-A758-C442CEA5DA8F}</Project>
+      <Name>compile_SelfAdjointEigenSolver_eigenvectors</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_SelfAdjointEigenSolver_operatorInverseSqrt.vcxproj">
+      <Project>{5ABEEC3A-9AA6-3B6C-B675-4FE506708535}</Project>
+      <Name>compile_SelfAdjointEigenSolver_operatorInverseSqrt</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_SelfAdjointEigenSolver_operatorSqrt.vcxproj">
+      <Project>{6A47179F-D5CD-3135-B30C-79BF6A18AF89}</Project>
+      <Name>compile_SelfAdjointEigenSolver_operatorSqrt</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_SelfAdjointView_eigenvalues.vcxproj">
+      <Project>{55F05484-C8AE-3D90-9C31-7F7C2D6A7BCF}</Project>
+      <Name>compile_SelfAdjointView_eigenvalues</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_SelfAdjointView_operatorNorm.vcxproj">
+      <Project>{BAE7F455-1FAE-3679-99DB-799AC13F0DBE}</Project>
+      <Name>compile_SelfAdjointView_operatorNorm</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Slicing_arrayexpr.vcxproj">
+      <Project>{2689E3AE-7623-3B22-95E5-6584D93AA4E2}</Project>
+      <Name>compile_Slicing_arrayexpr</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Slicing_custom_padding_cxx11.vcxproj">
+      <Project>{757C7EB7-A50B-358D-B7C7-C3AF8E2955DA}</Project>
+      <Name>compile_Slicing_custom_padding_cxx11</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Slicing_rawarray_cxx11.vcxproj">
+      <Project>{71FE03F2-F45A-3CC6-9214-8A54FF18C5FC}</Project>
+      <Name>compile_Slicing_rawarray_cxx11</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Slicing_stdvector_cxx11.vcxproj">
+      <Project>{FA31B3F8-488E-3431-A72B-53BA86A7B8D7}</Project>
+      <Name>compile_Slicing_stdvector_cxx11</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_SparseMatrix_coeffs.vcxproj">
+      <Project>{07FE6E6A-C6D3-35D9-9BA7-120CE34C8C6A}</Project>
+      <Name>compile_SparseMatrix_coeffs</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_TopicAliasing_block.vcxproj">
+      <Project>{27AD506B-7A77-38F1-A9C9-7D7CD192267D}</Project>
+      <Name>compile_TopicAliasing_block</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_TopicAliasing_block_correct.vcxproj">
+      <Project>{2BFBBCCA-1F89-3B16-95D9-3E588E2188F2}</Project>
+      <Name>compile_TopicAliasing_block_correct</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_TopicAliasing_cwise.vcxproj">
+      <Project>{E74C5BDB-6D3A-3C6F-8B57-EC90BC2C008C}</Project>
+      <Name>compile_TopicAliasing_cwise</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_TopicAliasing_mult1.vcxproj">
+      <Project>{53A15072-01AF-3AEB-B355-FFB2B44E56FE}</Project>
+      <Name>compile_TopicAliasing_mult1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_TopicAliasing_mult2.vcxproj">
+      <Project>{9773592F-0A5E-385C-AFD8-55666093802B}</Project>
+      <Name>compile_TopicAliasing_mult2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_TopicAliasing_mult3.vcxproj">
+      <Project>{84DFB035-B363-3087-AF62-5734A472C195}</Project>
+      <Name>compile_TopicAliasing_mult3</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_TopicAliasing_mult4.vcxproj">
+      <Project>{F2572974-270F-331D-A383-00509349700D}</Project>
+      <Name>compile_TopicAliasing_mult4</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_TopicAliasing_mult5.vcxproj">
+      <Project>{76A66F8D-6D79-342F-8209-603B2DC430D0}</Project>
+      <Name>compile_TopicAliasing_mult5</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_TopicStorageOrders_example.vcxproj">
+      <Project>{93D1DDA5-609D-395C-8D1A-39931596D791}</Project>
+      <Name>compile_TopicStorageOrders_example</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Triangular_solve.vcxproj">
+      <Project>{C4830E9C-CC9F-363E-BDC2-398022122186}</Project>
+      <Name>compile_Triangular_solve</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Tridiagonalization_Tridiagonalization_MatrixType.vcxproj">
+      <Project>{86FA271C-1937-3132-ACEE-4C6C296CB282}</Project>
+      <Name>compile_Tridiagonalization_Tridiagonalization_MatrixType</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Tridiagonalization_compute.vcxproj">
+      <Project>{A4F75964-F8E0-3161-9DEF-0AC02FF57BA6}</Project>
+      <Name>compile_Tridiagonalization_compute</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Tridiagonalization_decomposeInPlace.vcxproj">
+      <Project>{CABC5C5E-88BA-3841-887A-6590BD29341D}</Project>
+      <Name>compile_Tridiagonalization_decomposeInPlace</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Tridiagonalization_diagonal.vcxproj">
+      <Project>{21EF8F90-E054-305F-82BC-0147A10C35C0}</Project>
+      <Name>compile_Tridiagonalization_diagonal</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Tridiagonalization_householderCoefficients.vcxproj">
+      <Project>{465B8D36-8949-354A-9C22-B4897CFC15F4}</Project>
+      <Name>compile_Tridiagonalization_householderCoefficients</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Tridiagonalization_packedMatrix.vcxproj">
+      <Project>{DAC1A06B-A2B3-3E87-9E25-0D8D17D6D8D7}</Project>
+      <Name>compile_Tridiagonalization_packedMatrix</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Tutorial_AdvancedInitialization_Block.vcxproj">
+      <Project>{A8D4969C-C7F9-3376-9E90-1BFD076DB2BE}</Project>
+      <Name>compile_Tutorial_AdvancedInitialization_Block</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Tutorial_AdvancedInitialization_CommaTemporary.vcxproj">
+      <Project>{B5378833-C5E6-3026-B57C-4ED1A12C586B}</Project>
+      <Name>compile_Tutorial_AdvancedInitialization_CommaTemporary</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Tutorial_AdvancedInitialization_Join.vcxproj">
+      <Project>{0A0889F6-C186-3ED1-9630-84C067C4DBEB}</Project>
+      <Name>compile_Tutorial_AdvancedInitialization_Join</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Tutorial_AdvancedInitialization_LinSpaced.vcxproj">
+      <Project>{39083C8C-6A53-3600-B284-04E331793DC2}</Project>
+      <Name>compile_Tutorial_AdvancedInitialization_LinSpaced</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Tutorial_AdvancedInitialization_ThreeWays.vcxproj">
+      <Project>{6C587BA0-8CDF-34C6-B51E-962ADED87D26}</Project>
+      <Name>compile_Tutorial_AdvancedInitialization_ThreeWays</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Tutorial_AdvancedInitialization_Zero.vcxproj">
+      <Project>{2D068C2B-A480-366A-BE80-C1AD3871811E}</Project>
+      <Name>compile_Tutorial_AdvancedInitialization_Zero</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Tutorial_Map_rowmajor.vcxproj">
+      <Project>{8DFD085C-65C3-3E81-A7FF-43EF93D9A41C}</Project>
+      <Name>compile_Tutorial_Map_rowmajor</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Tutorial_Map_using.vcxproj">
+      <Project>{4AE282EE-C141-37A8-A1D9-27896EBA6B71}</Project>
+      <Name>compile_Tutorial_Map_using</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Tutorial_ReshapeMat2Mat.vcxproj">
+      <Project>{2163DAB4-44B4-3819-9AA7-09D582305842}</Project>
+      <Name>compile_Tutorial_ReshapeMat2Mat</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Tutorial_ReshapeMat2Vec.vcxproj">
+      <Project>{9D0A65B0-68D5-3249-B910-632A97D19345}</Project>
+      <Name>compile_Tutorial_ReshapeMat2Vec</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Tutorial_SlicingCol.vcxproj">
+      <Project>{E74E3A82-DD6E-34E5-9EDC-322917D4401B}</Project>
+      <Name>compile_Tutorial_SlicingCol</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Tutorial_SlicingVec.vcxproj">
+      <Project>{8BA16E3A-6111-368B-BA0C-2C83589FBF53}</Project>
+      <Name>compile_Tutorial_SlicingVec</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Tutorial_commainit_01.vcxproj">
+      <Project>{B6EE00C0-5BBF-32B1-A446-539714A50191}</Project>
+      <Name>compile_Tutorial_commainit_01</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Tutorial_commainit_01b.vcxproj">
+      <Project>{CB0D2D5C-4AFF-38BD-B595-6CD26ECCCA4D}</Project>
+      <Name>compile_Tutorial_commainit_01b</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Tutorial_commainit_02.vcxproj">
+      <Project>{A9CE8553-EEA2-3A2F-8B72-8B79A8714DB3}</Project>
+      <Name>compile_Tutorial_commainit_02</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Tutorial_range_for_loop_1d_cxx11.vcxproj">
+      <Project>{7566D328-3945-3935-85FA-26D240CA869B}</Project>
+      <Name>compile_Tutorial_range_for_loop_1d_cxx11</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Tutorial_range_for_loop_2d_cxx11.vcxproj">
+      <Project>{879D56DF-1835-3B08-A0E4-FF29F9C1FEED}</Project>
+      <Name>compile_Tutorial_range_for_loop_2d_cxx11</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Tutorial_reshaped_vs_resize_1.vcxproj">
+      <Project>{AAFE14DC-E90E-3DD4-9E05-28DED459EC8E}</Project>
+      <Name>compile_Tutorial_reshaped_vs_resize_1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Tutorial_reshaped_vs_resize_2.vcxproj">
+      <Project>{B0634C35-1FF7-33E1-BE09-EFD48C685971}</Project>
+      <Name>compile_Tutorial_reshaped_vs_resize_2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Tutorial_solve_matrix_inverse.vcxproj">
+      <Project>{B49B8DBD-D5FC-3864-80F9-1B8781D22033}</Project>
+      <Name>compile_Tutorial_solve_matrix_inverse</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Tutorial_solve_multiple_rhs.vcxproj">
+      <Project>{7F963EC1-A05C-3025-A363-C42524F082B5}</Project>
+      <Name>compile_Tutorial_solve_multiple_rhs</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Tutorial_solve_reuse_decomposition.vcxproj">
+      <Project>{B80BB6A9-73C8-3BE1-A31A-E0011EAD56AB}</Project>
+      <Name>compile_Tutorial_solve_reuse_decomposition</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Tutorial_solve_singular.vcxproj">
+      <Project>{532C1E70-CB99-3D98-B727-B8A376828885}</Project>
+      <Name>compile_Tutorial_solve_singular</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Tutorial_solve_triangular.vcxproj">
+      <Project>{4DC3E738-292C-33C4-B808-950FFDA83A21}</Project>
+      <Name>compile_Tutorial_solve_triangular</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Tutorial_solve_triangular_inplace.vcxproj">
+      <Project>{3BFFC08E-DFBD-3E4A-B5F8-F67006FF2823}</Project>
+      <Name>compile_Tutorial_solve_triangular_inplace</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Tutorial_std_sort.vcxproj">
+      <Project>{B646C79D-080A-3598-92F2-4B2C245DF313}</Project>
+      <Name>compile_Tutorial_std_sort</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Tutorial_std_sort_rows_cxx11.vcxproj">
+      <Project>{D41202AA-2AB7-34A0-A141-1A0C448C12E2}</Project>
+      <Name>compile_Tutorial_std_sort_rows_cxx11</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_VectorwiseOp_homogeneous.vcxproj">
+      <Project>{0445218F-61D3-36FD-8F43-93F90DFBFCA6}</Project>
+      <Name>compile_VectorwiseOp_homogeneous</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_Vectorwise_reverse.vcxproj">
+      <Project>{0038A00D-3333-3D44-A1A2-8BCFB522E4CD}</Project>
+      <Name>compile_Vectorwise_reverse</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_class_FullPivLU.vcxproj">
+      <Project>{EF4B0916-851E-3A5B-A3F8-B06512D77113}</Project>
+      <Name>compile_class_FullPivLU</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_tut_arithmetic_redux_minmax.vcxproj">
+      <Project>{DA8E6C58-5455-3E7E-9C25-BFAC263A6D26}</Project>
+      <Name>compile_tut_arithmetic_redux_minmax</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_tut_arithmetic_transpose_aliasing.vcxproj">
+      <Project>{5FF92160-315B-35F8-BDFF-125521E1176F}</Project>
+      <Name>compile_tut_arithmetic_transpose_aliasing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_tut_arithmetic_transpose_conjugate.vcxproj">
+      <Project>{4E611AFB-4456-32CA-977E-1A2DF74B1E3E}</Project>
+      <Name>compile_tut_arithmetic_transpose_conjugate</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_tut_arithmetic_transpose_inplace.vcxproj">
+      <Project>{45C7558E-41EE-3FF6-ACD0-901346CFC9CE}</Project>
+      <Name>compile_tut_arithmetic_transpose_inplace</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\eigen-5.0.1-build\build\doc\snippets\compile_tut_matrix_assignment_resizing.vcxproj">
+      <Project>{291C8056-D893-33E4-9DEA-A00EE2D2EBF5}</Project>
+      <Name>compile_tut_matrix_assignment_resizing</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
