@@ -1,13 +1,13 @@
 {
 	"AUTOGEN_COMMAND_LINE_LENGTH_MAX" : 32000,
-	"BUILD_DIR" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibRayCastBackproject/LibRayCastBackproject_autogen",
-	"CMAKE_BINARY_DIR" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build",
-	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibRayCastBackproject",
-	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/LibRayCastBackproject",
+	"BUILD_DIR" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibRayCastBackproject/LibRayCastBackproject_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibRayCastBackproject",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/LibRayCastBackproject",
 	"CMAKE_EXECUTABLE" : "C:/Program Files/CMake/bin/cmake.exe",
 	"CMAKE_LIST_FILES" : 
 	[
-		"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/LibRayCastBackproject/CMakeLists.txt",
+		"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/LibRayCastBackproject/CMakeLists.txt",
 		"C:/Qt/6.10.2/lib/cmake/Qt6/Qt6ConfigVersion.cmake",
 		"C:/Qt/6.10.2/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake",
 		"C:/Qt/6.10.2/lib/cmake/Qt6/Qt6Config.cmake",
@@ -56,50 +56,50 @@
 		"C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindDependencyMacro.cmake",
 		"C:/Qt/6.10.2/lib/cmake/Qt6/Qt6Dependencies.cmake"
 	],
-	"CMAKE_SOURCE_DIR" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build",
+	"CMAKE_SOURCE_DIR" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev",
 	"CROSS_CONFIG" : false,
 	"DEP_FILE" : "",
 	"DEP_FILE_RULE_NAME" : "",
 	"HEADERS" : 
 	[
 		[
-			"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/LibRayCastBackproject/Reconstruction.h",
+			"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/LibRayCastBackproject/Reconstruction.h",
 			"Mu",
 			"EWIEGA46WW/moc_Reconstruction.cpp",
 			null
 		],
 		[
-			"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/LibRayCastBackproject/VolumeRendering.h",
+			"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/LibRayCastBackproject/VolumeRendering.h",
 			"Mu",
 			"EWIEGA46WW/moc_VolumeRendering.cpp",
 			null
 		],
 		[
-			"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/LibRayCastBackproject/VolumeRenderingGui.h",
+			"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/LibRayCastBackproject/VolumeRenderingGui.h",
 			"Mu",
 			"EWIEGA46WW/moc_VolumeRenderingGui.cpp",
 			null
 		],
 		[
-			"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/LibRayCastBackproject/VoxelData.h",
+			"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/LibRayCastBackproject/VoxelData.h",
 			"Mu",
 			"EWIEGA46WW/moc_VoxelData.cpp",
 			null
 		],
 		[
-			"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/LibRayCastBackproject/ray_box_intersection.hxx",
+			"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/LibRayCastBackproject/ray_box_intersection.hxx",
 			"Mu",
 			"EWIEGA46WW/moc_ray_box_intersection.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibRayCastBackproject/LibRayCastBackproject_autogen/include",
-	"INCLUDE_DIR_Debug" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibRayCastBackproject/LibRayCastBackproject_autogen/include_Debug",
-	"INCLUDE_DIR_Release" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibRayCastBackproject/LibRayCastBackproject_autogen/include_Release",
-	"MOC_COMPILATION_FILE" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibRayCastBackproject/LibRayCastBackproject_autogen/mocs_compilation.cpp",
-	"MOC_COMPILATION_FILE_Debug" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibRayCastBackproject/LibRayCastBackproject_autogen/mocs_compilation_Debug.cpp",
-	"MOC_COMPILATION_FILE_Release" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibRayCastBackproject/LibRayCastBackproject_autogen/mocs_compilation_Release.cpp",
+	"INCLUDE_DIR" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibRayCastBackproject/LibRayCastBackproject_autogen/include",
+	"INCLUDE_DIR_Debug" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibRayCastBackproject/LibRayCastBackproject_autogen/include_Debug",
+	"INCLUDE_DIR_Release" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibRayCastBackproject/LibRayCastBackproject_autogen/include_Release",
+	"MOC_COMPILATION_FILE" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibRayCastBackproject/LibRayCastBackproject_autogen/mocs_compilation.cpp",
+	"MOC_COMPILATION_FILE_Debug" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibRayCastBackproject/LibRayCastBackproject_autogen/mocs_compilation_Debug.cpp",
+	"MOC_COMPILATION_FILE_Release" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibRayCastBackproject/LibRayCastBackproject_autogen/mocs_compilation_Release.cpp",
 	"MOC_DEFINITIONS" : [],
 	"MOC_DEFINITIONS_Debug" : [ "LibRayCastBackproject_EXPORTS", "WIN32", "_MBCS", "_WINDLL" ],
 	"MOC_DEFINITIONS_Release" : [ "LibRayCastBackproject_EXPORTS", "WIN32", "_MBCS", "_WINDLL" ],
@@ -113,23 +113,23 @@
 	"MOC_INCLUDES" : [],
 	"MOC_INCLUDES_Debug" : 
 	[
-		"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibRayCastBackproject",
-		"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/LibRayCastBackproject",
+		"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibRayCastBackproject",
+		"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/LibRayCastBackproject",
 		"/usr/include/eigen3",
 		"C:/Program Files (x86)/nlopt/include",
-		"C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/include",
-		"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/HeaderOnly",
-		"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code"
+		"C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/include",
+		"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/HeaderOnly",
+		"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code"
 	],
 	"MOC_INCLUDES_Release" : 
 	[
-		"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibRayCastBackproject",
-		"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/LibRayCastBackproject",
+		"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibRayCastBackproject",
+		"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/LibRayCastBackproject",
 		"/usr/include/eigen3",
 		"C:/Program Files (x86)/nlopt/include",
-		"C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/include",
-		"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/HeaderOnly",
-		"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code"
+		"C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/include",
+		"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/HeaderOnly",
+		"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code"
 	],
 	"MOC_MACRO_NAMES" : 
 	[
@@ -148,77 +148,77 @@
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : true,
 	"PARALLEL" : 10,
-	"PARSE_CACHE_FILE" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibRayCastBackproject/CMakeFiles/LibRayCastBackproject_autogen.dir/ParseCache.txt",
-	"PARSE_CACHE_FILE_Debug" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibRayCastBackproject/CMakeFiles/LibRayCastBackproject_autogen.dir/ParseCache_Debug.txt",
-	"PARSE_CACHE_FILE_Release" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibRayCastBackproject/CMakeFiles/LibRayCastBackproject_autogen.dir/ParseCache_Release.txt",
+	"PARSE_CACHE_FILE" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibRayCastBackproject/CMakeFiles/LibRayCastBackproject_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE_Debug" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibRayCastBackproject/CMakeFiles/LibRayCastBackproject_autogen.dir/ParseCache_Debug.txt",
+	"PARSE_CACHE_FILE_Release" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibRayCastBackproject/CMakeFiles/LibRayCastBackproject_autogen.dir/ParseCache_Release.txt",
 	"QT_MOC_EXECUTABLE" : "",
 	"QT_MOC_EXECUTABLE_Debug" : "C:/Qt/6.10.2/bin/moc.exe",
 	"QT_MOC_EXECUTABLE_Release" : "C:/Qt/6.10.2/bin/moc.exe",
 	"QT_UIC_EXECUTABLE" : "",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 10,
-	"SETTINGS_FILE" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibRayCastBackproject/CMakeFiles/LibRayCastBackproject_autogen.dir/AutogenUsed.txt",
-	"SETTINGS_FILE_Debug" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibRayCastBackproject/CMakeFiles/LibRayCastBackproject_autogen.dir/AutogenUsed_Debug.txt",
-	"SETTINGS_FILE_Release" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibRayCastBackproject/CMakeFiles/LibRayCastBackproject_autogen.dir/AutogenUsed_Release.txt",
+	"SETTINGS_FILE" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibRayCastBackproject/CMakeFiles/LibRayCastBackproject_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE_Debug" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibRayCastBackproject/CMakeFiles/LibRayCastBackproject_autogen.dir/AutogenUsed_Debug.txt",
+	"SETTINGS_FILE_Release" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibRayCastBackproject/CMakeFiles/LibRayCastBackproject_autogen.dir/AutogenUsed_Release.txt",
 	"SOURCES" : 
 	[
 		[
-			"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/LibRayCastBackproject/Reconstruction.cpp",
+			"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/LibRayCastBackproject/Reconstruction.cpp",
 			"Mu",
 			null
 		],
 		[
-			"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/LibRayCastBackproject/Reconstruction.cu",
+			"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/LibRayCastBackproject/Reconstruction.cu",
 			"Mu",
 			null
 		],
 		[
-			"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/LibRayCastBackproject/VolumeRendering.cpp",
+			"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/LibRayCastBackproject/VolumeRendering.cpp",
 			"Mu",
 			null
 		],
 		[
-			"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/LibRayCastBackproject/VolumeRenderingGui.cpp",
+			"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/LibRayCastBackproject/VolumeRenderingGui.cpp",
 			"Mu",
 			null
 		],
 		[
-			"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/LibRayCastBackproject/VoxelData.cpp",
+			"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/LibRayCastBackproject/VoxelData.cpp",
 			"Mu",
 			null
 		],
 		[
-			"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/LibRayCastBackproject/VoxelData.cu",
+			"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/LibRayCastBackproject/VoxelData.cu",
 			"Mu",
 			null
 		],
 		[
-			"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/LibRayCastBackproject/vr_ray_geom_setup.cu",
+			"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/LibRayCastBackproject/vr_ray_geom_setup.cu",
 			"Mu",
 			null
 		],
 		[
-			"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/LibRayCastBackproject/vr_raycast_debug.cu",
+			"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/LibRayCastBackproject/vr_raycast_debug.cu",
 			"Mu",
 			null
 		],
 		[
-			"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/LibRayCastBackproject/vr_raycast_drr.cu",
+			"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/LibRayCastBackproject/vr_raycast_drr.cu",
 			"Mu",
 			null
 		],
 		[
-			"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/LibRayCastBackproject/vr_raycast_ea_1Dtf.cu",
+			"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/LibRayCastBackproject/vr_raycast_ea_1Dtf.cu",
 			"Mu",
 			null
 		],
 		[
-			"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/LibRayCastBackproject/vr_raycast_iso.cu",
+			"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/LibRayCastBackproject/vr_raycast_iso.cu",
 			"Mu",
 			null
 		],
 		[
-			"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/LibRayCastBackproject/vr_raycast_mip.cu",
+			"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/LibRayCastBackproject/vr_raycast_mip.cu",
 			"Mu",
 			null
 		]

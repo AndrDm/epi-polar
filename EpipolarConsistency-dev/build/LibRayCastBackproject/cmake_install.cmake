@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/LibRayCastBackproject
+# Install script for directory: C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/LibRayCastBackproject
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,30 +33,30 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/LibRayCastBackproject" TYPE FILE FILES "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/LibRayCastBackproject/VolumeRendering.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/LibRayCastBackproject" TYPE FILE FILES "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/LibRayCastBackproject/VolumeRendering.h")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibRayCastBackproject/Debug/LibRayCastBackprojectd.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibRayCastBackproject/Debug/LibRayCastBackprojectd.lib")
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibRayCastBackproject/Release/LibRayCastBackproject.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibRayCastBackproject/Release/LibRayCastBackproject.lib")
   endif()
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/bin/Debug/LibRayCastBackprojectd.dll")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/bin/Debug/LibRayCastBackprojectd.dll")
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/bin/Release/LibRayCastBackproject.dll")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/bin/Release/LibRayCastBackproject.dll")
   endif()
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    include("C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibRayCastBackproject/CMakeFiles/LibRayCastBackproject.dir/install-cxx-module-bmi-Debug.cmake" OPTIONAL)
+    include("C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibRayCastBackproject/CMakeFiles/LibRayCastBackproject.dir/install-cxx-module-bmi-Debug.cmake" OPTIONAL)
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    include("C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibRayCastBackproject/CMakeFiles/LibRayCastBackproject.dir/install-cxx-module-bmi-Release.cmake" OPTIONAL)
+    include("C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibRayCastBackproject/CMakeFiles/LibRayCastBackproject.dir/install-cxx-module-bmi-Release.cmake" OPTIONAL)
   endif()
 endif()
 
@@ -64,7 +64,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/cmake/LibRayCastBackproject-targets.cmake")
     file(DIFFERENT _cmake_export_file_changed FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/cmake/LibRayCastBackproject-targets.cmake"
-         "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibRayCastBackproject/CMakeFiles/Export/272ceadb8458515b2ae4b5630a6029cc/LibRayCastBackproject-targets.cmake")
+         "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibRayCastBackproject/CMakeFiles/Export/272ceadb8458515b2ae4b5630a6029cc/LibRayCastBackproject-targets.cmake")
     if(_cmake_export_file_changed)
       file(GLOB _cmake_old_config_files "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/cmake/LibRayCastBackproject-targets-*.cmake")
       if(_cmake_old_config_files)
@@ -77,18 +77,18 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     endif()
     unset(_cmake_export_file_changed)
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/cmake" TYPE FILE FILES "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibRayCastBackproject/CMakeFiles/Export/272ceadb8458515b2ae4b5630a6029cc/LibRayCastBackproject-targets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/cmake" TYPE FILE FILES "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibRayCastBackproject/CMakeFiles/Export/272ceadb8458515b2ae4b5630a6029cc/LibRayCastBackproject-targets.cmake")
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/cmake" TYPE FILE FILES "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibRayCastBackproject/CMakeFiles/Export/272ceadb8458515b2ae4b5630a6029cc/LibRayCastBackproject-targets-debug.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/cmake" TYPE FILE FILES "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibRayCastBackproject/CMakeFiles/Export/272ceadb8458515b2ae4b5630a6029cc/LibRayCastBackproject-targets-debug.cmake")
   endif()
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/cmake" TYPE FILE FILES "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibRayCastBackproject/CMakeFiles/Export/272ceadb8458515b2ae4b5630a6029cc/LibRayCastBackproject-targets-release.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/cmake" TYPE FILE FILES "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibRayCastBackproject/CMakeFiles/Export/272ceadb8458515b2ae4b5630a6029cc/LibRayCastBackproject-targets-release.cmake")
   endif()
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibRayCastBackproject/install_local_manifest.txt"
+  file(WRITE "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibRayCastBackproject/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

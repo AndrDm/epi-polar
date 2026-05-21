@@ -14,7 +14,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{5691BFB1-57BA-34D1-BBD1-93CCA24314AE}</ProjectGuid>
+    <ProjectGuid>{3B724057-D366-3B16-90CE-07407E13B608}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -44,13 +44,13 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\bin\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\bin\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">nrrdView.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">nrrdView</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\bin\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\bin\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">nrrdView.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">nrrdView</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
@@ -59,8 +59,8 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\nrrdView;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\tools\nrrdView;\usr\include\eigen3;C:\Program Files (x86)\nlopt\include;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\include;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code\HeaderOnly;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/nrrdView/nrrdView_autogen/include_Debug"</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\nrrdView;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\tools\nrrdView;\usr\include\eigen3;C:\Program Files (x86)\nlopt\include;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\include;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\.\code\HeaderOnly;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\.\code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/nrrdView/nrrdView_autogen/include_Debug"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <BufferSecurityCheck></BufferSecurityCheck>
@@ -87,10 +87,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_MBCS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\nrrdView;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\tools\nrrdView;\usr\include\eigen3;C:\Program Files (x86)\nlopt\include;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\include;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code\HeaderOnly;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\nrrdView\nrrdView_autogen\include_Debug;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\nrrdView;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\tools\nrrdView;\usr\include\eigen3;C:\Program Files (x86)\nlopt\include;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\include;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\.\code\HeaderOnly;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\.\code;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\nrrdView\nrrdView_autogen\include_Debug;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\nrrdView;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\tools\nrrdView;\usr\include\eigen3;C:\Program Files (x86)\nlopt\include;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\include;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code\HeaderOnly;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\nrrdView\nrrdView_autogen\include_Debug;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\nrrdView;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\tools\nrrdView;\usr\include\eigen3;C:\Program Files (x86)\nlopt\include;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\include;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\.\code\HeaderOnly;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\.\code;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\nrrdView\nrrdView_autogen\include_Debug;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -101,11 +101,11 @@
       <UseUtf8Encoding>Always</UseUtf8Encoding>
       <Message>Automatic MOC for target nrrdView</Message>
       <Command>setlocal
-cd C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\nrrdView
+cd C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\nrrdView
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/nrrdView/CMakeFiles/nrrdView_autogen.dir/AutogenInfo.json Debug
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/nrrdView/CMakeFiles/nrrdView_autogen.dir/AutogenInfo.json Debug
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -115,15 +115,15 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PreBuildEvent>
     <Link>
-      <AdditionalDependencies>..\LibProjectiveGeometry\Debug\LibProjectiveGeometryd.lib;..\LibUtilsQt\Debug\LibUtilsQtd.lib;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\build\GetSet\Debug\GetSetd.lib;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\build\GetSetGui\Debug\GetSetGuid.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\LibProjectiveGeometry\Debug\LibProjectiveGeometryd.lib;..\LibUtilsQt\Debug\LibUtilsQtd.lib;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\build\GetSet\Debug\GetSetd.lib;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\build\GetSetGui\Debug\GetSetGuid.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <DataExecutionPrevention></DataExecutionPrevention>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
-      <ImportLibrary>C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/nrrdView/Debug/nrrdView.lib</ImportLibrary>
+      <ImportLibrary>C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/nrrdView/Debug/nrrdView.lib</ImportLibrary>
       <LinkErrorReporting></LinkErrorReporting>
-      <ProgramDataBaseFile>C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/bin/Debug/nrrdView.pdb</ProgramDataBaseFile>
+      <ProgramDataBaseFile>C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/bin/Debug/nrrdView.pdb</ProgramDataBaseFile>
       <RandomizedBaseAddress></RandomizedBaseAddress>
       <SubSystem>Console</SubSystem>
     </Link>
@@ -137,8 +137,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\nrrdView;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\tools\nrrdView;\usr\include\eigen3;C:\Program Files (x86)\nlopt\include;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\include;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code\HeaderOnly;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/nrrdView/nrrdView_autogen/include_Release"</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\nrrdView;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\tools\nrrdView;\usr\include\eigen3;C:\Program Files (x86)\nlopt\include;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\include;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\.\code\HeaderOnly;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\.\code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/nrrdView/nrrdView_autogen/include_Release"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <BufferSecurityCheck></BufferSecurityCheck>
@@ -166,10 +166,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_MBCS;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\nrrdView;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\tools\nrrdView;\usr\include\eigen3;C:\Program Files (x86)\nlopt\include;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\include;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code\HeaderOnly;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\nrrdView\nrrdView_autogen\include_Release;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\nrrdView;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\tools\nrrdView;\usr\include\eigen3;C:\Program Files (x86)\nlopt\include;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\include;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\.\code\HeaderOnly;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\.\code;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\nrrdView\nrrdView_autogen\include_Release;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\nrrdView;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\tools\nrrdView;\usr\include\eigen3;C:\Program Files (x86)\nlopt\include;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\include;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code\HeaderOnly;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\nrrdView\nrrdView_autogen\include_Release;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\nrrdView;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\tools\nrrdView;\usr\include\eigen3;C:\Program Files (x86)\nlopt\include;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\include;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\.\code\HeaderOnly;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\.\code;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\nrrdView\nrrdView_autogen\include_Release;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -180,11 +180,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <UseUtf8Encoding>Always</UseUtf8Encoding>
       <Message>Automatic MOC for target nrrdView</Message>
       <Command>setlocal
-cd C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\nrrdView
+cd C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\nrrdView
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/nrrdView/CMakeFiles/nrrdView_autogen.dir/AutogenInfo.json Release
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/nrrdView/CMakeFiles/nrrdView_autogen.dir/AutogenInfo.json Release
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -194,15 +194,15 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PreBuildEvent>
     <Link>
-      <AdditionalDependencies>..\LibProjectiveGeometry\Release\LibProjectiveGeometry.lib;..\LibUtilsQt\Release\LibUtilsQt.lib;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\build\GetSet\Release\GetSet.lib;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\build\GetSetGui\Release\GetSetGui.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\LibProjectiveGeometry\Release\LibProjectiveGeometry.lib;..\LibUtilsQt\Release\LibUtilsQt.lib;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\build\GetSet\Release\GetSet.lib;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\build\GetSetGui\Release\GetSetGui.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <DataExecutionPrevention></DataExecutionPrevention>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
-      <ImportLibrary>C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/nrrdView/Release/nrrdView.lib</ImportLibrary>
+      <ImportLibrary>C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/nrrdView/Release/nrrdView.lib</ImportLibrary>
       <LinkErrorReporting></LinkErrorReporting>
-      <ProgramDataBaseFile>C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/bin/Release/nrrdView.pdb</ProgramDataBaseFile>
+      <ProgramDataBaseFile>C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/bin/Release/nrrdView.pdb</ProgramDataBaseFile>
       <RandomizedBaseAddress></RandomizedBaseAddress>
       <SubSystem>Console</SubSystem>
     </Link>
@@ -215,11 +215,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CudaLink>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\tools\nrrdView\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\tools\nrrdView\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/tools/nrrdView/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/tools/nrrdView/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build -BC:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build --check-stamp-file C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/nrrdView/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev -BC:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build --check-stamp-file C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/nrrdView/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -228,11 +228,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\nrrdView\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\nrrdView\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/tools/nrrdView/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/tools/nrrdView/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build -BC:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build --check-stamp-file C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/nrrdView/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev -BC:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build --check-stamp-file C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/nrrdView/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -241,36 +241,36 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\nrrdView\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\nrrdView\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\nrrdView\nrrdView_autogen\mocs_compilation_Debug.cpp">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\nrrdView\nrrdView_autogen\mocs_compilation_Debug.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\tools\nrrdView\nrrdView.cpp" />
-    <ResourceCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\tools\nrrdView\icon_win.rc" />
-    <None Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\tools\nrrdView\icon.ico">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\tools\nrrdView\nrrdView.cpp" />
+    <ResourceCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\tools\nrrdView\icon_win.rc" />
+    <None Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\tools\nrrdView\icon.ico">
     </None>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\nrrdView\nrrdView_autogen\mocs_compilation_Release.cpp">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\nrrdView\nrrdView_autogen\mocs_compilation_Release.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\ZERO_CHECK.vcxproj">
-      <Project>{9E5389E0-B518-395B-BFDD-4AD6E53E1997}</Project>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\ZERO_CHECK.vcxproj">
+      <Project>{A7A33978-4687-3342-8011-6ECA2696FA25}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibProjectiveGeometry\LibProjectiveGeometry.vcxproj">
-      <Project>{3DD7EA04-DF29-35D9-AFB4-E1B3EA0EB2D4}</Project>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibProjectiveGeometry\LibProjectiveGeometry.vcxproj">
+      <Project>{01B96B76-AAD0-314B-BD7D-6F6973D88CF5}</Project>
       <Name>LibProjectiveGeometry</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibUtilsQt\LibUtilsQt.vcxproj">
-      <Project>{64997F7C-FCDA-3E70-BC95-E17D09675A86}</Project>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibUtilsQt\LibUtilsQt.vcxproj">
+      <Project>{5F88A601-42D6-3F88-9BDB-6D269377F62C}</Project>
       <Name>LibUtilsQt</Name>
     </ProjectReference>
   </ItemGroup>

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/LibGeometryCalibration
+# Install script for directory: C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/LibGeometryCalibration
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,31 +34,31 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibGeometryCalibration/Debug/LibGeometryCalibrationd.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibGeometryCalibration/Debug/LibGeometryCalibrationd.lib")
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibGeometryCalibration/Release/LibGeometryCalibration.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibGeometryCalibration/Release/LibGeometryCalibration.lib")
   endif()
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/bin/Debug/LibGeometryCalibrationd.dll")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/bin/Debug/LibGeometryCalibrationd.dll")
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/bin/Release/LibGeometryCalibration.dll")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/bin/Release/LibGeometryCalibration.dll")
   endif()
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    include("C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibGeometryCalibration/CMakeFiles/LibGeometryCalibration.dir/install-cxx-module-bmi-Debug.cmake" OPTIONAL)
+    include("C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibGeometryCalibration/CMakeFiles/LibGeometryCalibration.dir/install-cxx-module-bmi-Debug.cmake" OPTIONAL)
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    include("C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibGeometryCalibration/CMakeFiles/LibGeometryCalibration.dir/install-cxx-module-bmi-Release.cmake" OPTIONAL)
+    include("C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibGeometryCalibration/CMakeFiles/LibGeometryCalibration.dir/install-cxx-module-bmi-Release.cmake" OPTIONAL)
   endif()
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibGeometryCalibration/install_local_manifest.txt"
+  file(WRITE "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibGeometryCalibration/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

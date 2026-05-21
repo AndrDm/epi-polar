@@ -14,7 +14,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{AA5E2E6A-38B5-3DB0-8602-7859ABCFA0F6}</ProjectGuid>
+    <ProjectGuid>{D42EA69C-B7C0-3768-A0B2-BAEA667BC768}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -44,13 +44,13 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\bin\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\bin\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">LibRayCastBackproject.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">LibRayCastBackprojectd</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\bin\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\bin\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">LibRayCastBackproject.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">LibRayCastBackproject</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
@@ -60,8 +60,8 @@
   <PropertyGroup />
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibRayCastBackproject;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibRayCastBackproject;\usr\include\eigen3;C:\Program Files (x86)\nlopt\include;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\include;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code\HeaderOnly;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibRayCastBackproject/LibRayCastBackproject_autogen/include_Debug"</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibRayCastBackproject;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibRayCastBackproject;\usr\include\eigen3;C:\Program Files (x86)\nlopt\include;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\include;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\.\code\HeaderOnly;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\.\code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibRayCastBackproject/LibRayCastBackproject_autogen/include_Debug"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <BufferSecurityCheck></BufferSecurityCheck>
@@ -88,10 +88,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_MBCS;CMAKE_INTDIR=\"Debug\";LibRayCastBackproject_EXPORTS</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibRayCastBackproject;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibRayCastBackproject;\usr\include\eigen3;C:\Program Files (x86)\nlopt\include;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\include;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code\HeaderOnly;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibRayCastBackproject\LibRayCastBackproject_autogen\include_Debug;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibRayCastBackproject;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibRayCastBackproject;\usr\include\eigen3;C:\Program Files (x86)\nlopt\include;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\include;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\.\code\HeaderOnly;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\.\code;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibRayCastBackproject\LibRayCastBackproject_autogen\include_Debug;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <CudaCompile>
-      <Include>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibRayCastBackproject;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibRayCastBackproject;\usr\include\eigen3;C:\Program Files (x86)\nlopt\include;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\include;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code\HeaderOnly;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibRayCastBackproject\LibRayCastBackproject_autogen\include_Debug;%(Include)</Include>
+      <Include>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibRayCastBackproject;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibRayCastBackproject;\usr\include\eigen3;C:\Program Files (x86)\nlopt\include;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\include;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\.\code\HeaderOnly;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\.\code;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibRayCastBackproject\LibRayCastBackproject_autogen\include_Debug;%(Include)</Include>
       <Defines>%(Defines);_WINDOWS;_MBCS;CMAKE_INTDIR="Debug";LibRayCastBackproject_EXPORTS</Defines>
       <AdditionalOptions>%(AdditionalOptions) -forward-unknown-to-host-compiler --generate-code=arch=compute_75,code=[compute_75,sm_75] -Xcompiler="/EHsc -Ob0 -Zi"</AdditionalOptions>
       <CodeGeneration></CodeGeneration>
@@ -105,7 +105,7 @@
       <UseHostInclude>false</UseHostInclude>
     </CudaCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibRayCastBackproject;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibRayCastBackproject;\usr\include\eigen3;C:\Program Files (x86)\nlopt\include;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\include;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code\HeaderOnly;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibRayCastBackproject\LibRayCastBackproject_autogen\include_Debug;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibRayCastBackproject;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibRayCastBackproject;\usr\include\eigen3;C:\Program Files (x86)\nlopt\include;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\include;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\.\code\HeaderOnly;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\.\code;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibRayCastBackproject\LibRayCastBackproject_autogen\include_Debug;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -116,11 +116,11 @@
       <UseUtf8Encoding>Always</UseUtf8Encoding>
       <Message>Auto build dll exports</Message>
       <Command>setlocal
-cd C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibRayCastBackproject
+cd C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibRayCastBackproject
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E __create_def C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibRayCastBackproject/LibRayCastBackproject.dir/Debug/exports.def C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibRayCastBackproject/LibRayCastBackproject.dir/Debug//objects.txt
+"C:\Program Files\CMake\bin\cmake.exe" -E __create_def C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibRayCastBackproject/LibRayCastBackproject.dir/Debug/exports.def C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibRayCastBackproject/LibRayCastBackproject.dir/Debug//objects.txt
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -133,11 +133,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <UseUtf8Encoding>Always</UseUtf8Encoding>
       <Message>Automatic MOC for target LibRayCastBackproject</Message>
       <Command>setlocal
-cd C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibRayCastBackproject
+cd C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibRayCastBackproject
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibRayCastBackproject/CMakeFiles/LibRayCastBackproject_autogen.dir/AutogenInfo.json Debug
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibRayCastBackproject/CMakeFiles/LibRayCastBackproject_autogen.dir/AutogenInfo.json Debug
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -147,16 +147,16 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PreBuildEvent>
     <Link>
-      <AdditionalDependencies>..\LibProjectiveGeometry\Debug\LibProjectiveGeometryd.lib;LibUtilsCuda.lib;..\LibUtilsQt\Debug\LibUtilsQtd.lib;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\build\GetSet\Debug\GetSetd.lib;cudadevrt.lib;cudart_static.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\LibProjectiveGeometry\Debug\LibProjectiveGeometryd.lib;LibUtilsCuda.lib;..\LibUtilsQt\Debug\LibUtilsQtd.lib;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\build\GetSet\Debug\GetSetd.lib;cudadevrt.lib;cudart_static.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.2/lib/x64;C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.2/lib/x64/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <DataExecutionPrevention></DataExecutionPrevention>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
-      <ImportLibrary>C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibRayCastBackproject/Debug/LibRayCastBackprojectd.lib</ImportLibrary>
+      <ImportLibrary>C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibRayCastBackproject/Debug/LibRayCastBackprojectd.lib</ImportLibrary>
       <LinkErrorReporting></LinkErrorReporting>
-      <ModuleDefinitionFile>C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibRayCastBackproject/LibRayCastBackproject.dir/Debug/exports.def</ModuleDefinitionFile>
-      <ProgramDataBaseFile>C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/bin/Debug/LibRayCastBackprojectd.pdb</ProgramDataBaseFile>
+      <ModuleDefinitionFile>C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibRayCastBackproject/LibRayCastBackproject.dir/Debug/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/bin/Debug/LibRayCastBackprojectd.pdb</ProgramDataBaseFile>
       <RandomizedBaseAddress></RandomizedBaseAddress>
       <SubSystem>Console</SubSystem>
     </Link>
@@ -170,8 +170,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibRayCastBackproject;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibRayCastBackproject;\usr\include\eigen3;C:\Program Files (x86)\nlopt\include;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\include;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code\HeaderOnly;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibRayCastBackproject/LibRayCastBackproject_autogen/include_Release"</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibRayCastBackproject;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibRayCastBackproject;\usr\include\eigen3;C:\Program Files (x86)\nlopt\include;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\include;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\.\code\HeaderOnly;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\.\code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibRayCastBackproject/LibRayCastBackproject_autogen/include_Release"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <BufferSecurityCheck></BufferSecurityCheck>
@@ -199,10 +199,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_MBCS;CMAKE_INTDIR=\"Release\";LibRayCastBackproject_EXPORTS</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibRayCastBackproject;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibRayCastBackproject;\usr\include\eigen3;C:\Program Files (x86)\nlopt\include;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\include;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code\HeaderOnly;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibRayCastBackproject\LibRayCastBackproject_autogen\include_Release;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibRayCastBackproject;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibRayCastBackproject;\usr\include\eigen3;C:\Program Files (x86)\nlopt\include;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\include;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\.\code\HeaderOnly;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\.\code;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibRayCastBackproject\LibRayCastBackproject_autogen\include_Release;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <CudaCompile>
-      <Include>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibRayCastBackproject;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibRayCastBackproject;\usr\include\eigen3;C:\Program Files (x86)\nlopt\include;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\include;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code\HeaderOnly;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibRayCastBackproject\LibRayCastBackproject_autogen\include_Release;%(Include)</Include>
+      <Include>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibRayCastBackproject;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibRayCastBackproject;\usr\include\eigen3;C:\Program Files (x86)\nlopt\include;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\include;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\.\code\HeaderOnly;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\.\code;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibRayCastBackproject\LibRayCastBackproject_autogen\include_Release;%(Include)</Include>
       <Defines>%(Defines);_WINDOWS;NDEBUG;_MBCS;CMAKE_INTDIR="Release";LibRayCastBackproject_EXPORTS</Defines>
       <AdditionalOptions>%(AdditionalOptions) -forward-unknown-to-host-compiler --generate-code=arch=compute_75,code=[compute_75,sm_75] -Xcompiler="/EHsc -Ob2"</AdditionalOptions>
       <CodeGeneration></CodeGeneration>
@@ -215,7 +215,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <UseHostInclude>false</UseHostInclude>
     </CudaCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibRayCastBackproject;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibRayCastBackproject;\usr\include\eigen3;C:\Program Files (x86)\nlopt\include;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\include;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code\HeaderOnly;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibRayCastBackproject\LibRayCastBackproject_autogen\include_Release;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibRayCastBackproject;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibRayCastBackproject;\usr\include\eigen3;C:\Program Files (x86)\nlopt\include;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\include;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\.\code\HeaderOnly;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\.\code;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibRayCastBackproject\LibRayCastBackproject_autogen\include_Release;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -226,11 +226,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <UseUtf8Encoding>Always</UseUtf8Encoding>
       <Message>Auto build dll exports</Message>
       <Command>setlocal
-cd C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibRayCastBackproject
+cd C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibRayCastBackproject
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E __create_def C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibRayCastBackproject/LibRayCastBackproject.dir/Release/exports.def C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibRayCastBackproject/LibRayCastBackproject.dir/Release//objects.txt
+"C:\Program Files\CMake\bin\cmake.exe" -E __create_def C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibRayCastBackproject/LibRayCastBackproject.dir/Release/exports.def C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibRayCastBackproject/LibRayCastBackproject.dir/Release//objects.txt
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -243,11 +243,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <UseUtf8Encoding>Always</UseUtf8Encoding>
       <Message>Automatic MOC for target LibRayCastBackproject</Message>
       <Command>setlocal
-cd C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibRayCastBackproject
+cd C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibRayCastBackproject
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibRayCastBackproject/CMakeFiles/LibRayCastBackproject_autogen.dir/AutogenInfo.json Release
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibRayCastBackproject/CMakeFiles/LibRayCastBackproject_autogen.dir/AutogenInfo.json Release
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -257,16 +257,16 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PreBuildEvent>
     <Link>
-      <AdditionalDependencies>..\LibProjectiveGeometry\Release\LibProjectiveGeometry.lib;LibUtilsCuda.lib;..\LibUtilsQt\Release\LibUtilsQt.lib;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\build\GetSet\Release\GetSet.lib;cudadevrt.lib;cudart_static.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\LibProjectiveGeometry\Release\LibProjectiveGeometry.lib;LibUtilsCuda.lib;..\LibUtilsQt\Release\LibUtilsQt.lib;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\build\GetSet\Release\GetSet.lib;cudadevrt.lib;cudart_static.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.2/lib/x64;C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v13.2/lib/x64/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <DataExecutionPrevention></DataExecutionPrevention>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
-      <ImportLibrary>C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibRayCastBackproject/Release/LibRayCastBackproject.lib</ImportLibrary>
+      <ImportLibrary>C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibRayCastBackproject/Release/LibRayCastBackproject.lib</ImportLibrary>
       <LinkErrorReporting></LinkErrorReporting>
-      <ModuleDefinitionFile>C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibRayCastBackproject/LibRayCastBackproject.dir/Release/exports.def</ModuleDefinitionFile>
-      <ProgramDataBaseFile>C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/bin/Release/LibRayCastBackproject.pdb</ProgramDataBaseFile>
+      <ModuleDefinitionFile>C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibRayCastBackproject/LibRayCastBackproject.dir/Release/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/bin/Release/LibRayCastBackproject.pdb</ProgramDataBaseFile>
       <RandomizedBaseAddress></RandomizedBaseAddress>
       <SubSystem>Console</SubSystem>
     </Link>
@@ -279,11 +279,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CudaLink>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibRayCastBackproject\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibRayCastBackproject\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/LibRayCastBackproject/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/LibRayCastBackproject/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build -BC:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build --check-stamp-file C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibRayCastBackproject/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev -BC:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build --check-stamp-file C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibRayCastBackproject/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -292,11 +292,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckCXXCompilerFlag.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\Qt6Config.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\Qt6ConfigExtras.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\Qt6ConfigVersion.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\Qt6ConfigVersionImpl.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\Qt6Dependencies.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\Qt6Targets.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\Qt6VersionlessAliasTargets.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtFeature.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtFeatureCommon.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtInstallPaths.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicAndroidHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicAppleHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicCMakeEarlyPolicyHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicCMakeHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicCMakeVersionHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicDependencyHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicExternalProjectHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicFinalizerHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicFindPackageHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicGitHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicPluginHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicPluginHelpers_v2.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomAttributionHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomCommonGenerationHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomCpeHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomCycloneDXHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomDepHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomDocumentNamespaceHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomFileHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomGenerationCycloneDXHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomGenerationHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomLicenseHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomOpsHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomPurlHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomPythonHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomQtEntityHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomSystemDepHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicTargetHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicTestHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicToolHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicWalkLibsHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicWindowsHelpers.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibRayCastBackproject\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibRayCastBackproject\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/LibRayCastBackproject/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/LibRayCastBackproject/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build -BC:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build --check-stamp-file C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibRayCastBackproject/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev -BC:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build --check-stamp-file C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibRayCastBackproject/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -305,57 +305,57 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckCXXCompilerFlag.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\Qt6Config.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\Qt6ConfigExtras.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\Qt6ConfigVersion.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\Qt6ConfigVersionImpl.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\Qt6Dependencies.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\Qt6Targets.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\Qt6VersionlessAliasTargets.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtFeature.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtFeatureCommon.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtInstallPaths.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicAndroidHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicAppleHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicCMakeEarlyPolicyHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicCMakeHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicCMakeVersionHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicDependencyHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicExternalProjectHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicFinalizerHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicFindPackageHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicGitHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicPluginHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicPluginHelpers_v2.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomAttributionHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomCommonGenerationHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomCpeHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomCycloneDXHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomDepHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomDocumentNamespaceHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomFileHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomGenerationCycloneDXHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomGenerationHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomLicenseHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomOpsHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomPurlHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomPythonHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomQtEntityHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomSystemDepHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicTargetHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicTestHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicToolHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicWalkLibsHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicWindowsHelpers.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibRayCastBackproject\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibRayCastBackproject\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibRayCastBackproject\LibRayCastBackproject_autogen\mocs_compilation_Debug.cpp">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibRayCastBackproject\LibRayCastBackproject_autogen\mocs_compilation_Debug.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibRayCastBackproject\VolumeRendering.h" />
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibRayCastBackproject\VolumeRendering.cpp" />
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibRayCastBackproject\VoxelData.h" />
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibRayCastBackproject\VoxelData.cpp">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibRayCastBackproject\VolumeRendering.h" />
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibRayCastBackproject\VolumeRendering.cpp" />
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibRayCastBackproject\VoxelData.h" />
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibRayCastBackproject\VoxelData.cpp">
       <ObjectFileName>$(IntDir)VoxelData.cpp.obj</ObjectFileName>
     </ClCompile>
     <CudaCompile Include="..\..\code\LibRayCastBackproject\VoxelData.cu">
       <CompileOut>$(IntDir)VoxelData.cu.obj</CompileOut>
     </CudaCompile>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibRayCastBackproject\Reconstruction.h" />
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibRayCastBackproject\Reconstruction.cpp">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibRayCastBackproject\Reconstruction.h" />
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibRayCastBackproject\Reconstruction.cpp">
       <ObjectFileName>$(IntDir)Reconstruction.cpp.obj</ObjectFileName>
     </ClCompile>
     <CudaCompile Include="..\..\code\LibRayCastBackproject\Reconstruction.cu">
       <CompileOut>$(IntDir)Reconstruction.cu.obj</CompileOut>
     </CudaCompile>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibRayCastBackproject\ray_box_intersection.hxx" />
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibRayCastBackproject\ray_box_intersection.hxx" />
     <CudaCompile Include="..\..\code\LibRayCastBackproject\vr_ray_geom_setup.cu" />
     <CudaCompile Include="..\..\code\LibRayCastBackproject\vr_raycast_drr.cu" />
     <CudaCompile Include="..\..\code\LibRayCastBackproject\vr_raycast_ea_1Dtf.cu" />
     <CudaCompile Include="..\..\code\LibRayCastBackproject\vr_raycast_iso.cu" />
     <CudaCompile Include="..\..\code\LibRayCastBackproject\vr_raycast_mip.cu" />
     <CudaCompile Include="..\..\code\LibRayCastBackproject\vr_raycast_debug.cu" />
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibRayCastBackproject\VolumeRenderingGui.h" />
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibRayCastBackproject\VolumeRenderingGui.cpp" />
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibRayCastBackproject\LibRayCastBackproject_autogen\mocs_compilation_Release.cpp">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibRayCastBackproject\VolumeRenderingGui.h" />
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibRayCastBackproject\VolumeRenderingGui.cpp" />
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibRayCastBackproject\LibRayCastBackproject_autogen\mocs_compilation_Release.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\ZERO_CHECK.vcxproj">
-      <Project>{9E5389E0-B518-395B-BFDD-4AD6E53E1997}</Project>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\ZERO_CHECK.vcxproj">
+      <Project>{A7A33978-4687-3342-8011-6ECA2696FA25}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibProjectiveGeometry\LibProjectiveGeometry.vcxproj">
-      <Project>{3DD7EA04-DF29-35D9-AFB4-E1B3EA0EB2D4}</Project>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibProjectiveGeometry\LibProjectiveGeometry.vcxproj">
+      <Project>{01B96B76-AAD0-314B-BD7D-6F6973D88CF5}</Project>
       <Name>LibProjectiveGeometry</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibUtilsQt\LibUtilsQt.vcxproj">
-      <Project>{64997F7C-FCDA-3E70-BC95-E17D09675A86}</Project>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibUtilsQt\LibUtilsQt.vcxproj">
+      <Project>{5F88A601-42D6-3F88-9BDB-6D269377F62C}</Project>
       <Name>LibUtilsQt</Name>
     </ProjectReference>
   </ItemGroup>

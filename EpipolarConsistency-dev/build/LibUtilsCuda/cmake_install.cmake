@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/LibUtilsCuda
+# Install script for directory: C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/LibUtilsCuda
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,15 +34,15 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/LibUtilsCuda/culaut" TYPE FILE FILES
-    "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/LibUtilsCuda/culaut/culaut.hxx"
-    "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/LibUtilsCuda/culaut/xgeinv.hxx"
-    "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/LibUtilsCuda/culaut/xprojectionmatrix.hxx"
+    "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/LibUtilsCuda/culaut/culaut.hxx"
+    "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/LibUtilsCuda/culaut/xgeinv.hxx"
+    "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/LibUtilsCuda/culaut/xprojectionmatrix.hxx"
     )
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibUtilsCuda/install_local_manifest.txt"
+  file(WRITE "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibUtilsCuda/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

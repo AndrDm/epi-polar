@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\CMakeFiles\5c3c63361e5b690969d960db2177bfc3\INSTALL_force.rule">
+    <CustomBuild Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\CMakeFiles\d309a4116c96b81645f048cb94817aed\INSTALL_force.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{93881119-1D3A-3B9E-84FB-CDD9668E0DFA}</UniqueIdentifier>
+      <UniqueIdentifier>{5C2518DF-CB83-3BD6-A047-45343B5D1A4B}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -1,6 +1,6 @@
-C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibUtilsQt/LibUtilsQt.dir/Release/mocs_compilation_Release.obj
-C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibUtilsQt/LibUtilsQt.dir/Release/EventFilters.obj
-C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibUtilsQt/LibUtilsQt.dir/Release/FigureWindow.obj
-C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibUtilsQt/LibUtilsQt.dir/Release/QCameraView.obj
-C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibUtilsQt/LibUtilsQt.dir/Release/QGLPlot3D.obj
-C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibUtilsQt/LibUtilsQt.dir/Release/QCustomPlot.obj
+C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibUtilsQt/LibUtilsQt.dir/Release/mocs_compilation_Release.obj
+C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibUtilsQt/LibUtilsQt.dir/Release/EventFilters.obj
+C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibUtilsQt/LibUtilsQt.dir/Release/FigureWindow.obj
+C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibUtilsQt/LibUtilsQt.dir/Release/QCameraView.obj
+C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibUtilsQt/LibUtilsQt.dir/Release/QGLPlot3D.obj
+C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibUtilsQt/LibUtilsQt.dir/Release/QCustomPlot.obj

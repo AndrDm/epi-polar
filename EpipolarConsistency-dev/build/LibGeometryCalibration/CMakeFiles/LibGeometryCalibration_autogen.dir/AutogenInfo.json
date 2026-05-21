@@ -1,13 +1,13 @@
 {
 	"AUTOGEN_COMMAND_LINE_LENGTH_MAX" : 32000,
-	"BUILD_DIR" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibGeometryCalibration/LibGeometryCalibration_autogen",
-	"CMAKE_BINARY_DIR" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build",
-	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibGeometryCalibration",
-	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/LibGeometryCalibration",
+	"BUILD_DIR" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibGeometryCalibration/LibGeometryCalibration_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibGeometryCalibration",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/LibGeometryCalibration",
 	"CMAKE_EXECUTABLE" : "C:/Program Files/CMake/bin/cmake.exe",
 	"CMAKE_LIST_FILES" : 
 	[
-		"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/LibGeometryCalibration/CMakeLists.txt",
+		"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/LibGeometryCalibration/CMakeLists.txt",
 		"C:/Qt/6.10.2/lib/cmake/Qt6/Qt6ConfigVersion.cmake",
 		"C:/Qt/6.10.2/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake",
 		"C:/Qt/6.10.2/lib/cmake/Qt6/Qt6Config.cmake",
@@ -77,50 +77,50 @@
 		"C:/Qt/6.10.2/lib/cmake/Qt6PrintSupport/Qt6PrintSupportPlugins.cmake",
 		"C:/Qt/6.10.2/lib/cmake/Qt6PrintSupport/Qt6PrintSupportVersionlessAliasTargets.cmake"
 	],
-	"CMAKE_SOURCE_DIR" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build",
+	"CMAKE_SOURCE_DIR" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev",
 	"CROSS_CONFIG" : false,
 	"DEP_FILE" : "",
 	"DEP_FILE_RULE_NAME" : "",
 	"HEADERS" : 
 	[
 		[
-			"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/LibGeometryCalibration/BeadDetection.h",
+			"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/LibGeometryCalibration/BeadDetection.h",
 			"Mu",
 			"EWIEGA46WW/moc_BeadDetection.cpp",
 			null
 		],
 		[
-			"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/LibGeometryCalibration/BeadPhantomGui.hxx",
+			"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/LibGeometryCalibration/BeadPhantomGui.hxx",
 			"Mu",
 			"EWIEGA46WW/moc_BeadPhantomGui.cpp",
 			null
 		],
 		[
-			"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/LibGeometryCalibration/EstimateProjectionMatrix.h",
+			"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/LibGeometryCalibration/EstimateProjectionMatrix.h",
 			"Mu",
 			"EWIEGA46WW/moc_EstimateProjectionMatrix.cpp",
 			null
 		],
 		[
-			"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/LibGeometryCalibration/GeometryCalibration.h",
+			"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/LibGeometryCalibration/GeometryCalibration.h",
 			"Mu",
 			"EWIEGA46WW/moc_GeometryCalibration.cpp",
 			null
 		],
 		[
-			"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/LibGeometryCalibration/PhantomPDS2.h",
+			"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/LibGeometryCalibration/PhantomPDS2.h",
 			"Mu",
 			"EWIEGA46WW/moc_PhantomPDS2.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibGeometryCalibration/LibGeometryCalibration_autogen/include",
-	"INCLUDE_DIR_Debug" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibGeometryCalibration/LibGeometryCalibration_autogen/include_Debug",
-	"INCLUDE_DIR_Release" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibGeometryCalibration/LibGeometryCalibration_autogen/include_Release",
-	"MOC_COMPILATION_FILE" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibGeometryCalibration/LibGeometryCalibration_autogen/mocs_compilation.cpp",
-	"MOC_COMPILATION_FILE_Debug" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibGeometryCalibration/LibGeometryCalibration_autogen/mocs_compilation_Debug.cpp",
-	"MOC_COMPILATION_FILE_Release" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibGeometryCalibration/LibGeometryCalibration_autogen/mocs_compilation_Release.cpp",
+	"INCLUDE_DIR" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibGeometryCalibration/LibGeometryCalibration_autogen/include",
+	"INCLUDE_DIR_Debug" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibGeometryCalibration/LibGeometryCalibration_autogen/include_Debug",
+	"INCLUDE_DIR_Release" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibGeometryCalibration/LibGeometryCalibration_autogen/include_Release",
+	"MOC_COMPILATION_FILE" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibGeometryCalibration/LibGeometryCalibration_autogen/mocs_compilation.cpp",
+	"MOC_COMPILATION_FILE_Debug" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibGeometryCalibration/LibGeometryCalibration_autogen/mocs_compilation_Debug.cpp",
+	"MOC_COMPILATION_FILE_Release" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibGeometryCalibration/LibGeometryCalibration_autogen/mocs_compilation_Release.cpp",
 	"MOC_DEFINITIONS" : [],
 	"MOC_DEFINITIONS_Debug" : 
 	[
@@ -165,13 +165,13 @@
 	"MOC_INCLUDES" : [],
 	"MOC_INCLUDES_Debug" : 
 	[
-		"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibGeometryCalibration",
-		"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/LibGeometryCalibration",
+		"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibGeometryCalibration",
+		"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/LibGeometryCalibration",
 		"/usr/include/eigen3",
 		"C:/Program Files (x86)/nlopt/include",
-		"C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/include",
-		"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/HeaderOnly",
-		"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code",
+		"C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/include",
+		"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/HeaderOnly",
+		"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code",
 		"C:/Qt/6.10.2/include/QtGui",
 		"C:/Qt/6.10.2/include",
 		"C:/Qt/6.10.2/include/QtCore",
@@ -182,13 +182,13 @@
 	],
 	"MOC_INCLUDES_Release" : 
 	[
-		"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibGeometryCalibration",
-		"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/LibGeometryCalibration",
+		"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibGeometryCalibration",
+		"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/LibGeometryCalibration",
 		"/usr/include/eigen3",
 		"C:/Program Files (x86)/nlopt/include",
-		"C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/include",
-		"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/HeaderOnly",
-		"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code",
+		"C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/include",
+		"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/HeaderOnly",
+		"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code",
 		"C:/Qt/6.10.2/include/QtGui",
 		"C:/Qt/6.10.2/include",
 		"C:/Qt/6.10.2/include/QtCore",
@@ -214,37 +214,37 @@
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : true,
 	"PARALLEL" : 10,
-	"PARSE_CACHE_FILE" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibGeometryCalibration/CMakeFiles/LibGeometryCalibration_autogen.dir/ParseCache.txt",
-	"PARSE_CACHE_FILE_Debug" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibGeometryCalibration/CMakeFiles/LibGeometryCalibration_autogen.dir/ParseCache_Debug.txt",
-	"PARSE_CACHE_FILE_Release" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibGeometryCalibration/CMakeFiles/LibGeometryCalibration_autogen.dir/ParseCache_Release.txt",
+	"PARSE_CACHE_FILE" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibGeometryCalibration/CMakeFiles/LibGeometryCalibration_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE_Debug" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibGeometryCalibration/CMakeFiles/LibGeometryCalibration_autogen.dir/ParseCache_Debug.txt",
+	"PARSE_CACHE_FILE_Release" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibGeometryCalibration/CMakeFiles/LibGeometryCalibration_autogen.dir/ParseCache_Release.txt",
 	"QT_MOC_EXECUTABLE" : "",
 	"QT_MOC_EXECUTABLE_Debug" : "C:/Qt/6.10.2/bin/moc.exe",
 	"QT_MOC_EXECUTABLE_Release" : "C:/Qt/6.10.2/bin/moc.exe",
 	"QT_UIC_EXECUTABLE" : "",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 10,
-	"SETTINGS_FILE" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibGeometryCalibration/CMakeFiles/LibGeometryCalibration_autogen.dir/AutogenUsed.txt",
-	"SETTINGS_FILE_Debug" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibGeometryCalibration/CMakeFiles/LibGeometryCalibration_autogen.dir/AutogenUsed_Debug.txt",
-	"SETTINGS_FILE_Release" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibGeometryCalibration/CMakeFiles/LibGeometryCalibration_autogen.dir/AutogenUsed_Release.txt",
+	"SETTINGS_FILE" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibGeometryCalibration/CMakeFiles/LibGeometryCalibration_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE_Debug" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibGeometryCalibration/CMakeFiles/LibGeometryCalibration_autogen.dir/AutogenUsed_Debug.txt",
+	"SETTINGS_FILE_Release" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibGeometryCalibration/CMakeFiles/LibGeometryCalibration_autogen.dir/AutogenUsed_Release.txt",
 	"SOURCES" : 
 	[
 		[
-			"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/LibGeometryCalibration/BeadDetection.cpp",
+			"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/LibGeometryCalibration/BeadDetection.cpp",
 			"Mu",
 			null
 		],
 		[
-			"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/LibGeometryCalibration/EstimateProjectionMatrix.cpp",
+			"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/LibGeometryCalibration/EstimateProjectionMatrix.cpp",
 			"Mu",
 			null
 		],
 		[
-			"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/LibGeometryCalibration/GeometryCalibration.cpp",
+			"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/LibGeometryCalibration/GeometryCalibration.cpp",
 			"Mu",
 			null
 		],
 		[
-			"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/LibGeometryCalibration/PhantomPDS2.cpp",
+			"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/LibGeometryCalibration/PhantomPDS2.cpp",
 			"Mu",
 			null
 		]

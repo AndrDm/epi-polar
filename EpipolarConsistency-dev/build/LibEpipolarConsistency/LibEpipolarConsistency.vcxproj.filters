@@ -1,42 +1,42 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibEpipolarConsistency\LibEpipolarConsistency_autogen\mocs_compilation_Debug.cpp">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibEpipolarConsistency\LibEpipolarConsistency_autogen\mocs_compilation_Debug.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibEpipolarConsistency\EpipolarConsistency.cpp">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibEpipolarConsistency\EpipolarConsistency.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibEpipolarConsistency\EpipolarConsistencyDirect.cpp">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibEpipolarConsistency\EpipolarConsistencyDirect.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibEpipolarConsistency\EpipolarConsistencyRadonIntermediate.cpp">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibEpipolarConsistency\EpipolarConsistencyRadonIntermediate.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibEpipolarConsistency\RadonIntermediate.cpp">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibEpipolarConsistency\RadonIntermediate.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibEpipolarConsistency\LibEpipolarConsistency_autogen\mocs_compilation_Release.cpp">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibEpipolarConsistency\LibEpipolarConsistency_autogen\mocs_compilation_Release.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibEpipolarConsistency\EpipolarConsistency.h">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibEpipolarConsistency\EpipolarConsistency.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibEpipolarConsistency\EpipolarConsistencyCommon.hxx">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibEpipolarConsistency\EpipolarConsistencyCommon.hxx">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibEpipolarConsistency\EpipolarConsistencyDirect.h">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibEpipolarConsistency\EpipolarConsistencyDirect.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibEpipolarConsistency\RectifiedFBCC.h">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibEpipolarConsistency\RectifiedFBCC.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibEpipolarConsistency\EpipolarConsistencyRadonIntermediate.h">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibEpipolarConsistency\EpipolarConsistencyRadonIntermediate.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibEpipolarConsistency\RadonIntermediate.h">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibEpipolarConsistency\RadonIntermediate.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -55,14 +55,14 @@
     </CudaCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibEpipolarConsistency\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibEpipolarConsistency\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{A23715B8-7FFA-327A-B6CC-73F3A25E62D8}</UniqueIdentifier>
+      <UniqueIdentifier>{35B63EC2-E5FA-395F-966E-572C557B2FCC}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{EE29A8E1-EA24-30E0-8128-547378A7BD35}</UniqueIdentifier>
+      <UniqueIdentifier>{B7EBDCCA-F9F2-3AE5-A0CE-B64B7773B321}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

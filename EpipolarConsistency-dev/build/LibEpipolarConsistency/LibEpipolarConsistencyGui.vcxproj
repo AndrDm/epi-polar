@@ -14,7 +14,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{FF28F4E8-91A1-3291-A70E-D0CF0D7DB54B}</ProjectGuid>
+    <ProjectGuid>{631490E9-A4C4-338C-9CD6-51C6FD3B06CE}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -44,13 +44,13 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\bin\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\bin\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">LibEpipolarConsistencyGui.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">LibEpipolarConsistencyGuid</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\bin\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\bin\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">LibEpipolarConsistencyGui.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">LibEpipolarConsistencyGui</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
@@ -60,8 +60,8 @@
   <PropertyGroup />
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibEpipolarConsistency;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibEpipolarConsistency;\usr\include\eigen3;C:\Program Files (x86)\nlopt\include;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\include;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code\HeaderOnly;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibEpipolarConsistency/LibEpipolarConsistencyGui_autogen/include_Debug"</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibEpipolarConsistency;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibEpipolarConsistency;\usr\include\eigen3;C:\Program Files (x86)\nlopt\include;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\include;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\.\code\HeaderOnly;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\.\code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibEpipolarConsistency/LibEpipolarConsistencyGui_autogen/include_Debug"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <BufferSecurityCheck></BufferSecurityCheck>
@@ -88,10 +88,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_MBCS;CMAKE_INTDIR=\"Debug\";LibEpipolarConsistencyGui_EXPORTS</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibEpipolarConsistency;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibEpipolarConsistency;\usr\include\eigen3;C:\Program Files (x86)\nlopt\include;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\include;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code\HeaderOnly;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibEpipolarConsistency\LibEpipolarConsistencyGui_autogen\include_Debug;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibEpipolarConsistency;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibEpipolarConsistency;\usr\include\eigen3;C:\Program Files (x86)\nlopt\include;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\include;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\.\code\HeaderOnly;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\.\code;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibEpipolarConsistency\LibEpipolarConsistencyGui_autogen\include_Debug;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibEpipolarConsistency;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibEpipolarConsistency;\usr\include\eigen3;C:\Program Files (x86)\nlopt\include;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\include;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code\HeaderOnly;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibEpipolarConsistency\LibEpipolarConsistencyGui_autogen\include_Debug;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibEpipolarConsistency;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibEpipolarConsistency;\usr\include\eigen3;C:\Program Files (x86)\nlopt\include;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\include;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\.\code\HeaderOnly;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\.\code;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibEpipolarConsistency\LibEpipolarConsistencyGui_autogen\include_Debug;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -102,11 +102,11 @@
       <UseUtf8Encoding>Always</UseUtf8Encoding>
       <Message>Auto build dll exports</Message>
       <Command>setlocal
-cd C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibEpipolarConsistency
+cd C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibEpipolarConsistency
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E __create_def C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibEpipolarConsistency/LibEpipolarConsistencyGui.dir/Debug/exports.def C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibEpipolarConsistency/LibEpipolarConsistencyGui.dir/Debug//objects.txt
+"C:\Program Files\CMake\bin\cmake.exe" -E __create_def C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibEpipolarConsistency/LibEpipolarConsistencyGui.dir/Debug/exports.def C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibEpipolarConsistency/LibEpipolarConsistencyGui.dir/Debug//objects.txt
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -119,11 +119,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <UseUtf8Encoding>Always</UseUtf8Encoding>
       <Message>Automatic MOC for target LibEpipolarConsistencyGui</Message>
       <Command>setlocal
-cd C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibEpipolarConsistency
+cd C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibEpipolarConsistency
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibEpipolarConsistency/CMakeFiles/LibEpipolarConsistencyGui_autogen.dir/AutogenInfo.json Debug
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibEpipolarConsistency/CMakeFiles/LibEpipolarConsistencyGui_autogen.dir/AutogenInfo.json Debug
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -133,16 +133,16 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PreBuildEvent>
     <Link>
-      <AdditionalDependencies>Debug\LibEpipolarConsistencyd.lib;..\LibProjectiveGeometry\Debug\LibProjectiveGeometryd.lib;..\LibUtilsQt\Debug\LibUtilsQtd.lib;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\build\GetSet\Debug\GetSetd.lib;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\build\GetSetGui\Debug\GetSetGuid.lib;LibUtilsCuda.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>Debug\LibEpipolarConsistencyd.lib;..\LibProjectiveGeometry\Debug\LibProjectiveGeometryd.lib;..\LibUtilsQt\Debug\LibUtilsQtd.lib;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\build\GetSet\Debug\GetSetd.lib;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\build\GetSetGui\Debug\GetSetGuid.lib;LibUtilsCuda.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <DataExecutionPrevention></DataExecutionPrevention>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
-      <ImportLibrary>C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibEpipolarConsistency/Debug/LibEpipolarConsistencyGuid.lib</ImportLibrary>
+      <ImportLibrary>C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibEpipolarConsistency/Debug/LibEpipolarConsistencyGuid.lib</ImportLibrary>
       <LinkErrorReporting></LinkErrorReporting>
-      <ModuleDefinitionFile>C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibEpipolarConsistency/LibEpipolarConsistencyGui.dir/Debug/exports.def</ModuleDefinitionFile>
-      <ProgramDataBaseFile>C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/bin/Debug/LibEpipolarConsistencyGuid.pdb</ProgramDataBaseFile>
+      <ModuleDefinitionFile>C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibEpipolarConsistency/LibEpipolarConsistencyGui.dir/Debug/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/bin/Debug/LibEpipolarConsistencyGuid.pdb</ProgramDataBaseFile>
       <RandomizedBaseAddress></RandomizedBaseAddress>
       <SubSystem>Console</SubSystem>
     </Link>
@@ -156,8 +156,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibEpipolarConsistency;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibEpipolarConsistency;\usr\include\eigen3;C:\Program Files (x86)\nlopt\include;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\include;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code\HeaderOnly;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibEpipolarConsistency/LibEpipolarConsistencyGui_autogen/include_Release"</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibEpipolarConsistency;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibEpipolarConsistency;\usr\include\eigen3;C:\Program Files (x86)\nlopt\include;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\include;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\.\code\HeaderOnly;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\.\code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibEpipolarConsistency/LibEpipolarConsistencyGui_autogen/include_Release"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <BufferSecurityCheck></BufferSecurityCheck>
@@ -185,10 +185,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_MBCS;CMAKE_INTDIR=\"Release\";LibEpipolarConsistencyGui_EXPORTS</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibEpipolarConsistency;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibEpipolarConsistency;\usr\include\eigen3;C:\Program Files (x86)\nlopt\include;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\include;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code\HeaderOnly;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibEpipolarConsistency\LibEpipolarConsistencyGui_autogen\include_Release;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibEpipolarConsistency;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibEpipolarConsistency;\usr\include\eigen3;C:\Program Files (x86)\nlopt\include;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\include;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\.\code\HeaderOnly;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\.\code;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibEpipolarConsistency\LibEpipolarConsistencyGui_autogen\include_Release;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibEpipolarConsistency;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibEpipolarConsistency;\usr\include\eigen3;C:\Program Files (x86)\nlopt\include;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\include;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code\HeaderOnly;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibEpipolarConsistency\LibEpipolarConsistencyGui_autogen\include_Release;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibEpipolarConsistency;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibEpipolarConsistency;\usr\include\eigen3;C:\Program Files (x86)\nlopt\include;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\include;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\.\code\HeaderOnly;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\.\code;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibEpipolarConsistency\LibEpipolarConsistencyGui_autogen\include_Release;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -199,11 +199,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <UseUtf8Encoding>Always</UseUtf8Encoding>
       <Message>Auto build dll exports</Message>
       <Command>setlocal
-cd C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibEpipolarConsistency
+cd C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibEpipolarConsistency
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E __create_def C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibEpipolarConsistency/LibEpipolarConsistencyGui.dir/Release/exports.def C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibEpipolarConsistency/LibEpipolarConsistencyGui.dir/Release//objects.txt
+"C:\Program Files\CMake\bin\cmake.exe" -E __create_def C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibEpipolarConsistency/LibEpipolarConsistencyGui.dir/Release/exports.def C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibEpipolarConsistency/LibEpipolarConsistencyGui.dir/Release//objects.txt
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -216,11 +216,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <UseUtf8Encoding>Always</UseUtf8Encoding>
       <Message>Automatic MOC for target LibEpipolarConsistencyGui</Message>
       <Command>setlocal
-cd C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibEpipolarConsistency
+cd C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibEpipolarConsistency
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibEpipolarConsistency/CMakeFiles/LibEpipolarConsistencyGui_autogen.dir/AutogenInfo.json Release
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibEpipolarConsistency/CMakeFiles/LibEpipolarConsistencyGui_autogen.dir/AutogenInfo.json Release
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -230,16 +230,16 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PreBuildEvent>
     <Link>
-      <AdditionalDependencies>Release\LibEpipolarConsistency.lib;..\LibProjectiveGeometry\Release\LibProjectiveGeometry.lib;..\LibUtilsQt\Release\LibUtilsQt.lib;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\build\GetSet\Release\GetSet.lib;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\build\GetSetGui\Release\GetSetGui.lib;LibUtilsCuda.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>Release\LibEpipolarConsistency.lib;..\LibProjectiveGeometry\Release\LibProjectiveGeometry.lib;..\LibUtilsQt\Release\LibUtilsQt.lib;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\build\GetSet\Release\GetSet.lib;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\build\GetSetGui\Release\GetSetGui.lib;LibUtilsCuda.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <DataExecutionPrevention></DataExecutionPrevention>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
-      <ImportLibrary>C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibEpipolarConsistency/Release/LibEpipolarConsistencyGui.lib</ImportLibrary>
+      <ImportLibrary>C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibEpipolarConsistency/Release/LibEpipolarConsistencyGui.lib</ImportLibrary>
       <LinkErrorReporting></LinkErrorReporting>
-      <ModuleDefinitionFile>C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibEpipolarConsistency/LibEpipolarConsistencyGui.dir/Release/exports.def</ModuleDefinitionFile>
-      <ProgramDataBaseFile>C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/bin/Release/LibEpipolarConsistencyGui.pdb</ProgramDataBaseFile>
+      <ModuleDefinitionFile>C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibEpipolarConsistency/LibEpipolarConsistencyGui.dir/Release/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/bin/Release/LibEpipolarConsistencyGui.pdb</ProgramDataBaseFile>
       <RandomizedBaseAddress></RandomizedBaseAddress>
       <SubSystem>Console</SubSystem>
     </Link>
@@ -252,11 +252,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CudaLink>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibEpipolarConsistency\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibEpipolarConsistency\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/LibEpipolarConsistency/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/LibEpipolarConsistency/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build -BC:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build --check-stamp-file C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibEpipolarConsistency/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev -BC:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build --check-stamp-file C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibEpipolarConsistency/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -265,11 +265,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibEpipolarConsistency\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibEpipolarConsistency\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/LibEpipolarConsistency/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/LibEpipolarConsistency/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build -BC:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build --check-stamp-file C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibEpipolarConsistency/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev -BC:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build --check-stamp-file C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibEpipolarConsistency/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -278,50 +278,50 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibEpipolarConsistency\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibEpipolarConsistency\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibEpipolarConsistency\LibEpipolarConsistencyGui_autogen\mocs_compilation_Debug.cpp">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibEpipolarConsistency\LibEpipolarConsistencyGui_autogen\mocs_compilation_Debug.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibEpipolarConsistency\Gui\PreProccess.h" />
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibEpipolarConsistency\Gui\PreProccess.cpp" />
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibEpipolarConsistency\Gui\ComputeRadonIntermediate.hxx" />
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibEpipolarConsistency\Gui\InputDataRadonIntermediate.h" />
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibEpipolarConsistency\Gui\InputDataRadonIntermediate.cpp" />
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibEpipolarConsistency\Gui\InputDataDirect.h" />
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibEpipolarConsistency\Gui\InputDataDirect.cpp" />
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibEpipolarConsistency\Gui\DisplayGeometry.hxx" />
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibEpipolarConsistency\Gui\Visualization.h" />
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibEpipolarConsistency\Gui\Visualization.cpp" />
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibEpipolarConsistency\Gui\SingleImageMotion.h" />
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibEpipolarConsistency\Gui\Registration.h" />
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibEpipolarConsistency\Gui\Registration.cpp" />
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibEpipolarConsistency\Gui\FDCTMotionCorrection.hxx" />
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibEpipolarConsistency\LibEpipolarConsistencyGui_autogen\mocs_compilation_Release.cpp">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibEpipolarConsistency\Gui\PreProccess.h" />
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibEpipolarConsistency\Gui\PreProccess.cpp" />
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibEpipolarConsistency\Gui\ComputeRadonIntermediate.hxx" />
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibEpipolarConsistency\Gui\InputDataRadonIntermediate.h" />
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibEpipolarConsistency\Gui\InputDataRadonIntermediate.cpp" />
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibEpipolarConsistency\Gui\InputDataDirect.h" />
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibEpipolarConsistency\Gui\InputDataDirect.cpp" />
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibEpipolarConsistency\Gui\DisplayGeometry.hxx" />
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibEpipolarConsistency\Gui\Visualization.h" />
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibEpipolarConsistency\Gui\Visualization.cpp" />
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibEpipolarConsistency\Gui\SingleImageMotion.h" />
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibEpipolarConsistency\Gui\Registration.h" />
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibEpipolarConsistency\Gui\Registration.cpp" />
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibEpipolarConsistency\Gui\FDCTMotionCorrection.hxx" />
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibEpipolarConsistency\LibEpipolarConsistencyGui_autogen\mocs_compilation_Release.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\ZERO_CHECK.vcxproj">
-      <Project>{9E5389E0-B518-395B-BFDD-4AD6E53E1997}</Project>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\ZERO_CHECK.vcxproj">
+      <Project>{A7A33978-4687-3342-8011-6ECA2696FA25}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibEpipolarConsistency\LibEpipolarConsistency.vcxproj">
-      <Project>{A39301B6-55AA-33BC-9B71-AC5A36A94635}</Project>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibEpipolarConsistency\LibEpipolarConsistency.vcxproj">
+      <Project>{460E8F8F-A929-3306-8E7C-2822F1084FAF}</Project>
       <Name>LibEpipolarConsistency</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibProjectiveGeometry\LibProjectiveGeometry.vcxproj">
-      <Project>{3DD7EA04-DF29-35D9-AFB4-E1B3EA0EB2D4}</Project>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibProjectiveGeometry\LibProjectiveGeometry.vcxproj">
+      <Project>{01B96B76-AAD0-314B-BD7D-6F6973D88CF5}</Project>
       <Name>LibProjectiveGeometry</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibUtilsQt\LibUtilsQt.vcxproj">
-      <Project>{64997F7C-FCDA-3E70-BC95-E17D09675A86}</Project>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibUtilsQt\LibUtilsQt.vcxproj">
+      <Project>{5F88A601-42D6-3F88-9BDB-6D269377F62C}</Project>
       <Name>LibUtilsQt</Name>
     </ProjectReference>
   </ItemGroup>

@@ -76,7 +76,7 @@ set(EIGEN3_INCLUDE_PATH "/usr/include/eigen3" CACHE PATH "Full path to Eigen3")
 include_directories(${EIGEN3_INCLUDE_PATH})
 
 # Add NLopt optimizers
-set(CMAKE_PREFIX_PATH "C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-build/build")
+set(CMAKE_PREFIX_PATH "C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-dev/build")
 find_package(NLopt REQUIRED)
 #set(NLOPT_LIBRARY "/usr/lib/x86_64-linux-gnu/libnlopt.so" CACHE FILEPATH  "Full path to nlopt.lib")
 #set(NLOPT_INCLUDE_PATH "/usr/include" CACHE PATH "Directory containing nlopt.h/hpp")
@@ -105,7 +105,7 @@ set(CMAKE_INCLUDE_CURRENT_DIR ON)
 include(cmake_scripts/qt5_win32_copy_dlls.cmake)
 
 # Add GetSet
-set(CMAKE_PREFIX_PATH "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build")
+set(CMAKE_PREFIX_PATH "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev")
 find_package(GetSet REQUIRED)
 include_directories(${GetSet_INCLUDE_DIRS})
 
@@ -114,20 +114,20 @@ include_directories(${GetSet_INCLUDE_DIRS})
 # add_library(GetSet STATIC IMPORTED)
 
 set_target_properties(GetSet PROPERTIES
-    IMPORTED_LOCATION_RELEASE "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/GetSet/Release/GetSet.lib"
-    IMPORTED_IMPLIB_RELEASE   "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/GetSet/Release/GetSet.lib"
+    IMPORTED_LOCATION_RELEASE "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/build/GetSet/Release/GetSet.lib"
+    IMPORTED_IMPLIB_RELEASE   "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/build/GetSet/Release/GetSet.lib"
 
-    IMPORTED_LOCATION_DEBUG   "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/GetSet/Debug/GetSetd.lib"
-    IMPORTED_IMPLIB_DEBUG     "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/GetSet/Debug/GetSetd.lib"
+    IMPORTED_LOCATION_DEBUG   "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/build/GetSet/Debug/GetSetd.lib"
+    IMPORTED_IMPLIB_DEBUG     "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/build/GetSet/Debug/GetSetd.lib"
 )
 
 # ???
 set_target_properties(GetSetGui PROPERTIES
-    IMPORTED_LOCATION_RELEASE "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/GetSetGui/Release/GetSetGui.lib"
-    IMPORTED_IMPLIB_RELEASE   "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/GetSetGui/Release/GetSetGui.lib"
+    IMPORTED_LOCATION_RELEASE "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/build/GetSetGui/Release/GetSetGui.lib"
+    IMPORTED_IMPLIB_RELEASE   "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/build/GetSetGui/Release/GetSetGui.lib"
 
-    IMPORTED_LOCATION_DEBUG   "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/GetSetGui/Debug/GetSetGuid.lib"
-    IMPORTED_IMPLIB_DEBUG     "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/GetSetGui/Debug/GetSetGuid.lib"
+    IMPORTED_LOCATION_DEBUG   "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/build/GetSetGui/Debug/GetSetGuid.lib"
+    IMPORTED_IMPLIB_DEBUG     "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/build/GetSetGui/Debug/GetSetGuid.lib"
 )
 
 

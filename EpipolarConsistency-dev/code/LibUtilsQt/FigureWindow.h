@@ -5,7 +5,7 @@
 #include <QPixmap>
 
 #include <NRRD/nrrd_image.hxx>
-#include <GetSet/GetSet.hxx>
+#include <C:/Users/Andrey/epi-polar/LibGetSet-dev/GetSet/GetSet.hxx>
 
 #include "EventFilters.h"
 

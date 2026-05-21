@@ -14,7 +14,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{64997F7C-FCDA-3E70-BC95-E17D09675A86}</ProjectGuid>
+    <ProjectGuid>{5F88A601-42D6-3F88-9BDB-6D269377F62C}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -44,13 +44,13 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\bin\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\bin\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">LibUtilsQt.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">LibUtilsQtd</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\bin\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\bin\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">LibUtilsQt.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">LibUtilsQt</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
@@ -60,8 +60,8 @@
   <PropertyGroup />
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibUtilsQt;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt;\usr\include\eigen3;C:\Program Files (x86)\nlopt\include;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\include;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code\HeaderOnly;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibUtilsQt/LibUtilsQt_autogen/include_Debug" /external:I "C:/Qt/6.10.2/include/QtOpenGL" /external:I "C:/Qt/6.10.2/include" /external:I "C:/Qt/6.10.2/include/QtCore" /external:I "C:/Qt/6.10.2/mkspecs/win32-msvc" /external:I "C:/Qt/6.10.2/include/QtGui" /external:I "C:/Qt/6.10.2/include/QtPrintSupport" /external:I "C:/Qt/6.10.2/include/QtWidgets" -Zc:__cplusplus -utf-8</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibUtilsQt;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt;\usr\include\eigen3;C:\Program Files (x86)\nlopt\include;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\include;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\.\code\HeaderOnly;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\.\code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibUtilsQt/LibUtilsQt_autogen/include_Debug" /external:I "C:/Qt/6.10.2/include/QtOpenGL" /external:I "C:/Qt/6.10.2/include" /external:I "C:/Qt/6.10.2/include/QtCore" /external:I "C:/Qt/6.10.2/mkspecs/win32-msvc" /external:I "C:/Qt/6.10.2/include/QtGui" /external:I "C:/Qt/6.10.2/include/QtPrintSupport" /external:I "C:/Qt/6.10.2/include/QtWidgets" -Zc:__cplusplus -utf-8</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <BufferSecurityCheck></BufferSecurityCheck>
@@ -90,10 +90,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;QT_OPENGL_LIB;QT_CORE_LIB;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;_WIN64;UNICODE;_UNICODE;QT_GUI_LIB;QT_PRINTSUPPORT_LIB;QT_WIDGETS_LIB;CMAKE_INTDIR=\"Debug\";LibUtilsQt_EXPORTS</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibUtilsQt;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt;\usr\include\eigen3;C:\Program Files (x86)\nlopt\include;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\include;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code\HeaderOnly;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibUtilsQt\LibUtilsQt_autogen\include_Debug;C:\Qt\6.10.2\include\QtOpenGL;C:\Qt\6.10.2\include;C:\Qt\6.10.2\include\QtCore;C:\Qt\6.10.2\mkspecs\win32-msvc;C:\Qt\6.10.2\include\QtGui;C:\Qt\6.10.2\include\QtPrintSupport;C:\Qt\6.10.2\include\QtWidgets;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibUtilsQt;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt;\usr\include\eigen3;C:\Program Files (x86)\nlopt\include;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\include;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\.\code\HeaderOnly;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\.\code;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibUtilsQt\LibUtilsQt_autogen\include_Debug;C:\Qt\6.10.2\include\QtOpenGL;C:\Qt\6.10.2\include;C:\Qt\6.10.2\include\QtCore;C:\Qt\6.10.2\mkspecs\win32-msvc;C:\Qt\6.10.2\include\QtGui;C:\Qt\6.10.2\include\QtPrintSupport;C:\Qt\6.10.2\include\QtWidgets;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibUtilsQt;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt;\usr\include\eigen3;C:\Program Files (x86)\nlopt\include;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\include;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code\HeaderOnly;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibUtilsQt\LibUtilsQt_autogen\include_Debug;C:\Qt\6.10.2\include\QtOpenGL;C:\Qt\6.10.2\include;C:\Qt\6.10.2\include\QtCore;C:\Qt\6.10.2\mkspecs\win32-msvc;C:\Qt\6.10.2\include\QtGui;C:\Qt\6.10.2\include\QtPrintSupport;C:\Qt\6.10.2\include\QtWidgets;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibUtilsQt;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt;\usr\include\eigen3;C:\Program Files (x86)\nlopt\include;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\include;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\.\code\HeaderOnly;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\.\code;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibUtilsQt\LibUtilsQt_autogen\include_Debug;C:\Qt\6.10.2\include\QtOpenGL;C:\Qt\6.10.2\include;C:\Qt\6.10.2\include\QtCore;C:\Qt\6.10.2\mkspecs\win32-msvc;C:\Qt\6.10.2\include\QtGui;C:\Qt\6.10.2\include\QtPrintSupport;C:\Qt\6.10.2\include\QtWidgets;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -104,11 +104,11 @@
       <UseUtf8Encoding>Always</UseUtf8Encoding>
       <Message>Auto build dll exports</Message>
       <Command>setlocal
-cd C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibUtilsQt
+cd C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibUtilsQt
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E __create_def C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibUtilsQt/LibUtilsQt.dir/Debug/exports.def C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibUtilsQt/LibUtilsQt.dir/Debug//objects.txt
+"C:\Program Files\CMake\bin\cmake.exe" -E __create_def C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibUtilsQt/LibUtilsQt.dir/Debug/exports.def C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibUtilsQt/LibUtilsQt.dir/Debug//objects.txt
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -121,11 +121,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <UseUtf8Encoding>Always</UseUtf8Encoding>
       <Message>Automatic MOC for target LibUtilsQt</Message>
       <Command>setlocal
-cd C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibUtilsQt
+cd C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibUtilsQt
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibUtilsQt/CMakeFiles/LibUtilsQt_autogen.dir/AutogenInfo.json Debug
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibUtilsQt/CMakeFiles/LibUtilsQt_autogen.dir/AutogenInfo.json Debug
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -135,16 +135,16 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PreBuildEvent>
     <Link>
-      <AdditionalDependencies>..\LibProjectiveGeometry\Debug\LibProjectiveGeometryd.lib;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\build\GetSet\Debug\GetSetd.lib;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\build\GetSetGui\Debug\GetSetGuid.lib;C:\Qt\6.10.2\lib\Qt6OpenGLd.lib;C:\Qt\6.10.2\lib\Qt6PrintSupportd.lib;C:\Qt\6.10.2\lib\Qt6Widgetsd.lib;opengl32.lib;C:\Qt\6.10.2\lib\Qt6Guid.lib;C:\Qt\6.10.2\lib\Qt6Cored.lib;mpr.lib;userenv.lib;d3d11.lib;dxgi.lib;dxguid.lib;d3d12.lib;comdlg32.lib;winspool.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\LibProjectiveGeometry\Debug\LibProjectiveGeometryd.lib;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\build\GetSet\Debug\GetSetd.lib;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\build\GetSetGui\Debug\GetSetGuid.lib;C:\Qt\6.10.2\lib\Qt6OpenGLd.lib;C:\Qt\6.10.2\lib\Qt6PrintSupportd.lib;C:\Qt\6.10.2\lib\Qt6Widgetsd.lib;opengl32.lib;C:\Qt\6.10.2\lib\Qt6Guid.lib;C:\Qt\6.10.2\lib\Qt6Cored.lib;mpr.lib;userenv.lib;d3d11.lib;dxgi.lib;dxguid.lib;d3d12.lib;comdlg32.lib;winspool.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <DataExecutionPrevention></DataExecutionPrevention>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
-      <ImportLibrary>C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibUtilsQt/Debug/LibUtilsQtd.lib</ImportLibrary>
+      <ImportLibrary>C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibUtilsQt/Debug/LibUtilsQtd.lib</ImportLibrary>
       <LinkErrorReporting></LinkErrorReporting>
-      <ModuleDefinitionFile>C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibUtilsQt/LibUtilsQt.dir/Debug/exports.def</ModuleDefinitionFile>
-      <ProgramDataBaseFile>C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/bin/Debug/LibUtilsQtd.pdb</ProgramDataBaseFile>
+      <ModuleDefinitionFile>C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibUtilsQt/LibUtilsQt.dir/Debug/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/bin/Debug/LibUtilsQtd.pdb</ProgramDataBaseFile>
       <RandomizedBaseAddress></RandomizedBaseAddress>
       <SubSystem>Console</SubSystem>
     </Link>
@@ -158,8 +158,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibUtilsQt;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt;\usr\include\eigen3;C:\Program Files (x86)\nlopt\include;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\include;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code\HeaderOnly;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibUtilsQt/LibUtilsQt_autogen/include_Release" /external:I "C:/Qt/6.10.2/include/QtOpenGL" /external:I "C:/Qt/6.10.2/include" /external:I "C:/Qt/6.10.2/include/QtCore" /external:I "C:/Qt/6.10.2/mkspecs/win32-msvc" /external:I "C:/Qt/6.10.2/include/QtGui" /external:I "C:/Qt/6.10.2/include/QtPrintSupport" /external:I "C:/Qt/6.10.2/include/QtWidgets" -Zc:__cplusplus -utf-8</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibUtilsQt;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt;\usr\include\eigen3;C:\Program Files (x86)\nlopt\include;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\include;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\.\code\HeaderOnly;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\.\code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibUtilsQt/LibUtilsQt_autogen/include_Release" /external:I "C:/Qt/6.10.2/include/QtOpenGL" /external:I "C:/Qt/6.10.2/include" /external:I "C:/Qt/6.10.2/include/QtCore" /external:I "C:/Qt/6.10.2/mkspecs/win32-msvc" /external:I "C:/Qt/6.10.2/include/QtGui" /external:I "C:/Qt/6.10.2/include/QtPrintSupport" /external:I "C:/Qt/6.10.2/include/QtWidgets" -Zc:__cplusplus -utf-8</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <BufferSecurityCheck></BufferSecurityCheck>
@@ -189,10 +189,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_OPENGL_LIB;QT_CORE_LIB;QT_NO_DEBUG;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;_WIN64;UNICODE;_UNICODE;QT_GUI_LIB;QT_PRINTSUPPORT_LIB;QT_WIDGETS_LIB;CMAKE_INTDIR=\"Release\";LibUtilsQt_EXPORTS</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibUtilsQt;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt;\usr\include\eigen3;C:\Program Files (x86)\nlopt\include;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\include;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code\HeaderOnly;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibUtilsQt\LibUtilsQt_autogen\include_Release;C:\Qt\6.10.2\include\QtOpenGL;C:\Qt\6.10.2\include;C:\Qt\6.10.2\include\QtCore;C:\Qt\6.10.2\mkspecs\win32-msvc;C:\Qt\6.10.2\include\QtGui;C:\Qt\6.10.2\include\QtPrintSupport;C:\Qt\6.10.2\include\QtWidgets;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibUtilsQt;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt;\usr\include\eigen3;C:\Program Files (x86)\nlopt\include;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\include;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\.\code\HeaderOnly;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\.\code;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibUtilsQt\LibUtilsQt_autogen\include_Release;C:\Qt\6.10.2\include\QtOpenGL;C:\Qt\6.10.2\include;C:\Qt\6.10.2\include\QtCore;C:\Qt\6.10.2\mkspecs\win32-msvc;C:\Qt\6.10.2\include\QtGui;C:\Qt\6.10.2\include\QtPrintSupport;C:\Qt\6.10.2\include\QtWidgets;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibUtilsQt;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt;\usr\include\eigen3;C:\Program Files (x86)\nlopt\include;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\include;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code\HeaderOnly;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibUtilsQt\LibUtilsQt_autogen\include_Release;C:\Qt\6.10.2\include\QtOpenGL;C:\Qt\6.10.2\include;C:\Qt\6.10.2\include\QtCore;C:\Qt\6.10.2\mkspecs\win32-msvc;C:\Qt\6.10.2\include\QtGui;C:\Qt\6.10.2\include\QtPrintSupport;C:\Qt\6.10.2\include\QtWidgets;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibUtilsQt;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt;\usr\include\eigen3;C:\Program Files (x86)\nlopt\include;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\include;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\.\code\HeaderOnly;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\.\code;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibUtilsQt\LibUtilsQt_autogen\include_Release;C:\Qt\6.10.2\include\QtOpenGL;C:\Qt\6.10.2\include;C:\Qt\6.10.2\include\QtCore;C:\Qt\6.10.2\mkspecs\win32-msvc;C:\Qt\6.10.2\include\QtGui;C:\Qt\6.10.2\include\QtPrintSupport;C:\Qt\6.10.2\include\QtWidgets;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -203,11 +203,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <UseUtf8Encoding>Always</UseUtf8Encoding>
       <Message>Auto build dll exports</Message>
       <Command>setlocal
-cd C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibUtilsQt
+cd C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibUtilsQt
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E __create_def C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibUtilsQt/LibUtilsQt.dir/Release/exports.def C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibUtilsQt/LibUtilsQt.dir/Release//objects.txt
+"C:\Program Files\CMake\bin\cmake.exe" -E __create_def C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibUtilsQt/LibUtilsQt.dir/Release/exports.def C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibUtilsQt/LibUtilsQt.dir/Release//objects.txt
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -220,11 +220,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <UseUtf8Encoding>Always</UseUtf8Encoding>
       <Message>Automatic MOC for target LibUtilsQt</Message>
       <Command>setlocal
-cd C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibUtilsQt
+cd C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibUtilsQt
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibUtilsQt/CMakeFiles/LibUtilsQt_autogen.dir/AutogenInfo.json Release
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibUtilsQt/CMakeFiles/LibUtilsQt_autogen.dir/AutogenInfo.json Release
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -234,16 +234,16 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PreBuildEvent>
     <Link>
-      <AdditionalDependencies>..\LibProjectiveGeometry\Release\LibProjectiveGeometry.lib;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\build\GetSet\Release\GetSet.lib;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\build\GetSetGui\Release\GetSetGui.lib;C:\Qt\6.10.2\lib\Qt6OpenGL.lib;C:\Qt\6.10.2\lib\Qt6PrintSupport.lib;C:\Qt\6.10.2\lib\Qt6Widgets.lib;opengl32.lib;C:\Qt\6.10.2\lib\Qt6Gui.lib;C:\Qt\6.10.2\lib\Qt6Core.lib;mpr.lib;userenv.lib;d3d11.lib;dxgi.lib;dxguid.lib;d3d12.lib;comdlg32.lib;winspool.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\LibProjectiveGeometry\Release\LibProjectiveGeometry.lib;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\build\GetSet\Release\GetSet.lib;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\build\GetSetGui\Release\GetSetGui.lib;C:\Qt\6.10.2\lib\Qt6OpenGL.lib;C:\Qt\6.10.2\lib\Qt6PrintSupport.lib;C:\Qt\6.10.2\lib\Qt6Widgets.lib;opengl32.lib;C:\Qt\6.10.2\lib\Qt6Gui.lib;C:\Qt\6.10.2\lib\Qt6Core.lib;mpr.lib;userenv.lib;d3d11.lib;dxgi.lib;dxguid.lib;d3d12.lib;comdlg32.lib;winspool.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <DataExecutionPrevention></DataExecutionPrevention>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
-      <ImportLibrary>C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibUtilsQt/Release/LibUtilsQt.lib</ImportLibrary>
+      <ImportLibrary>C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibUtilsQt/Release/LibUtilsQt.lib</ImportLibrary>
       <LinkErrorReporting></LinkErrorReporting>
-      <ModuleDefinitionFile>C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibUtilsQt/LibUtilsQt.dir/Release/exports.def</ModuleDefinitionFile>
-      <ProgramDataBaseFile>C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/bin/Release/LibUtilsQt.pdb</ProgramDataBaseFile>
+      <ModuleDefinitionFile>C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibUtilsQt/LibUtilsQt.dir/Release/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/bin/Release/LibUtilsQt.pdb</ProgramDataBaseFile>
       <RandomizedBaseAddress></RandomizedBaseAddress>
       <SubSystem>Console</SubSystem>
     </Link>
@@ -256,11 +256,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CudaLink>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/LibUtilsQt/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/LibUtilsQt/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build -BC:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build --check-stamp-file C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibUtilsQt/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev -BC:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build --check-stamp-file C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibUtilsQt/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -269,11 +269,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\Qt6Config.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\Qt6ConfigExtras.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\Qt6ConfigVersion.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\Qt6ConfigVersionImpl.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\Qt6Dependencies.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\Qt6Targets.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\Qt6VersionlessAliasTargets.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtFeature.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtFeatureCommon.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtInstallPaths.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicAndroidHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicAppleHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicCMakeEarlyPolicyHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicCMakeHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicCMakeVersionHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicDependencyHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicExternalProjectHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicFinalizerHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicFindPackageHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicGitHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicPluginHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicPluginHelpers_v2.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomAttributionHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomCommonGenerationHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomCpeHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomCycloneDXHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomDepHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomDocumentNamespaceHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomFileHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomGenerationCycloneDXHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomGenerationHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomLicenseHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomOpsHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomPurlHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomPythonHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomQtEntityHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomSystemDepHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicTargetHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicTestHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicToolHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicWalkLibsHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicWindowsHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6PrintSupport\Qt6PrintSupportAdditionalTargetInfo.cmake;C:\Qt\6.10.2\lib\cmake\Qt6PrintSupport\Qt6PrintSupportConfig.cmake;C:\Qt\6.10.2\lib\cmake\Qt6PrintSupport\Qt6PrintSupportConfigVersion.cmake;C:\Qt\6.10.2\lib\cmake\Qt6PrintSupport\Qt6PrintSupportConfigVersionImpl.cmake;C:\Qt\6.10.2\lib\cmake\Qt6PrintSupport\Qt6PrintSupportDependencies.cmake;C:\Qt\6.10.2\lib\cmake\Qt6PrintSupport\Qt6PrintSupportPlugins.cmake;C:\Qt\6.10.2\lib\cmake\Qt6PrintSupport\Qt6PrintSupportTargets-debug.cmake;C:\Qt\6.10.2\lib\cmake\Qt6PrintSupport\Qt6PrintSupportTargets-relwithdebinfo.cmake;C:\Qt\6.10.2\lib\cmake\Qt6PrintSupport\Qt6PrintSupportTargets.cmake;C:\Qt\6.10.2\lib\cmake\Qt6PrintSupport\Qt6PrintSupportVersionlessAliasTargets.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibUtilsQt\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibUtilsQt\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/LibUtilsQt/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/LibUtilsQt/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build -BC:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build --check-stamp-file C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibUtilsQt/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev -BC:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build --check-stamp-file C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibUtilsQt/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -282,40 +282,40 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\Qt6Config.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\Qt6ConfigExtras.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\Qt6ConfigVersion.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\Qt6ConfigVersionImpl.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\Qt6Dependencies.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\Qt6Targets.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\Qt6VersionlessAliasTargets.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtFeature.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtFeatureCommon.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtInstallPaths.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicAndroidHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicAppleHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicCMakeEarlyPolicyHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicCMakeHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicCMakeVersionHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicDependencyHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicExternalProjectHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicFinalizerHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicFindPackageHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicGitHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicPluginHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicPluginHelpers_v2.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomAttributionHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomCommonGenerationHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomCpeHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomCycloneDXHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomDepHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomDocumentNamespaceHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomFileHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomGenerationCycloneDXHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomGenerationHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomLicenseHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomOpsHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomPurlHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomPythonHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomQtEntityHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomSystemDepHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicTargetHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicTestHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicToolHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicWalkLibsHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicWindowsHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6PrintSupport\Qt6PrintSupportAdditionalTargetInfo.cmake;C:\Qt\6.10.2\lib\cmake\Qt6PrintSupport\Qt6PrintSupportConfig.cmake;C:\Qt\6.10.2\lib\cmake\Qt6PrintSupport\Qt6PrintSupportConfigVersion.cmake;C:\Qt\6.10.2\lib\cmake\Qt6PrintSupport\Qt6PrintSupportConfigVersionImpl.cmake;C:\Qt\6.10.2\lib\cmake\Qt6PrintSupport\Qt6PrintSupportDependencies.cmake;C:\Qt\6.10.2\lib\cmake\Qt6PrintSupport\Qt6PrintSupportPlugins.cmake;C:\Qt\6.10.2\lib\cmake\Qt6PrintSupport\Qt6PrintSupportTargets-debug.cmake;C:\Qt\6.10.2\lib\cmake\Qt6PrintSupport\Qt6PrintSupportTargets-relwithdebinfo.cmake;C:\Qt\6.10.2\lib\cmake\Qt6PrintSupport\Qt6PrintSupportTargets.cmake;C:\Qt\6.10.2\lib\cmake\Qt6PrintSupport\Qt6PrintSupportVersionlessAliasTargets.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibUtilsQt\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibUtilsQt\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibUtilsQt\LibUtilsQt_autogen\mocs_compilation_Debug.cpp">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibUtilsQt\LibUtilsQt_autogen\mocs_compilation_Debug.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\Figure.hxx" />
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\Plot.hxx" />
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\EventFilters.h" />
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\EventFilters.cpp" />
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\FigureWindow.h" />
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\FigureWindow.cpp" />
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCameraView.h" />
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCameraView.cpp" />
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QGLPlot3D.h" />
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QGLPlot3D.cpp" />
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.h" />
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp" />
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibUtilsQt\LibUtilsQt_autogen\mocs_compilation_Release.cpp">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\Figure.hxx" />
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\Plot.hxx" />
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\EventFilters.h" />
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\EventFilters.cpp" />
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\FigureWindow.h" />
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\FigureWindow.cpp" />
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCameraView.h" />
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCameraView.cpp" />
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QGLPlot3D.h" />
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QGLPlot3D.cpp" />
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.h" />
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp" />
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibUtilsQt\LibUtilsQt_autogen\mocs_compilation_Release.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\ZERO_CHECK.vcxproj">
-      <Project>{9E5389E0-B518-395B-BFDD-4AD6E53E1997}</Project>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\ZERO_CHECK.vcxproj">
+      <Project>{A7A33978-4687-3342-8011-6ECA2696FA25}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibProjectiveGeometry\LibProjectiveGeometry.vcxproj">
-      <Project>{3DD7EA04-DF29-35D9-AFB4-E1B3EA0EB2D4}</Project>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibProjectiveGeometry\LibProjectiveGeometry.vcxproj">
+      <Project>{01B96B76-AAD0-314B-BD7D-6F6973D88CF5}</Project>
       <Name>LibProjectiveGeometry</Name>
     </ProjectReference>
   </ItemGroup>

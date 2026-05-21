@@ -7,7 +7,8 @@
 
 #include <QtCore/QString>
 
-#include <QtOpenGL/QGLWidget>
+// #include <QtOpenGL/QGLWidget> //  QGLWidget was removed in Qt6.
+#include <QtOpenGLWidgets/QOpenGLWidget>
 
 #include <QApplication>
 #include <QKeyEvent>
@@ -17,7 +18,7 @@
 
 #include <QElapsedTimer>
 
-class SimpleQTGL: public QGLWidget
+class SimpleQTGL: public QOpenGLWidget //  QGLWidget was removed in Qt6.
 {
 	Q_OBJECT
 
@@ -29,7 +30,7 @@ public:
 	SimpleQTGL();
 
 	// Shares context of parent
-	SimpleQTGL(QGLWidget *mainWnd);
+	SimpleQTGL(QOpenGLWidget *mainWnd);
 
 	virtual ~SimpleQTGL();
 
@@ -43,7 +44,7 @@ public:
 
 
 protected:
-	QGLWidget *contextOwner;
+	QOpenGLWidget *contextOwner;
 
 	// Quit on close IF we are contextOwner
 	void closeEvent(QCloseEvent *event);

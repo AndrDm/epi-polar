@@ -1,2 +1,2 @@
-C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibSimple/GLAD.dir/Release/mocs_compilation_Release.obj
-C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibSimple/GLAD.dir/Release/glad.obj
+C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibSimple/GLAD.dir/Release/mocs_compilation_Release.obj
+C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibSimple/GLAD.dir/Release/glad.obj

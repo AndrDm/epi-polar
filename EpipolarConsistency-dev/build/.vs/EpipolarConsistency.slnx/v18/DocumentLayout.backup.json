@@ -1,9 +1,39 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Andrey\\Desktop\\epi-polar\\EpipolarConsistency-build\\build\\",
+  "WorkspaceRootPath": "C:\\Users\\Andrey\\Desktop\\epi-polar\\EpipolarConsistency-dev\\build\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3DD7EA04-DF29-35D9-AFB4-E1B3EA0EB2D4}|LibProjectiveGeometry\\LibProjectiveGeometry.vcxproj|C:\\Users\\Andrey\\Desktop\\epi-polar\\EpipolarConsistency-build\\code\\LibProjectiveGeometry\\ProjectiveGeometry.hxx||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{01D5C501-58A2-3B63-A078-E0F3ADE514AF}|FDCTCalibrationCorrection\\FDCTCalibrationCorrection.vcxproj|C:\\Users\\Andrey\\Desktop\\epi-polar\\EpipolarConsistency-dev\\tools\\FDCTCalibrationCorrection\\FDCTCalibrationCorrection.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F88A601-42D6-3F88-9BDB-6D269377F62C}|LibUtilsQt\\LibUtilsQt.vcxproj|C:\\Users\\Andrey\\Desktop\\epi-polar\\EpipolarConsistency-dev\\code\\LibUtilsQt\\QGLPlot3D.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F88A601-42D6-3F88-9BDB-6D269377F62C}|LibUtilsQt\\LibUtilsQt.vcxproj|C:\\Users\\Andrey\\Desktop\\epi-polar\\EpipolarConsistency-dev\\code\\LibUtilsQt\\FigureWindow.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A07E27ED-1446-3787-98C7-418A7C3DAE5D}|LibSimple\\LibSimple.vcxproj|C:\\Users\\Andrey\\Desktop\\epi-polar\\EpipolarConsistency-dev\\code\\LibSimple\\SimpleQTGL.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A07E27ED-1446-3787-98C7-418A7C3DAE5D}|LibSimple\\LibSimple.vcxproj|C:\\Users\\Andrey\\Desktop\\epi-polar\\EpipolarConsistency-dev\\code\\LibSimple\\SimpleGL.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A07E27ED-1446-3787-98C7-418A7C3DAE5D}|LibSimple\\LibSimple.vcxproj|C:\\Users\\Andrey\\Desktop\\epi-polar\\EpipolarConsistency-dev\\code\\LibSimple\\SimpleQTGL.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{460E8F8F-A929-3306-8E7C-2822F1084FAF}|LibEpipolarConsistency\\LibEpipolarConsistency.vcxproj|C:\\Users\\Andrey\\Desktop\\epi-polar\\EpipolarConsistency-dev\\code\\LibEpipolarConsistency\\EpipolarConsistencyRadonIntermediate.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{460E8F8F-A929-3306-8E7C-2822F1084FAF}|LibEpipolarConsistency\\LibEpipolarConsistency.vcxproj|C:\\Users\\Andrey\\Desktop\\epi-polar\\EpipolarConsistency-dev\\code\\LibEpipolarConsistency\\EpipolarConsistency.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01B96B76-AAD0-314B-BD7D-6F6973D88CF5}|LibProjectiveGeometry\\LibProjectiveGeometry.vcxproj|C:\\Users\\Andrey\\Desktop\\epi-polar\\EpipolarConsistency-dev\\code\\LibProjectiveGeometry\\ProjectiveGeometry.hxx||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{460E8F8F-A929-3306-8E7C-2822F1084FAF}|LibEpipolarConsistency\\LibEpipolarConsistency.vcxproj|C:\\USERS\\ANDREY\\DESKTOP\\EPI-POLAR\\EPIPOLARCONSISTENCY-DEV\\CODE\\LIBUTILSCUDA\\CUDAMEMORY.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01B96B76-AAD0-314B-BD7D-6F6973D88CF5}|LibProjectiveGeometry\\LibProjectiveGeometry.vcxproj|C:\\Users\\Andrey\\Desktop\\epi-polar\\EpipolarConsistency-dev\\code\\LibProjectiveGeometry\\SourceDetectorGeometry.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,14 +48,144 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProjectiveGeometry.hxx",
-              "DocumentMoniker": "C:\\Users\\Andrey\\Desktop\\epi-polar\\EpipolarConsistency-build\\code\\LibProjectiveGeometry\\ProjectiveGeometry.hxx",
-              "RelativeDocumentMoniker": "..\\code\\LibProjectiveGeometry\\ProjectiveGeometry.hxx",
-              "ToolTip": "C:\\Users\\Andrey\\Desktop\\epi-polar\\EpipolarConsistency-build\\code\\LibProjectiveGeometry\\ProjectiveGeometry.hxx",
-              "RelativeToolTip": "..\\code\\LibProjectiveGeometry\\ProjectiveGeometry.hxx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAJAAAAAAAAAA==",
+              "Title": "FDCTCalibrationCorrection.cpp",
+              "DocumentMoniker": "C:\\Users\\Andrey\\Desktop\\epi-polar\\EpipolarConsistency-dev\\tools\\FDCTCalibrationCorrection\\FDCTCalibrationCorrection.cpp",
+              "RelativeDocumentMoniker": "..\\tools\\FDCTCalibrationCorrection\\FDCTCalibrationCorrection.cpp",
+              "ToolTip": "C:\\Users\\Andrey\\Desktop\\epi-polar\\EpipolarConsistency-dev\\tools\\FDCTCalibrationCorrection\\FDCTCalibrationCorrection.cpp",
+              "RelativeToolTip": "..\\tools\\FDCTCalibrationCorrection\\FDCTCalibrationCorrection.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-21T11:56:59.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "QGLPlot3D.h",
+              "DocumentMoniker": "C:\\Users\\Andrey\\Desktop\\epi-polar\\EpipolarConsistency-dev\\code\\LibUtilsQt\\QGLPlot3D.h",
+              "RelativeDocumentMoniker": "..\\code\\LibUtilsQt\\QGLPlot3D.h",
+              "ToolTip": "C:\\Users\\Andrey\\Desktop\\epi-polar\\EpipolarConsistency-dev\\code\\LibUtilsQt\\QGLPlot3D.h*",
+              "RelativeToolTip": "..\\code\\LibUtilsQt\\QGLPlot3D.h*",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-05-20T16:46:29.708Z",
+              "WhenOpened": "2026-05-21T11:54:53.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FigureWindow.h",
+              "DocumentMoniker": "C:\\Users\\Andrey\\Desktop\\epi-polar\\EpipolarConsistency-dev\\code\\LibUtilsQt\\FigureWindow.h",
+              "RelativeDocumentMoniker": "..\\code\\LibUtilsQt\\FigureWindow.h",
+              "ToolTip": "C:\\Users\\Andrey\\Desktop\\epi-polar\\EpipolarConsistency-dev\\code\\LibUtilsQt\\FigureWindow.h*",
+              "RelativeToolTip": "..\\code\\LibUtilsQt\\FigureWindow.h*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-05-21T11:53:58.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SimpleGL.h",
+              "DocumentMoniker": "C:\\Users\\Andrey\\Desktop\\epi-polar\\EpipolarConsistency-dev\\code\\LibSimple\\SimpleGL.h",
+              "RelativeDocumentMoniker": "..\\code\\LibSimple\\SimpleGL.h",
+              "ToolTip": "C:\\Users\\Andrey\\Desktop\\epi-polar\\EpipolarConsistency-dev\\code\\LibSimple\\SimpleGL.h",
+              "RelativeToolTip": "..\\code\\LibSimple\\SimpleGL.h",
+              "ViewState": "AgIAAOgAAAAAAAAAAAAxwAkBAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-05-21T11:47:59.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EpipolarConsistencyRadonIntermediate.cpp",
+              "DocumentMoniker": "C:\\Users\\Andrey\\Desktop\\epi-polar\\EpipolarConsistency-dev\\code\\LibEpipolarConsistency\\EpipolarConsistencyRadonIntermediate.cpp",
+              "RelativeDocumentMoniker": "..\\code\\LibEpipolarConsistency\\EpipolarConsistencyRadonIntermediate.cpp",
+              "ToolTip": "C:\\Users\\Andrey\\Desktop\\epi-polar\\EpipolarConsistency-dev\\code\\LibEpipolarConsistency\\EpipolarConsistencyRadonIntermediate.cpp",
+              "RelativeToolTip": "..\\code\\LibEpipolarConsistency\\EpipolarConsistencyRadonIntermediate.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-21T11:01:23.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SimpleQTGL.cpp",
+              "DocumentMoniker": "C:\\Users\\Andrey\\Desktop\\epi-polar\\EpipolarConsistency-dev\\code\\LibSimple\\SimpleQTGL.cpp",
+              "RelativeDocumentMoniker": "..\\code\\LibSimple\\SimpleQTGL.cpp",
+              "ToolTip": "C:\\Users\\Andrey\\Desktop\\epi-polar\\EpipolarConsistency-dev\\code\\LibSimple\\SimpleQTGL.cpp",
+              "RelativeToolTip": "..\\code\\LibSimple\\SimpleQTGL.cpp",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAEkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-21T10:57:03.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SimpleQTGL.h",
+              "DocumentMoniker": "C:\\Users\\Andrey\\Desktop\\epi-polar\\EpipolarConsistency-dev\\code\\LibSimple\\SimpleQTGL.h",
+              "RelativeDocumentMoniker": "..\\code\\LibSimple\\SimpleQTGL.h",
+              "ToolTip": "C:\\Users\\Andrey\\Desktop\\epi-polar\\EpipolarConsistency-dev\\code\\LibSimple\\SimpleQTGL.h",
+              "RelativeToolTip": "..\\code\\LibSimple\\SimpleQTGL.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-05-21T10:55:49.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EpipolarConsistency.cpp",
+              "DocumentMoniker": "C:\\Users\\Andrey\\Desktop\\epi-polar\\EpipolarConsistency-dev\\code\\LibEpipolarConsistency\\EpipolarConsistency.cpp",
+              "RelativeDocumentMoniker": "..\\code\\LibEpipolarConsistency\\EpipolarConsistency.cpp",
+              "ToolTip": "C:\\Users\\Andrey\\Desktop\\epi-polar\\EpipolarConsistency-dev\\code\\LibEpipolarConsistency\\EpipolarConsistency.cpp",
+              "RelativeToolTip": "..\\code\\LibEpipolarConsistency\\EpipolarConsistency.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-21T10:55:36.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CudaMemory.h",
+              "DocumentMoniker": "C:\\Users\\Andrey\\Desktop\\epi-polar\\EpipolarConsistency-dev\\code\\LibUtilsCuda\\CudaMemory.h",
+              "RelativeDocumentMoniker": "..\\code\\LibUtilsCuda\\CudaMemory.h",
+              "ToolTip": "C:\\Users\\Andrey\\Desktop\\epi-polar\\EpipolarConsistency-dev\\code\\LibUtilsCuda\\CudaMemory.h",
+              "RelativeToolTip": "..\\code\\LibUtilsCuda\\CudaMemory.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-05-21T10:49:12.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SourceDetectorGeometry.cpp",
+              "DocumentMoniker": "C:\\Users\\Andrey\\Desktop\\epi-polar\\EpipolarConsistency-dev\\code\\LibProjectiveGeometry\\SourceDetectorGeometry.cpp",
+              "RelativeDocumentMoniker": "..\\code\\LibProjectiveGeometry\\SourceDetectorGeometry.cpp",
+              "ToolTip": "C:\\Users\\Andrey\\Desktop\\epi-polar\\EpipolarConsistency-dev\\code\\LibProjectiveGeometry\\SourceDetectorGeometry.cpp",
+              "RelativeToolTip": "..\\code\\LibProjectiveGeometry\\SourceDetectorGeometry.cpp",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAewCEAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-21T10:44:58.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProjectiveGeometry.hxx",
+              "DocumentMoniker": "C:\\Users\\Andrey\\Desktop\\epi-polar\\EpipolarConsistency-dev\\code\\LibProjectiveGeometry\\ProjectiveGeometry.hxx",
+              "RelativeDocumentMoniker": "..\\code\\LibProjectiveGeometry\\ProjectiveGeometry.hxx",
+              "ToolTip": "C:\\Users\\Andrey\\Desktop\\epi-polar\\EpipolarConsistency-dev\\code\\LibProjectiveGeometry\\ProjectiveGeometry.hxx",
+              "RelativeToolTip": "..\\code\\LibProjectiveGeometry\\ProjectiveGeometry.hxx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-05-21T10:43:40.1Z",
               "EditorCaption": ""
             }
           ]

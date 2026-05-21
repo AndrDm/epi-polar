@@ -1,5 +1,5 @@
-C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibProjectiveGeometry/LibProjectiveGeometry.dir/Release/mocs_compilation_Release.obj
-C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibProjectiveGeometry/LibProjectiveGeometry.dir/Release/ProjectionMatrix.obj
-C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibProjectiveGeometry/LibProjectiveGeometry.dir/Release/SingularValueDecomposition.obj
-C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibProjectiveGeometry/LibProjectiveGeometry.dir/Release/SourceDetectorGeometry.obj
-C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibProjectiveGeometry/LibProjectiveGeometry.dir/Release/EstimateProjectionMatrix.obj
+C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibProjectiveGeometry/LibProjectiveGeometry.dir/Release/mocs_compilation_Release.obj
+C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibProjectiveGeometry/LibProjectiveGeometry.dir/Release/ProjectionMatrix.obj
+C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibProjectiveGeometry/LibProjectiveGeometry.dir/Release/SingularValueDecomposition.obj
+C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibProjectiveGeometry/LibProjectiveGeometry.dir/Release/SourceDetectorGeometry.obj
+C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibProjectiveGeometry/LibProjectiveGeometry.dir/Release/EstimateProjectionMatrix.obj

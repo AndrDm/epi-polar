@@ -1,62 +1,68 @@
 ﻿  Automatic MOC for target LibGeometryCalibration
-  Building Custom Rule C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/LibGeometryCalibration/CMakeLists.txt
+  Building Custom Rule C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/LibGeometryCalibration/CMakeLists.txt
   BeadDetection.cpp
   GeometryCalibration.cpp
   EstimateProjectionMatrix.cpp
   PhantomPDS2.cpp
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibProjectiveGeometry\ProjectiveGeometry.hxx(1,1): warning C4828: The file contains a character starting at offset 0x3b4 that is not valid in the current source character set (codepage 65001).
+  (compiling source file '../../code/LibGeometryCalibration/BeadDetection.cpp')
+  
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibProjectiveGeometry\ProjectiveGeometry.hxx(1,1): warning C4828: The file contains a character starting at offset 0x245c that is not valid in the current source character set (codepage 65001).
+  (compiling source file '../../code/LibGeometryCalibration/BeadDetection.cpp')
+  
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibProjectiveGeometry\ProjectiveGeometry.hxx(1,1): warning C4828: The file contains a character starting at offset 0x25ab that is not valid in the current source character set (codepage 65001).
+  (compiling source file '../../code/LibGeometryCalibration/BeadDetection.cpp')
+  
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibProjectiveGeometry\ProjectiveGeometry.hxx(1,1): warning C4828: The file contains a character starting at offset 0x2730 that is not valid in the current source character set (codepage 65001).
+  (compiling source file '../../code/LibGeometryCalibration/BeadDetection.cpp')
+  
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibProjectiveGeometry\ProjectiveGeometry.hxx(1,1): warning C4828: The file contains a character starting at offset 0x274f that is not valid in the current source character set (codepage 65001).
+  (compiling source file '../../code/LibGeometryCalibration/BeadDetection.cpp')
+  
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibProjectiveGeometry\ProjectiveGeometry.hxx(1,1): warning C4828: The file contains a character starting at offset 0x2a4e that is not valid in the current source character set (codepage 65001).
+  (compiling source file '../../code/LibGeometryCalibration/BeadDetection.cpp')
+  
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibProjectiveGeometry\ProjectiveGeometry.hxx(1,1): warning C4828: The file contains a character starting at offset 0x3f23 that is not valid in the current source character set (codepage 65001).
+  (compiling source file '../../code/LibGeometryCalibration/BeadDetection.cpp')
+  
   mocs_compilation_Release.cpp
-C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibProjectiveGeometry\ProjectiveGeometry.hxx(1,1): warning C4828: The file contains a character starting at offset 0x31d that is not valid in the current source character set (codepage 65001).
-  (compiling source file '../../code/LibGeometryCalibration/BeadDetection.cpp')
-  
-C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibProjectiveGeometry\ProjectiveGeometry.hxx(1,1): warning C4828: The file contains a character starting at offset 0x22bb that is not valid in the current source character set (codepage 65001).
-  (compiling source file '../../code/LibGeometryCalibration/BeadDetection.cpp')
-  
-C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibProjectiveGeometry\ProjectiveGeometry.hxx(1,1): warning C4828: The file contains a character starting at offset 0x23fe that is not valid in the current source character set (codepage 65001).
-  (compiling source file '../../code/LibGeometryCalibration/BeadDetection.cpp')
-  
-C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibProjectiveGeometry\ProjectiveGeometry.hxx(1,1): warning C4828: The file contains a character starting at offset 0x2573 that is not valid in the current source character set (codepage 65001).
-  (compiling source file '../../code/LibGeometryCalibration/BeadDetection.cpp')
-  
-C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibProjectiveGeometry\ProjectiveGeometry.hxx(1,1): warning C4828: The file contains a character starting at offset 0x2592 that is not valid in the current source character set (codepage 65001).
-  (compiling source file '../../code/LibGeometryCalibration/BeadDetection.cpp')
-  
-C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibProjectiveGeometry\ProjectiveGeometry.hxx(1,1): warning C4828: The file contains a character starting at offset 0x2886 that is not valid in the current source character set (codepage 65001).
-  (compiling source file '../../code/LibGeometryCalibration/BeadDetection.cpp')
-  
-C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibProjectiveGeometry\ProjectiveGeometry.hxx(1,1): warning C4828: The file contains a character starting at offset 0x3c96 that is not valid in the current source character set (codepage 65001).
-  (compiling source file '../../code/LibGeometryCalibration/BeadDetection.cpp')
-  
-C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibGeometryCalibration\GeometryCalibration.h(4,10): error C1083: Cannot open include file: 'GetSet/GetSet.hxx': No such file or directory
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibGeometryCalibration\GeometryCalibration.h(4,10): error C1083: Cannot open include file: 'GetSet/GetSet.hxx': No such file or directory
   (compiling source file '../../code/LibGeometryCalibration/GeometryCalibration.cpp')
   
-C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibProjectiveGeometry\ProjectiveGeometry.hxx(6,10): error C1083: Cannot open include file: 'Eigen/Core': No such file or directory
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibProjectiveGeometry\ProjectiveGeometry.hxx(1,1): warning C4828: The file contains a character starting at offset 0x3b4 that is not valid in the current source character set (codepage 65001).
+  (compiling source file '../../code/LibGeometryCalibration/EstimateProjectionMatrix.cpp')
+  
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibProjectiveGeometry\ProjectiveGeometry.hxx(1,1): warning C4828: The file contains a character starting at offset 0x245c that is not valid in the current source character set (codepage 65001).
+  (compiling source file '../../code/LibGeometryCalibration/EstimateProjectionMatrix.cpp')
+  
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibProjectiveGeometry\ProjectiveGeometry.hxx(1,1): warning C4828: The file contains a character starting at offset 0x25ab that is not valid in the current source character set (codepage 65001).
+  (compiling source file '../../code/LibGeometryCalibration/EstimateProjectionMatrix.cpp')
+  
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibProjectiveGeometry\ProjectiveGeometry.hxx(1,1): warning C4828: The file contains a character starting at offset 0x2730 that is not valid in the current source character set (codepage 65001).
+  (compiling source file '../../code/LibGeometryCalibration/EstimateProjectionMatrix.cpp')
+  
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibProjectiveGeometry\ProjectiveGeometry.hxx(1,1): warning C4828: The file contains a character starting at offset 0x274f that is not valid in the current source character set (codepage 65001).
+  (compiling source file '../../code/LibGeometryCalibration/EstimateProjectionMatrix.cpp')
+  
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibProjectiveGeometry\ProjectiveGeometry.hxx(1,1): warning C4828: The file contains a character starting at offset 0x2a4e that is not valid in the current source character set (codepage 65001).
+  (compiling source file '../../code/LibGeometryCalibration/EstimateProjectionMatrix.cpp')
+  
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibProjectiveGeometry\ProjectiveGeometry.hxx(1,1): warning C4828: The file contains a character starting at offset 0x3f23 that is not valid in the current source character set (codepage 65001).
+  (compiling source file '../../code/LibGeometryCalibration/EstimateProjectionMatrix.cpp')
+  
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibGeometryCalibration\PhantomPDS2.cpp(1,1): warning C4828: The file contains a character starting at offset 0x1522 that is not valid in the current source character set (codepage 65001).
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibGeometryCalibration\GeometryCalibration.h(4,10): error C1083: Cannot open include file: 'GetSet/GetSet.hxx': No such file or directory
+  (compiling source file '../../code/LibGeometryCalibration/PhantomPDS2.cpp')
+  
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibProjectiveGeometry\EigenToStr.hxx(5,10): error C1083: Cannot open include file: 'GetSet/StringUtil.hxx': No such file or directory
+  (compiling source file '../../code/LibGeometryCalibration/EstimateProjectionMatrix.cpp')
+  
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\HeaderOnly\NRRD\StringUtil.hxx(1,1): warning C4828: The file contains a character starting at offset 0x8b that is not valid in the current source character set (codepage 65001).
   (compiling source file '../../code/LibGeometryCalibration/BeadDetection.cpp')
   
-C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibProjectiveGeometry\ProjectiveGeometry.hxx(1,1): warning C4828: The file contains a character starting at offset 0x31d that is not valid in the current source character set (codepage 65001).
-  (compiling source file '../../code/LibGeometryCalibration/EstimateProjectionMatrix.cpp')
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\HeaderOnly\NRRD\StringConversion.hxx(1,1): warning C4828: The file contains a character starting at offset 0x8b that is not valid in the current source character set (codepage 65001).
+  (compiling source file '../../code/LibGeometryCalibration/BeadDetection.cpp')
   
-C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibProjectiveGeometry\ProjectiveGeometry.hxx(1,1): warning C4828: The file contains a character starting at offset 0x22bb that is not valid in the current source character set (codepage 65001).
-  (compiling source file '../../code/LibGeometryCalibration/EstimateProjectionMatrix.cpp')
-  
-C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibProjectiveGeometry\ProjectiveGeometry.hxx(1,1): warning C4828: The file contains a character starting at offset 0x23fe that is not valid in the current source character set (codepage 65001).
-  (compiling source file '../../code/LibGeometryCalibration/EstimateProjectionMatrix.cpp')
-  
-C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibProjectiveGeometry\ProjectiveGeometry.hxx(1,1): warning C4828: The file contains a character starting at offset 0x2573 that is not valid in the current source character set (codepage 65001).
-  (compiling source file '../../code/LibGeometryCalibration/EstimateProjectionMatrix.cpp')
-  
-C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibProjectiveGeometry\ProjectiveGeometry.hxx(1,1): warning C4828: The file contains a character starting at offset 0x2592 that is not valid in the current source character set (codepage 65001).
-  (compiling source file '../../code/LibGeometryCalibration/EstimateProjectionMatrix.cpp')
-  
-C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibProjectiveGeometry\ProjectiveGeometry.hxx(1,1): warning C4828: The file contains a character starting at offset 0x2886 that is not valid in the current source character set (codepage 65001).
-  (compiling source file '../../code/LibGeometryCalibration/EstimateProjectionMatrix.cpp')
-  
-C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibGeometryCalibration\PhantomPDS2.cpp(1,1): warning C4828: The file contains a character starting at offset 0x14ad that is not valid in the current source character set (codepage 65001).
-C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibProjectiveGeometry\ProjectiveGeometry.hxx(1,1): warning C4828: The file contains a character starting at offset 0x3c96 that is not valid in the current source character set (codepage 65001).
-  (compiling source file '../../code/LibGeometryCalibration/EstimateProjectionMatrix.cpp')
-  
-C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibProjectiveGeometry\ProjectiveGeometry.hxx(6,10): error C1083: Cannot open include file: 'Eigen/Core': No such file or directory
-  (compiling source file '../../code/LibGeometryCalibration/EstimateProjectionMatrix.cpp')
-  
-C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibGeometryCalibration\GeometryCalibration.h(4,10): error C1083: Cannot open include file: 'GetSet/GetSet.hxx': No such file or directory
-  (compiling source file '../../code/LibGeometryCalibration/PhantomPDS2.cpp')
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibGeometryCalibration\BeadDetection.h(7,10): error C1083: Cannot open include file: 'GetSet/GetSetObjects.h': No such file or directory
+  (compiling source file '../../code/LibGeometryCalibration/BeadDetection.cpp')
   

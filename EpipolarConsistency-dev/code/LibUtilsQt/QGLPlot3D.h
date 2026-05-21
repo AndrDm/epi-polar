@@ -2,13 +2,13 @@
 #ifndef QGLPLOT3D_H
 #define QGLPLOT3D_H
 
-#include <QtOpenGL/QGLWidget>
+#include <QtOpenGLWidgets\QOpenGLWidget>
 
 #include <string>
 
 namespace UtilsQt {
 
-	class QGLPlot3D : public QGLWidget {
+	class QGLPlot3D : public QOpenGLWidget {
 	public:
 		QGLPlot3D(QWidget* parent=0x0);
 		QGLPlot3D(const std::string& path, QWidget* parent=0x0);

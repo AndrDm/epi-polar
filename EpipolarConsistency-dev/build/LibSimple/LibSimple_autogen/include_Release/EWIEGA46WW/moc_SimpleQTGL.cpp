@@ -55,7 +55,7 @@ template <> constexpr inline auto SimpleQTGL::qt_create_metaobjectdata<qt_meta_t
             qt_methods, qt_properties, qt_enums);
 }
 Q_CONSTINIT const QMetaObject SimpleQTGL::staticMetaObject = { {
-    QMetaObject::SuperData::link<QGLWidget::staticMetaObject>(),
+    QMetaObject::SuperData::link<QOpenGLWidget::staticMetaObject>(),
     qt_staticMetaObjectStaticContent<qt_meta_tag_ZN10SimpleQTGLE_t>.stringdata,
     qt_staticMetaObjectStaticContent<qt_meta_tag_ZN10SimpleQTGLE_t>.data,
     qt_static_metacall,
@@ -86,12 +86,12 @@ void *SimpleQTGL::qt_metacast(const char *_clname)
     if (!_clname) return nullptr;
     if (!strcmp(_clname, qt_staticMetaObjectStaticContent<qt_meta_tag_ZN10SimpleQTGLE_t>.strings))
         return static_cast<void*>(this);
-    return QGLWidget::qt_metacast(_clname);
+    return QOpenGLWidget::qt_metacast(_clname);
 }
 
 int SimpleQTGL::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
-    _id = QGLWidget::qt_metacall(_c, _id, _a);
+    _id = QOpenGLWidget::qt_metacall(_c, _id, _a);
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {

@@ -1,11 +1,11 @@
 #include "EpipolarConsistencyRadonIntermediate.h"
 
-#include <Eigen/Dense>
+#include <C:/Users/Andrey/Desktop/epi-polar/Eigen-5.0.1-dev/Eigen/Dense>
 
 #include <LibUtilsCuda/CudaMemory.h>
 #include <LibUtilsCuda/CudaBindlessTexture.h>
 
-#include <GetSet/ProgressInterface.hxx>
+#include <C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/GetSet/ProgressInterface.hxx>
 
 // Eigen is considerbly slower for this particular small problem, so we rely on our own numerical recepies code
 #include <LibUtilsCuda/culaut/xprojectionmatrix.hxx>

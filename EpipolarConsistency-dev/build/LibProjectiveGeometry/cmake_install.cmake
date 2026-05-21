@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/LibProjectiveGeometry
+# Install script for directory: C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/LibProjectiveGeometry
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,48 +34,48 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/LibProjectiveGeometry" TYPE FILE FILES
-    "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/LibProjectiveGeometry/EigenToStr.hxx"
-    "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/LibProjectiveGeometry/ProjectiveGeometry.hxx"
-    "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/LibProjectiveGeometry/ProjectionMatrix.h"
-    "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/LibProjectiveGeometry/SingularValueDecomposition.h"
-    "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/LibProjectiveGeometry/CameraOpenGL.hxx"
-    "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/LibProjectiveGeometry/GeometryVisualization.hxx"
+    "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/LibProjectiveGeometry/EigenToStr.hxx"
+    "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/LibProjectiveGeometry/ProjectiveGeometry.hxx"
+    "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/LibProjectiveGeometry/ProjectionMatrix.h"
+    "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/LibProjectiveGeometry/SingularValueDecomposition.h"
+    "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/LibProjectiveGeometry/CameraOpenGL.hxx"
+    "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/LibProjectiveGeometry/GeometryVisualization.hxx"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/LibProjectiveGeometry/Models" TYPE FILE FILES
-    "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/LibProjectiveGeometry/Models/ModelFDCTCalibrationCorrection.hxx"
-    "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/LibProjectiveGeometry/Models/ModelCameraSimilarity2D3D.hxx"
-    "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/LibProjectiveGeometry/Models/ModelSimilarity2D.hxx"
-    "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/LibProjectiveGeometry/Models/ModelHomography2D.hxx"
-    "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/LibProjectiveGeometry/Models/ModelSimilarity3D.hxx"
-    "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/LibProjectiveGeometry/Models/ModelHomography3D.hxx"
-    "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/LibProjectiveGeometry/Models/ModelTrajectoryIEC61217.hxx"
+    "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/LibProjectiveGeometry/Models/ModelFDCTCalibrationCorrection.hxx"
+    "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/LibProjectiveGeometry/Models/ModelCameraSimilarity2D3D.hxx"
+    "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/LibProjectiveGeometry/Models/ModelSimilarity2D.hxx"
+    "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/LibProjectiveGeometry/Models/ModelHomography2D.hxx"
+    "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/LibProjectiveGeometry/Models/ModelSimilarity3D.hxx"
+    "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/LibProjectiveGeometry/Models/ModelHomography3D.hxx"
+    "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/LibProjectiveGeometry/Models/ModelTrajectoryIEC61217.hxx"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibProjectiveGeometry/Debug/LibProjectiveGeometryd.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibProjectiveGeometry/Debug/LibProjectiveGeometryd.lib")
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibProjectiveGeometry/Release/LibProjectiveGeometry.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY OPTIONAL FILES "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibProjectiveGeometry/Release/LibProjectiveGeometry.lib")
   endif()
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/bin/Debug/LibProjectiveGeometryd.dll")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/bin/Debug/LibProjectiveGeometryd.dll")
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/bin/Release/LibProjectiveGeometry.dll")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/bin/Release/LibProjectiveGeometry.dll")
   endif()
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    include("C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibProjectiveGeometry/CMakeFiles/LibProjectiveGeometry.dir/install-cxx-module-bmi-Debug.cmake" OPTIONAL)
+    include("C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibProjectiveGeometry/CMakeFiles/LibProjectiveGeometry.dir/install-cxx-module-bmi-Debug.cmake" OPTIONAL)
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    include("C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibProjectiveGeometry/CMakeFiles/LibProjectiveGeometry.dir/install-cxx-module-bmi-Release.cmake" OPTIONAL)
+    include("C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibProjectiveGeometry/CMakeFiles/LibProjectiveGeometry.dir/install-cxx-module-bmi-Release.cmake" OPTIONAL)
   endif()
 endif()
 
@@ -83,7 +83,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/cmake/LibProjectiveGeometry-targets.cmake")
     file(DIFFERENT _cmake_export_file_changed FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/cmake/LibProjectiveGeometry-targets.cmake"
-         "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibProjectiveGeometry/CMakeFiles/Export/272ceadb8458515b2ae4b5630a6029cc/LibProjectiveGeometry-targets.cmake")
+         "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibProjectiveGeometry/CMakeFiles/Export/272ceadb8458515b2ae4b5630a6029cc/LibProjectiveGeometry-targets.cmake")
     if(_cmake_export_file_changed)
       file(GLOB _cmake_old_config_files "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/cmake/LibProjectiveGeometry-targets-*.cmake")
       if(_cmake_old_config_files)
@@ -96,18 +96,18 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     endif()
     unset(_cmake_export_file_changed)
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/cmake" TYPE FILE FILES "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibProjectiveGeometry/CMakeFiles/Export/272ceadb8458515b2ae4b5630a6029cc/LibProjectiveGeometry-targets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/cmake" TYPE FILE FILES "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibProjectiveGeometry/CMakeFiles/Export/272ceadb8458515b2ae4b5630a6029cc/LibProjectiveGeometry-targets.cmake")
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/cmake" TYPE FILE FILES "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibProjectiveGeometry/CMakeFiles/Export/272ceadb8458515b2ae4b5630a6029cc/LibProjectiveGeometry-targets-debug.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/cmake" TYPE FILE FILES "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibProjectiveGeometry/CMakeFiles/Export/272ceadb8458515b2ae4b5630a6029cc/LibProjectiveGeometry-targets-debug.cmake")
   endif()
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/cmake" TYPE FILE FILES "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibProjectiveGeometry/CMakeFiles/Export/272ceadb8458515b2ae4b5630a6029cc/LibProjectiveGeometry-targets-release.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/cmake" TYPE FILE FILES "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibProjectiveGeometry/CMakeFiles/Export/272ceadb8458515b2ae4b5630a6029cc/LibProjectiveGeometry-targets-release.cmake")
   endif()
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibProjectiveGeometry/install_local_manifest.txt"
+  file(WRITE "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibProjectiveGeometry/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

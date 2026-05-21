@@ -1,39 +1,39 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibRayCastBackproject\LibRayCastBackproject_autogen\mocs_compilation_Debug.cpp">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibRayCastBackproject\LibRayCastBackproject_autogen\mocs_compilation_Debug.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibRayCastBackproject\VolumeRendering.cpp">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibRayCastBackproject\VolumeRendering.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibRayCastBackproject\VoxelData.cpp">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibRayCastBackproject\VoxelData.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibRayCastBackproject\Reconstruction.cpp">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibRayCastBackproject\Reconstruction.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibRayCastBackproject\VolumeRenderingGui.cpp">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibRayCastBackproject\VolumeRenderingGui.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibRayCastBackproject\LibRayCastBackproject_autogen\mocs_compilation_Release.cpp">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibRayCastBackproject\LibRayCastBackproject_autogen\mocs_compilation_Release.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibRayCastBackproject\VolumeRendering.h">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibRayCastBackproject\VolumeRendering.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibRayCastBackproject\VoxelData.h">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibRayCastBackproject\VoxelData.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibRayCastBackproject\Reconstruction.h">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibRayCastBackproject\Reconstruction.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibRayCastBackproject\ray_box_intersection.hxx">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibRayCastBackproject\ray_box_intersection.hxx">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibRayCastBackproject\VolumeRenderingGui.h">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibRayCastBackproject\VolumeRenderingGui.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -64,14 +64,14 @@
     </CudaCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibRayCastBackproject\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibRayCastBackproject\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{A23715B8-7FFA-327A-B6CC-73F3A25E62D8}</UniqueIdentifier>
+      <UniqueIdentifier>{35B63EC2-E5FA-395F-966E-572C557B2FCC}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{EE29A8E1-EA24-30E0-8128-547378A7BD35}</UniqueIdentifier>
+      <UniqueIdentifier>{B7EBDCCA-F9F2-3AE5-A0CE-B64B7773B321}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

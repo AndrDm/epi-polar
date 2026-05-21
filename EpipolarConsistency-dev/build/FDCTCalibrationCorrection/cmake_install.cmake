@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/tools/FDCTCalibrationCorrection
+# Install script for directory: C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/tools/FDCTCalibrationCorrection
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,15 +34,15 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/bin/Debug/FDCTCalibrationCorrection.exe")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/bin/Debug/FDCTCalibrationCorrection.exe")
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/bin/Release/FDCTCalibrationCorrection.exe")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/bin/Release/FDCTCalibrationCorrection.exe")
   endif()
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/FDCTCalibrationCorrection/install_local_manifest.txt"
+  file(WRITE "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/FDCTCalibrationCorrection/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

@@ -1,6 +1,6 @@
-C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibEpipolarConsistency/LibEpipolarConsistencyGui.dir/Release/mocs_compilation_Release.obj
-C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibEpipolarConsistency/LibEpipolarConsistencyGui.dir/Release/PreProccess.obj
-C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibEpipolarConsistency/LibEpipolarConsistencyGui.dir/Release/InputDataRadonIntermediate.obj
-C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibEpipolarConsistency/LibEpipolarConsistencyGui.dir/Release/InputDataDirect.obj
-C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibEpipolarConsistency/LibEpipolarConsistencyGui.dir/Release/Visualization.obj
-C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibEpipolarConsistency/LibEpipolarConsistencyGui.dir/Release/Registration.obj
+C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibEpipolarConsistency/LibEpipolarConsistencyGui.dir/Release/mocs_compilation_Release.obj
+C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibEpipolarConsistency/LibEpipolarConsistencyGui.dir/Release/PreProccess.obj
+C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibEpipolarConsistency/LibEpipolarConsistencyGui.dir/Release/InputDataRadonIntermediate.obj
+C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibEpipolarConsistency/LibEpipolarConsistencyGui.dir/Release/InputDataDirect.obj
+C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibEpipolarConsistency/LibEpipolarConsistencyGui.dir/Release/Visualization.obj
+C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibEpipolarConsistency/LibEpipolarConsistencyGui.dir/Release/Registration.obj

@@ -1,80 +1,116 @@
 ﻿  Automatic MOC for target LibUtilsQt
-  Building Custom Rule C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/LibUtilsQt/CMakeLists.txt
+  Building Custom Rule C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/LibUtilsQt/CMakeLists.txt
   EventFilters.cpp
   FigureWindow.cpp
   QCameraView.cpp
   QGLPlot3D.cpp
   QCustomPlot.cpp
   mocs_compilation_Release.cpp
-C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCameraView.h(7,10): error C1083: Cannot open include file: 'GetSet/GetSet.hxx': No such file or directory
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCameraView.h(7,10): error C1083: Cannot open include file: 'GetSet/GetSet.hxx': No such file or directory
   (compiling source file '../../code/LibUtilsQt/QCameraView.cpp')
   
-C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QGLPlot3D.h(5,10): error C1083: Cannot open include file: 'QtOpenGL/QGLWidget': No such file or directory
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\HeaderOnly\NRRD\StringUtil.hxx(1,1): warning C4828: The file contains a character starting at offset 0x8b that is not valid in the current source character set (codepage 65001).
+  (compiling source file '../../code/LibUtilsQt/FigureWindow.cpp')
+  
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\HeaderOnly\NRRD\StringConversion.hxx(1,1): warning C4828: The file contains a character starting at offset 0x8b that is not valid in the current source character set (codepage 65001).
+  (compiling source file '../../code/LibUtilsQt/FigureWindow.cpp')
+  
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCameraView.h(7,10): error C1083: Cannot open include file: 'GetSet/GetSet.hxx': No such file or directory
+  (compiling source file 'LibUtilsQt_autogen/mocs_compilation_Release.cpp')
+  
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\FigureWindow.h(8,10): error C1083: Cannot open include file: 'C:/Users/Andrey/epi-polar/LibGetSet-dev/GetSet/GetSet.hxx': No such file or directory
+  (compiling source file '../../code/LibUtilsQt/FigureWindow.cpp')
+  
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\HeaderOnly\NRRD\StringUtil.hxx(1,1): warning C4828: The file contains a character starting at offset 0x8b that is not valid in the current source character set (codepage 65001).
   (compiling source file '../../code/LibUtilsQt/QGLPlot3D.cpp')
   
-C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\HeaderOnly\NRRD\StringUtil.hxx(1,1): warning C4828: The file contains a character starting at offset 0x87 that is not valid in the current source character set (codepage 65001).
-  (compiling source file '../../code/LibUtilsQt/FigureWindow.cpp')
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\HeaderOnly\NRRD\StringConversion.hxx(1,1): warning C4828: The file contains a character starting at offset 0x8b that is not valid in the current source character set (codepage 65001).
+  (compiling source file '../../code/LibUtilsQt/QGLPlot3D.cpp')
   
-C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\HeaderOnly\NRRD\StringConversion.hxx(1,1): warning C4828: The file contains a character starting at offset 0x87 that is not valid in the current source character set (codepage 65001).
-  (compiling source file '../../code/LibUtilsQt/FigureWindow.cpp')
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QGLPlot3D.cpp(28,2): error C2614: 'UtilsQt::QGLPlot3D': illegal member initialization: 'QGLWidget' is not a base or member
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QGLPlot3D.cpp(42,2): error C2614: 'UtilsQt::QGLPlot3D': illegal member initialization: 'QGLWidget' is not a base or member
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QGLPlot3D.cpp(55,2): error C2614: 'UtilsQt::QGLPlot3D': illegal member initialization: 'QGLWidget' is not a base or member
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QGLPlot3D.cpp(82,2): error C2614: 'UtilsQt::QGLPlot3D': illegal member initialization: 'QGLWidget' is not a base or member
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QGLPlot3D.cpp(465,3): error C3861: 'renderText': identifier not found
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QGLPlot3D.cpp(505,4): error C3861: 'renderText': identifier not found
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QGLPlot3D.cpp(506,4): error C3861: 'renderText': identifier not found
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QGLPlot3D.cpp(507,4): error C3861: 'renderText': identifier not found
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QGLPlot3D.cpp(511,4): error C3861: 'renderText': identifier not found
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QGLPlot3D.cpp(512,4): error C3861: 'renderText': identifier not found
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QGLPlot3D.cpp(513,4): error C3861: 'renderText': identifier not found
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QGLPlot3D.cpp(517,4): error C3861: 'renderText': identifier not found
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QGLPlot3D.cpp(518,4): error C3861: 'renderText': identifier not found
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QGLPlot3D.cpp(519,4): error C3861: 'renderText': identifier not found
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QGLPlot3D.cpp(523,4): error C3861: 'renderText': identifier not found
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QGLPlot3D.cpp(524,4): error C3861: 'renderText': identifier not found
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QGLPlot3D.cpp(525,4): error C3861: 'renderText': identifier not found
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QGLPlot3D.cpp(683,4): error C3861: 'updateGL': identifier not found
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QGLPlot3D.cpp(689,21): error C2039: 'delta': is not a member of 'QWheelEvent'
+      C:\Qt\6.10.2\include\QtGui\qevent.h(281,20):
+      see declaration of 'QWheelEvent'
   
-C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCameraView.h(7,10): error C1083: Cannot open include file: 'GetSet/GetSet.hxx': No such file or directory
-  (compiling source file '../LibUtilsQt/LibUtilsQt_autogen/mocs_compilation_Release.cpp')
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QGLPlot3D.cpp(692,3): error C3861: 'updateGL': identifier not found
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QGLPlot3D.cpp(785,10): error C2039: 'grabFrameBuffer': is not a member of 'UtilsQt::QGLPlot3D'
+      C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QGLPlot3D.h(11,8):
+      see declaration of 'UtilsQt::QGLPlot3D'
   
-C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\FigureWindow.h(8,10): error C1083: Cannot open include file: 'GetSet/GetSet.hxx': No such file or directory
-  (compiling source file '../../code/LibUtilsQt/FigureWindow.cpp')
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QGLPlot3D.cpp(834,14): error C2039: 'grabWidget': is not a member of 'QPixmap'
+      C:\Qt\6.10.2\include\QtGui\qpixmap.h(26,20):
+      see declaration of 'QPixmap'
   
-C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(670,35): error C2039: 'HighQualityAntialiasing': is not a member of 'QPainter'
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QGLPlot3D.cpp(834,14): error C3861: 'grabWidget': identifier not found
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QGLPlot3D.cpp(839,3): error C3861: 'updateGL': identifier not found
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(670,35): error C2039: 'HighQualityAntialiasing': is not a member of 'QPainter'
       C:\Qt\6.10.2\include\QtGui\qpainter.h(45,20):
       see declaration of 'QPainter'
   
-C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(670,35): error C2065: 'HighQualityAntialiasing': undeclared identifier
-C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(1108,20): error C2039: 'data': is not a member of 'QWeakPointer<QCPAbstractPaintBuffer>'
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(670,35): error C2065: 'HighQualityAntialiasing': undeclared identifier
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(1108,20): error C2039: 'data': is not a member of 'QWeakPointer<QCPAbstractPaintBuffer>'
       C:\Qt\6.10.2\include\QtCore\qsharedpointer_impl.h(591,7):
       see declaration of 'QWeakPointer<QCPAbstractPaintBuffer>'
   
-C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(1145,44): error C2039: 'data': is not a member of 'QWeakPointer<QCPAbstractPaintBuffer>'
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(1145,44): error C2039: 'data': is not a member of 'QWeakPointer<QCPAbstractPaintBuffer>'
       C:\Qt\6.10.2\include\QtCore\qsharedpointer_impl.h(591,7):
       see declaration of 'QWeakPointer<QCPAbstractPaintBuffer>'
   
-C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(1152,20): error C2039: 'data': is not a member of 'QWeakPointer<QCPAbstractPaintBuffer>'
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(1152,20): error C2039: 'data': is not a member of 'QWeakPointer<QCPAbstractPaintBuffer>'
       C:\Qt\6.10.2\include\QtCore\qsharedpointer_impl.h(591,7):
       see declaration of 'QWeakPointer<QCPAbstractPaintBuffer>'
   
-C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(1178,20): error C2039: 'data': is not a member of 'QWeakPointer<QCPAbstractPaintBuffer>'
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(1178,20): error C2039: 'data': is not a member of 'QWeakPointer<QCPAbstractPaintBuffer>'
       C:\Qt\6.10.2\include\QtCore\qsharedpointer_impl.h(591,7):
       see declaration of 'QWeakPointer<QCPAbstractPaintBuffer>'
   
-C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(1180,20): error C2039: 'data': is not a member of 'QWeakPointer<QCPAbstractPaintBuffer>'
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(1180,20): error C2039: 'data': is not a member of 'QWeakPointer<QCPAbstractPaintBuffer>'
       C:\Qt\6.10.2\include\QtCore\qsharedpointer_impl.h(591,7):
       see declaration of 'QWeakPointer<QCPAbstractPaintBuffer>'
   
-C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(1207,20): error C2039: 'data': is not a member of 'QWeakPointer<QCPAbstractPaintBuffer>'
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(1207,20): error C2039: 'data': is not a member of 'QWeakPointer<QCPAbstractPaintBuffer>'
       C:\Qt\6.10.2\include\QtCore\qsharedpointer_impl.h(591,7):
       see declaration of 'QWeakPointer<QCPAbstractPaintBuffer>'
   
-C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(1226,20): error C2039: 'data': is not a member of 'QWeakPointer<QCPAbstractPaintBuffer>'
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(1226,20): error C2039: 'data': is not a member of 'QWeakPointer<QCPAbstractPaintBuffer>'
       C:\Qt\6.10.2\include\QtCore\qsharedpointer_impl.h(591,7):
       see declaration of 'QWeakPointer<QCPAbstractPaintBuffer>'
   
-C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(4770,5): error C2440: 'return': cannot convert from 'int' to 'QFlags<Qt::AlignmentFlag>'
-      C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(4770,5):
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(4770,5): error C2440: 'return': cannot convert from 'int' to 'QFlags<Qt::AlignmentFlag>'
+      C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(4770,5):
       'QFlags<Qt::AlignmentFlag>::QFlags': no overloaded function could convert all the argument types
           C:\Qt\6.10.2\include\QtCore\qflags.h(214,1):
           could be 'QFlags<Qt::AlignmentFlag>::QFlags(const QFlags<Qt::AlignmentFlag> &)'
-              C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(4770,5):
+              C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(4770,5):
               'QFlags<Qt::AlignmentFlag>::QFlags(const QFlags<Qt::AlignmentFlag> &)': cannot convert argument 1 from 'int' to 'const QFlags<Qt::AlignmentFlag> &'
-                  C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(4770,12):
+                  C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(4770,12):
                   Reason: cannot convert from 'int' to 'const QFlags<Qt::AlignmentFlag>'
-                  C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(4770,12):
+                  C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(4770,12):
                   Conversion requires a second user-defined-conversion operator or constructor
           C:\Qt\6.10.2\include\QtCore\qflags.h(214,1):
           or       'QFlags<Qt::AlignmentFlag>::QFlags(QFlags<Qt::AlignmentFlag> &&)'
-              C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(4770,5):
+              C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(4770,5):
               'QFlags<Qt::AlignmentFlag>::QFlags(QFlags<Qt::AlignmentFlag> &&)': cannot convert argument 1 from 'int' to 'QFlags<Qt::AlignmentFlag> &&'
-                  C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(4770,12):
+                  C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(4770,12):
                   Reason: cannot convert from 'int' to 'QFlags<Qt::AlignmentFlag>'
-                  C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(4770,12):
+                  C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(4770,12):
                   Conversion requires a second user-defined-conversion operator or constructor
           C:\Qt\6.10.2\include\QtCore\qflags.h(112,5):
           or       'QFlags<Qt::AlignmentFlag>::QFlags(QFlag)', which inherits 'QtPrivate::QFlagsStorageHelper<Enum,4>::QFlagsStorageHelper(QFlag) noexcept' via base class 'QtPrivate::QFlagsStorageHelper<Enum,4>'
@@ -82,9 +118,9 @@ C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCus
           [
               Enum=Qt::AlignmentFlag
           ]
-              C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(4770,5):
+              C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(4770,5):
               'QFlags<Qt::AlignmentFlag>::QFlags(QFlag)': cannot convert argument 1 from 'int' to 'QFlag'
-                  C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(4770,12):
+                  C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(4770,12):
                   Conversion requires a second user-defined-conversion operator or constructor
           C:\Qt\6.10.2\include\QtCore\qflags.h(125,5):
           or       'QFlags<Qt::AlignmentFlag>::QFlags(std::initializer_list<Enum>) noexcept'
@@ -92,13 +128,13 @@ C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCus
           [
               Enum=Qt::AlignmentFlag
           ]
-              C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(4770,5):
+              C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(4770,5):
               'QFlags<Qt::AlignmentFlag>::QFlags(std::initializer_list<Enum>) noexcept': cannot convert argument 1 from 'int' to 'std::initializer_list<Enum>'
           with
           [
               Enum=Qt::AlignmentFlag
           ]
-                  C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(4770,12):
+                  C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(4770,12):
                   Conversion requires a second user-defined-conversion operator or constructor
           C:\Qt\6.10.2\include\QtCore\qflags.h(117,5):
           or       'QFlags<Qt::AlignmentFlag>::QFlags(Enum) noexcept'
@@ -106,134 +142,134 @@ C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCus
           [
               Enum=Qt::AlignmentFlag
           ]
-              C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(4770,5):
+              C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(4770,5):
               'QFlags<Qt::AlignmentFlag>::QFlags(Enum) noexcept': cannot convert argument 1 from 'int' to 'Enum'
           with
           [
               Enum=Qt::AlignmentFlag
           ]
-                  C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(4770,12):
+                  C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(4770,12):
                   Conversion to enumeration type requires an explicit cast (static_cast, C-style cast or parenthesized function-style cast)
-          C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(4770,5):
+          C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(4770,5):
           while trying to match the argument list '(int)'
   
-C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(6020,19): error C2440: '<function-style-cast>': cannot convert from 'const QDate' to 'QDateTime'
-      C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(6020,19):
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(6020,19): error C2440: '<function-style-cast>': cannot convert from 'const QDate' to 'QDateTime'
+      C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(6020,19):
       'QDateTime::QDateTime': no overloaded function could convert all the argument types
           C:\Qt\6.10.2\include\QtCore\qdatetime.h(373,5):
           could be 'QDateTime::QDateTime(QDateTime &&) noexcept'
-              C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(6020,19):
+              C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(6020,19):
               'QDateTime::QDateTime(QDateTime &&) noexcept': cannot convert argument 1 from 'const QDate' to 'QDateTime &&'
-                  C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(6020,20):
+                  C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(6020,20):
                   Reason: cannot convert from 'const QDate' to 'QDateTime'
-                  C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(6020,20):
+                  C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(6020,20):
                   No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
           C:\Qt\6.10.2\include\QtCore\qdatetime.h(372,5):
           or       'QDateTime::QDateTime(const QDateTime &) noexcept'
-              C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(6020,19):
+              C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(6020,19):
               'QDateTime::QDateTime(const QDateTime &) noexcept': cannot convert argument 1 from 'const QDate' to 'const QDateTime &'
-                  C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(6020,20):
+                  C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(6020,20):
                   Reason: cannot convert from 'const QDate' to 'const QDateTime'
-                  C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(6020,20):
+                  C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(6020,20):
                   No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
-          C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(6020,19):
+          C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(6020,19):
           while trying to match the argument list '(const QDate)'
   
-C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(6503,10): error C2039: 'unite': is not a member of 'QMap<double,QString>'
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(6503,10): error C2039: 'unite': is not a member of 'QMap<double,QString>'
       C:\Qt\6.10.2\include\QtCore\qmap.h(188,7):
       see declaration of 'QMap<double,QString>'
   
-C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(11070,3): error C2039: 'toList': is not a member of 'QSet<QCPItemPosition *>'
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(11070,3): error C2039: 'toList': is not a member of 'QSet<QCPItemPosition *>'
       C:\Qt\6.10.2\include\QtCore\qset.h(18,7):
       see declaration of 'QSet<QCPItemPosition *>'
   
-C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(11070,3): error C2672: 'QtPrivate::qMakeForeachContainer': no matching overloaded function found
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(11070,3): error C2672: 'QtPrivate::qMakeForeachContainer': no matching overloaded function found
       C:\Qt\6.10.2\include\QtCore\qforeach.h(49,49):
       could be 'QtPrivate::QForeachContainer<std::decay<_Ty>::type> QtPrivate::qMakeForeachContainer(T &&)'
   
-C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(11070,3): error C3536: '_container_11070': cannot be used before it is initialized
-C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(11075,3): error C2039: 'toList': is not a member of 'QSet<QCPItemPosition *>'
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(11070,3): error C3536: '_container_11070': cannot be used before it is initialized
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(11075,3): error C2039: 'toList': is not a member of 'QSet<QCPItemPosition *>'
       C:\Qt\6.10.2\include\QtCore\qset.h(18,7):
       see declaration of 'QSet<QCPItemPosition *>'
   
-C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(11075,3): error C2672: 'QtPrivate::qMakeForeachContainer': no matching overloaded function found
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(11075,3): error C2672: 'QtPrivate::qMakeForeachContainer': no matching overloaded function found
       C:\Qt\6.10.2\include\QtCore\qforeach.h(49,49):
       could be 'QtPrivate::QForeachContainer<std::decay<_Ty>::type> QtPrivate::qMakeForeachContainer(T &&)'
   
-C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(11075,3): error C3536: '_container_11075': cannot be used before it is initialized
-C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(11248,3): error C2039: 'toList': is not a member of 'QSet<QCPItemPosition *>'
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(11075,3): error C3536: '_container_11075': cannot be used before it is initialized
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(11248,3): error C2039: 'toList': is not a member of 'QSet<QCPItemPosition *>'
       C:\Qt\6.10.2\include\QtCore\qset.h(18,7):
       see declaration of 'QSet<QCPItemPosition *>'
   
-C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(11248,3): error C2672: 'QtPrivate::qMakeForeachContainer': no matching overloaded function found
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(11248,3): error C2672: 'QtPrivate::qMakeForeachContainer': no matching overloaded function found
       C:\Qt\6.10.2\include\QtCore\qforeach.h(49,49):
       could be 'QtPrivate::QForeachContainer<std::decay<_Ty>::type> QtPrivate::qMakeForeachContainer(T &&)'
   
-C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(11248,3): error C3536: '_container_11248': cannot be used before it is initialized
-C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(11253,3): error C2039: 'toList': is not a member of 'QSet<QCPItemPosition *>'
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(11248,3): error C3536: '_container_11248': cannot be used before it is initialized
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(11253,3): error C2039: 'toList': is not a member of 'QSet<QCPItemPosition *>'
       C:\Qt\6.10.2\include\QtCore\qset.h(18,7):
       see declaration of 'QSet<QCPItemPosition *>'
   
-C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(11253,3): error C2672: 'QtPrivate::qMakeForeachContainer': no matching overloaded function found
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(11253,3): error C2672: 'QtPrivate::qMakeForeachContainer': no matching overloaded function found
       C:\Qt\6.10.2\include\QtCore\qforeach.h(49,49):
       could be 'QtPrivate::QForeachContainer<std::decay<_Ty>::type> QtPrivate::qMakeForeachContainer(T &&)'
   
-C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(11253,3): error C3536: '_container_11253': cannot be used before it is initialized
-C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(13861,25): error C2039: 'data': is not a member of 'QWeakPointer<QCPAbstractPaintBuffer>'
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(11253,3): error C3536: '_container_11253': cannot be used before it is initialized
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(13861,25): error C2039: 'data': is not a member of 'QWeakPointer<QCPAbstractPaintBuffer>'
       C:\Qt\6.10.2\include\QtCore\qsharedpointer_impl.h(591,7):
       see declaration of 'QWeakPointer<QCPAbstractPaintBuffer>'
   
-C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(13898,25): error C2039: 'data': is not a member of 'QWeakPointer<QCPAbstractPaintBuffer>'
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(13898,25): error C2039: 'data': is not a member of 'QWeakPointer<QCPAbstractPaintBuffer>'
       C:\Qt\6.10.2\include\QtCore\qsharedpointer_impl.h(591,7):
       see declaration of 'QWeakPointer<QCPAbstractPaintBuffer>'
   
-C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(13900,30): error C2039: 'data': is not a member of 'QWeakPointer<QCPAbstractPaintBuffer>'
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(13900,30): error C2039: 'data': is not a member of 'QWeakPointer<QCPAbstractPaintBuffer>'
       C:\Qt\6.10.2\include\QtCore\qsharedpointer_impl.h(591,7):
       see declaration of 'QWeakPointer<QCPAbstractPaintBuffer>'
   
-C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(14459,37): error C2039: 'HighQualityAntialiasing': is not a member of 'QPainter'
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(14459,37): error C2039: 'HighQualityAntialiasing': is not a member of 'QPainter'
       C:\Qt\6.10.2\include\QtGui\qpainter.h(45,20):
       see declaration of 'QPainter'
   
-C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(14459,37): error C2065: 'HighQualityAntialiasing': undeclared identifier
-C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(14672,60): error C2039: 'pos': is not a member of 'QWheelEvent'
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(14459,37): error C2065: 'HighQualityAntialiasing': undeclared identifier
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(14672,60): error C2039: 'pos': is not a member of 'QWheelEvent'
       C:\Qt\6.10.2\include\QtGui\qevent.h(281,20):
       see declaration of 'QWheelEvent'
   
-C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(15017,33): error C2039: 'insertMulti': is not a member of 'QMap<int,std::pair<QCPAbstractPlottable *,QCPDataSelection>>'
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(15017,33): error C2039: 'insertMulti': is not a member of 'QMap<int,std::pair<QCPAbstractPlottable *,QCPDataSelection>>'
       C:\Qt\6.10.2\include\QtCore\qmap.h(188,7):
       see declaration of 'QMap<int,std::pair<QCPAbstractPlottable *,QCPDataSelection>>'
   
-C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(17623,34): error C2039: 'delta': is not a member of 'QWheelEvent'
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(17623,34): error C2039: 'delta': is not a member of 'QWheelEvent'
       C:\Qt\6.10.2\include\QtGui\qevent.h(281,20):
       see declaration of 'QWheelEvent'
   
-C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(17630,104): error C2039: 'pos': is not a member of 'QWheelEvent'
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(17630,104): error C2039: 'pos': is not a member of 'QWheelEvent'
       C:\Qt\6.10.2\include\QtGui\qevent.h(281,20):
       see declaration of 'QWheelEvent'
   
-C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(17639,104): error C2039: 'pos': is not a member of 'QWheelEvent'
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(17639,104): error C2039: 'pos': is not a member of 'QWheelEvent'
       C:\Qt\6.10.2\include\QtGui\qevent.h(281,20):
       see declaration of 'QWheelEvent'
   
-C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(19266,23): error C2664: 'void QCPAxisRect::setRangeDrag(Qt::Orientations)': cannot convert argument 1 from 'int' to 'Qt::Orientations'
-      C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(19266,36):
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(19266,23): error C2664: 'void QCPAxisRect::setRangeDrag(Qt::Orientations)': cannot convert argument 1 from 'int' to 'Qt::Orientations'
+      C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(19266,36):
       'QFlags<Qt::Orientation>::QFlags': no overloaded function could convert all the argument types
           C:\Qt\6.10.2\include\QtCore\qflags.h(214,1):
           could be 'QFlags<Qt::Orientation>::QFlags(const QFlags<Qt::Orientation> &)'
-              C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(19266,36):
+              C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(19266,36):
               'QFlags<Qt::Orientation>::QFlags(const QFlags<Qt::Orientation> &)': cannot convert argument 1 from 'int' to 'const QFlags<Qt::Orientation> &'
-                  C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(19266,36):
+                  C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(19266,36):
                   Reason: cannot convert from 'int' to 'const QFlags<Qt::Orientation>'
-                  C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(19266,36):
+                  C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(19266,36):
                   Conversion requires a second user-defined-conversion operator or constructor
           C:\Qt\6.10.2\include\QtCore\qflags.h(214,1):
           or       'QFlags<Qt::Orientation>::QFlags(QFlags<Qt::Orientation> &&)'
-              C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(19266,36):
+              C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(19266,36):
               'QFlags<Qt::Orientation>::QFlags(QFlags<Qt::Orientation> &&)': cannot convert argument 1 from 'int' to 'QFlags<Qt::Orientation> &&'
-                  C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(19266,36):
+                  C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(19266,36):
                   Reason: cannot convert from 'int' to 'QFlags<Qt::Orientation>'
-                  C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(19266,36):
+                  C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(19266,36):
                   Conversion requires a second user-defined-conversion operator or constructor
           C:\Qt\6.10.2\include\QtCore\qflags.h(112,5):
           or       'QFlags<Qt::Orientation>::QFlags(QFlag)', which inherits 'QtPrivate::QFlagsStorageHelper<Enum,4>::QFlagsStorageHelper(QFlag) noexcept' via base class 'QtPrivate::QFlagsStorageHelper<Enum,4>'
@@ -241,9 +277,9 @@ C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCus
           [
               Enum=Qt::Orientation
           ]
-              C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(19266,36):
+              C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(19266,36):
               'QFlags<Qt::Orientation>::QFlags(QFlag)': cannot convert argument 1 from 'int' to 'QFlag'
-                  C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(19266,36):
+                  C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(19266,36):
                   Conversion requires a second user-defined-conversion operator or constructor
           C:\Qt\6.10.2\include\QtCore\qflags.h(125,5):
           or       'QFlags<Qt::Orientation>::QFlags(std::initializer_list<Enum>) noexcept'
@@ -251,13 +287,13 @@ C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCus
           [
               Enum=Qt::Orientation
           ]
-              C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(19266,36):
+              C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(19266,36):
               'QFlags<Qt::Orientation>::QFlags(std::initializer_list<Enum>) noexcept': cannot convert argument 1 from 'int' to 'std::initializer_list<Enum>'
           with
           [
               Enum=Qt::Orientation
           ]
-                  C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(19266,36):
+                  C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(19266,36):
                   Conversion requires a second user-defined-conversion operator or constructor
           C:\Qt\6.10.2\include\QtCore\qflags.h(117,5):
           or       'QFlags<Qt::Orientation>::QFlags(Enum) noexcept'
@@ -265,39 +301,39 @@ C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCus
           [
               Enum=Qt::Orientation
           ]
-              C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(19266,36):
+              C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(19266,36):
               'QFlags<Qt::Orientation>::QFlags(Enum) noexcept': cannot convert argument 1 from 'int' to 'Enum'
           with
           [
               Enum=Qt::Orientation
           ]
-                  C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(19266,36):
+                  C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(19266,36):
                   Conversion to enumeration type requires an explicit cast (static_cast, C-style cast or parenthesized function-style cast)
-          C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(19266,36):
+          C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(19266,36):
           while trying to match the argument list '(int)'
-      C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(17179,19):
+      C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(17179,19):
       see declaration of 'QCPAxisRect::setRangeDrag'
-      C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(19266,23):
+      C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(19266,23):
       while trying to match the argument list '(int)'
   
-C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(19286,23): error C2664: 'void QCPAxisRect::setRangeZoom(Qt::Orientations)': cannot convert argument 1 from 'int' to 'Qt::Orientations'
-      C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(19286,36):
+C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(19286,23): error C2664: 'void QCPAxisRect::setRangeZoom(Qt::Orientations)': cannot convert argument 1 from 'int' to 'Qt::Orientations'
+      C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(19286,36):
       'QFlags<Qt::Orientation>::QFlags': no overloaded function could convert all the argument types
           C:\Qt\6.10.2\include\QtCore\qflags.h(214,1):
           could be 'QFlags<Qt::Orientation>::QFlags(const QFlags<Qt::Orientation> &)'
-              C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(19286,36):
+              C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(19286,36):
               'QFlags<Qt::Orientation>::QFlags(const QFlags<Qt::Orientation> &)': cannot convert argument 1 from 'int' to 'const QFlags<Qt::Orientation> &'
-                  C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(19286,36):
+                  C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(19286,36):
                   Reason: cannot convert from 'int' to 'const QFlags<Qt::Orientation>'
-                  C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(19286,36):
+                  C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(19286,36):
                   Conversion requires a second user-defined-conversion operator or constructor
           C:\Qt\6.10.2\include\QtCore\qflags.h(214,1):
           or       'QFlags<Qt::Orientation>::QFlags(QFlags<Qt::Orientation> &&)'
-              C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(19286,36):
+              C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(19286,36):
               'QFlags<Qt::Orientation>::QFlags(QFlags<Qt::Orientation> &&)': cannot convert argument 1 from 'int' to 'QFlags<Qt::Orientation> &&'
-                  C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(19286,36):
+                  C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(19286,36):
                   Reason: cannot convert from 'int' to 'QFlags<Qt::Orientation>'
-                  C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(19286,36):
+                  C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(19286,36):
                   Conversion requires a second user-defined-conversion operator or constructor
           C:\Qt\6.10.2\include\QtCore\qflags.h(112,5):
           or       'QFlags<Qt::Orientation>::QFlags(QFlag)', which inherits 'QtPrivate::QFlagsStorageHelper<Enum,4>::QFlagsStorageHelper(QFlag) noexcept' via base class 'QtPrivate::QFlagsStorageHelper<Enum,4>'
@@ -305,9 +341,9 @@ C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCus
           [
               Enum=Qt::Orientation
           ]
-              C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(19286,36):
+              C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(19286,36):
               'QFlags<Qt::Orientation>::QFlags(QFlag)': cannot convert argument 1 from 'int' to 'QFlag'
-                  C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(19286,36):
+                  C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(19286,36):
                   Conversion requires a second user-defined-conversion operator or constructor
           C:\Qt\6.10.2\include\QtCore\qflags.h(125,5):
           or       'QFlags<Qt::Orientation>::QFlags(std::initializer_list<Enum>) noexcept'
@@ -315,13 +351,13 @@ C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCus
           [
               Enum=Qt::Orientation
           ]
-              C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(19286,36):
+              C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(19286,36):
               'QFlags<Qt::Orientation>::QFlags(std::initializer_list<Enum>) noexcept': cannot convert argument 1 from 'int' to 'std::initializer_list<Enum>'
           with
           [
               Enum=Qt::Orientation
           ]
-                  C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(19286,36):
+                  C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(19286,36):
                   Conversion requires a second user-defined-conversion operator or constructor
           C:\Qt\6.10.2\include\QtCore\qflags.h(117,5):
           or       'QFlags<Qt::Orientation>::QFlags(Enum) noexcept'
@@ -329,18 +365,18 @@ C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCus
           [
               Enum=Qt::Orientation
           ]
-              C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(19286,36):
+              C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(19286,36):
               'QFlags<Qt::Orientation>::QFlags(Enum) noexcept': cannot convert argument 1 from 'int' to 'Enum'
           with
           [
               Enum=Qt::Orientation
           ]
-                  C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(19286,36):
+                  C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(19286,36):
                   Conversion to enumeration type requires an explicit cast (static_cast, C-style cast or parenthesized function-style cast)
-          C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(19286,36):
+          C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(19286,36):
           while trying to match the argument list '(int)'
-      C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(17199,19):
+      C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(17199,19):
       see declaration of 'QCPAxisRect::setRangeZoom'
-      C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibUtilsQt\QCustomPlot.cpp(19286,23):
+      C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibUtilsQt\QCustomPlot.cpp(19286,23):
       while trying to match the argument list '(int)'
   

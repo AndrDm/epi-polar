@@ -1,6 +1,6 @@
 #include "EpipolarConsistency.h"
 
-#include <Eigen/Dense>
+#include <C:/Users/Andrey/Desktop/epi-polar/Eigen-5.0.1-dev/Eigen/Dense>
 
 namespace EpipolarConsistency
 {

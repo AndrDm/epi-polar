@@ -14,7 +14,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{6C1EB077-DCAC-3874-A36A-4240CE4696A7}</ProjectGuid>
+    <ProjectGuid>{A07E27ED-1446-3787-98C7-418A7C3DAE5D}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -44,13 +44,13 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\bin\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\bin\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">LibSimple.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">LibSimpled</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\bin\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\bin\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">LibSimple.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">LibSimple</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
@@ -60,8 +60,8 @@
   <PropertyGroup />
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibSimple;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibSimple;\usr\include\eigen3;C:\Program Files (x86)\nlopt\include;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\include;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code\HeaderOnly;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibSimple/LibSimple_autogen/include_Debug" /external:I "C:/Qt/6.10.2/include/QtWidgets" /external:I "C:/Qt/6.10.2/include" /external:I "C:/Qt/6.10.2/include/QtCore" /external:I "C:/Qt/6.10.2/mkspecs/win32-msvc" /external:I "C:/Qt/6.10.2/include/QtGui" /external:I "C:/Qt/6.10.2/include/QtOpenGL" -Zc:__cplusplus -utf-8</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibSimple;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibSimple;\usr\include\eigen3;C:\Program Files (x86)\nlopt\include;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\include;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\.\code\HeaderOnly;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\.\code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibSimple/LibSimple_autogen/include_Debug" /external:I "C:/Qt/6.10.2/include/QtWidgets" /external:I "C:/Qt/6.10.2/include" /external:I "C:/Qt/6.10.2/include/QtCore" /external:I "C:/Qt/6.10.2/mkspecs/win32-msvc" /external:I "C:/Qt/6.10.2/include/QtGui" /external:I "C:/Qt/6.10.2/include/QtOpenGL" -Zc:__cplusplus -utf-8</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <BufferSecurityCheck></BufferSecurityCheck>
@@ -90,10 +90,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;GLAD_GLAPI_EXPORT;QT_WIDGETS_LIB;QT_CORE_LIB;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;_WIN64;UNICODE;_UNICODE;QT_GUI_LIB;QT_OPENGL_LIB;CMAKE_INTDIR=\"Debug\";LibSimple_EXPORTS</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibSimple;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibSimple;\usr\include\eigen3;C:\Program Files (x86)\nlopt\include;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\include;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code\HeaderOnly;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibSimple\LibSimple_autogen\include_Debug;C:\Qt\6.10.2\include\QtWidgets;C:\Qt\6.10.2\include;C:\Qt\6.10.2\include\QtCore;C:\Qt\6.10.2\mkspecs\win32-msvc;C:\Qt\6.10.2\include\QtGui;C:\Qt\6.10.2\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibSimple;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibSimple;\usr\include\eigen3;C:\Program Files (x86)\nlopt\include;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\include;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\.\code\HeaderOnly;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\.\code;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibSimple\LibSimple_autogen\include_Debug;C:\Qt\6.10.2\include\QtWidgets;C:\Qt\6.10.2\include;C:\Qt\6.10.2\include\QtCore;C:\Qt\6.10.2\mkspecs\win32-msvc;C:\Qt\6.10.2\include\QtGui;C:\Qt\6.10.2\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibSimple;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibSimple;\usr\include\eigen3;C:\Program Files (x86)\nlopt\include;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\include;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code\HeaderOnly;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibSimple\LibSimple_autogen\include_Debug;C:\Qt\6.10.2\include\QtWidgets;C:\Qt\6.10.2\include;C:\Qt\6.10.2\include\QtCore;C:\Qt\6.10.2\mkspecs\win32-msvc;C:\Qt\6.10.2\include\QtGui;C:\Qt\6.10.2\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibSimple;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibSimple;\usr\include\eigen3;C:\Program Files (x86)\nlopt\include;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\include;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\.\code\HeaderOnly;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\.\code;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibSimple\LibSimple_autogen\include_Debug;C:\Qt\6.10.2\include\QtWidgets;C:\Qt\6.10.2\include;C:\Qt\6.10.2\include\QtCore;C:\Qt\6.10.2\mkspecs\win32-msvc;C:\Qt\6.10.2\include\QtGui;C:\Qt\6.10.2\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -104,11 +104,11 @@
       <UseUtf8Encoding>Always</UseUtf8Encoding>
       <Message>Auto build dll exports</Message>
       <Command>setlocal
-cd C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibSimple
+cd C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibSimple
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E __create_def C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibSimple/LibSimple.dir/Debug/exports.def C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibSimple/LibSimple.dir/Debug//objects.txt
+"C:\Program Files\CMake\bin\cmake.exe" -E __create_def C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibSimple/LibSimple.dir/Debug/exports.def C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibSimple/LibSimple.dir/Debug//objects.txt
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -121,11 +121,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <UseUtf8Encoding>Always</UseUtf8Encoding>
       <Message>Automatic MOC for target LibSimple</Message>
       <Command>setlocal
-cd C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibSimple
+cd C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibSimple
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibSimple/CMakeFiles/LibSimple_autogen.dir/AutogenInfo.json Debug
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibSimple/CMakeFiles/LibSimple_autogen.dir/AutogenInfo.json Debug
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -141,10 +141,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
-      <ImportLibrary>C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibSimple/Debug/LibSimpled.lib</ImportLibrary>
+      <ImportLibrary>C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibSimple/Debug/LibSimpled.lib</ImportLibrary>
       <LinkErrorReporting></LinkErrorReporting>
-      <ModuleDefinitionFile>C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibSimple/LibSimple.dir/Debug/exports.def</ModuleDefinitionFile>
-      <ProgramDataBaseFile>C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/bin/Debug/LibSimpled.pdb</ProgramDataBaseFile>
+      <ModuleDefinitionFile>C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibSimple/LibSimple.dir/Debug/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/bin/Debug/LibSimpled.pdb</ProgramDataBaseFile>
       <RandomizedBaseAddress></RandomizedBaseAddress>
       <SubSystem>Console</SubSystem>
     </Link>
@@ -158,8 +158,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibSimple;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibSimple;\usr\include\eigen3;C:\Program Files (x86)\nlopt\include;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\include;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code\HeaderOnly;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibSimple/LibSimple_autogen/include_Release" /external:I "C:/Qt/6.10.2/include/QtWidgets" /external:I "C:/Qt/6.10.2/include" /external:I "C:/Qt/6.10.2/include/QtCore" /external:I "C:/Qt/6.10.2/mkspecs/win32-msvc" /external:I "C:/Qt/6.10.2/include/QtGui" /external:I "C:/Qt/6.10.2/include/QtOpenGL" -Zc:__cplusplus -utf-8</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibSimple;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibSimple;\usr\include\eigen3;C:\Program Files (x86)\nlopt\include;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\include;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\.\code\HeaderOnly;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\.\code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibSimple/LibSimple_autogen/include_Release" /external:I "C:/Qt/6.10.2/include/QtWidgets" /external:I "C:/Qt/6.10.2/include" /external:I "C:/Qt/6.10.2/include/QtCore" /external:I "C:/Qt/6.10.2/mkspecs/win32-msvc" /external:I "C:/Qt/6.10.2/include/QtGui" /external:I "C:/Qt/6.10.2/include/QtOpenGL" -Zc:__cplusplus -utf-8</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <BufferSecurityCheck></BufferSecurityCheck>
@@ -189,10 +189,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLAD_GLAPI_EXPORT;QT_WIDGETS_LIB;QT_CORE_LIB;QT_NO_DEBUG;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;_WIN64;UNICODE;_UNICODE;QT_GUI_LIB;QT_OPENGL_LIB;CMAKE_INTDIR=\"Release\";LibSimple_EXPORTS</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibSimple;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibSimple;\usr\include\eigen3;C:\Program Files (x86)\nlopt\include;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\include;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code\HeaderOnly;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibSimple\LibSimple_autogen\include_Release;C:\Qt\6.10.2\include\QtWidgets;C:\Qt\6.10.2\include;C:\Qt\6.10.2\include\QtCore;C:\Qt\6.10.2\mkspecs\win32-msvc;C:\Qt\6.10.2\include\QtGui;C:\Qt\6.10.2\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibSimple;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibSimple;\usr\include\eigen3;C:\Program Files (x86)\nlopt\include;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\include;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\.\code\HeaderOnly;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\.\code;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibSimple\LibSimple_autogen\include_Release;C:\Qt\6.10.2\include\QtWidgets;C:\Qt\6.10.2\include;C:\Qt\6.10.2\include\QtCore;C:\Qt\6.10.2\mkspecs\win32-msvc;C:\Qt\6.10.2\include\QtGui;C:\Qt\6.10.2\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibSimple;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibSimple;\usr\include\eigen3;C:\Program Files (x86)\nlopt\include;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\include;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code\HeaderOnly;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\.\code;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibSimple\LibSimple_autogen\include_Release;C:\Qt\6.10.2\include\QtWidgets;C:\Qt\6.10.2\include;C:\Qt\6.10.2\include\QtCore;C:\Qt\6.10.2\mkspecs\win32-msvc;C:\Qt\6.10.2\include\QtGui;C:\Qt\6.10.2\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibSimple;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibSimple;\usr\include\eigen3;C:\Program Files (x86)\nlopt\include;C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\include;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\.\code\HeaderOnly;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\.\code;C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibSimple\LibSimple_autogen\include_Release;C:\Qt\6.10.2\include\QtWidgets;C:\Qt\6.10.2\include;C:\Qt\6.10.2\include\QtCore;C:\Qt\6.10.2\mkspecs\win32-msvc;C:\Qt\6.10.2\include\QtGui;C:\Qt\6.10.2\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -203,11 +203,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <UseUtf8Encoding>Always</UseUtf8Encoding>
       <Message>Auto build dll exports</Message>
       <Command>setlocal
-cd C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibSimple
+cd C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibSimple
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E __create_def C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibSimple/LibSimple.dir/Release/exports.def C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibSimple/LibSimple.dir/Release//objects.txt
+"C:\Program Files\CMake\bin\cmake.exe" -E __create_def C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibSimple/LibSimple.dir/Release/exports.def C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibSimple/LibSimple.dir/Release//objects.txt
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -220,11 +220,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <UseUtf8Encoding>Always</UseUtf8Encoding>
       <Message>Automatic MOC for target LibSimple</Message>
       <Command>setlocal
-cd C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibSimple
+cd C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibSimple
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibSimple/CMakeFiles/LibSimple_autogen.dir/AutogenInfo.json Release
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibSimple/CMakeFiles/LibSimple_autogen.dir/AutogenInfo.json Release
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -240,10 +240,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
-      <ImportLibrary>C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibSimple/Release/LibSimple.lib</ImportLibrary>
+      <ImportLibrary>C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibSimple/Release/LibSimple.lib</ImportLibrary>
       <LinkErrorReporting></LinkErrorReporting>
-      <ModuleDefinitionFile>C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibSimple/LibSimple.dir/Release/exports.def</ModuleDefinitionFile>
-      <ProgramDataBaseFile>C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/bin/Release/LibSimple.pdb</ProgramDataBaseFile>
+      <ModuleDefinitionFile>C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibSimple/LibSimple.dir/Release/exports.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/bin/Release/LibSimple.pdb</ProgramDataBaseFile>
       <RandomizedBaseAddress></RandomizedBaseAddress>
       <SubSystem>Console</SubSystem>
     </Link>
@@ -256,11 +256,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CudaLink>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibSimple\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibSimple\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/LibSimple/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/LibSimple/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build -BC:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build --check-stamp-file C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibSimple/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev -BC:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build --check-stamp-file C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibSimple/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -269,11 +269,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\Qt6Config.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\Qt6ConfigExtras.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\Qt6ConfigVersion.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\Qt6ConfigVersionImpl.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\Qt6Dependencies.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\Qt6Targets.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\Qt6VersionlessAliasTargets.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtFeature.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtFeatureCommon.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtInstallPaths.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicAndroidHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicAppleHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicCMakeEarlyPolicyHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicCMakeHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicCMakeVersionHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicDependencyHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicExternalProjectHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicFinalizerHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicFindPackageHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicGitHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicPluginHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicPluginHelpers_v2.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomAttributionHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomCommonGenerationHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomCpeHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomCycloneDXHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomDepHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomDocumentNamespaceHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomFileHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomGenerationCycloneDXHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomGenerationHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomLicenseHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomOpsHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomPurlHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomPythonHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomQtEntityHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomSystemDepHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicTargetHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicTestHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicToolHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicWalkLibsHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicWindowsHelpers.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibSimple\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibSimple\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/LibSimple/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/LibSimple/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build -BC:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build --check-stamp-file C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibSimple/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev -BC:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build --check-stamp-file C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibSimple/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -282,41 +282,41 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\Qt6Config.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\Qt6ConfigExtras.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\Qt6ConfigVersion.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\Qt6ConfigVersionImpl.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\Qt6Dependencies.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\Qt6Targets.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\Qt6VersionlessAliasTargets.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtFeature.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtFeatureCommon.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtInstallPaths.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicAndroidHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicAppleHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicCMakeEarlyPolicyHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicCMakeHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicCMakeVersionHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicDependencyHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicExternalProjectHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicFinalizerHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicFindPackageHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicGitHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicPluginHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicPluginHelpers_v2.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomAttributionHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomCommonGenerationHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomCpeHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomCycloneDXHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomDepHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomDocumentNamespaceHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomFileHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomGenerationCycloneDXHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomGenerationHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomLicenseHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomOpsHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomPurlHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomPythonHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomQtEntityHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicSbomSystemDepHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicTargetHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicTestHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicToolHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicWalkLibsHelpers.cmake;C:\Qt\6.10.2\lib\cmake\Qt6\QtPublicWindowsHelpers.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibSimple\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibSimple\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibSimple\LibSimple_autogen\mocs_compilation_Debug.cpp">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibSimple\LibSimple_autogen\mocs_compilation_Debug.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibSimple\BufferUtils.h" />
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibSimple\SimpleOptimizer.h" />
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibSimple\SimpleOptimizer.cpp" />
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibSimple\SimpleMHD.h" />
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibSimple\SimpleMHD.cpp" />
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibSimple\SimpleGL.h" />
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibSimple\SimpleGL.cpp" />
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibSimple\SimpleQTGL.h" />
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibSimple\SimpleQTGL.cpp" />
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibSimple\SimpleVR.h" />
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibSimple\SimpleVR.cpp" />
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibSimple\SimpleRayCastPass.h" />
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\code\LibSimple\SimpleRayCastPass.cpp" />
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibSimple\LibSimple_autogen\mocs_compilation_Release.cpp">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibSimple\BufferUtils.h" />
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibSimple\SimpleOptimizer.h" />
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibSimple\SimpleOptimizer.cpp" />
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibSimple\SimpleMHD.h" />
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibSimple\SimpleMHD.cpp" />
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibSimple\SimpleGL.h" />
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibSimple\SimpleGL.cpp" />
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibSimple\SimpleQTGL.h" />
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibSimple\SimpleQTGL.cpp" />
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibSimple\SimpleVR.h" />
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibSimple\SimpleVR.cpp" />
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibSimple\SimpleRayCastPass.h" />
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\code\LibSimple\SimpleRayCastPass.cpp" />
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibSimple\LibSimple_autogen\mocs_compilation_Release.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\ZERO_CHECK.vcxproj">
-      <Project>{9E5389E0-B518-395B-BFDD-4AD6E53E1997}</Project>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\ZERO_CHECK.vcxproj">
+      <Project>{A7A33978-4687-3342-8011-6ECA2696FA25}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\LibSimple\GLAD.vcxproj">
-      <Project>{C4B3DE0C-2103-3C41-B128-B0CAFDF9282F}</Project>
+    <ProjectReference Include="C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\LibSimple\GLAD.vcxproj">
+      <Project>{AC62E619-FE65-3AEA-8ECB-EA707E5B496D}</Project>
       <Name>GLAD</Name>
     </ProjectReference>
   </ItemGroup>

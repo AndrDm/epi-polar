@@ -2,13 +2,16 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\x64\Release\ZERO_CHECK</FullPath>
+      <FullPath>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\x64\Release\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\bin\Release\GLAD.dll</FullPath>
+      <FullPath>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\bin\Release\GLAD.dll</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-build\build\x64\Release\ALL_BUILD</FullPath>
+      <FullPath>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\bin\Release\LibProjectiveGeometry.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Andrey\Desktop\epi-polar\EpipolarConsistency-dev\build\x64\Release\ALL_BUILD</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

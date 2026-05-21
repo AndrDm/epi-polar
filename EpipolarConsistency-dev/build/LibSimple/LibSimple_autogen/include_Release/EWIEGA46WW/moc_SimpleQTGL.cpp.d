@@ -1,4 +1,4 @@
-C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibSimple/LibSimple_autogen/include_Release/EWIEGA46WW/moc_SimpleQTGL.cpp: C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/LibSimple/SimpleQTGL.h \
+C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibSimple/LibSimple_autogen/include_Release/EWIEGA46WW/moc_SimpleQTGL.cpp: C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/LibSimple/SimpleQTGL.h \
   C:/Qt/6.10.2/include/QtCore/QElapsedTimer \
   C:/Qt/6.10.2/include/QtCore/QList \
   C:/Qt/6.10.2/include/QtCore/QObject \
@@ -52,6 +52,7 @@ C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibSimple/LibS
   C:/Qt/6.10.2/include/QtCore/qdeadlinetimer.h \
   C:/Qt/6.10.2/include/QtCore/qdebug.h \
   C:/Qt/6.10.2/include/QtCore/qelapsedtimer.h \
+  C:/Qt/6.10.2/include/QtCore/qendian.h \
   C:/Qt/6.10.2/include/QtCore/qeventloop.h \
   C:/Qt/6.10.2/include/QtCore/qexceptionhandling.h \
   C:/Qt/6.10.2/include/QtCore/qflags.h \
@@ -148,19 +149,30 @@ C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibSimple/LibS
   C:/Qt/6.10.2/include/QtCore/qyieldcpu.h \
   C:/Qt/6.10.2/include/QtGui/QKeyEvent \
   C:/Qt/6.10.2/include/QtGui/QMouseEvent \
+  C:/Qt/6.10.2/include/QtGui/QSurfaceFormat \
   C:/Qt/6.10.2/include/QtGui/QTransform \
+  C:/Qt/6.10.2/include/QtGui/qaction.h \
   C:/Qt/6.10.2/include/QtGui/qbitmap.h \
+  C:/Qt/6.10.2/include/QtGui/qbrush.h \
   C:/Qt/6.10.2/include/QtGui/qcolor.h \
   C:/Qt/6.10.2/include/QtGui/qcursor.h \
   C:/Qt/6.10.2/include/QtGui/qevent.h \
   C:/Qt/6.10.2/include/QtGui/qeventpoint.h \
+  C:/Qt/6.10.2/include/QtGui/qfont.h \
+  C:/Qt/6.10.2/include/QtGui/qfontinfo.h \
+  C:/Qt/6.10.2/include/QtGui/qfontmetrics.h \
+  C:/Qt/6.10.2/include/QtGui/qfontvariableaxis.h \
   C:/Qt/6.10.2/include/QtGui/qguiapplication.h \
   C:/Qt/6.10.2/include/QtGui/qguiapplication_platform.h \
+  C:/Qt/6.10.2/include/QtGui/qicon.h \
   C:/Qt/6.10.2/include/QtGui/qimage.h \
   C:/Qt/6.10.2/include/QtGui/qinputdevice.h \
   C:/Qt/6.10.2/include/QtGui/qinputmethod.h \
   C:/Qt/6.10.2/include/QtGui/qkeysequence.h \
+  C:/Qt/6.10.2/include/QtGui/qopengl.h \
+  C:/Qt/6.10.2/include/QtGui/qopenglext.h \
   C:/Qt/6.10.2/include/QtGui/qpaintdevice.h \
+  C:/Qt/6.10.2/include/QtGui/qpalette.h \
   C:/Qt/6.10.2/include/QtGui/qpixelformat.h \
   C:/Qt/6.10.2/include/QtGui/qpixmap.h \
   C:/Qt/6.10.2/include/QtGui/qpointingdevice.h \
@@ -170,6 +182,7 @@ C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibSimple/LibS
   C:/Qt/6.10.2/include/QtGui/qrgba64.h \
   C:/Qt/6.10.2/include/QtGui/qscreen.h \
   C:/Qt/6.10.2/include/QtGui/qscreen_platform.h \
+  C:/Qt/6.10.2/include/QtGui/qsurfaceformat.h \
   C:/Qt/6.10.2/include/QtGui/qtgui-config.h \
   C:/Qt/6.10.2/include/QtGui/qtguiexports.h \
   C:/Qt/6.10.2/include/QtGui/qtguiglobal.h \
@@ -178,10 +191,17 @@ C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibSimple/LibS
   C:/Qt/6.10.2/include/QtGui/qvectornd.h \
   C:/Qt/6.10.2/include/QtGui/qwindowdefs.h \
   C:/Qt/6.10.2/include/QtGui/qwindowdefs_win.h \
+  C:/Qt/6.10.2/include/QtOpenGLWidgets/QOpenGLWidget \
+  C:/Qt/6.10.2/include/QtOpenGLWidgets/qopenglwidget.h \
+  C:/Qt/6.10.2/include/QtOpenGLWidgets/qtopenglwidgetsexports.h \
+  C:/Qt/6.10.2/include/QtOpenGLWidgets/qtopenglwidgetsglobal.h \
   C:/Qt/6.10.2/include/QtWidgets/QApplication \
+  C:/Qt/6.10.2/include/QtWidgets/QWidget \
   C:/Qt/6.10.2/include/QtWidgets/qapplication.h \
+  C:/Qt/6.10.2/include/QtWidgets/qsizepolicy.h \
   C:/Qt/6.10.2/include/QtWidgets/qtwidgets-config.h \
   C:/Qt/6.10.2/include/QtWidgets/qtwidgetsexports.h \
   C:/Qt/6.10.2/include/QtWidgets/qtwidgetsglobal.h \
-  C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/LibSimple/GL/glad.h \
-  C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/LibSimple/GL/khrplatform.h
+  C:/Qt/6.10.2/include/QtWidgets/qwidget.h \
+  C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/LibSimple/GL/glad.h \
+  C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/LibSimple/GL/khrplatform.h

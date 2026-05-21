@@ -10,7 +10,7 @@ void SimpleQTGL::lazyUpdate()
 			return;
 		}
 		redisplay=false;
-		updateGL();
+		update(); //  In Qt6 (QOpenGLWidget), updateGL() is removed.
 	}
 	else if (idleFunc)
 		idleFunc();
@@ -64,14 +64,14 @@ void SimpleQTGL::immediateUpdate()
 	if (!displayFunc || !isVisible() ) return;
 	if (contextOwner)
 		makeCurrent();
-	updateGL();
+	update();
 	if (contextOwner)
 		contextOwner->makeCurrent();
 }
 
 
 SimpleQTGL::SimpleQTGL()
-	: QGLWidget()
+	: QOpenGLWidget()
 	, contextOwner(0x0)
 	, displayFunc(0x0)
 	, reshapeFunc(0x0)
@@ -91,8 +91,9 @@ SimpleQTGL::SimpleQTGL()
 	connect(&m_timer, SIGNAL(timeout()), this, SLOT(lazyUpdate()));
 }
 
-SimpleQTGL::SimpleQTGL(QGLWidget *mainWnd)
-	: QGLWidget(mainWnd->context()->format(), 0x0, mainWnd)
+/*
+SimpleQTGL::SimpleQTGL(QOpenGLWidget *mainWnd)
+	: QOpenGLWidget(mainWnd->context()->format(), 0x0, mainWnd)
 	, contextOwner(mainWnd)
 	, displayFunc(0x0)
 	, reshapeFunc(0x0)
@@ -111,6 +112,32 @@ SimpleQTGL::SimpleQTGL(QGLWidget *mainWnd)
 	m_timer.setInterval(10);
 	m_timer.setSingleShot(true);
 	connect(&m_timer, SIGNAL(timeout()), this, SLOT(lazyUpdate()));	
+}
+*/
+
+SimpleQTGL::SimpleQTGL(QOpenGLWidget* mainWnd)
+	: QOpenGLWidget(mainWnd)   // only parent allowed Qt6
+	, contextOwner(mainWnd)
+	, displayFunc(nullptr)
+	, reshapeFunc(nullptr)
+	, keyboardFunc(nullptr)
+	, keyboardUpFunc(nullptr)
+	, mouseFunc(nullptr)
+	, motionFunc(nullptr)
+	, wheelFunc(nullptr)
+	, passiveMotionFunc(nullptr)
+	, idleFunc(nullptr)
+	, specialFunc(nullptr)
+	, specialUpFunc(nullptr)
+	, m_mouseDown(0)
+{
+	redisplay = false;
+
+	m_timer.setInterval(10);
+	m_timer.setSingleShot(true);
+
+	connect(&m_timer, &QTimer::timeout,
+		this, &SimpleQTGL::lazyUpdate);
 }
 
 SimpleQTGL::~SimpleQTGL() {}
@@ -139,6 +166,7 @@ void SimpleQTGL::paintGL()
 
 void SimpleQTGL::closeEvent(QCloseEvent *event) {if (!contextOwner) exit(0);}
 
+/*
 void SimpleQTGL::mousePressEvent(QMouseEvent *event)
 {
 	int x=event->x();
@@ -155,6 +183,32 @@ void SimpleQTGL::mouseReleaseEvent(QMouseEvent *event)
 	m_mouseDown=0;
 	if (mouseFunc) mouseFunc(event->button()-1,0,event->x(), event->y()); 
 }
+*/
+
+void SimpleQTGL::mousePressEvent(QMouseEvent* event)
+{
+	int x = event->position().x();   //  Qt6 change
+	int y = event->position().y();
+
+	m_mouseX = x;
+	m_mouseY = y;
+	m_mouseDown = 1;
+
+	if (mouseFunc)
+		mouseFunc(static_cast<int>(event->button()) - 1, 1, x, y);
+}
+
+void SimpleQTGL::mouseReleaseEvent(QMouseEvent* event)
+{
+	m_mouseDown = 0;
+
+	int x = event->position().x();   //  Qt6 change
+	int y = event->position().y();
+
+	if (mouseFunc)
+		mouseFunc(static_cast<int>(event->button()) - 1, 0, x, y);
+}
+
 
 void SimpleQTGL::mouseMoveEvent(QMouseEvent *event)
 {

@@ -4,8 +4,8 @@
 #include <vector>
 
 // Automatic GUI
-#include <GetSetGui/GetSetGui.h>
-#include <GetSetGui/GetSetTabWidget.h>
+#include <C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/GetSetGui/GetSetGui.h>
+#include <C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/GetSetGui/GetSetTabWidget.h>
 GetSetGui::Application g_app("FDCTCalibrationCorrection");
 
 // Libaries for Projective Geometry

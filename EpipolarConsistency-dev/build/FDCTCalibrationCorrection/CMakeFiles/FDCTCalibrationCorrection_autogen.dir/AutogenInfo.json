@@ -1,13 +1,13 @@
 {
 	"AUTOGEN_COMMAND_LINE_LENGTH_MAX" : 32000,
-	"BUILD_DIR" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/FDCTCalibrationCorrection/FDCTCalibrationCorrection_autogen",
-	"CMAKE_BINARY_DIR" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build",
-	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/FDCTCalibrationCorrection",
-	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/tools/FDCTCalibrationCorrection",
+	"BUILD_DIR" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/FDCTCalibrationCorrection/FDCTCalibrationCorrection_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/FDCTCalibrationCorrection",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/tools/FDCTCalibrationCorrection",
 	"CMAKE_EXECUTABLE" : "C:/Program Files/CMake/bin/cmake.exe",
 	"CMAKE_LIST_FILES" : 
 	[
-		"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/tools/FDCTCalibrationCorrection/CMakeLists.txt",
+		"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/tools/FDCTCalibrationCorrection/CMakeLists.txt",
 		"C:/Qt/6.10.2/lib/cmake/Qt6/Qt6ConfigVersion.cmake",
 		"C:/Qt/6.10.2/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake",
 		"C:/Qt/6.10.2/lib/cmake/Qt6/Qt6Config.cmake",
@@ -69,22 +69,22 @@
 		"C:/Program Files/CMake/share/cmake-4.3/Modules/FindOpenGL.cmake",
 		"C:/Program Files/CMake/share/cmake-4.3/Modules/FindPackageHandleStandardArgs.cmake",
 		"C:/Program Files/CMake/share/cmake-4.3/Modules/FindPackageMessage.cmake",
-		"C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-build/build/NLoptConfigVersion.cmake",
-		"C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-build/build/NLoptConfig.cmake",
-		"C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-build/build/NLoptLibraryDepends.cmake"
+		"C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-dev/build/NLoptConfigVersion.cmake",
+		"C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-dev/build/NLoptConfig.cmake",
+		"C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-dev/build/NLoptLibraryDepends.cmake"
 	],
-	"CMAKE_SOURCE_DIR" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build",
+	"CMAKE_SOURCE_DIR" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev",
 	"CROSS_CONFIG" : false,
 	"DEP_FILE" : "",
 	"DEP_FILE_RULE_NAME" : "",
 	"HEADERS" : [],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/FDCTCalibrationCorrection/FDCTCalibrationCorrection_autogen/include",
-	"INCLUDE_DIR_Debug" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/FDCTCalibrationCorrection/FDCTCalibrationCorrection_autogen/include_Debug",
-	"INCLUDE_DIR_Release" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/FDCTCalibrationCorrection/FDCTCalibrationCorrection_autogen/include_Release",
-	"MOC_COMPILATION_FILE" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/FDCTCalibrationCorrection/FDCTCalibrationCorrection_autogen/mocs_compilation.cpp",
-	"MOC_COMPILATION_FILE_Debug" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/FDCTCalibrationCorrection/FDCTCalibrationCorrection_autogen/mocs_compilation_Debug.cpp",
-	"MOC_COMPILATION_FILE_Release" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/FDCTCalibrationCorrection/FDCTCalibrationCorrection_autogen/mocs_compilation_Release.cpp",
+	"INCLUDE_DIR" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/FDCTCalibrationCorrection/FDCTCalibrationCorrection_autogen/include",
+	"INCLUDE_DIR_Debug" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/FDCTCalibrationCorrection/FDCTCalibrationCorrection_autogen/include_Debug",
+	"INCLUDE_DIR_Release" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/FDCTCalibrationCorrection/FDCTCalibrationCorrection_autogen/include_Release",
+	"MOC_COMPILATION_FILE" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/FDCTCalibrationCorrection/FDCTCalibrationCorrection_autogen/mocs_compilation.cpp",
+	"MOC_COMPILATION_FILE_Debug" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/FDCTCalibrationCorrection/FDCTCalibrationCorrection_autogen/mocs_compilation_Debug.cpp",
+	"MOC_COMPILATION_FILE_Release" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/FDCTCalibrationCorrection/FDCTCalibrationCorrection_autogen/mocs_compilation_Release.cpp",
 	"MOC_DEFINITIONS" : [],
 	"MOC_DEFINITIONS_Debug" : 
 	[
@@ -127,13 +127,13 @@
 	"MOC_INCLUDES" : [],
 	"MOC_INCLUDES_Debug" : 
 	[
-		"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/FDCTCalibrationCorrection",
-		"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/tools/FDCTCalibrationCorrection",
+		"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/FDCTCalibrationCorrection",
+		"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/tools/FDCTCalibrationCorrection",
 		"/usr/include/eigen3",
 		"C:/Program Files (x86)/nlopt/include",
-		"C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/include",
-		"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/HeaderOnly",
-		"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code",
+		"C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/include",
+		"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/HeaderOnly",
+		"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code",
 		"C:/Qt/6.10.2/include/QtWidgets",
 		"C:/Qt/6.10.2/include",
 		"C:/Qt/6.10.2/include/QtCore",
@@ -141,18 +141,18 @@
 		"C:/Qt/6.10.2/include/QtGui",
 		"C:/Qt/6.10.2/include/QtOpenGL",
 		"C:/Qt/6.10.2/include/QtPrintSupport",
-		"C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-build/src/api",
-		"C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-build/build"
+		"C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-dev/src/api",
+		"C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-dev/build"
 	],
 	"MOC_INCLUDES_Release" : 
 	[
-		"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/FDCTCalibrationCorrection",
-		"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/tools/FDCTCalibrationCorrection",
+		"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/FDCTCalibrationCorrection",
+		"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/tools/FDCTCalibrationCorrection",
 		"/usr/include/eigen3",
 		"C:/Program Files (x86)/nlopt/include",
-		"C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/include",
-		"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code/HeaderOnly",
-		"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/code",
+		"C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/include",
+		"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code/HeaderOnly",
+		"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/code",
 		"C:/Qt/6.10.2/include/QtWidgets",
 		"C:/Qt/6.10.2/include",
 		"C:/Qt/6.10.2/include/QtCore",
@@ -160,8 +160,8 @@
 		"C:/Qt/6.10.2/include/QtGui",
 		"C:/Qt/6.10.2/include/QtOpenGL",
 		"C:/Qt/6.10.2/include/QtPrintSupport",
-		"C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-build/src/api",
-		"C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-build/build"
+		"C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-dev/src/api",
+		"C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-dev/build"
 	],
 	"MOC_MACRO_NAMES" : 
 	[
@@ -180,22 +180,22 @@
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : true,
 	"PARALLEL" : 10,
-	"PARSE_CACHE_FILE" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/FDCTCalibrationCorrection/CMakeFiles/FDCTCalibrationCorrection_autogen.dir/ParseCache.txt",
-	"PARSE_CACHE_FILE_Debug" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/FDCTCalibrationCorrection/CMakeFiles/FDCTCalibrationCorrection_autogen.dir/ParseCache_Debug.txt",
-	"PARSE_CACHE_FILE_Release" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/FDCTCalibrationCorrection/CMakeFiles/FDCTCalibrationCorrection_autogen.dir/ParseCache_Release.txt",
+	"PARSE_CACHE_FILE" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/FDCTCalibrationCorrection/CMakeFiles/FDCTCalibrationCorrection_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE_Debug" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/FDCTCalibrationCorrection/CMakeFiles/FDCTCalibrationCorrection_autogen.dir/ParseCache_Debug.txt",
+	"PARSE_CACHE_FILE_Release" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/FDCTCalibrationCorrection/CMakeFiles/FDCTCalibrationCorrection_autogen.dir/ParseCache_Release.txt",
 	"QT_MOC_EXECUTABLE" : "",
 	"QT_MOC_EXECUTABLE_Debug" : "C:/Qt/6.10.2/bin/moc.exe",
 	"QT_MOC_EXECUTABLE_Release" : "C:/Qt/6.10.2/bin/moc.exe",
 	"QT_UIC_EXECUTABLE" : "",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 10,
-	"SETTINGS_FILE" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/FDCTCalibrationCorrection/CMakeFiles/FDCTCalibrationCorrection_autogen.dir/AutogenUsed.txt",
-	"SETTINGS_FILE_Debug" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/FDCTCalibrationCorrection/CMakeFiles/FDCTCalibrationCorrection_autogen.dir/AutogenUsed_Debug.txt",
-	"SETTINGS_FILE_Release" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/FDCTCalibrationCorrection/CMakeFiles/FDCTCalibrationCorrection_autogen.dir/AutogenUsed_Release.txt",
+	"SETTINGS_FILE" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/FDCTCalibrationCorrection/CMakeFiles/FDCTCalibrationCorrection_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE_Debug" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/FDCTCalibrationCorrection/CMakeFiles/FDCTCalibrationCorrection_autogen.dir/AutogenUsed_Debug.txt",
+	"SETTINGS_FILE_Release" : "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/FDCTCalibrationCorrection/CMakeFiles/FDCTCalibrationCorrection_autogen.dir/AutogenUsed_Release.txt",
 	"SOURCES" : 
 	[
 		[
-			"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/tools/FDCTCalibrationCorrection/FDCTCalibrationCorrection.cpp",
+			"C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/tools/FDCTCalibrationCorrection/FDCTCalibrationCorrection.cpp",
 			"Mu",
 			null
 		]

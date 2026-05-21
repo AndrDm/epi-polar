@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build
+# Install script for directory: C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,122 +34,122 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibProjectiveGeometry/cmake_install.cmake")
+  include("C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibProjectiveGeometry/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE FILE FILES
-    "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/cmake_scripts/LibProjectiveGeometryConfig.cmake"
-    "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/cmake_scripts/LibProjectiveGeometryConfigVersion.cmake"
+    "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/cmake_scripts/LibProjectiveGeometryConfig.cmake"
+    "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/cmake_scripts/LibProjectiveGeometryConfigVersion.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibEpipolarConsistency/cmake_install.cmake")
+  include("C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibEpipolarConsistency/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE FILE FILES
-    "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/cmake_scripts/LibEpipolarConsistencyConfig.cmake"
-    "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/cmake_scripts/LibEpipolarConsistencyConfigVersion.cmake"
+    "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/cmake_scripts/LibEpipolarConsistencyConfig.cmake"
+    "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/cmake_scripts/LibEpipolarConsistencyConfigVersion.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibRayCastBackproject/cmake_install.cmake")
+  include("C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibRayCastBackproject/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE FILE FILES
-    "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/cmake_scripts/LibRayCastBackprojectConfig.cmake"
-    "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/cmake_scripts/LibRayCastBackprojectConfigVersion.cmake"
+    "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/cmake_scripts/LibRayCastBackprojectConfig.cmake"
+    "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/cmake_scripts/LibRayCastBackprojectConfigVersion.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibUtilsCuda/cmake_install.cmake")
+  include("C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibUtilsCuda/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE FILE FILES
-    "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/cmake_scripts/LibUtilsCudaConfig.cmake"
-    "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/cmake_scripts/LibUtilsCudaConfigVersion.cmake"
+    "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/cmake_scripts/LibUtilsCudaConfig.cmake"
+    "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/cmake_scripts/LibUtilsCudaConfigVersion.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibUtilsQt/cmake_install.cmake")
+  include("C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibUtilsQt/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE FILE FILES
-    "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/cmake_scripts/LibUtilsQtConfig.cmake"
-    "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/cmake_scripts/LibUtilsQtConfigVersion.cmake"
+    "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/cmake_scripts/LibUtilsQtConfig.cmake"
+    "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/cmake_scripts/LibUtilsQtConfigVersion.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibGeometryCalibration/cmake_install.cmake")
+  include("C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibGeometryCalibration/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE FILE FILES
-    "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/cmake_scripts/LibGeometryCalibrationConfig.cmake"
-    "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/cmake_scripts/LibGeometryCalibrationConfigVersion.cmake"
+    "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/cmake_scripts/LibGeometryCalibrationConfig.cmake"
+    "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/cmake_scripts/LibGeometryCalibrationConfigVersion.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/nrrdView/cmake_install.cmake")
+  include("C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/nrrdView/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/TrajectoryView/cmake_install.cmake")
+  include("C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/TrajectoryView/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/VolumeRendering/cmake_install.cmake")
+  include("C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/VolumeRendering/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/FluoroTracking/cmake_install.cmake")
+  include("C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/FluoroTracking/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/LibSimple/cmake_install.cmake")
+  include("C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/LibSimple/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE FILE FILES
-    "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/cmake_scripts/LibSimpleConfig.cmake"
-    "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/cmake_scripts/LibSimpleConfigVersion.cmake"
+    "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/cmake_scripts/LibSimpleConfig.cmake"
+    "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/cmake_scripts/LibSimpleConfigVersion.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/FDCTCalibrationCorrection/cmake_install.cmake")
+  include("C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/FDCTCalibrationCorrection/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/FDCTMotionCorrection/cmake_install.cmake")
+  include("C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/FDCTMotionCorrection/cmake_install.cmake")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/install_local_manifest.txt"
+  file(WRITE "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -165,6 +165,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-build/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "C:/Users/Andrey/Desktop/epi-polar/EpipolarConsistency-dev/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

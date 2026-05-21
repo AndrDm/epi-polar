@@ -9,7 +9,7 @@
 
 #ifdef _cuda_momory_hxx_debug_info
 	#include <map>
-	#include <GetSet/StringType.hxx>
+	#include <C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/GetSet/StringType.hxx>
 	extern void setMemoryAllocation(std::string type, void * location, int length, bool active);
 	namespace UtilsCuda {
 		std::map<void*,std::pair<int,std::string> > getLog();

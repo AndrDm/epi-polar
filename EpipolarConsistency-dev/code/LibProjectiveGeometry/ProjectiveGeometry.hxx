@@ -3,7 +3,8 @@
 // Created by aaichert on Wed Sept 3rd 2014
 // Types for projective two- and three-space including join and meet operations for points, lines and planes.
 
-#include <Eigen/Core>
+#include <C:/Users/Andrey/Desktop/epi-polar/Eigen-5.0.1-dev/Eigen/Core>
+#include <C:/Users/Andrey/Desktop/epi-polar/Eigen-5.0.1-dev/Eigen/Geometry> // Fix
 
 #include <limits>
 
