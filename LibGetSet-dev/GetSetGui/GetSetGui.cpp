@@ -2,7 +2,7 @@
 //  Library: GetSet
 //  c++ library for load/saving *typed* and *named* properties and automatic GUI.
 //  
-//  Copyright (c) by André Aichert (aaichert@gmail.com)
+//  Copyright (c) by Andre Aichert (aaichert@gmail.com)
 //    
 //  Licensed under the Apache License, Version 2.0 (the "License");
 //  you may not use this file except in compliance with the License.

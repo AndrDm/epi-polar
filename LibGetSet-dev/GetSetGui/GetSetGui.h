@@ -2,7 +2,7 @@
 //  Library: GetSet
 //  c++ library for load/saving *typed* and *named* properties and automatic GUI.
 //  
-//  Copyright (c) by André Aichert (aaichert@gmail.com)
+//  Copyright (c) by Andre Aichert (aaichert@gmail.com)
 //    
 //  Licensed under the Apache License, Version 2.0 (the "License");
 //  you may not use this file except in compliance with the License.
@@ -38,26 +38,26 @@ namespace GetSetGui
 	class Application : public ProgressInterface
 	{
 	protected:
-		GetSetInternal::Dictionary&	dict;
+		GetSetInternal::Dictionary& dict;
 		GetSetIO::CmdLineParser		cmd;
-		QApplication				*qt_app;
-		GetSetHandler				*callback;
-		GetSetTabWidget				*main_window;
-		GetSetProgressWindow		*progress_window;
-		GetSetLog					*log;
+		QApplication* qt_app;
+		GetSetHandler* callback;
+		GetSetTabWidget* main_window;
+		GetSetProgressWindow* progress_window;
+		GetSetLog* log;
 
 	public:
 		/// Running a stand-alone application from a GetSet Object.
 		template <class GetSetObject>
 		static int exec() {
 			using namespace std::placeholders;
-			std::string type_name=typeName<GetSetObject>();
-			int argc=1;
-			char *argv[]={&type_name[0],0x0};
+			std::string type_name = typeName<GetSetObject>();
+			int argc = 1;
+			char* argv[] = { &type_name[0],0x0 };
 			Application  app(type_name);
-			GetSetObject obj(GetSetGui::Section(type_name),&app);
+			GetSetObject obj(GetSetGui::Section(type_name), &app);
 			obj.gui_init();
-			app.init(argc,argv,std::bind(&Application::saveSettings, &app));
+			app.init(argc, argv, std::bind(&Application::saveSettings, &app));
 			return app.exec();
 		}
 
@@ -75,14 +75,14 @@ namespace GetSetGui
 		int exec();
 
 		/// Parse command line and load settings. Must be called before exec!
-		bool init(int &argc, char **argv, std::function<void(const GetSetInternal::Node&)> gui);
+		bool init(int& argc, char** argv, std::function<void(const GetSetInternal::Node&)> gui);
 
 		/// Access underlying dictionary
-		const GetSetInternal::Dictionary& dictionary() {return dict;}
+		const GetSetInternal::Dictionary& dictionary() { return dict; }
 
 		/// Access to main window
 		GetSetTabWidget& window();
-		
+
 		//
 		// Showing model progress bar
 		//
@@ -91,7 +91,7 @@ namespace GetSetGui
 		GetSetProgressWindow& progress();
 
 		/// Show progress bar and hide main window (optionally includes a "cancel" button)
-		virtual void progressStart(const std::string& progress, const std::string& info, int maximum=100, bool *cancel_clicked=0x0);
+		virtual void progressStart(const std::string& progress, const std::string& info, int maximum = 100, bool* cancel_clicked = 0x0);
 
 		/// Show progress bar and hide main window
 		virtual void progressUpdate(int i);
@@ -104,10 +104,10 @@ namespace GetSetGui
 		//
 
 		/// Inform the user of something important. (optional: show modal dialog)
-		virtual void info(const std::string& who, const std::string& what, bool show_dialog=false);
+		virtual void info(const std::string& who, const std::string& what, bool show_dialog = false);
 
 		/// Inform the user of a problem. (optional: show modal dialog)
-		virtual void warn(const std::string& who, const std::string& what, bool only_inormative=true);
+		virtual void warn(const std::string& who, const std::string& what, bool only_inormative = true);
 
 		//
 		// Ini-File and Scripting

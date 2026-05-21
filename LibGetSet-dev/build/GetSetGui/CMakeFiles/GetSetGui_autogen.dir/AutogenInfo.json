@@ -99,19 +99,19 @@
 	"MOC_INCLUDES" : [],
 	"MOC_INCLUDES_Debug" : 
 	[
-		"C:/Qt/6.10.2/msvc2022_64/include/QtWidgets",
-		"C:/Qt/6.10.2/msvc2022_64/include",
-		"C:/Qt/6.10.2/msvc2022_64/include/QtCore",
-		"C:/Qt/6.10.2/msvc2022_64/mkspecs/win32-msvc",
-		"C:/Qt/6.10.2/msvc2022_64/include/QtGui"
+		"C:/Qt/6.10.2/include/QtWidgets",
+		"C:/Qt/6.10.2/include",
+		"C:/Qt/6.10.2/include/QtCore",
+		"C:/Qt/6.10.2/mkspecs/win32-msvc",
+		"C:/Qt/6.10.2/include/QtGui"
 	],
 	"MOC_INCLUDES_Release" : 
 	[
-		"C:/Qt/6.10.2/msvc2022_64/include/QtWidgets",
-		"C:/Qt/6.10.2/msvc2022_64/include",
-		"C:/Qt/6.10.2/msvc2022_64/include/QtCore",
-		"C:/Qt/6.10.2/msvc2022_64/mkspecs/win32-msvc",
-		"C:/Qt/6.10.2/msvc2022_64/include/QtGui"
+		"C:/Qt/6.10.2/include/QtWidgets",
+		"C:/Qt/6.10.2/include",
+		"C:/Qt/6.10.2/include/QtCore",
+		"C:/Qt/6.10.2/mkspecs/win32-msvc",
+		"C:/Qt/6.10.2/include/QtGui"
 	],
 	"MOC_MACRO_NAMES" : 
 	[
@@ -129,13 +129,13 @@
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : true,
-	"PARALLEL" : 4,
+	"PARALLEL" : 10,
 	"PARSE_CACHE_FILE" : "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/build/GetSetGui/CMakeFiles/GetSetGui_autogen.dir/ParseCache.txt",
 	"PARSE_CACHE_FILE_Debug" : "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/build/GetSetGui/CMakeFiles/GetSetGui_autogen.dir/ParseCache_Debug.txt",
 	"PARSE_CACHE_FILE_Release" : "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/build/GetSetGui/CMakeFiles/GetSetGui_autogen.dir/ParseCache_Release.txt",
 	"QT_MOC_EXECUTABLE" : "",
-	"QT_MOC_EXECUTABLE_Debug" : "C:/Qt/6.10.2/msvc2022_64/bin/moc.exe",
-	"QT_MOC_EXECUTABLE_Release" : "C:/Qt/6.10.2/msvc2022_64/bin/moc.exe",
+	"QT_MOC_EXECUTABLE_Debug" : "C:/Qt/6.10.2/bin/moc.exe",
+	"QT_MOC_EXECUTABLE_Release" : "C:/Qt/6.10.2/bin/moc.exe",
 	"QT_UIC_EXECUTABLE" : "",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 10,

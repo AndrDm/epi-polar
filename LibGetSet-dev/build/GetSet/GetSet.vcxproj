@@ -62,22 +62,30 @@
       <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/build/GetSet/GetSet_autogen/include_Debug"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
-      <BufferSecurityCheck></BufferSecurityCheck>
-      <CallingConvention></CallingConvention>
+      <BufferSecurityCheck>
+      </BufferSecurityCheck>
+      <CallingConvention>
+      </CallingConvention>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
       <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
-      <FloatingPointModel></FloatingPointModel>
-      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <FloatingPointModel>
+      </FloatingPointModel>
+      <ForceConformanceInForLoopScope>
+      </ForceConformanceInForLoopScope>
       <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
-      <MinimalRebuild></MinimalRebuild>
+      <MinimalRebuild>
+      </MinimalRebuild>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <Optimization>Disabled</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RemoveUnreferencedCodeData>
+      </RemoveUnreferencedCodeData>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
-      <SupportJustMyCode></SupportJustMyCode>
-      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <SupportJustMyCode>
+      </SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType>
+      </TreatWChar_tAsBuiltInType>
       <UseFullPaths>false</UseFullPaths>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_MBCS;CMAKE_INTDIR="Debug";GetSet_EXPORTS</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
@@ -132,15 +140,19 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <Link>
       <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <DataExecutionPrevention></DataExecutionPrevention>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImageHasSafeExceptionHandlers>
+      </ImageHasSafeExceptionHandlers>
       <ImportLibrary>C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/build/GetSet/Debug/GetSetd.lib</ImportLibrary>
-      <LinkErrorReporting></LinkErrorReporting>
+      <LinkErrorReporting>
+      </LinkErrorReporting>
       <ModuleDefinitionFile>C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/build/GetSet/GetSet.dir/Debug/exports.def</ModuleDefinitionFile>
       <ProgramDataBaseFile>C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/bin/Debug/GetSetd.pdb</ProgramDataBaseFile>
-      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <RandomizedBaseAddress>
+      </RandomizedBaseAddress>
       <SubSystem>Console</SubSystem>
       <Version>2.7</Version>
     </Link>
@@ -153,27 +165,36 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/build/GetSet/GetSet_autogen/include_Release"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
-      <BufferSecurityCheck></BufferSecurityCheck>
-      <CallingConvention></CallingConvention>
+      <BufferSecurityCheck>
+      </BufferSecurityCheck>
+      <CallingConvention>
+      </CallingConvention>
       <ExceptionHandling>Sync</ExceptionHandling>
       <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
-      <FloatingPointModel></FloatingPointModel>
-      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <FloatingPointModel>
+      </FloatingPointModel>
+      <ForceConformanceInForLoopScope>
+      </ForceConformanceInForLoopScope>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
-      <MinimalRebuild></MinimalRebuild>
+      <MinimalRebuild>
+      </MinimalRebuild>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <Optimization>MaxSpeed</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RemoveUnreferencedCodeData>
+      </RemoveUnreferencedCodeData>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
-      <SupportJustMyCode></SupportJustMyCode>
-      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <SupportJustMyCode>
+      </SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType>
+      </TreatWChar_tAsBuiltInType>
       <UseFullPaths>false</UseFullPaths>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_MBCS;CMAKE_INTDIR="Release";GetSet_EXPORTS</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
       <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_MBCS;CMAKE_INTDIR=\"Release\";GetSet_EXPORTS</PreprocessorDefinitions>
@@ -224,15 +245,19 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <Link>
       <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <DataExecutionPrevention></DataExecutionPrevention>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImageHasSafeExceptionHandlers>
+      </ImageHasSafeExceptionHandlers>
       <ImportLibrary>C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/build/GetSet/Release/GetSet.lib</ImportLibrary>
-      <LinkErrorReporting></LinkErrorReporting>
+      <LinkErrorReporting>
+      </LinkErrorReporting>
       <ModuleDefinitionFile>C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/build/GetSet/GetSet.dir/Release/exports.def</ModuleDefinitionFile>
       <ProgramDataBaseFile>C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/bin/Release/GetSet.pdb</ProgramDataBaseFile>
-      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <RandomizedBaseAddress>
+      </RandomizedBaseAddress>
       <SubSystem>Console</SubSystem>
       <Version>2.7</Version>
     </Link>

@@ -8,7 +8,19 @@
       <FullPath>C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\bin\Release\GetSet.dll</FullPath>
     </ProjectOutput>
     <ProjectOutput>
+      <FullPath>C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\bin\Release\GetSetGui.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\bin\Release\ExampleAdvanced.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
       <FullPath>C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\bin\Release\ExampleSimple.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\bin\Release\GetSetScript.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\bin\Release\GetSetTest.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
       <FullPath>C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\bin\Release\config.exe</FullPath>

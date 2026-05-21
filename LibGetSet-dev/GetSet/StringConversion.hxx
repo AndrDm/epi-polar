@@ -2,7 +2,7 @@
 //  Library: GetSet
 //  c++ library for load/saving *typed* and *named* properties and automatic GUI.
 //  
-//  Copyright (c) by André Aichert (aaichert@gmail.com)
+//  Copyright (c) by Andre Aichert (aaichert@gmail.com)
 //    
 //  Licensed under the Apache License, Version 2.0 (the "License");
 //  you may not use this file except in compliance with the License.
@@ -73,6 +73,7 @@ template <typename T> inline std::string vectorToString(const std::vector<T>& in
 }
 
 // Conversion of a string to a vector of any type
+/*
 template <typename T=std::string> inline std::vector<T> stringToVector(const std::string& in, const char delim=' ', bool multiple=false)
 {
 	std::string item;
@@ -81,6 +82,24 @@ template <typename T=std::string> inline std::vector<T> stringToVector(const std
 	for (;std::getline(str,item,delim);str&&!str.eof())
 		if (multiple||!item.empty())
 		ret.push_back(stringTo<T>(item));
+	return ret;
+}
+*/
+template <typename T = std::string>
+inline std::vector<T> stringToVector(const std::string& in,
+	const char delim = ' ',
+	bool multiple = false)
+{
+	std::string item;
+	std::vector<T> ret;
+	std::istringstream str(in);
+
+	while (std::getline(str, item, delim))
+	{
+		if (multiple || !item.empty())
+			ret.push_back(stringTo<T>(item));
+	}
+
 	return ret;
 }
 

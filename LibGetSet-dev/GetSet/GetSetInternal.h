@@ -96,6 +96,40 @@ namespace GetSetInternal {
 	template <typename T>
 	class Key : public Node {
 	public:
+		Key(Section& _section, const std::string& _name,
+			const T& def = default_value<T>())
+			: Node(_section, _name), value(def)
+		{}
+
+		virtual void setString(const std::string& v) {
+			value = stringTo<T>(v);
+			signalChange();
+		}
+
+		virtual std::string getString() const {
+			return toString(value);
+		}
+
+		virtual void setValue(const T& v) {
+			value = v;
+			signalChange();
+		}
+
+		virtual const T& getValue() const {
+			return value;
+		}
+
+		virtual std::string getType() const {
+			return typeName<T>();
+		}
+
+	private:
+		T value;
+	};
+	/*
+	template <typename T>
+	class Key : public Node {
+	public:
 		Key(Section& _section, const std::string& _name, const T& default_value = default_value<T>())
 			: Node(_section, _name), value(default_value) {
 		}
@@ -125,6 +159,8 @@ namespace GetSetInternal {
 	private:
 		T value;
 	};
+
+	*/
 
 	/*
 	template <typename T>

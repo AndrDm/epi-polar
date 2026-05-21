@@ -59,27 +59,35 @@
   <PropertyGroup />
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/build/GetSetGui/GetSetGui_autogen/include_Debug" /external:I "C:/Qt/6.10.2/msvc2022_64/include/QtWidgets" /external:I "C:/Qt/6.10.2/msvc2022_64/include" /external:I "C:/Qt/6.10.2/msvc2022_64/include/QtCore" /external:I "C:/Qt/6.10.2/msvc2022_64/mkspecs/win32-msvc" /external:I "C:/Qt/6.10.2/msvc2022_64/include/QtGui" -Zc:__cplusplus -utf-8</AdditionalOptions>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/build/GetSetGui/GetSetGui_autogen/include_Debug" /external:I "C:/Qt/6.10.2/include/QtWidgets" /external:I "C:/Qt/6.10.2/include" /external:I "C:/Qt/6.10.2/include/QtCore" /external:I "C:/Qt/6.10.2/mkspecs/win32-msvc" /external:I "C:/Qt/6.10.2/include/QtGui" -Zc:__cplusplus -utf-8</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
-      <BufferSecurityCheck></BufferSecurityCheck>
-      <CallingConvention></CallingConvention>
+      <BufferSecurityCheck>
+      </BufferSecurityCheck>
+      <CallingConvention>
+      </CallingConvention>
       <ConformanceMode>true</ConformanceMode>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
       <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
-      <FloatingPointModel></FloatingPointModel>
-      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <FloatingPointModel>
+      </FloatingPointModel>
+      <ForceConformanceInForLoopScope>
+      </ForceConformanceInForLoopScope>
       <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <MinimalRebuild></MinimalRebuild>
+      <MinimalRebuild>
+      </MinimalRebuild>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <Optimization>Disabled</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RemoveUnreferencedCodeData>
+      </RemoveUnreferencedCodeData>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
-      <SupportJustMyCode></SupportJustMyCode>
-      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <SupportJustMyCode>
+      </SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType>
+      </TreatWChar_tAsBuiltInType>
       <UseFullPaths>false</UseFullPaths>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;QT_WIDGETS_LIB;QT_CORE_LIB;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;_WIN64;UNICODE;_UNICODE;QT_GUI_LIB;CMAKE_INTDIR="Debug";GetSetGui_EXPORTS</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
@@ -87,10 +95,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;QT_WIDGETS_LIB;QT_CORE_LIB;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;_WIN64;UNICODE;_UNICODE;QT_GUI_LIB;CMAKE_INTDIR=\"Debug\";GetSetGui_EXPORTS</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\build\GetSetGui\GetSetGui_autogen\include_Debug;C:\Qt\6.10.2\msvc2022_64\include\QtWidgets;C:\Qt\6.10.2\msvc2022_64\include;C:\Qt\6.10.2\msvc2022_64\include\QtCore;C:\Qt\6.10.2\msvc2022_64\mkspecs\win32-msvc;C:\Qt\6.10.2\msvc2022_64\include\QtGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\build\GetSetGui\GetSetGui_autogen\include_Debug;C:\Qt\6.10.2\include\QtWidgets;C:\Qt\6.10.2\include;C:\Qt\6.10.2\include\QtCore;C:\Qt\6.10.2\mkspecs\win32-msvc;C:\Qt\6.10.2\include\QtGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\build\GetSetGui\GetSetGui_autogen\include_Debug;C:\Qt\6.10.2\msvc2022_64\include\QtWidgets;C:\Qt\6.10.2\msvc2022_64\include;C:\Qt\6.10.2\msvc2022_64\include\QtCore;C:\Qt\6.10.2\msvc2022_64\mkspecs\win32-msvc;C:\Qt\6.10.2\msvc2022_64\include\QtGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\build\GetSetGui\GetSetGui_autogen\include_Debug;C:\Qt\6.10.2\include\QtWidgets;C:\Qt\6.10.2\include;C:\Qt\6.10.2\include\QtCore;C:\Qt\6.10.2\mkspecs\win32-msvc;C:\Qt\6.10.2\include\QtGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -100,65 +108,37 @@
     <PreLinkEvent>
       <UseUtf8Encoding>Always</UseUtf8Encoding>
       <Message>Auto build dll exports</Message>
-      <Command>setlocal
-cd C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\build\GetSetGui
-if %errorlevel% neq 0 goto :cmEnd
-C:
-if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E __create_def C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/build/GetSetGui/GetSetGui.dir/Debug/exports.def C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/build/GetSetGui/GetSetGui.dir/Debug//objects.txt
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command>
+      </Command>
     </PreLinkEvent>
     <PreBuildEvent>
       <UseUtf8Encoding>Always</UseUtf8Encoding>
       <Message>Automatic MOC for target GetSetGui</Message>
-      <Command>setlocal
-cd C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\build\GetSetGui
-if %errorlevel% neq 0 goto :cmEnd
-C:
-if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/build/GetSetGui/CMakeFiles/GetSetGui_autogen.dir/AutogenInfo.json Debug
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command>
+      </Command>
     </PreBuildEvent>
     <PostBuildEvent>
-      <Message></Message>
-      <Command>setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different   C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/bin/Debug
-if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different   C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/bin/Debug
-if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different   C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/bin/Debug
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Message>
+      </Message>
+      <Command>
+      </Command>
     </PostBuildEvent>
     <Link>
-      <AdditionalDependencies>C:\Qt\6.10.2\msvc2022_64\lib\Qt6Widgetsd.lib;C:\Qt\6.10.2\msvc2022_64\lib\Qt6Guid.lib;C:\Qt\6.10.2\msvc2022_64\lib\Qt6Cored.lib;mpr.lib;userenv.lib;d3d11.lib;dxgi.lib;dxguid.lib;d3d12.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\build\GetSet\Debug\GetSetd.lib;C:\Qt\6.10.2\lib\Qt6Widgetsd.lib;C:\Qt\6.10.2\lib\Qt6Guid.lib;C:\Qt\6.10.2\lib\Qt6Cored.lib;mpr.lib;userenv.lib;d3d11.lib;dxgi.lib;dxguid.lib;d3d12.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <DataExecutionPrevention></DataExecutionPrevention>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImageHasSafeExceptionHandlers>
+      </ImageHasSafeExceptionHandlers>
       <ImportLibrary>C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/build/GetSetGui/Debug/GetSetGuid.lib</ImportLibrary>
-      <LinkErrorReporting></LinkErrorReporting>
+      <LinkErrorReporting>
+      </LinkErrorReporting>
       <ModuleDefinitionFile>C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/build/GetSetGui/GetSetGui.dir/Debug/exports.def</ModuleDefinitionFile>
       <ProgramDataBaseFile>C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/bin/Debug/GetSetGuid.pdb</ProgramDataBaseFile>
-      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <RandomizedBaseAddress>
+      </RandomizedBaseAddress>
       <SubSystem>Console</SubSystem>
       <Version>2.7</Version>
     </Link>
@@ -168,26 +148,34 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/build/GetSetGui/GetSetGui_autogen/include_Release" /external:I "C:/Qt/6.10.2/msvc2022_64/include/QtWidgets" /external:I "C:/Qt/6.10.2/msvc2022_64/include" /external:I "C:/Qt/6.10.2/msvc2022_64/include/QtCore" /external:I "C:/Qt/6.10.2/msvc2022_64/mkspecs/win32-msvc" /external:I "C:/Qt/6.10.2/msvc2022_64/include/QtGui" -Zc:__cplusplus -utf-8</AdditionalOptions>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/build/GetSetGui/GetSetGui_autogen/include_Release" /external:I "C:/Qt/6.10.2/include/QtWidgets" /external:I "C:/Qt/6.10.2/include" /external:I "C:/Qt/6.10.2/include/QtCore" /external:I "C:/Qt/6.10.2/mkspecs/win32-msvc" /external:I "C:/Qt/6.10.2/include/QtGui" -Zc:__cplusplus -utf-8</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
-      <BufferSecurityCheck></BufferSecurityCheck>
-      <CallingConvention></CallingConvention>
+      <BufferSecurityCheck>
+      </BufferSecurityCheck>
+      <CallingConvention>
+      </CallingConvention>
       <ConformanceMode>true</ConformanceMode>
       <ExceptionHandling>Sync</ExceptionHandling>
       <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
-      <FloatingPointModel></FloatingPointModel>
-      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <FloatingPointModel>
+      </FloatingPointModel>
+      <ForceConformanceInForLoopScope>
+      </ForceConformanceInForLoopScope>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
-      <LanguageStandard>stdcpp17</LanguageStandard>
-      <MinimalRebuild></MinimalRebuild>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild>
+      </MinimalRebuild>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <Optimization>MaxSpeed</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RemoveUnreferencedCodeData>
+      </RemoveUnreferencedCodeData>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
-      <SupportJustMyCode></SupportJustMyCode>
-      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <SupportJustMyCode>
+      </SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType>
+      </TreatWChar_tAsBuiltInType>
       <UseFullPaths>false</UseFullPaths>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_CORE_LIB;QT_NO_DEBUG;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;_WIN64;UNICODE;_UNICODE;QT_GUI_LIB;CMAKE_INTDIR="Release";GetSetGui_EXPORTS</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
@@ -197,10 +185,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;QT_WIDGETS_LIB;QT_CORE_LIB;QT_NO_DEBUG;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;_WIN64;UNICODE;_UNICODE;QT_GUI_LIB;CMAKE_INTDIR=\"Release\";GetSetGui_EXPORTS</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\build\GetSetGui\GetSetGui_autogen\include_Release;C:\Qt\6.10.2\msvc2022_64\include\QtWidgets;C:\Qt\6.10.2\msvc2022_64\include;C:\Qt\6.10.2\msvc2022_64\include\QtCore;C:\Qt\6.10.2\msvc2022_64\mkspecs\win32-msvc;C:\Qt\6.10.2\msvc2022_64\include\QtGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\build\GetSetGui\GetSetGui_autogen\include_Release;C:\Qt\6.10.2\include\QtWidgets;C:\Qt\6.10.2\include;C:\Qt\6.10.2\include\QtCore;C:\Qt\6.10.2\mkspecs\win32-msvc;C:\Qt\6.10.2\include\QtGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\build\GetSetGui\GetSetGui_autogen\include_Release;C:\Qt\6.10.2\msvc2022_64\include\QtWidgets;C:\Qt\6.10.2\msvc2022_64\include;C:\Qt\6.10.2\msvc2022_64\include\QtCore;C:\Qt\6.10.2\msvc2022_64\mkspecs\win32-msvc;C:\Qt\6.10.2\msvc2022_64\include\QtGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\build\GetSetGui\GetSetGui_autogen\include_Release;C:\Qt\6.10.2\include\QtWidgets;C:\Qt\6.10.2\include;C:\Qt\6.10.2\include\QtCore;C:\Qt\6.10.2\mkspecs\win32-msvc;C:\Qt\6.10.2\include\QtGui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -210,65 +198,37 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PreLinkEvent>
       <UseUtf8Encoding>Always</UseUtf8Encoding>
       <Message>Auto build dll exports</Message>
-      <Command>setlocal
-cd C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\build\GetSetGui
-if %errorlevel% neq 0 goto :cmEnd
-C:
-if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E __create_def C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/build/GetSetGui/GetSetGui.dir/Release/exports.def C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/build/GetSetGui/GetSetGui.dir/Release//objects.txt
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command>
+      </Command>
     </PreLinkEvent>
     <PreBuildEvent>
       <UseUtf8Encoding>Always</UseUtf8Encoding>
       <Message>Automatic MOC for target GetSetGui</Message>
-      <Command>setlocal
-cd C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\build\GetSetGui
-if %errorlevel% neq 0 goto :cmEnd
-C:
-if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/build/GetSetGui/CMakeFiles/GetSetGui_autogen.dir/AutogenInfo.json Release
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command>
+      </Command>
     </PreBuildEvent>
     <PostBuildEvent>
-      <Message></Message>
-      <Command>setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different   C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/bin/Release
-if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different   C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/bin/Release
-if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different   C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/bin/Release
-if %errorlevel% neq 0 goto :cmEnd
-:cmEnd
-endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
-:cmErrorLevel
-exit /b %1
-:cmDone
-if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Message>
+      </Message>
+      <Command>
+      </Command>
     </PostBuildEvent>
     <Link>
-      <AdditionalDependencies>C:\Qt\6.10.2\msvc2022_64\lib\Qt6Widgets.lib;C:\Qt\6.10.2\msvc2022_64\lib\Qt6Gui.lib;C:\Qt\6.10.2\msvc2022_64\lib\Qt6Core.lib;mpr.lib;userenv.lib;d3d11.lib;dxgi.lib;dxguid.lib;d3d12.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\build\GetSet\Release\GetSet.lib;C:\Qt\6.10.2\lib\Qt6Widgets.lib;C:\Qt\6.10.2\lib\Qt6Gui.lib;C:\Qt\6.10.2\lib\Qt6Core.lib;mpr.lib;userenv.lib;d3d11.lib;dxgi.lib;dxguid.lib;d3d12.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <DataExecutionPrevention></DataExecutionPrevention>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImageHasSafeExceptionHandlers>
+      </ImageHasSafeExceptionHandlers>
       <ImportLibrary>C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/build/GetSetGui/Release/GetSetGui.lib</ImportLibrary>
-      <LinkErrorReporting></LinkErrorReporting>
+      <LinkErrorReporting>
+      </LinkErrorReporting>
       <ModuleDefinitionFile>C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/build/GetSetGui/GetSetGui.dir/Release/exports.def</ModuleDefinitionFile>
       <ProgramDataBaseFile>C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/bin/Release/GetSetGui.pdb</ProgramDataBaseFile>
-      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <RandomizedBaseAddress>
+      </RandomizedBaseAddress>
       <SubSystem>Console</SubSystem>
       <Version>2.7</Version>
     </Link>
