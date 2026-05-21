@@ -52,35 +52,35 @@ add_library(NLopt::nlopt SHARED IMPORTED)
 set_target_properties(NLopt::nlopt PROPERTIES
   INTERFACE_COMPILE_DEFINITIONS "NLOPT_DLL"
   INTERFACE_COMPILE_FEATURES "cxx_lambdas"
-  INTERFACE_INCLUDE_DIRECTORIES "C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-build/src/api;C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-build/build"
+  INTERFACE_INCLUDE_DIRECTORIES "C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-dev/src/api;C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-dev/build"
 )
 
 # Import target "NLopt::nlopt" for configuration "Debug"
 set_property(TARGET NLopt::nlopt APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(NLopt::nlopt PROPERTIES
-  IMPORTED_IMPLIB_DEBUG "C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-build/build/Debug/nlopt.lib"
-  IMPORTED_LOCATION_DEBUG "C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-build/build/Debug/nlopt.dll"
+  IMPORTED_IMPLIB_DEBUG "C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-dev/build/Debug/nlopt.lib"
+  IMPORTED_LOCATION_DEBUG "C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-dev/build/Debug/nlopt.dll"
   )
 
 # Import target "NLopt::nlopt" for configuration "Release"
 set_property(TARGET NLopt::nlopt APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(NLopt::nlopt PROPERTIES
-  IMPORTED_IMPLIB_RELEASE "C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-build/build/Release/nlopt.lib"
-  IMPORTED_LOCATION_RELEASE "C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-build/build/Release/nlopt.dll"
+  IMPORTED_IMPLIB_RELEASE "C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-dev/build/Release/nlopt.lib"
+  IMPORTED_LOCATION_RELEASE "C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-dev/build/Release/nlopt.dll"
   )
 
 # Import target "NLopt::nlopt" for configuration "MinSizeRel"
 set_property(TARGET NLopt::nlopt APPEND PROPERTY IMPORTED_CONFIGURATIONS MINSIZEREL)
 set_target_properties(NLopt::nlopt PROPERTIES
-  IMPORTED_IMPLIB_MINSIZEREL "C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-build/build/MinSizeRel/nlopt.lib"
-  IMPORTED_LOCATION_MINSIZEREL "C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-build/build/MinSizeRel/nlopt.dll"
+  IMPORTED_IMPLIB_MINSIZEREL "C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-dev/build/MinSizeRel/nlopt.lib"
+  IMPORTED_LOCATION_MINSIZEREL "C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-dev/build/MinSizeRel/nlopt.dll"
   )
 
 # Import target "NLopt::nlopt" for configuration "RelWithDebInfo"
 set_property(TARGET NLopt::nlopt APPEND PROPERTY IMPORTED_CONFIGURATIONS RELWITHDEBINFO)
 set_target_properties(NLopt::nlopt PROPERTIES
-  IMPORTED_IMPLIB_RELWITHDEBINFO "C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-build/build/RelWithDebInfo/nlopt.lib"
-  IMPORTED_LOCATION_RELWITHDEBINFO "C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-build/build/RelWithDebInfo/nlopt.dll"
+  IMPORTED_IMPLIB_RELWITHDEBINFO "C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-dev/build/RelWithDebInfo/nlopt.lib"
+  IMPORTED_LOCATION_RELWITHDEBINFO "C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-dev/build/RelWithDebInfo/nlopt.dll"
   )
 
 # This file does not depend on other imported targets which have

@@ -48,14 +48,14 @@ C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows-MSVC.cmake
 C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows.cmake
 C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/WindowsPaths.cmake
 C:/Program Files/CMake/share/cmake-4.3/Templates/CPackConfig.cmake.in
-C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-build/CMakeLists.txt
-C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-build/build/CMakeFiles/4.3.2/CMakeCCompiler.cmake
-C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-build/build/CMakeFiles/4.3.2/CMakeCXXCompiler.cmake
-C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-build/build/CMakeFiles/4.3.2/CMakeRCCompiler.cmake
-C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-build/build/CMakeFiles/4.3.2/CMakeSystem.cmake
-C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-build/cmake/FindGuile.cmake
-C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-build/cmake/FindOctave.cmake
-C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-build/cmake/NLoptConfig.cmake.in
-C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-build/cmake/NLoptConfigVersion.cmake.in
-C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-build/nlopt.pc.in
-C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-build/nlopt_config.h.in
+C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-dev/CMakeLists.txt
+C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-dev/build/CMakeFiles/4.3.2/CMakeCCompiler.cmake
+C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-dev/build/CMakeFiles/4.3.2/CMakeCXXCompiler.cmake
+C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-dev/build/CMakeFiles/4.3.2/CMakeRCCompiler.cmake
+C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-dev/build/CMakeFiles/4.3.2/CMakeSystem.cmake
+C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-dev/cmake/FindGuile.cmake
+C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-dev/cmake/FindOctave.cmake
+C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-dev/cmake/NLoptConfig.cmake.in
+C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-dev/cmake/NLoptConfigVersion.cmake.in
+C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-dev/nlopt.pc.in
+C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-dev/nlopt_config.h.in

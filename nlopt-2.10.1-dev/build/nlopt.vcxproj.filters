@@ -1,261 +1,261 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\algs\direct\DIRect.c">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\algs\direct\DIRect.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\algs\direct\direct_wrap.c">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\algs\direct\direct_wrap.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\algs\direct\DIRserial.c">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\algs\direct\DIRserial.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\algs\direct\DIRsubrout.c">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\algs\direct\DIRsubrout.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\algs\cdirect\cdirect.c">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\algs\cdirect\cdirect.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\algs\cdirect\hybrid.c">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\algs\cdirect\hybrid.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\algs\praxis\praxis.c">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\algs\praxis\praxis.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\algs\crs\crs.c">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\algs\crs\crs.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\algs\mlsl\mlsl.c">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\algs\mlsl\mlsl.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\algs\mma\mma.c">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\algs\mma\mma.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\algs\mma\ccsa_quadratic.c">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\algs\mma\ccsa_quadratic.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\algs\cobyla\cobyla.c">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\algs\cobyla\cobyla.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\algs\newuoa\newuoa.c">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\algs\newuoa\newuoa.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\algs\neldermead\nldrmd.c">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\algs\neldermead\nldrmd.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\algs\neldermead\sbplx.c">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\algs\neldermead\sbplx.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\algs\auglag\auglag.c">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\algs\auglag\auglag.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\algs\bobyqa\bobyqa.c">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\algs\bobyqa\bobyqa.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\algs\isres\isres.c">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\algs\isres\isres.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\algs\slsqp\slsqp.c">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\algs\slsqp\slsqp.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\algs\esch\esch.c">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\algs\esch\esch.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\api\general.c">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\api\general.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\api\options.c">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\api\options.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\api\optimize.c">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\api\optimize.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\api\deprecated.c">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\api\deprecated.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\api\f77api.c">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\api\f77api.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\util\mt19937ar.c">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\util\mt19937ar.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\util\sobolseq.c">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\util\sobolseq.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\util\timer.c">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\util\timer.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\util\stop.c">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\util\stop.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\util\redblack.c">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\util\redblack.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\util\qsort_r.c">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\util\qsort_r.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\util\rescale.c">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\util\rescale.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\algs\luksan\plis.c">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\algs\luksan\plis.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\algs\luksan\plip.c">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\algs\luksan\plip.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\algs\luksan\pnet.c">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\algs\luksan\pnet.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\algs\luksan\mssubs.c">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\algs\luksan\mssubs.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\algs\luksan\pssubs.c">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\algs\luksan\pssubs.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\algs\stogo\global.cc">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\algs\stogo\global.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\algs\stogo\linalg.cc">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\algs\stogo\linalg.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\algs\stogo\local.cc">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\algs\stogo\local.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\algs\stogo\stogo.cc">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\algs\stogo\stogo.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\algs\stogo\tools.cc">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\algs\stogo\tools.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\algs\ags\evolvent.cc">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\algs\ags\evolvent.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\algs\ags\solver.cc">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\algs\ags\solver.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\algs\ags\local_optimizer.cc">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\algs\ags\local_optimizer.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\algs\ags\ags.cc">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\algs\ags\ags.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\algs\direct\direct-internal.h">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\algs\direct\direct-internal.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\algs\direct\direct.h">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\algs\direct\direct.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\algs\cdirect\cdirect.h">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\algs\cdirect\cdirect.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\algs\praxis\praxis.h">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\algs\praxis\praxis.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\algs\crs\crs.h">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\algs\crs\crs.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\algs\mlsl\mlsl.h">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\algs\mlsl\mlsl.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\algs\mma\mma.h">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\algs\mma\mma.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\algs\cobyla\cobyla.h">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\algs\cobyla\cobyla.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\algs\newuoa\newuoa.h">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\algs\newuoa\newuoa.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\algs\neldermead\neldermead.h">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\algs\neldermead\neldermead.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\algs\auglag\auglag.h">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\algs\auglag\auglag.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\algs\bobyqa\bobyqa.h">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\algs\bobyqa\bobyqa.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\algs\isres\isres.h">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\algs\isres\isres.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\algs\slsqp\slsqp.h">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\algs\slsqp\slsqp.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\algs\esch\esch.h">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\algs\esch\esch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\api\nlopt-internal.h">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\api\nlopt-internal.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\api\nlopt.h">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\api\nlopt.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\api\f77funcs.h">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\api\f77funcs.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\api\f77funcs_.h">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\api\f77funcs_.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\build\nlopt.hpp">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\build\nlopt.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\util\soboldata.h">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\util\soboldata.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\util\nlopt-util.h">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\util\nlopt-util.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\util\redblack.h">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\util\redblack.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\algs\luksan\luksan.h">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\algs\luksan\luksan.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\algs\stogo\global.h">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\algs\stogo\global.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\algs\stogo\linalg.h">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\algs\stogo\linalg.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\algs\stogo\local.h">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\algs\stogo\local.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\algs\stogo\stogo_config.h">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\algs\stogo\stogo_config.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\algs\stogo\stogo.h">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\algs\stogo\stogo.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\algs\stogo\tools.h">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\algs\stogo\tools.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\algs\ags\data_types.hpp">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\algs\ags\data_types.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\algs\ags\evolvent.hpp">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\algs\ags\evolvent.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\algs\ags\solver.hpp">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\algs\ags\solver.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\algs\ags\local_optimizer.hpp">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\algs\ags\local_optimizer.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\src\algs\ags\ags.h">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\src\algs\ags\ags.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{16B38384-5C4D-3641-BB75-7C2E6DBF77A4}</UniqueIdentifier>
+      <UniqueIdentifier>{D5D59C1D-92D8-332C-BD72-B2F899B441C9}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{DA8F9398-FAFF-3FA0-9427-A11121FEDFE3}</UniqueIdentifier>
+      <UniqueIdentifier>{447B60BA-4BA9-3E76-A0AB-FDEB90EDE459}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

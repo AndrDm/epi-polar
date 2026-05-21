@@ -1,4 +1,4 @@
-﻿  Building Custom Rule C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-build/CMakeLists.txt
+﻿  Building Custom Rule C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-dev/CMakeLists.txt
   DIRect.c
   direct_wrap.c
   DIRserial.c
@@ -49,5 +49,5 @@
   local_optimizer.cc
   ags.cc
   Generating Code...
-     Creating library C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-build/build/Release/nlopt.lib and object C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-build/build/Release/nlopt.exp
-  nlopt.vcxproj -> C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-build\build\Release\nlopt.dll
+     Creating library C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-dev/build/Release/nlopt.lib and object C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-dev/build/Release/nlopt.exp
+  nlopt.vcxproj -> C:\Users\Andrey\Desktop\epi-polar\nlopt-2.10.1-dev\build\Release\nlopt.dll

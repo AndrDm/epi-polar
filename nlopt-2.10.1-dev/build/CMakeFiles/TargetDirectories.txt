@@ -1,6 +1,6 @@
-C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-build/build/CMakeFiles/generate-cpp.dir
-C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-build/build/CMakeFiles/nlopt.dir
-C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-build/build/CMakeFiles/PACKAGE.dir
-C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-build/build/CMakeFiles/INSTALL.dir
-C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-build/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-build/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-dev/build/CMakeFiles/generate-cpp.dir
+C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-dev/build/CMakeFiles/nlopt.dir
+C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-dev/build/CMakeFiles/PACKAGE.dir
+C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-dev/build/CMakeFiles/INSTALL.dir
+C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-dev/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-dev/build/CMakeFiles/ZERO_CHECK.dir

@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-build/build/cmake_install.cmake"
+		"C:/Users/Andrey/Desktop/epi-polar/nlopt-2.10.1-dev/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }
