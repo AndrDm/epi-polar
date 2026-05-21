@@ -1,64 +1,64 @@
 {
 	"AUTOGEN_COMMAND_LINE_LENGTH_MAX" : 32000,
-	"BUILD_DIR" : "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/GetSetGui/GetSetGui_autogen",
-	"CMAKE_BINARY_DIR" : "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build",
-	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/GetSetGui",
-	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/GetSetGui",
+	"BUILD_DIR" : "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/build/GetSetGui/GetSetGui_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/build/GetSetGui",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/GetSetGui",
 	"CMAKE_EXECUTABLE" : "C:/Program Files/CMake/bin/cmake.exe",
 	"CMAKE_LIST_FILES" : 
 	[
-		"C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/GetSetGui/CMakeLists.txt"
+		"C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/GetSetGui/CMakeLists.txt"
 	],
-	"CMAKE_SOURCE_DIR" : "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build",
+	"CMAKE_SOURCE_DIR" : "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev",
 	"CROSS_CONFIG" : false,
 	"DEP_FILE" : "",
 	"DEP_FILE_RULE_NAME" : "",
 	"HEADERS" : 
 	[
 		[
-			"C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/GetSetGui/GetSetGui.h",
+			"C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/GetSetGui/GetSetGui.h",
 			"Mu",
 			"EWIEGA46WW/moc_GetSetGui.cpp",
 			null
 		],
 		[
-			"C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/GetSetGui/GetSetModalDialog.h",
+			"C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/GetSetGui/GetSetModalDialog.h",
 			"Mu",
 			"EWIEGA46WW/moc_GetSetModalDialog.cpp",
 			null
 		],
 		[
-			"C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/GetSetGui/GetSetProgressWindow.h",
+			"C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/GetSetGui/GetSetProgressWindow.h",
 			"Mu",
 			"EWIEGA46WW/moc_GetSetProgressWindow.cpp",
 			null
 		],
 		[
-			"C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/GetSetGui/GetSetScriptEdit.h",
+			"C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/GetSetGui/GetSetScriptEdit.h",
 			"Mu",
 			"EWIEGA46WW/moc_GetSetScriptEdit.cpp",
 			null
 		],
 		[
-			"C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/GetSetGui/GetSetTabWidget.h",
+			"C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/GetSetGui/GetSetTabWidget.h",
 			"Mu",
 			"EWIEGA46WW/moc_GetSetTabWidget.cpp",
 			null
 		],
 		[
-			"C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/GetSetGui/GetSetWidget.h",
+			"C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/GetSetGui/GetSetWidget.h",
 			"Mu",
 			"EWIEGA46WW/moc_GetSetWidget.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/GetSetGui/GetSetGui_autogen/include",
-	"INCLUDE_DIR_Debug" : "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/GetSetGui/GetSetGui_autogen/include_Debug",
-	"INCLUDE_DIR_Release" : "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/GetSetGui/GetSetGui_autogen/include_Release",
-	"MOC_COMPILATION_FILE" : "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/GetSetGui/GetSetGui_autogen/mocs_compilation.cpp",
-	"MOC_COMPILATION_FILE_Debug" : "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/GetSetGui/GetSetGui_autogen/mocs_compilation_Debug.cpp",
-	"MOC_COMPILATION_FILE_Release" : "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/GetSetGui/GetSetGui_autogen/mocs_compilation_Release.cpp",
+	"INCLUDE_DIR" : "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/build/GetSetGui/GetSetGui_autogen/include",
+	"INCLUDE_DIR_Debug" : "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/build/GetSetGui/GetSetGui_autogen/include_Debug",
+	"INCLUDE_DIR_Release" : "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/build/GetSetGui/GetSetGui_autogen/include_Release",
+	"MOC_COMPILATION_FILE" : "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/build/GetSetGui/GetSetGui_autogen/mocs_compilation.cpp",
+	"MOC_COMPILATION_FILE_Debug" : "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/build/GetSetGui/GetSetGui_autogen/mocs_compilation_Debug.cpp",
+	"MOC_COMPILATION_FILE_Release" : "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/build/GetSetGui/GetSetGui_autogen/mocs_compilation_Release.cpp",
 	"MOC_DEFINITIONS" : [],
 	"MOC_DEFINITIONS_Debug" : 
 	[
@@ -99,19 +99,19 @@
 	"MOC_INCLUDES" : [],
 	"MOC_INCLUDES_Debug" : 
 	[
-		"C:/Qt/6.10.2/include/QtWidgets",
-		"C:/Qt/6.10.2/include",
-		"C:/Qt/6.10.2/include/QtCore",
-		"C:/Qt/6.10.2/mkspecs/win32-msvc",
-		"C:/Qt/6.10.2/include/QtGui"
+		"C:/Qt/6.10.2/msvc2022_64/include/QtWidgets",
+		"C:/Qt/6.10.2/msvc2022_64/include",
+		"C:/Qt/6.10.2/msvc2022_64/include/QtCore",
+		"C:/Qt/6.10.2/msvc2022_64/mkspecs/win32-msvc",
+		"C:/Qt/6.10.2/msvc2022_64/include/QtGui"
 	],
 	"MOC_INCLUDES_Release" : 
 	[
-		"C:/Qt/6.10.2/include/QtWidgets",
-		"C:/Qt/6.10.2/include",
-		"C:/Qt/6.10.2/include/QtCore",
-		"C:/Qt/6.10.2/mkspecs/win32-msvc",
-		"C:/Qt/6.10.2/include/QtGui"
+		"C:/Qt/6.10.2/msvc2022_64/include/QtWidgets",
+		"C:/Qt/6.10.2/msvc2022_64/include",
+		"C:/Qt/6.10.2/msvc2022_64/include/QtCore",
+		"C:/Qt/6.10.2/msvc2022_64/mkspecs/win32-msvc",
+		"C:/Qt/6.10.2/msvc2022_64/include/QtGui"
 	],
 	"MOC_MACRO_NAMES" : 
 	[
@@ -129,48 +129,48 @@
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : true,
-	"PARALLEL" : 10,
-	"PARSE_CACHE_FILE" : "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/GetSetGui/CMakeFiles/GetSetGui_autogen.dir/ParseCache.txt",
-	"PARSE_CACHE_FILE_Debug" : "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/GetSetGui/CMakeFiles/GetSetGui_autogen.dir/ParseCache_Debug.txt",
-	"PARSE_CACHE_FILE_Release" : "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/GetSetGui/CMakeFiles/GetSetGui_autogen.dir/ParseCache_Release.txt",
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/build/GetSetGui/CMakeFiles/GetSetGui_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE_Debug" : "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/build/GetSetGui/CMakeFiles/GetSetGui_autogen.dir/ParseCache_Debug.txt",
+	"PARSE_CACHE_FILE_Release" : "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/build/GetSetGui/CMakeFiles/GetSetGui_autogen.dir/ParseCache_Release.txt",
 	"QT_MOC_EXECUTABLE" : "",
-	"QT_MOC_EXECUTABLE_Debug" : "C:/Qt/6.10.2/bin/moc.exe",
-	"QT_MOC_EXECUTABLE_Release" : "C:/Qt/6.10.2/bin/moc.exe",
+	"QT_MOC_EXECUTABLE_Debug" : "C:/Qt/6.10.2/msvc2022_64/bin/moc.exe",
+	"QT_MOC_EXECUTABLE_Release" : "C:/Qt/6.10.2/msvc2022_64/bin/moc.exe",
 	"QT_UIC_EXECUTABLE" : "",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 10,
-	"SETTINGS_FILE" : "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/GetSetGui/CMakeFiles/GetSetGui_autogen.dir/AutogenUsed.txt",
-	"SETTINGS_FILE_Debug" : "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/GetSetGui/CMakeFiles/GetSetGui_autogen.dir/AutogenUsed_Debug.txt",
-	"SETTINGS_FILE_Release" : "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/GetSetGui/CMakeFiles/GetSetGui_autogen.dir/AutogenUsed_Release.txt",
+	"SETTINGS_FILE" : "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/build/GetSetGui/CMakeFiles/GetSetGui_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE_Debug" : "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/build/GetSetGui/CMakeFiles/GetSetGui_autogen.dir/AutogenUsed_Debug.txt",
+	"SETTINGS_FILE_Release" : "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/build/GetSetGui/CMakeFiles/GetSetGui_autogen.dir/AutogenUsed_Release.txt",
 	"SOURCES" : 
 	[
 		[
-			"C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/GetSetGui/GetSetGui.cpp",
+			"C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/GetSetGui/GetSetGui.cpp",
 			"Mu",
 			null
 		],
 		[
-			"C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/GetSetGui/GetSetModalDialog.cpp",
+			"C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/GetSetGui/GetSetModalDialog.cpp",
 			"Mu",
 			null
 		],
 		[
-			"C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/GetSetGui/GetSetProgressWindow.cpp",
+			"C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/GetSetGui/GetSetProgressWindow.cpp",
 			"Mu",
 			null
 		],
 		[
-			"C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/GetSetGui/GetSetScriptEdit.cpp",
+			"C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/GetSetGui/GetSetScriptEdit.cpp",
 			"Mu",
 			null
 		],
 		[
-			"C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/GetSetGui/GetSetTabWidget.cpp",
+			"C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/GetSetGui/GetSetTabWidget.cpp",
 			"Mu",
 			null
 		],
 		[
-			"C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/GetSetGui/GetSetWidget.cpp",
+			"C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/GetSetGui/GetSetWidget.cpp",
 			"Mu",
 			null
 		]

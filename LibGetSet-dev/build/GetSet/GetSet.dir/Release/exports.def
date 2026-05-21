@@ -301,41 +301,19 @@ EXPORTS
 	??$_Construct_n@AEBQEAMAEBQEAM@?$vector@MV?$allocator@M@std@@@std@@AEAAX_KAEBQEAM1@Z
 	??$_Construct_n@AEBQEANAEBQEAN@?$vector@NV?$allocator@N@std@@@std@@AEAAX_KAEBQEAN1@Z
 	??$_Construct_n@AEBQEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBQEAV12@@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@AEAAX_KAEBQEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@1@Z
-	??$_Contiguous_iter_distance@PEBDPEBD@std@@YA_JAEBQEBD0@Z
-	??$_Contiguous_iter_verify@PEAD@std@@YAXAEBQEADAEB_J@Z
-	??$_Contiguous_iter_verify@PEAE@std@@YAXAEBQEAEAEB_J@Z
-	??$_Contiguous_iter_verify@PEAF@std@@YAXAEBQEAFAEB_J@Z
-	??$_Contiguous_iter_verify@PEAG@std@@YAXAEBQEAGAEB_J@Z
-	??$_Contiguous_iter_verify@PEAH@std@@YAXAEBQEAHAEB_J@Z
-	??$_Contiguous_iter_verify@PEAI@std@@YAXAEBQEAIAEB_J@Z
-	??$_Contiguous_iter_verify@PEAJ@std@@YAXAEBQEAJAEB_J@Z
-	??$_Contiguous_iter_verify@PEAK@std@@YAXAEBQEAKAEB_J@Z
-	??$_Contiguous_iter_verify@PEAM@std@@YAXAEBQEAMAEB_J@Z
-	??$_Contiguous_iter_verify@PEAN@std@@YAXAEBQEANAEB_J@Z
-	??$_Contiguous_iter_verify@PEBD@std@@YAXAEBQEBDAEB_J@Z
 	??$_Convert_size@_K_K@std@@YA_K_K@Z
 	??$_Copy@$0A@@?$_Tree@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@$0A@@std@@@std@@IEAAXAEBV01@@Z
 	??$_Copy_backward_unchecked@V?$_Vb_iterator@U?$_Wrap_alloc@V?$allocator@I@std@@@std@@@std@@V12@@std@@YA?AV?$_Vb_iterator@U?$_Wrap_alloc@V?$allocator@I@std@@@std@@@0@V10@00@Z
-	??$_Copy_memcpy@PEADPEAD@std@@YAPEADPEAD00@Z
-	??$_Copy_memcpy@PEAEPEAE@std@@YAPEAEPEAE00@Z
-	??$_Copy_memcpy@PEAFPEAF@std@@YAPEAFPEAF00@Z
-	??$_Copy_memcpy@PEAGPEAG@std@@YAPEAGPEAG00@Z
-	??$_Copy_memcpy@PEAHPEAH@std@@YAPEAHPEAH00@Z
-	??$_Copy_memcpy@PEAIPEAI@std@@YAPEAIPEAI00@Z
-	??$_Copy_memcpy@PEAJPEAJ@std@@YAPEAJPEAJ00@Z
-	??$_Copy_memcpy@PEAKPEAK@std@@YAPEAKPEAK00@Z
-	??$_Copy_memcpy@PEAMPEAM@std@@YAPEAMPEAM00@Z
-	??$_Copy_memcpy@PEANPEAN@std@@YAPEANPEAN00@Z
-	??$_Copy_memcpy_n@PEADPEAD@std@@YAPEADPEAD_K0@Z
-	??$_Copy_memcpy_n@PEAEPEAE@std@@YAPEAEPEAE_K0@Z
-	??$_Copy_memcpy_n@PEAFPEAF@std@@YAPEAFPEAF_K0@Z
-	??$_Copy_memcpy_n@PEAGPEAG@std@@YAPEAGPEAG_K0@Z
-	??$_Copy_memcpy_n@PEAHPEAH@std@@YAPEAHPEAH_K0@Z
-	??$_Copy_memcpy_n@PEAIPEAI@std@@YAPEAIPEAI_K0@Z
-	??$_Copy_memcpy_n@PEAJPEAJ@std@@YAPEAJPEAJ_K0@Z
-	??$_Copy_memcpy_n@PEAKPEAK@std@@YAPEAKPEAK_K0@Z
-	??$_Copy_memcpy_n@PEAMPEAM@std@@YAPEAMPEAM_K0@Z
-	??$_Copy_memcpy_n@PEANPEAN@std@@YAPEANPEAN_K0@Z
+	??$_Copy_memmove@PEADPEAD@std@@YAPEADPEAD00@Z
+	??$_Copy_memmove@PEAEPEAE@std@@YAPEAEPEAE00@Z
+	??$_Copy_memmove@PEAFPEAF@std@@YAPEAFPEAF00@Z
+	??$_Copy_memmove@PEAGPEAG@std@@YAPEAGPEAG00@Z
+	??$_Copy_memmove@PEAHPEAH@std@@YAPEAHPEAH00@Z
+	??$_Copy_memmove@PEAIPEAI@std@@YAPEAIPEAI00@Z
+	??$_Copy_memmove@PEAJPEAJ@std@@YAPEAJPEAJ00@Z
+	??$_Copy_memmove@PEAKPEAK@std@@YAPEAKPEAK00@Z
+	??$_Copy_memmove@PEAMPEAM@std@@YAPEAMPEAM00@Z
+	??$_Copy_memmove@PEANPEAN@std@@YAPEANPEAN00@Z
 	??$_Copy_memmove_n@PEADPEAD@std@@YAPEADPEAD_K0@Z
 	??$_Copy_memmove_n@PEAEPEAE@std@@YAPEAEPEAE_K0@Z
 	??$_Copy_memmove_n@PEAFPEAF@std@@YAPEAFPEAF_K0@Z
@@ -346,6 +324,16 @@ EXPORTS
 	??$_Copy_memmove_n@PEAKPEAK@std@@YAPEAKPEAK_K0@Z
 	??$_Copy_memmove_n@PEAMPEAM@std@@YAPEAMPEAM_K0@Z
 	??$_Copy_memmove_n@PEANPEAN@std@@YAPEANPEAN_K0@Z
+	??$_Copy_memmove_tail@PEAD@std@@YAPEADQEBDQEAD_K2@Z
+	??$_Copy_memmove_tail@PEAE@std@@YAPEAEQEBDQEAE_K2@Z
+	??$_Copy_memmove_tail@PEAF@std@@YAPEAFQEBDQEAF_K2@Z
+	??$_Copy_memmove_tail@PEAG@std@@YAPEAGQEBDQEAG_K2@Z
+	??$_Copy_memmove_tail@PEAH@std@@YAPEAHQEBDQEAH_K2@Z
+	??$_Copy_memmove_tail@PEAI@std@@YAPEAIQEBDQEAI_K2@Z
+	??$_Copy_memmove_tail@PEAJ@std@@YAPEAJQEBDQEAJ_K2@Z
+	??$_Copy_memmove_tail@PEAK@std@@YAPEAKQEBDQEAK_K2@Z
+	??$_Copy_memmove_tail@PEAM@std@@YAPEAMQEBDQEAM_K2@Z
+	??$_Copy_memmove_tail@PEAN@std@@YAPEANQEBDQEAN_K2@Z
 	??$_Copy_n_unchecked4@PEAD_KPEAD@std@@YAPEADPEAD_K0@Z
 	??$_Copy_n_unchecked4@PEAE_KPEAE@std@@YAPEAEPEAE_K0@Z
 	??$_Copy_n_unchecked4@PEAF_KPEAF@std@@YAPEAFPEAF_K0@Z
@@ -473,7 +461,6 @@ EXPORTS
 	??$_Find@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@?$_Tree@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAVNode@GetSetInternal@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAVNode@GetSetInternal@@@std@@@2@$0A@@std@@@std@@AEBAPEAU?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAVNode@GetSetInternal@@@std@@PEAX@1@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z
 	??$_Find@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@?$_Tree@V?$_Tmap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@$0A@@std@@@std@@AEBAPEAU?$_Tree_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@PEAX@1@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z
 	??$_Find@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@?$_Tree@V?$_Tset_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$less@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@$0A@@std@@@std@@AEBAPEAU?$_Tree_node@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAX@1@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z
-	??$_Find_arg_cast@ED@std@@YAED@Z
 	??$_Find_first_not_of_pos_vectorized@DD@std@@YA_KQEBD_K01@Z
 	??$_Find_last_not_of_pos_vectorized@DD@std@@YA_KQEBD_K01@Z
 	??$_Find_last_of_pos_vectorized@DD@std@@YA_KQEBD_K01@Z
@@ -570,56 +557,6 @@ EXPORTS
 	??$_Idl_distance@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@PEBD@std@@YA?A_PAEBQEBD0@Z
 	??$_Idl_distance@V?$_String_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@PEAD@std@@YA?A_PAEBQEAD0@Z
 	??$_Idl_distance@V?$_Vb_iterator@U?$_Wrap_alloc@V?$allocator@I@std@@@std@@@std@@V12@@std@@YA?A_PAEBV?$_Vb_iterator@U?$_Wrap_alloc@V?$allocator@I@std@@@std@@@0@0@Z
-	??$_Impl_copy_memmeow@$00PEADPEAD@std@@YAPEADPEAD00@Z
-	??$_Impl_copy_memmeow@$00PEAEPEAE@std@@YAPEAEPEAE00@Z
-	??$_Impl_copy_memmeow@$00PEAFPEAF@std@@YAPEAFPEAF00@Z
-	??$_Impl_copy_memmeow@$00PEAGPEAG@std@@YAPEAGPEAG00@Z
-	??$_Impl_copy_memmeow@$00PEAHPEAH@std@@YAPEAHPEAH00@Z
-	??$_Impl_copy_memmeow@$00PEAIPEAI@std@@YAPEAIPEAI00@Z
-	??$_Impl_copy_memmeow@$00PEAJPEAJ@std@@YAPEAJPEAJ00@Z
-	??$_Impl_copy_memmeow@$00PEAKPEAK@std@@YAPEAKPEAK00@Z
-	??$_Impl_copy_memmeow@$00PEAMPEAM@std@@YAPEAMPEAM00@Z
-	??$_Impl_copy_memmeow@$00PEANPEAN@std@@YAPEANPEAN00@Z
-	??$_Impl_copy_memmeow_n@$00PEADPEAD@std@@YAPEADPEAD_K0@Z
-	??$_Impl_copy_memmeow_n@$00PEAEPEAE@std@@YAPEAEPEAE_K0@Z
-	??$_Impl_copy_memmeow_n@$00PEAFPEAF@std@@YAPEAFPEAF_K0@Z
-	??$_Impl_copy_memmeow_n@$00PEAGPEAG@std@@YAPEAGPEAG_K0@Z
-	??$_Impl_copy_memmeow_n@$00PEAHPEAH@std@@YAPEAHPEAH_K0@Z
-	??$_Impl_copy_memmeow_n@$00PEAIPEAI@std@@YAPEAIPEAI_K0@Z
-	??$_Impl_copy_memmeow_n@$00PEAJPEAJ@std@@YAPEAJPEAJ_K0@Z
-	??$_Impl_copy_memmeow_n@$00PEAKPEAK@std@@YAPEAKPEAK_K0@Z
-	??$_Impl_copy_memmeow_n@$00PEAMPEAM@std@@YAPEAMPEAM_K0@Z
-	??$_Impl_copy_memmeow_n@$00PEANPEAN@std@@YAPEANPEAN_K0@Z
-	??$_Impl_copy_memmeow_n@$0A@PEADPEAD@std@@YAPEADPEAD_K0@Z
-	??$_Impl_copy_memmeow_n@$0A@PEAEPEAE@std@@YAPEAEPEAE_K0@Z
-	??$_Impl_copy_memmeow_n@$0A@PEAFPEAF@std@@YAPEAFPEAF_K0@Z
-	??$_Impl_copy_memmeow_n@$0A@PEAGPEAG@std@@YAPEAGPEAG_K0@Z
-	??$_Impl_copy_memmeow_n@$0A@PEAHPEAH@std@@YAPEAHPEAH_K0@Z
-	??$_Impl_copy_memmeow_n@$0A@PEAIPEAI@std@@YAPEAIPEAI_K0@Z
-	??$_Impl_copy_memmeow_n@$0A@PEAJPEAJ@std@@YAPEAJPEAJ_K0@Z
-	??$_Impl_copy_memmeow_n@$0A@PEAKPEAK@std@@YAPEAKPEAK_K0@Z
-	??$_Impl_copy_memmeow_n@$0A@PEAMPEAM@std@@YAPEAMPEAM_K0@Z
-	??$_Impl_copy_memmeow_n@$0A@PEANPEAN@std@@YAPEANPEAN_K0@Z
-	??$_Impl_copy_memmeow_tail@$00PEAD@std@@YAPEADQEBDQEAD_K2@Z
-	??$_Impl_copy_memmeow_tail@$00PEAE@std@@YAPEAEQEBDQEAE_K2@Z
-	??$_Impl_copy_memmeow_tail@$00PEAF@std@@YAPEAFQEBDQEAF_K2@Z
-	??$_Impl_copy_memmeow_tail@$00PEAG@std@@YAPEAGQEBDQEAG_K2@Z
-	??$_Impl_copy_memmeow_tail@$00PEAH@std@@YAPEAHQEBDQEAH_K2@Z
-	??$_Impl_copy_memmeow_tail@$00PEAI@std@@YAPEAIQEBDQEAI_K2@Z
-	??$_Impl_copy_memmeow_tail@$00PEAJ@std@@YAPEAJQEBDQEAJ_K2@Z
-	??$_Impl_copy_memmeow_tail@$00PEAK@std@@YAPEAKQEBDQEAK_K2@Z
-	??$_Impl_copy_memmeow_tail@$00PEAM@std@@YAPEAMQEBDQEAM_K2@Z
-	??$_Impl_copy_memmeow_tail@$00PEAN@std@@YAPEANQEBDQEAN_K2@Z
-	??$_Impl_copy_memmeow_tail@$0A@PEAD@std@@YAPEADQEBDQEAD_K2@Z
-	??$_Impl_copy_memmeow_tail@$0A@PEAE@std@@YAPEAEQEBDQEAE_K2@Z
-	??$_Impl_copy_memmeow_tail@$0A@PEAF@std@@YAPEAFQEBDQEAF_K2@Z
-	??$_Impl_copy_memmeow_tail@$0A@PEAG@std@@YAPEAGQEBDQEAG_K2@Z
-	??$_Impl_copy_memmeow_tail@$0A@PEAH@std@@YAPEAHQEBDQEAH_K2@Z
-	??$_Impl_copy_memmeow_tail@$0A@PEAI@std@@YAPEAIQEBDQEAI_K2@Z
-	??$_Impl_copy_memmeow_tail@$0A@PEAJ@std@@YAPEAJQEBDQEAJ_K2@Z
-	??$_Impl_copy_memmeow_tail@$0A@PEAK@std@@YAPEAKQEBDQEAK_K2@Z
-	??$_Impl_copy_memmeow_tail@$0A@PEAM@std@@YAPEAMQEBDQEAM_K2@Z
-	??$_Impl_copy_memmeow_tail@$0A@PEAN@std@@YAPEANQEBDQEAN_K2@Z
 	??$_Insert@D@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAAAEAV01@_KQEBD0@Z
 	??$_Insert_string@DU?$char_traits@D@std@@_K@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@QEBD_K@Z
 	??$_Is_all_bits_zero@I@std@@YA_NAEBI@Z
@@ -662,10 +599,10 @@ EXPORTS
 	??$_Pocma@V?$allocator@M@std@@@std@@YAXAEAV?$allocator@M@0@0@Z
 	??$_Pocma@V?$allocator@N@std@@@std@@YAXAEAV?$allocator@N@0@0@Z
 	??$_Pocma@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@std@@YAXAEAV?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@0@0@Z
-	??$_Reallocate_for@V<lambda_4953394ebb2f7dc62d6889dc6b041cb6>@@PEBD@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAAAEAV01@_KV<lambda_4953394ebb2f7dc62d6889dc6b041cb6>@@PEBD@Z
-	??$_Reallocate_grow_by@V<lambda_16a3add8baeafd6065b2b3e9f729e474>@@PEBD_K@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAAAEAV01@_KV<lambda_16a3add8baeafd6065b2b3e9f729e474>@@PEBD_K@Z
-	??$_Reallocate_grow_by@V<lambda_1fd67b7cbb8957a22ddc452f87c0fbb0>@@_KPEBD_K@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAAAEAV01@_KV<lambda_1fd67b7cbb8957a22ddc452f87c0fbb0>@@_KPEBD2@Z
-	??$_Reallocate_grow_by@V<lambda_e696ef4bfc89975bc2035a0ba1f0e499>@@D@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAAAEAV01@_KV<lambda_e696ef4bfc89975bc2035a0ba1f0e499>@@D@Z
+	??$_Reallocate_for@V<lambda_a132b9f505f015b07a26cb4edca31da2>@@PEBD@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAAAEAV01@_KV<lambda_a132b9f505f015b07a26cb4edca31da2>@@PEBD@Z
+	??$_Reallocate_grow_by@V<lambda_319d5e083f45f90dcdce5dce53cbb275>@@D@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAAAEAV01@_KV<lambda_319d5e083f45f90dcdce5dce53cbb275>@@D@Z
+	??$_Reallocate_grow_by@V<lambda_6e107f859707de1a71dcca60860853b1>@@PEBD_K@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAAAEAV01@_KV<lambda_6e107f859707de1a71dcca60860853b1>@@PEBD_K@Z
+	??$_Reallocate_grow_by@V<lambda_e9b99a188f9a316a73b83d1e72db26de>@@_KPEBD_K@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAAAEAV01@_KV<lambda_e9b99a188f9a316a73b83d1e72db26de>@@_KPEBD2@Z
 	??$_Refancy@PEAD$0A@@std@@YAPEADPEAD@Z
 	??$_Refancy@PEBD$0A@@std@@YAPEBDPEBD@Z
 	??$_Refancy_maybe_null@PEBD$0A@@std@@YAPEBDPEBD@Z
@@ -1627,17 +1564,17 @@ EXPORTS
 	??1StringRepresentation@GetSetInternal@@QEAA@XZ
 	??1TxtKeyValue@GetSetIO@@QEAA@XZ
 	??1_Bxty@?$_String_val@U?$_Simple_types@D@std@@@std@@QEAA@XZ
-	??1_Reallocation_guard2@?$vector@DV?$allocator@D@std@@@std@@QEAA@XZ
-	??1_Reallocation_guard2@?$vector@EV?$allocator@E@std@@@std@@QEAA@XZ
-	??1_Reallocation_guard2@?$vector@FV?$allocator@F@std@@@std@@QEAA@XZ
-	??1_Reallocation_guard2@?$vector@GV?$allocator@G@std@@@std@@QEAA@XZ
-	??1_Reallocation_guard2@?$vector@HV?$allocator@H@std@@@std@@QEAA@XZ
-	??1_Reallocation_guard2@?$vector@IV?$allocator@I@std@@@std@@QEAA@XZ
-	??1_Reallocation_guard2@?$vector@JV?$allocator@J@std@@@std@@QEAA@XZ
-	??1_Reallocation_guard2@?$vector@KV?$allocator@K@std@@@std@@QEAA@XZ
-	??1_Reallocation_guard2@?$vector@MV?$allocator@M@std@@@std@@QEAA@XZ
-	??1_Reallocation_guard2@?$vector@NV?$allocator@N@std@@@std@@QEAA@XZ
-	??1_Reallocation_guard2@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QEAA@XZ
+	??1_Reallocation_guard@?$vector@DV?$allocator@D@std@@@std@@QEAA@XZ
+	??1_Reallocation_guard@?$vector@EV?$allocator@E@std@@@std@@QEAA@XZ
+	??1_Reallocation_guard@?$vector@FV?$allocator@F@std@@@std@@QEAA@XZ
+	??1_Reallocation_guard@?$vector@GV?$allocator@G@std@@@std@@QEAA@XZ
+	??1_Reallocation_guard@?$vector@HV?$allocator@H@std@@@std@@QEAA@XZ
+	??1_Reallocation_guard@?$vector@IV?$allocator@I@std@@@std@@QEAA@XZ
+	??1_Reallocation_guard@?$vector@JV?$allocator@J@std@@@std@@QEAA@XZ
+	??1_Reallocation_guard@?$vector@KV?$allocator@K@std@@@std@@QEAA@XZ
+	??1_Reallocation_guard@?$vector@MV?$allocator@M@std@@@std@@QEAA@XZ
+	??1_Reallocation_guard@?$vector@NV?$allocator@N@std@@@std@@QEAA@XZ
+	??1_Reallocation_guard@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QEAA@XZ
 	??1_Sentry_base@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@XZ
 	??1_Sentry_base@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@XZ
 	??1bad_alloc@std@@UEAA@XZ
@@ -1820,10 +1757,10 @@ EXPORTS
 	??H?$_String_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@QEBA?AV01@_J@Z
 	??H?$_Vb_const_iterator@U?$_Wrap_alloc@V?$allocator@I@std@@@std@@@std@@QEBA?AV01@_J@Z
 	??H?$_Vb_iterator@U?$_Wrap_alloc@V?$allocator@I@std@@@std@@@std@@QEBA?AV01@_J@Z
-	??R<lambda_16a3add8baeafd6065b2b3e9f729e474>@@SA@QEADQEBD_K12@Z
-	??R<lambda_1fd67b7cbb8957a22ddc452f87c0fbb0>@@SA@QEADQEBD_K212@Z
-	??R<lambda_4953394ebb2f7dc62d6889dc6b041cb6>@@SA@QEAD_KQEBD@Z
-	??R<lambda_e696ef4bfc89975bc2035a0ba1f0e499>@@SA@QEADQEBD_KD@Z
+	??R<lambda_319d5e083f45f90dcdce5dce53cbb275>@@SA@QEADQEBD_KD@Z
+	??R<lambda_6e107f859707de1a71dcca60860853b1>@@SA@QEADQEBD_K12@Z
+	??R<lambda_a132b9f505f015b07a26cb4edca31da2>@@SA@QEAD_KQEBD@Z
+	??R<lambda_e9b99a188f9a316a73b83d1e72db26de>@@SA@QEADQEBD_K212@Z
 	??R?$_Func_class@XAEBVNode@GetSetInternal@@@std@@QEBAXAEBVNode@GetSetInternal@@@Z
 	??R?$default_delete@V_Facet_base@std@@@std@@QEBAXPEAV_Facet_base@1@@Z
 	??R?$less@E@std@@QEBA_NAEBE0@Z

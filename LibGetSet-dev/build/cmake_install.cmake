@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build
+# Install script for directory: C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,24 +34,24 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/GetSet/cmake_install.cmake")
+  include("C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/build/GetSet/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/GetSetGui/cmake_install.cmake")
+  include("C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/build/GetSetGui/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/Apps/cmake_install.cmake")
+  include("C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/build/Apps/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/cmake/GetSetTargets.cmake")
     file(DIFFERENT _cmake_export_file_changed FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/cmake/GetSetTargets.cmake"
-         "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/CMakeFiles/Export/272ceadb8458515b2ae4b5630a6029cc/GetSetTargets.cmake")
+         "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/build/CMakeFiles/Export/272ceadb8458515b2ae4b5630a6029cc/GetSetTargets.cmake")
     if(_cmake_export_file_changed)
       file(GLOB _cmake_old_config_files "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/cmake/GetSetTargets-*.cmake")
       if(_cmake_old_config_files)
@@ -64,49 +64,49 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     endif()
     unset(_cmake_export_file_changed)
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/cmake" TYPE FILE FILES "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/CMakeFiles/Export/272ceadb8458515b2ae4b5630a6029cc/GetSetTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/cmake" TYPE FILE FILES "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/build/CMakeFiles/Export/272ceadb8458515b2ae4b5630a6029cc/GetSetTargets.cmake")
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/cmake" TYPE FILE FILES "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/CMakeFiles/Export/272ceadb8458515b2ae4b5630a6029cc/GetSetTargets-debug.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/cmake" TYPE FILE FILES "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/build/CMakeFiles/Export/272ceadb8458515b2ae4b5630a6029cc/GetSetTargets-debug.cmake")
   endif()
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/cmake" TYPE FILE FILES "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/CMakeFiles/Export/272ceadb8458515b2ae4b5630a6029cc/GetSetTargets-release.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/cmake" TYPE FILE FILES "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/build/CMakeFiles/Export/272ceadb8458515b2ae4b5630a6029cc/GetSetTargets-release.cmake")
   endif()
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE FILE FILES
-    "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/GetSetConfig.cmake"
-    "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/GetSetConfigVersion.cmake"
+    "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/GetSetConfig.cmake"
+    "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/GetSetConfigVersion.cmake"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE FILE FILES "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/License.txt")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE FILE FILES "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/License.txt")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/examples" TYPE FILE FILES "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/./examples/README.txt")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/examples" TYPE FILE FILES "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/./examples/README.txt")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/examples/console" TYPE FILE FILES
-    "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/./examples/console/CMakeLists.txt"
-    "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/./examples/console/simple.cpp"
+    "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/./examples/console/CMakeLists.txt"
+    "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/./examples/console/simple.cpp"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/examples/gui" TYPE FILE FILES
-    "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/./examples/gui/README.txt"
-    "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/./examples/gui/CMakeLists.txt"
-    "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/./examples/gui/advanced.cpp"
+    "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/./examples/gui/README.txt"
+    "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/./examples/gui/CMakeLists.txt"
+    "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/./examples/gui/advanced.cpp"
     )
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/install_local_manifest.txt"
+  file(WRITE "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/build/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -122,6 +122,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

@@ -2,19 +2,19 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\build\x64\Release\ZERO_CHECK</FullPath>
+      <FullPath>C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\build\x64\Release\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\bin\Release\GetSet.dll</FullPath>
+      <FullPath>C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\bin\Release\GetSet.dll</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\bin\Release\ExampleSimple.exe</FullPath>
+      <FullPath>C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\bin\Release\ExampleSimple.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\bin\Release\config.exe</FullPath>
+      <FullPath>C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\bin\Release\config.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\build\x64\Release\ALL_BUILD</FullPath>
+      <FullPath>C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\build\x64\Release\ALL_BUILD</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

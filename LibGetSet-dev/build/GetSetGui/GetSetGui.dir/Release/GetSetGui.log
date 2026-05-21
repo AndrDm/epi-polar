@@ -1,147 +1,139 @@
 ﻿  Automatic MOC for target GetSetGui
+  Building Custom Rule C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/GetSetGui/CMakeLists.txt
   GetSetGui.cpp
+C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSetGui\GetSetGui.h(1,1): warning C4828: The file contains a character starting at offset 0x8b that is illegal in the current source character set (codepage 65001).
+  (compiling source file '../../GetSetGui/GetSetGui.cpp')
+  
+C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSet\GetSetIO.h(1,1): warning C4828: The file contains a character starting at offset 0x8b that is illegal in the current source character set (codepage 65001).
+  (compiling source file '../../GetSetGui/GetSetGui.cpp')
+  
   GetSetWidget.cpp
   GetSetTabWidget.cpp
   GetSetProgressWindow.cpp
+C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSetGui\GetSetWidget.h(1,1): warning C4828: The file contains a character starting at offset 0x8b that is illegal in the current source character set (codepage 65001).
+  (compiling source file '../../GetSetGui/GetSetWidget.cpp')
+  
   GetSetScriptEdit.cpp
   GetSetModalDialog.cpp
+C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSetGui\GetSetModalDialog.h(1,1): warning C4828: The file contains a character starting at offset 0x8b that is illegal in the current source character set (codepage 65001).
+  (compiling source file '../../GetSetGui/GetSetModalDialog.cpp')
+  
+C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSetGui\GetSetTabWidget.cpp(1,1): warning C4828: The file contains a character starting at offset 0x8b that is illegal in the current source character set (codepage 65001).
+C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSetGui\GetSetTabWidget.h(1,1): warning C4828: The file contains a character starting at offset 0x8b that is illegal in the current source character set (codepage 65001).
+  (compiling source file '../../GetSetGui/GetSetTabWidget.cpp')
+  
   mocs_compilation_Release.cpp
-C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSetGui\GetSetTabWidget.cpp(1,1): warning C4828: The file contains a character starting at offset 0x87 that is not valid in the current source character set (codepage 65001).
-C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSetGui\GetSetTabWidget.h(1,1): warning C4828: The file contains a character starting at offset 0x87 that is not valid in the current source character set (codepage 65001).
+C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSet\StringConversion.hxx(1,1): warning C4828: The file contains a character starting at offset 0x8b that is illegal in the current source character set (codepage 65001).
+  (compiling source file '../../GetSetGui/GetSetGui.cpp')
+  
+C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSet\StringConversion.hxx(1,1): warning C4828: The file contains a character starting at offset 0x8b that is illegal in the current source character set (codepage 65001).
   (compiling source file '../../GetSetGui/GetSetTabWidget.cpp')
   
-C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSetGui\GetSetWidget.h(1,1): warning C4828: The file contains a character starting at offset 0x87 that is not valid in the current source character set (codepage 65001).
+C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSet\StringConversion.hxx(1,1): warning C4828: The file contains a character starting at offset 0x8b that is illegal in the current source character set (codepage 65001).
   (compiling source file '../../GetSetGui/GetSetWidget.cpp')
   
-C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSetGui\GetSetGui.h(1,1): warning C4828: The file contains a character starting at offset 0x87 that is not valid in the current source character set (codepage 65001).
-  (compiling source file '../../GetSetGui/GetSetGui.cpp')
-  
-C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSet\GetSetIO.h(1,1): warning C4828: The file contains a character starting at offset 0x87 that is not valid in the current source character set (codepage 65001).
-  (compiling source file '../../GetSetGui/GetSetGui.cpp')
-  
-C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSetGui\GetSetModalDialog.h(1,1): warning C4828: The file contains a character starting at offset 0x87 that is not valid in the current source character set (codepage 65001).
+C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSet\StringConversion.hxx(1,1): warning C4828: The file contains a character starting at offset 0x8b that is illegal in the current source character set (codepage 65001).
   (compiling source file '../../GetSetGui/GetSetModalDialog.cpp')
   
-C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSet\StringConversion.hxx(1,1): warning C4828: The file contains a character starting at offset 0x87 that is not valid in the current source character set (codepage 65001).
+C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSet\GetSetInternal.h(99,92): error C3878: syntax error: unexpected token '>' following 'simple-type-specifier'
+  (compiling source file '../../GetSetGui/GetSetGui.cpp')
+      C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSet\GetSetInternal.h(99,92):
+      missing one of: '(' '{' ?
+      C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSet\GetSetInternal.h(99,92):
+      the template instantiation context (the oldest one first) is
+          C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSet\GetSetInternal.h(97,8):
+          while compiling class template 'GetSetInternal::Key'
+  
+C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSet\GetSet_impl.hxx(1,1): warning C4828: The file contains a character starting at offset 0x8b that is illegal in the current source character set (codepage 65001).
+  (compiling source file '../../GetSetGui/GetSetGui.cpp')
+  
+C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSet\GetSetCmdLine.hxx(1,1): warning C4828: The file contains a character starting at offset 0x8b that is illegal in the current source character set (codepage 65001).
+  (compiling source file '../../GetSetGui/GetSetGui.cpp')
+  
+C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSet\StringUtil.hxx(1,1): warning C4828: The file contains a character starting at offset 0x8b that is illegal in the current source character set (codepage 65001).
+  (compiling source file '../../GetSetGui/GetSetGui.cpp')
+  
+C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSet\GetSetInternal.h(99,92): error C3878: syntax error: unexpected token '>' following 'simple-type-specifier'
+  (compiling source file '../../GetSetGui/GetSetWidget.cpp')
+      C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSet\GetSetInternal.h(99,92):
+      missing one of: '(' '{' ?
+      C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSet\GetSetInternal.h(99,92):
+      the template instantiation context (the oldest one first) is
+          C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSet\GetSetInternal.h(97,8):
+          while compiling class template 'GetSetInternal::Key'
+  
+C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSet\GetSetInternal.h(99,92): error C3878: syntax error: unexpected token '>' following 'simple-type-specifier'
+  (compiling source file '../../GetSetGui/GetSetTabWidget.cpp')
+      C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSet\GetSetInternal.h(99,92):
+      missing one of: '(' '{' ?
+      C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSet\GetSetInternal.h(99,92):
+      the template instantiation context (the oldest one first) is
+          C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSet\GetSetInternal.h(97,8):
+          while compiling class template 'GetSetInternal::Key'
+  
+C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSetGui\GetSetTabWidget.h(1,1): warning C4828: The file contains a character starting at offset 0x8b that is illegal in the current source character set (codepage 65001).
+  (compiling source file '../../GetSetGui/GetSetGui.cpp')
+  
+C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSetGui\GetSetWidget.h(1,1): warning C4828: The file contains a character starting at offset 0x8b that is illegal in the current source character set (codepage 65001).
+  (compiling source file '../../GetSetGui/GetSetGui.cpp')
+  
+C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSetGui\GetSetWidget.h(1,1): warning C4828: The file contains a character starting at offset 0x8b that is illegal in the current source character set (codepage 65001).
+  (compiling source file '../../GetSetGui/GetSetTabWidget.cpp')
+  
+C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSet\GetSet_impl.hxx(1,1): warning C4828: The file contains a character starting at offset 0x8b that is illegal in the current source character set (codepage 65001).
+  (compiling source file '../../GetSetGui/GetSetTabWidget.cpp')
+  
+C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSet\GetSet_impl.hxx(1,1): warning C4828: The file contains a character starting at offset 0x8b that is illegal in the current source character set (codepage 65001).
   (compiling source file '../../GetSetGui/GetSetWidget.cpp')
   
-C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSet\StringConversion.hxx(1,1): warning C4828: The file contains a character starting at offset 0x87 that is not valid in the current source character set (codepage 65001).
-  (compiling source file '../../GetSetGui/GetSetGui.cpp')
-  
-C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSet\StringConversion.hxx(1,1): warning C4828: The file contains a character starting at offset 0x87 that is not valid in the current source character set (codepage 65001).
-  (compiling source file '../../GetSetGui/GetSetTabWidget.cpp')
-  
-C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSet\StringConversion.hxx(1,1): warning C4828: The file contains a character starting at offset 0x87 that is not valid in the current source character set (codepage 65001).
+C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSet\GetSetInternal.h(99,92): error C3878: syntax error: unexpected token '>' following 'simple-type-specifier'
   (compiling source file '../../GetSetGui/GetSetModalDialog.cpp')
-  
-C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSet\GetSetInternal.h(99,92): error C3878: syntax error: unexpected token '>' following 'simple-type-specifier'
-  (compiling source file '../../GetSetGui/GetSetWidget.cpp')
-      C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSet\GetSetInternal.h(99,92):
+      C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSet\GetSetInternal.h(99,92):
       missing one of: '(' '{' ?
-      C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSet\GetSetInternal.h(99,92):
+      C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSet\GetSetInternal.h(99,92):
       the template instantiation context (the oldest one first) is
-          C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSet\GetSetInternal.h(97,8):
+          C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSet\GetSetInternal.h(97,8):
           while compiling class template 'GetSetInternal::Key'
   
-C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSet\GetSetInternal.h(99,92): error C3878: syntax error: unexpected token '>' following 'simple-type-specifier'
-  (compiling source file '../../GetSetGui/GetSetTabWidget.cpp')
-      C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSet\GetSetInternal.h(99,92):
-      missing one of: '(' '{' ?
-      C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSet\GetSetInternal.h(99,92):
-      the template instantiation context (the oldest one first) is
-          C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSet\GetSetInternal.h(97,8):
-          while compiling class template 'GetSetInternal::Key'
-  
-C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSet\GetSetInternal.h(99,92): error C3878: syntax error: unexpected token '>' following 'simple-type-specifier'
-  (compiling source file '../../GetSetGui/GetSetGui.cpp')
-      C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSet\GetSetInternal.h(99,92):
-      missing one of: '(' '{' ?
-      C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSet\GetSetInternal.h(99,92):
-      the template instantiation context (the oldest one first) is
-          C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSet\GetSetInternal.h(97,8):
-          while compiling class template 'GetSetInternal::Key'
-  
-C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSet\GetSetInternal.h(99,92): error C3878: syntax error: unexpected token '>' following 'simple-type-specifier'
-  (compiling source file '../../GetSetGui/GetSetModalDialog.cpp')
-      C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSet\GetSetInternal.h(99,92):
-      missing one of: '(' '{' ?
-      C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSet\GetSetInternal.h(99,92):
-      the template instantiation context (the oldest one first) is
-          C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSet\GetSetInternal.h(97,8):
-          while compiling class template 'GetSetInternal::Key'
-  
-C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSet\GetSet_impl.hxx(1,1): warning C4828: The file contains a character starting at offset 0x87 that is not valid in the current source character set (codepage 65001).
-  (compiling source file '../../GetSetGui/GetSetWidget.cpp')
-  
-C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSet\GetSet_impl.hxx(1,1): warning C4828: The file contains a character starting at offset 0x87 that is not valid in the current source character set (codepage 65001).
-  (compiling source file '../../GetSetGui/GetSetGui.cpp')
-  
-C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSetGui\GetSetWidget.h(1,1): warning C4828: The file contains a character starting at offset 0x87 that is not valid in the current source character set (codepage 65001).
-  (compiling source file '../../GetSetGui/GetSetTabWidget.cpp')
-  
-C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSet\GetSet_impl.hxx(1,1): warning C4828: The file contains a character starting at offset 0x87 that is not valid in the current source character set (codepage 65001).
-  (compiling source file '../../GetSetGui/GetSetTabWidget.cpp')
-  
-C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSet\GetSetCmdLine.hxx(1,1): warning C4828: The file contains a character starting at offset 0x87 that is not valid in the current source character set (codepage 65001).
-  (compiling source file '../../GetSetGui/GetSetGui.cpp')
-  
-C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSet\StringUtil.hxx(1,1): warning C4828: The file contains a character starting at offset 0x87 that is not valid in the current source character set (codepage 65001).
-  (compiling source file '../../GetSetGui/GetSetGui.cpp')
-  
-C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSet\GetSet_impl.hxx(1,1): warning C4828: The file contains a character starting at offset 0x87 that is not valid in the current source character set (codepage 65001).
+C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSet\GetSet_impl.hxx(1,1): warning C4828: The file contains a character starting at offset 0x8b that is illegal in the current source character set (codepage 65001).
   (compiling source file '../../GetSetGui/GetSetModalDialog.cpp')
   
-C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSetGui\GetSetTabWidget.h(1,1): warning C4828: The file contains a character starting at offset 0x87 that is not valid in the current source character set (codepage 65001).
+C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSet\GetSetScripting.h(1,1): warning C4828: The file contains a character starting at offset 0x8b that is illegal in the current source character set (codepage 65001).
   (compiling source file '../../GetSetGui/GetSetGui.cpp')
   
-C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSetGui\GetSetWidget.h(1,1): warning C4828: The file contains a character starting at offset 0x87 that is not valid in the current source character set (codepage 65001).
-  (compiling source file '../../GetSetGui/GetSetGui.cpp')
+C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSet\GetSetScripting.h(1,1): warning C4828: The file contains a character starting at offset 0x8b that is illegal in the current source character set (codepage 65001).
+  (compiling source file '../../GetSetGui/GetSetTabWidget.cpp')
   
-C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSet\GetSetScripting.h(1,1): warning C4828: The file contains a character starting at offset 0x87 that is not valid in the current source character set (codepage 65001).
-  (compiling source file '../../GetSetGui/GetSetGui.cpp')
+C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSet\StringUtil.hxx(1,1): warning C4828: The file contains a character starting at offset 0x8b that is illegal in the current source character set (codepage 65001).
+  (compiling source file '../../GetSetGui/GetSetTabWidget.cpp')
   
-C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSetGui\GetSetWidget.h(1,1): warning C4828: The file contains a character starting at offset 0x87 that is not valid in the current source character set (codepage 65001).
+C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSetGui\GetSetWidget.h(1,1): warning C4828: The file contains a character starting at offset 0x8b that is illegal in the current source character set (codepage 65001).
   (compiling source file '../../GetSetGui/GetSetModalDialog.cpp')
   
-C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSet\GetSetScripting.h(1,1): warning C4828: The file contains a character starting at offset 0x87 that is not valid in the current source character set (codepage 65001).
+C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSet\GetSetScripting.h(1,1): warning C4828: The file contains a character starting at offset 0x8b that is illegal in the current source character set (codepage 65001).
   (compiling source file '../../GetSetGui/GetSetScriptEdit.cpp')
   
-C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSet\StringConversion.hxx(1,1): warning C4828: The file contains a character starting at offset 0x87 that is not valid in the current source character set (codepage 65001).
+C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSet\StringConversion.hxx(1,1): warning C4828: The file contains a character starting at offset 0x8b that is illegal in the current source character set (codepage 65001).
   (compiling source file '../../GetSetGui/GetSetScriptEdit.cpp')
   
-C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSet\GetSetInternal.h(99,92): error C3878: syntax error: unexpected token '>' following 'simple-type-specifier'
+C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSet\GetSetInternal.h(99,92): error C3878: syntax error: unexpected token '>' following 'simple-type-specifier'
   (compiling source file '../../GetSetGui/GetSetScriptEdit.cpp')
-      C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSet\GetSetInternal.h(99,92):
+      C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSet\GetSetInternal.h(99,92):
       missing one of: '(' '{' ?
-      C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSet\GetSetInternal.h(99,92):
+      C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSet\GetSetInternal.h(99,92):
       the template instantiation context (the oldest one first) is
-          C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSet\GetSetInternal.h(97,8):
+          C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSet\GetSetInternal.h(97,8):
           while compiling class template 'GetSetInternal::Key'
   
-C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSet\GetSetScripting.h(1,1): warning C4828: The file contains a character starting at offset 0x87 that is not valid in the current source character set (codepage 65001).
-  (compiling source file '../../GetSetGui/GetSetTabWidget.cpp')
-  
-C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSet\GetSetInternal.h(99,92): error C3878: syntax error: unexpected token '>' following 'simple-type-specifier'
+C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSet\GetSetInternal.h(99,92): error C3878: syntax error: unexpected token '>' following 'simple-type-specifier'
   (compiling source file 'GetSetGui_autogen/mocs_compilation_Release.cpp')
-      C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSet\GetSetInternal.h(99,92):
+      C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSet\GetSetInternal.h(99,92):
       missing one of: '(' '{' ?
-      C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSet\GetSetInternal.h(99,92):
+      C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSet\GetSetInternal.h(99,92):
       the template instantiation context (the oldest one first) is
-          C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSet\GetSetInternal.h(97,8):
+          C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSet\GetSetInternal.h(97,8):
           while compiling class template 'GetSetInternal::Key'
   
-C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSet\StringUtil.hxx(1,1): warning C4828: The file contains a character starting at offset 0x87 that is not valid in the current source character set (codepage 65001).
-  (compiling source file '../../GetSetGui/GetSetTabWidget.cpp')
-  
-C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSetGui\GetSetTabWidget.cpp(150,33): warning C4996: 'QMenu::addAction': Use addAction(text, shortcut, receiver, member) instead.
-C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSetGui\GetSetTabWidget.cpp(180,20): warning C4996: 'QMenu::addAction': Use addAction(text, shortcut, object, slot) instead.
-C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSetGui\GetSetTabWidget.cpp(193,19): warning C4996: 'QMenu::addAction': Use addAction(text, shortcut, object, slot) instead.
-C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSetGui\GetSetTabWidget.cpp(200,19): warning C4996: 'QMenu::addAction': Use addAction(text, shortcut, object, slot) instead.
-C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSet\GetSet_impl.hxx(1,1): warning C4828: The file contains a character starting at offset 0x87 that is not valid in the current source character set (codepage 65001).
+C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSet\GetSet_impl.hxx(1,1): warning C4828: The file contains a character starting at offset 0x8b that is illegal in the current source character set (codepage 65001).
   (compiling source file '../../GetSetGui/GetSetScriptEdit.cpp')
   
-C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSetGui\GetSetScriptEdit.cpp(147,29): warning C4996: 'QMenu::addAction': Use addAction(icon, text, shortcut, receiver, member) instead.
-C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSetGui\GetSetScriptEdit.cpp(148,29): warning C4996: 'QMenu::addAction': Use addAction(icon, text, shortcut, receiver, member) instead.
-C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSetGui\GetSetScriptEdit.cpp(150,29): warning C4996: 'QMenu::addAction': Use addAction(icon, text, shortcut, receiver, member) instead.
-C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSetGui\GetSetScriptEdit.cpp(152,29): warning C4996: 'QMenu::addAction': Use addAction(icon, text, shortcut, receiver, member) instead.
-C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSetGui\GetSetScriptEdit.cpp(153,29): warning C4996: 'QMenu::addAction': Use addAction(icon, text, shortcut, receiver, member) instead.

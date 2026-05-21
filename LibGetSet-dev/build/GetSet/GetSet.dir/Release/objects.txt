@@ -1,5 +1,5 @@
-C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/GetSet/GetSet.dir/Release/mocs_compilation_Release.obj
-C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/GetSet/GetSet.dir/Release/GetSetObjects.obj
-C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/GetSet/GetSet.dir/Release/GetSetInternal.obj
-C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/GetSet/GetSet.dir/Release/GetSetIO.obj
-C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/GetSet/GetSet.dir/Release/GetSetScripting.obj
+C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/build/GetSet/GetSet.dir/Release/mocs_compilation_Release.obj
+C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/build/GetSet/GetSet.dir/Release/GetSetObjects.obj
+C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/build/GetSet/GetSet.dir/Release/GetSetInternal.obj
+C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/build/GetSet/GetSet.dir/Release/GetSetIO.obj
+C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/build/GetSet/GetSet.dir/Release/GetSetScripting.obj

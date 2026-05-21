@@ -1,78 +1,78 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\build\GetSet\GetSet_autogen\mocs_compilation_Debug.cpp">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\build\GetSet\GetSet_autogen\mocs_compilation_Debug.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSet\GetSetObjects.cpp">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSet\GetSetObjects.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSet\GetSetInternal.cpp">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSet\GetSetInternal.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSet\GetSetIO.cpp">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSet\GetSetIO.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSet\GetSetScripting.cpp">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSet\GetSetScripting.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\build\GetSet\GetSet_autogen\mocs_compilation_Release.cpp">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\build\GetSet\GetSet_autogen\mocs_compilation_Release.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSet\BaseTypes.hxx">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSet\BaseTypes.hxx">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSet\StringType.hxx">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSet\StringType.hxx">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSet\StringConversion.hxx">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSet\StringConversion.hxx">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSet\StringHexData.hxx">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSet\StringHexData.hxx">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSet\StringUtil.hxx">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSet\StringUtil.hxx">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSet\GetSet.hxx">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSet\GetSet.hxx">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSet\GetSet_impl.hxx">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSet\GetSet_impl.hxx">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSet\GetSetObjects.h">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSet\GetSetObjects.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSet\ProgressInterface.hxx">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSet\ProgressInterface.hxx">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSet\GetSetScripting.h">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSet\GetSetScripting.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSet\GetSetInternal.h">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSet\GetSetInternal.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSet\GetSetIO.h">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSet\GetSetIO.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSet\GetSetLog.hxx">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSet\GetSetLog.hxx">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSet\GetSetCmdLine.hxx">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSet\GetSetCmdLine.hxx">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSet\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSet\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{6E961092-6033-3A6C-9F64-D9DB3465AFD2}</UniqueIdentifier>
+      <UniqueIdentifier>{3B7118A6-85EF-36A8-A45F-9242BC7B50D5}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{D1C15BFF-171D-3A26-83C2-60A379E58856}</UniqueIdentifier>
+      <UniqueIdentifier>{6664ADD7-A478-3086-84B9-31B15CA63126}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

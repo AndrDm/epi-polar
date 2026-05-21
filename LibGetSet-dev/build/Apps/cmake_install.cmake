@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/Apps
+# Install script for directory: C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/Apps
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,43 +34,43 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/bin/Debug/GetSetScript.exe")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/bin/Debug/GetSetScript.exe")
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/bin/Release/GetSetScript.exe")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/bin/Release/GetSetScript.exe")
   endif()
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    include("C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/Apps/CMakeFiles/GetSetScript.dir/install-cxx-module-bmi-Debug.cmake" OPTIONAL)
+    include("C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/build/Apps/CMakeFiles/GetSetScript.dir/install-cxx-module-bmi-Debug.cmake" OPTIONAL)
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    include("C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/Apps/CMakeFiles/GetSetScript.dir/install-cxx-module-bmi-Release.cmake" OPTIONAL)
+    include("C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/build/Apps/CMakeFiles/GetSetScript.dir/install-cxx-module-bmi-Release.cmake" OPTIONAL)
   endif()
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE FILE FILES "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/Apps/../Apps/GetSetScript.getset")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE FILE FILES "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/Apps/../Apps/GetSetScript.getset")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/bin/Debug/ExampleAdvanced.exe")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/bin/Debug/ExampleAdvanced.exe")
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/bin/Release/ExampleAdvanced.exe")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/bin/Release/ExampleAdvanced.exe")
   endif()
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    include("C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/Apps/CMakeFiles/ExampleAdvanced.dir/install-cxx-module-bmi-Debug.cmake" OPTIONAL)
+    include("C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/build/Apps/CMakeFiles/ExampleAdvanced.dir/install-cxx-module-bmi-Debug.cmake" OPTIONAL)
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    include("C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/Apps/CMakeFiles/ExampleAdvanced.dir/install-cxx-module-bmi-Release.cmake" OPTIONAL)
+    include("C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/build/Apps/CMakeFiles/ExampleAdvanced.dir/install-cxx-module-bmi-Release.cmake" OPTIONAL)
   endif()
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/build/Apps/install_local_manifest.txt"
+  file(WRITE "C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/build/Apps/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

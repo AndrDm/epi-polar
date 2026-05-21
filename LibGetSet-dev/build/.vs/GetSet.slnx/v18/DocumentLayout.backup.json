@@ -1,21 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Andrey\\Desktop\\epi-polar\\LibGetSet-build\\build\\",
+  "WorkspaceRootPath": "C:\\Users\\Andrey\\Desktop\\epi-polar\\LibGetSet-dev\\build\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A45A558D-FF9C-3BB6-AFAD-C56845CC62FB}|GetSet\\GetSet.vcxproj|C:\\Users\\Andrey\\Desktop\\epi-polar\\LibGetSet-build\\GetSet\\GetSetInternal.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{8CA5876F-17B2-36AF-A85E-58C75FA29D1E}|GetSet\\GetSet.vcxproj|C:\\Users\\Andrey\\Desktop\\epi-polar\\LibGetSet-dev\\GetSet\\GetSetInternal.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74107F3E-4EC8-339C-9E57-81B7CD4C8843}|GetSetGui\\GetSetGui.vcxproj|C:\\Users\\Andrey\\Desktop\\epi-polar\\LibGetSet-build\\GetSetGui\\GetSetModalDialog.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74107F3E-4EC8-339C-9E57-81B7CD4C8843}|GetSetGui\\GetSetGui.vcxproj|C:\\Users\\Andrey\\Desktop\\epi-polar\\LibGetSet-build\\GetSetGui\\GetSetGui.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74107F3E-4EC8-339C-9E57-81B7CD4C8843}|GetSetGui\\GetSetGui.vcxproj|C:\\Users\\Andrey\\Desktop\\epi-polar\\LibGetSet-build\\GetSetGui\\GetSetTabWidget.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74107F3E-4EC8-339C-9E57-81B7CD4C8843}|GetSetGui\\GetSetGui.vcxproj|C:\\Users\\Andrey\\Desktop\\epi-polar\\LibGetSet-build\\GetSetGui\\GetSetScriptEdit.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{75CD0B2E-FD6F-36F2-A499-47C468AB523E}|GetSetGui\\GetSetGui.vcxproj|C:\\Users\\Andrey\\Desktop\\epi-polar\\LibGetSet-dev\\GetSetGui\\GetSetTabWidget.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,70 +16,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GetSetModalDialog.h",
-              "DocumentMoniker": "C:\\Users\\Andrey\\Desktop\\epi-polar\\LibGetSet-build\\GetSetGui\\GetSetModalDialog.h",
-              "RelativeDocumentMoniker": "..\\GetSetGui\\GetSetModalDialog.h",
-              "ToolTip": "C:\\Users\\Andrey\\Desktop\\epi-polar\\LibGetSet-build\\GetSetGui\\GetSetModalDialog.h",
-              "RelativeToolTip": "..\\GetSetGui\\GetSetModalDialog.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-05-20T16:09:11.46Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GetSetGui.h",
-              "DocumentMoniker": "C:\\Users\\Andrey\\Desktop\\epi-polar\\LibGetSet-build\\GetSetGui\\GetSetGui.h",
-              "RelativeDocumentMoniker": "..\\GetSetGui\\GetSetGui.h",
-              "ToolTip": "C:\\Users\\Andrey\\Desktop\\epi-polar\\LibGetSet-build\\GetSetGui\\GetSetGui.h",
-              "RelativeToolTip": "..\\GetSetGui\\GetSetGui.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-05-20T16:08:38.323Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "GetSetInternal.h",
-              "DocumentMoniker": "C:\\Users\\Andrey\\Desktop\\epi-polar\\LibGetSet-build\\GetSet\\GetSetInternal.h",
+              "DocumentMoniker": "C:\\Users\\Andrey\\Desktop\\epi-polar\\LibGetSet-dev\\GetSet\\GetSetInternal.h",
               "RelativeDocumentMoniker": "..\\GetSet\\GetSetInternal.h",
-              "ToolTip": "C:\\Users\\Andrey\\Desktop\\epi-polar\\LibGetSet-build\\GetSet\\GetSetInternal.h",
+              "ToolTip": "C:\\Users\\Andrey\\Desktop\\epi-polar\\LibGetSet-dev\\GetSet\\GetSetInternal.h",
               "RelativeToolTip": "..\\GetSet\\GetSetInternal.h",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAQwGIAAABbAAAAAAAAAA==",
+              "ViewState": "AgIAAFIBAAAAAAAAAAAAwG0BAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-05-20T15:03:53.987Z",
+              "WhenOpened": "2026-05-21T05:54:14.895Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GetSetTabWidget.cpp",
-              "DocumentMoniker": "C:\\Users\\Andrey\\Desktop\\epi-polar\\LibGetSet-build\\GetSetGui\\GetSetTabWidget.cpp",
-              "RelativeDocumentMoniker": "..\\GetSetGui\\GetSetTabWidget.cpp",
-              "ToolTip": "C:\\Users\\Andrey\\Desktop\\epi-polar\\LibGetSet-build\\GetSetGui\\GetSetTabWidget.cpp",
-              "RelativeToolTip": "..\\GetSetGui\\GetSetTabWidget.cpp",
-              "ViewState": "AgIAAKcAAAAAAAAAAAAgwM4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-05-20T15:02:10.019Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GetSetScriptEdit.cpp",
-              "DocumentMoniker": "C:\\Users\\Andrey\\Desktop\\epi-polar\\LibGetSet-build\\GetSetGui\\GetSetScriptEdit.cpp",
-              "RelativeDocumentMoniker": "..\\GetSetGui\\GetSetScriptEdit.cpp",
-              "ToolTip": "C:\\Users\\Andrey\\Desktop\\epi-polar\\LibGetSet-build\\GetSetGui\\GetSetScriptEdit.cpp",
-              "RelativeToolTip": "..\\GetSetGui\\GetSetScriptEdit.cpp",
-              "ViewState": "AgIAAEIBAAAAAAAAAAAgwFsBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-05-20T14:58:25.737Z"
+              "DocumentIndex": 1,
+              "Title": "GetSetTabWidget.h",
+              "DocumentMoniker": "C:\\Users\\Andrey\\Desktop\\epi-polar\\LibGetSet-dev\\GetSetGui\\GetSetTabWidget.h",
+              "RelativeDocumentMoniker": "..\\GetSetGui\\GetSetTabWidget.h",
+              "ToolTip": "C:\\Users\\Andrey\\Desktop\\epi-polar\\LibGetSet-dev\\GetSetGui\\GetSetTabWidget.h",
+              "RelativeToolTip": "..\\GetSetGui\\GetSetTabWidget.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-05-21T05:54:07.953Z",
+              "EditorCaption": ""
             }
           ]
         }

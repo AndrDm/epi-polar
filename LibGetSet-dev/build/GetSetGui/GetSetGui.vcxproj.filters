@@ -1,60 +1,60 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\build\GetSetGui\GetSetGui_autogen\mocs_compilation_Debug.cpp">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\build\GetSetGui\GetSetGui_autogen\mocs_compilation_Debug.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSetGui\GetSetGui.cpp">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSetGui\GetSetGui.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSetGui\GetSetWidget.cpp">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSetGui\GetSetWidget.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSetGui\GetSetTabWidget.cpp">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSetGui\GetSetTabWidget.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSetGui\GetSetProgressWindow.cpp">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSetGui\GetSetProgressWindow.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSetGui\GetSetScriptEdit.cpp">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSetGui\GetSetScriptEdit.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSetGui\GetSetModalDialog.cpp">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSetGui\GetSetModalDialog.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\build\GetSetGui\GetSetGui_autogen\mocs_compilation_Release.cpp">
+    <ClCompile Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\build\GetSetGui\GetSetGui_autogen\mocs_compilation_Release.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSetGui\GetSetGui.h">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSetGui\GetSetGui.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSetGui\GetSetWidget.h">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSetGui\GetSetWidget.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSetGui\GetSetTabWidget.h">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSetGui\GetSetTabWidget.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSetGui\GetSetProgressWindow.h">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSetGui\GetSetProgressWindow.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSetGui\GetSetScriptEdit.h">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSetGui\GetSetScriptEdit.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSetGui\GetSetModalDialog.h">
+    <ClInclude Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSetGui\GetSetModalDialog.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\GetSetGui\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\GetSetGui\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{6E961092-6033-3A6C-9F64-D9DB3465AFD2}</UniqueIdentifier>
+      <UniqueIdentifier>{3B7118A6-85EF-36A8-A45F-9242BC7B50D5}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{D1C15BFF-171D-3A26-83C2-60A379E58856}</UniqueIdentifier>
+      <UniqueIdentifier>{6664ADD7-A478-3086-84B9-31B15CA63126}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

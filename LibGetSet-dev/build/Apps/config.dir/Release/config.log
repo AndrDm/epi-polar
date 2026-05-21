@@ -1,6 +1,5 @@
 ﻿  Automatic MOC for target config
-  Building Custom Rule C:/Users/Andrey/Desktop/epi-polar/LibGetSet-build/Apps/CMakeLists.txt
-C:\Program Files\Microsoft Visual Studio\18\Professional\MSBuild\Microsoft\VC\v180\Microsoft.CppCommon.targets(254,5): warning MSB8065: Custom build for item "C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\Apps\CMakeLists.txt" succeeded, but specified output "c:\users\andrey\desktop\epi-polar\libgetset-build\build\apps\cmakefiles\generate.stamp" has not been created. This may cause incremental build to work incorrectly.
+  Building Custom Rule C:/Users/Andrey/Desktop/epi-polar/LibGetSet-dev/Apps/CMakeLists.txt
   getsetconfig.cpp
   mocs_compilation_Release.cpp
-  config.vcxproj -> C:\Users\Andrey\Desktop\epi-polar\LibGetSet-build\bin\Release\config.exe
+  config.vcxproj -> C:\Users\Andrey\Desktop\epi-polar\LibGetSet-dev\bin\Release\config.exe
