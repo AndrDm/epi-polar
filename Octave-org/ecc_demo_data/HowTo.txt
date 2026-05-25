@@ -1,0 +1,36 @@
+There are two complete data sets available under the following link:
+https://www5.cs.fau.de/fileadmin/research/datasets/epipolar_consistency/ecc_demo_data.zip
+
+Before you can use this data with the ECC demo, you need the pre-computed derivative of the Radon transform of the projection images.
+
+We also provide a CUDA executable to do compute the Radon derivative youself. Note that it requires a recent (roughly 2014 and later) NVidia GPU to run. You can find the windows binaries here: https://www5.cs.fau.de/fileadmin/research/datasets/epipolar_consistency/bin.zip
+
+The batch file will use its first argument as data directory.
+Just drag&drop either of the two directories "gun" or "pumpkin" onto "ComputeRadonDerivative.bat"
+
+Hint:
+You can use Fiji as an image viewer and converter for NRRD files.
+http://fiji.sc/Fiji
+
+Hint 2:
+You directory structure should be as follows:
+
+ -> epipolar_consistency
+    -> bin
+      - AutoGUI.exe
+      - ComputeRadonDerivative.exe
+      - ...
+    -> ecc_demo_data
+      - ComputeRadonDerivative.bat
+      -> gun
+        -> dtr (empty directory)
+   	    - V01.nrrd
+        - ...
+      -> punpkin
+       -> dtr (empty directory)
+   	    - ...
+    - ecc_demo.m
+    - ...
+ 
+
+ 
